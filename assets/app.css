@@ -2849,6 +2849,7 @@ h6,
   left: 0;
   z-index: 50;
   width: 100%;
+  background-color: #fff;
 }
 
 .header {
