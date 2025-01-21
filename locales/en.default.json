@@ -322,7 +322,8 @@
       "submit_register": "Create an account",
       "already_have_an_account": "Click here if you already have an account",
       "submit": "send",
-      "cancel": "cancel"
+      "cancel": "cancel",
+      "birthday": "Birthday"
     },
     "recover_password": {
       "title": "Reset password",
