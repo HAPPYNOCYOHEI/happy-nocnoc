@@ -590,7 +590,7 @@
         "id": "products_use_video",
         "label": "Use video",
         "default": true,
-        "info": "Use a Shopify hosted video if it is set as the first product media. Shows the MP4 video if it is the first product media. Won't work for YouTube/Vimeo."
+        "info": "Use a Shopify hosted video if it is set as the first product media. Shows the MP4 video if it is the first product media. Won't work for YouTube\/Vimeo."
       },
       {
         "type": "checkbox",
@@ -637,7 +637,7 @@
         "id": "show_products_subtitle",
         "label": "Show product subtitle",
         "default": true,
-        "info": "Uses product subtitle [metafield](https://help.shopify.com/en/manual/metafields)"
+        "info": "Uses product subtitle [metafield](https:\/\/help.shopify.com\/en\/manual\/metafields)"
       },
       {
         "type": "checkbox",
@@ -931,7 +931,7 @@
       {
         "type": "header",
         "content": "Free shipping message",
-        "info": "The free shipping bar is configured separately from your actual shipping rates, which need to be [configured separately.](https://help.shopify.com/en/manual/discounts/discount-types/free-shipping)"
+        "info": "The free shipping bar is configured separately from your actual shipping rates, which need to be [configured separately.](https:\/\/help.shopify.com\/en\/manual\/discounts\/discount-types\/free-shipping)"
       },
       {
         "type": "checkbox",
@@ -1049,7 +1049,7 @@
         "type": "textarea",
         "id": "custom_html_head",
         "label": "HTML for <head> tag",
-        "placeholder": "<meta name='google-site-verification' content=''/>",
+        "placeholder": "<meta name='google-site-verification' content=''\/>",
         "info": "Placed at the end of the head tag. Included on all theme pages - this does not include the checkout."
       },
       {

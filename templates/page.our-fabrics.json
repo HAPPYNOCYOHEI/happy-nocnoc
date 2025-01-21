@@ -62,7 +62,7 @@
         "text_B6pMFX": {
           "type": "text",
           "settings": {
-            "text": "<p>Organic cotton, bamboo fabrics, and recycled materials are becoming more popular as the fashion industry embraces eco-conscious choices. Integrated technology, like fabrics that can change color, monitor body metrics, or self-clean, is an exciting frontier in fashion.</p>",
+            "text": "<p>Organic cotton, bamboo fabrics, and recycled materials are becoming more popular as the fashion industry embraces eco-conscious choices. Integrated technology, like fabrics that can change color, monitor body metrics, or self-clean, is an exciting frontier in fashion.<\/p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -273,7 +273,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "Smart Fabrics",
-            "text": "<p>Integrated technology, like fabrics that can change color, monitor body metrics, or self-clean, is an exciting frontier in fashion.</p>",
+            "text": "<p>Integrated technology, like fabrics that can change color, monitor body metrics, or self-clean, is an exciting frontier in fashion.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -284,7 +284,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "Sustainability",
-            "text": "<p>Organic cotton, bamboo fabrics, and recycled materials are becoming more popular as the fashion industry embraces eco-conscious choices.</p>",
+            "text": "<p>Organic cotton, bamboo fabrics, and recycled materials are becoming more popular as the fashion industry embraces eco-conscious choices.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -295,7 +295,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "Texture Play",
-            "text": "<p>Designers often combine fabrics to create visual contrast or tactile experiences—like silk with wool for winter collections.</p>",
+            "text": "<p>Designers often combine fabrics to create visual contrast or tactile experiences—like silk with wool for winter collections.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -306,7 +306,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "Customization",
-            "text": "<p>3D printing and laser cutting allow for more precise patterns and styles, making it possible to \"fashion\" fabrics into unique shapes or textures.</p>",
+            "text": "<p>3D printing and laser cutting allow for more precise patterns and styles, making it possible to \"fashion\" fabrics into unique shapes or textures.<\/p>",
             "link_label": "",
             "link": ""
           }

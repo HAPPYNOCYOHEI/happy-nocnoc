@@ -22,7 +22,7 @@
         "text_pxaUyY": {
           "type": "text",
           "settings": {
-            "text": "<p>Cashmere is a type of wool made from the soft undercoat of cashmere goats, primarily found in regions like Mongolia, China, and India. This wool is incredibly fine, making cashmere garments lightweight yet exceptionally warm.</p>",
+            "text": "<p>Cashmere is a type of wool made from the soft undercoat of cashmere goats, primarily found in regions like Mongolia, China, and India. This wool is incredibly fine, making cashmere garments lightweight yet exceptionally warm.<\/p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -96,7 +96,7 @@
           "settings": {
             "link": "",
             "heading": "",
-            "text": "<p>Despite being lightweight, cashmere is up to eight times warmer than sheep’s wool, making it ideal for cold-weather clothing.</p>"
+            "text": "<p>Despite being lightweight, cashmere is up to eight times warmer than sheep’s wool, making it ideal for cold-weather clothing.<\/p>"
           }
         },
         "image_p8Gxxj": {
@@ -104,7 +104,7 @@
           "settings": {
             "link": "",
             "heading": "",
-            "text": "<p>Add description text here.</p>"
+            "text": "<p>Add description text here.<\/p>"
           }
         },
         "image_HqwgYz": {
@@ -112,7 +112,7 @@
           "settings": {
             "link": "",
             "heading": "",
-            "text": "<p>Add description text here.</p>"
+            "text": "<p>Add description text here.<\/p>"
           }
         },
         "image_BkiWMt": {
@@ -120,7 +120,7 @@
           "settings": {
             "link": "",
             "heading": "",
-            "text": "<p>Add description text here.</p>"
+            "text": "<p>Add description text here.<\/p>"
           }
         },
         "image_DnAyJU": {
@@ -128,7 +128,7 @@
           "settings": {
             "link": "",
             "heading": "",
-            "text": "<p>Add description text here.</p>"
+            "text": "<p>Add description text here.<\/p>"
           }
         }
       },
@@ -178,7 +178,7 @@
         "text_e8UCRR": {
           "type": "text",
           "settings": {
-            "text": "<p>Cashmere offers unparalleled softness, warmth, and comfort, making it a must-have for those who appreciate high-quality, enduring fashion.</p>",
+            "text": "<p>Cashmere offers unparalleled softness, warmth, and comfort, making it a must-have for those who appreciate high-quality, enduring fashion.<\/p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -330,7 +330,7 @@
           "settings": {
             "heading": "Why is cashmere so expensive?",
             "open": true,
-            "content": "<p>The high price of cashmere is due to its rarity, as each goat produces only a small amount of wool annually. The labor-intensive collection, sorting, and processing also contribute to the cost. Popular cashmere items include sweaters, scarves, shawls, cardigans, and coats. Each piece showcases the fabric's softness and warmth, making them versatile for various occasions.</p>",
+            "content": "<p>The high price of cashmere is due to its rarity, as each goat produces only a small amount of wool annually. The labor-intensive collection, sorting, and processing also contribute to the cost. Popular cashmere items include sweaters, scarves, shawls, cardigans, and coats. Each piece showcases the fabric's softness and warmth, making them versatile for various occasions.<\/p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -340,7 +340,7 @@
           "settings": {
             "heading": "How should I care for cashmere?",
             "open": false,
-            "content": "<p>To care for cashmere, hand wash in cold water with a gentle detergent or dry clean. Lay flat to dry to maintain shape, and store folded in a breathable container to prevent moth damage.</p>",
+            "content": "<p>To care for cashmere, hand wash in cold water with a gentle detergent or dry clean. Lay flat to dry to maintain shape, and store folded in a breathable container to prevent moth damage.<\/p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -350,7 +350,7 @@
           "settings": {
             "heading": "Can cashmere be worn in warmer weather?",
             "open": false,
-            "content": "<p>Yes, cashmere is breathable, making it suitable for transitional seasons. Lightweight cashmere pieces can be worn comfortably in spring and fall.</p>",
+            "content": "<p>Yes, cashmere is breathable, making it suitable for transitional seasons. Lightweight cashmere pieces can be worn comfortably in spring and fall.<\/p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -360,7 +360,7 @@
           "settings": {
             "heading": "What are the grades of cashmere?",
             "open": false,
-            "content": "<p>Cashmere is graded based on fiber thickness and length. Grade A is the finest and softest, while Grade B and C are coarser. Higher grades offer better durability and comfort.</p>",
+            "content": "<p>Cashmere is graded based on fiber thickness and length. Grade A is the finest and softest, while Grade B and C are coarser. Higher grades offer better durability and comfort.<\/p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -370,7 +370,7 @@
           "settings": {
             "heading": "How can I tell if cashmere is high quality?",
             "open": false,
-            "content": "<p>High-quality cashmere feels incredibly soft and smooth. Look for finer fibers (around 14-15 microns), and check for a dense, luxurious texture. Avoid items that feel scratchy or thin.</p>",
+            "content": "<p>High-quality cashmere feels incredibly soft and smooth. Look for finer fibers (around 14-15 microns), and check for a dense, luxurious texture. Avoid items that feel scratchy or thin.<\/p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -385,7 +385,7 @@
       ],
       "settings": {
         "heading": "Frequently Asked Questions",
-        "description": "<p>Add a short description for this section</p>",
+        "description": "<p>Add a short description for this section<\/p>",
         "uppercase_heading": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
