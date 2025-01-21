@@ -1,10 +1,6 @@
 {{ 'login-register.css' | asset_url | stylesheet_tag }}
 {%- liquid
   assign section_image = section.settings.section_image
-
-  if section.settings.enable_shop_login_button == false
-    assign hide_shop_login_button = true
-  endif
 -%}
 {%- if section_image -%}
   <div class="thb-login-page-wrapper">
@@ -104,18 +100,6 @@
               <span>{{ 'customer.login_page.sign_in' | t }}</span>
             </button>
           </div>
-          {%- if shop.features.login_with_shop_classic_customer_accounts? -%}
-            <div class="field">
-              <section name="sign-in-with-shop-provider" class="sign-in-with-shop-provider">
-                {%- unless hide_shop_login_button -%}
-                  <p>
-                    {{ 'customer.login_page.alternate_provider_separator' | t }}
-                  </p>
-                {%- endunless -%}
-                {{ shop | login_button: hide_button: hide_shop_login_button }}
-              </section>
-            </div>
-          {%- endif -%}
           <div class="switch-login-section">
             {{ 'customer.login_page.dont_have_an_account' | t }}
             <a href="{{ routes.account_register_url }}" class="text-button">
@@ -143,12 +127,6 @@
       "type": "image_picker",
       "id": "section_image",
       "label": "Main image"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_shop_login_button",
-      "label": "Enable Sign in with Shop",
-      "default": true
     }
   ]
 }
