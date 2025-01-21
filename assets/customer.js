@@ -31,7 +31,7 @@ class CustomerAddresses {
   edit_address(edit_address) {
     let _this = this,
       button = edit_address,
-      target = button.closest('.my-address').querySelector('#' + button.dataset.controls);
+      target = document.querySelector('#' + button.dataset.controls);
 
     button.addEventListener('click', (e) => {
       e.preventDefault();

@@ -1,178 +1,479 @@
+.account-main {
+  background-color: #f8f7f5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-height: 600px;
+}
+.account-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1215px;
+  margin: 0 0 0 50%;
+  transform: translateX(-50%);
+}
 
+.account-container {
+  padding: 20px 0 0;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 12px;
+  overflow: hidden;
+}
 
+.account-layout-banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
 
+.account-container .socialplus-association-component {
+  margin: 0;
+}
 
-.myaccount--header {
-  margin-bottom: 20px; }
-  @media only screen and (min-width: 768px) {
-    .myaccount--header {
-      margin-bottom: 40px; } }
+.account-container .socialplus-association-row {
+  padding: 12px 20px;
+  border: none;
+  background-color: #000;
+}
+
+.account-container .socialplus-association-row div {
+  display: flex;
+  align-items: center;
+}
+
+.account-container .socialplus-association-row .socialplus-association-provider-name {
+  width: unset;
+  margin: 0 4px;
+  line-height: 23px;
+}
+
+.account-container .socialplus-error-banner-wrapper .socialplus-error-banner {
+  padding: 0 20px;
+  margin: 0 0 10px 0;
+  background: transparent;
+  border-top: none;
+  color: #333;
+  text-align: left;
+}
+
+.account-container .socialplus-error-banner-wrapper .socialplus-error-banner h3,
+.account-container .socialplus-error-banner-wrapper .socialplus-error-banner p {
+  font-size: 12px;
+  color: red;
+  margin-bottom: 4px;
+  line-height: 14px;
+}
+
+.account-container .socialplus-association-component span {
+  color: #fff;
+}
+
+.account-container .socialplus-association-component button {
+  transform: unset !important;
+  transition: unset !important;
+  border-radius: 24px;
+  background: #fff;
+  color: #191817;
+}
+
+.account-container .socialplus-association-component button:before {
+  content: "";
+  position: static;
+}
+
+.account-container .socialplus-association-component button:hover,
+.account-container .socialplus-association-component button:active,
+.account-container .socialplus-association-component button:focus {
+  transform: unset !important;
+  transition: unset !important;
+  background: #fff;
+  color: #191817;
+  opacity: 1;
+}
+
+.account-container .socialplus-association-component button:hover:before,
+.account-container .socialplus-association-component button:focus:before {
+  transform: unset !important;
+  transition: unset !important;
+  background: #fff;
+  color: #191817;
+  opacity: 1;
+  width: 100%;
+  position: static;
+}
+
+.account-container .point * {
+  color: #191817;
+  font-size: 14px;
+  font-weight: 500;
+}
 
 .myaccount--title {
-  margin-bottom: 10px; }
+  color: #191817;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 0;
+  padding: 0 50px;
+}
+
+.myaccount--title,
+.myaccount--email {
+  text-align: center;
+}
+
+.myaccount--badge {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto -10px;
+}
+
+.myaccount--badge svg {
+  width: 100px;
+  height: 100px;
+}
+
+.myaccount--rank {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 0 12px;
+  border-radius: 0 0 8px 8px;
+  background: #9f5123;
+  display: inline-block;
+  min-width: 100px;
+}
+
+.myaccount--email {
+  color: rgba(25, 24, 23, 0.5);
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 50px;
+  margin-bottom: 20px;
+}
+
+.barcode {
+  padding: 0 45px;
+  margin-bottom: 30px;
+}
+
+.barcode * {
+  color: #191817;
+}
+
+.back-to-account {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.order-info {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+}
+
+.myaccount--links {
+  padding: 0 50px;
+  margin-bottom: 20px;
+}
 
 .myaccount--link {
-  display: inline-flex;
-  align-items: center; }
-  .myaccount--link svg {
-    height: 12px;
-    width: auto;
-    margin-right: 5px; }
+  color: #191817;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+}
 
-.myaccount-content .form-notification {
-  margin-bottom: 20px; }
-  .myaccount-content .form-notification p {
-    margin-bottom: 0; }
+.myaccount--link .text-button {
+  margin: 0;
+  text-decoration: underline;
+}
 
-.myaccount-content table thead {
-  display: none; }
-  @media only screen and (min-width: 768px) {
-    .myaccount-content table thead {
-      display: table-header-group; } }
+.myaccount--link-logout {
+  width: 100%;
+  text-align: center;
+  color: #191817;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 36px;
+  border: 1px solid #191817;
+  margin-top: 20px;
+  display: block;
+}
 
-.myaccount-content table tr {
+.myaccount--link-logout .text-button {
+  margin: 0;
+}
+
+.myaccount-base {
+  width: 900px;
+  flex: 0 0 900px;
+}
+
+.myaccount-content h4,
+.myaccount-sidebar h4 {
+  color: #191817;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0;
+}
+
+.myaccount-content,
+.myaccount-sidebar,
+.customer-addresses {
+  margin: 0 0 0 40px;
+  background-color: transparent;
+}
+
+.myaccount-sidebar label {
+  font-size: 16px;
+}
+
+.myaccount-sidebar address {
+  font-size: 14px;
+  font-style: normal;
+}
+
+.myaccount-base table {
+  margin: 12px 0 20px;
+  border-radius: 12px;
+  display: block;
+  background: #fff;
+}
+
+.myaccount-base table tr {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; }
-  @media only screen and (min-width: 768px) {
-    .myaccount-content table tr {
-      display: table-row; } }
-  @media only screen and (max-width: 767px) {
-    .myaccount-content table tr {
-      border-bottom: 1px solid var(--color-border);
-      padding-bottom: 20px;
-      margin-bottom: 10px; } }
-  .myaccount-content table tr:last-child {
-    border-bottom: 0;
-    padding-bottom: 0;
-    margin-bottom: 0; }
+  justify-content: flex-start;
+  border-bottom: 1px solid rgba(25, 24, 23, 0.2) !important;
+}
+
+.myaccount-base table tr:last-child {
+  border-bottom: none !important;
+}
+
+.myaccount-content table tbody tr {
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  .myaccount-base table tr {
+    display: table-row;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .myaccount-base table tr {
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+  }
+
+  .account-container .account-layout {
+    flex-direction: column;
+  }
+
+  .account-container .socialplus-association-component {
+    max-width: 100%;
+  }
+}
+.myaccount-content table tr:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.myaccount-base table tr td {
+  display: flex;
+  align-items: center;
+}
+
+.myaccount-content table th,
+.myaccount-content table td {
+  width: calc(940px / 5);
+}
+
+.myaccount-sidebar table th,
+.myaccount-sidebar table td {
+  width: calc(940px / 5);
+}
+@media only screen and (min-width: 768px) {
+  .myaccount-base table tr td {
+    display: table-cell;
+  }
+}
+@media only screen and (max-width: 767px) {
   .myaccount-content table tr td {
-    display: flex; }
-    @media only screen and (min-width: 768px) {
-      .myaccount-content table tr td {
-        display: table-cell; } }
-    @media only screen and (max-width: 767px) {
-      .myaccount-content table tr td {
-        padding-right: 0;
-        border-bottom: 0;
-        border-top: 0;
-        padding-bottom: 0;
-        text-align: right; } }
-    .myaccount-content table tr td:before {
-      content: attr(data-label);
-      font-size: 0.6875rem;
-      line-height: 26px;
-      text-transform: uppercase;
-      letter-spacing: 0.07em;
-      font-weight: 400;
-      padding-right: 2rem;
-      flex-grow: 1;
-      text-align: left; }
-      @media only screen and (min-width: 768px) {
-        .myaccount-content table tr td:before {
-          display: none; } }
+    padding-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    padding-bottom: 0;
+    text-align: right;
+  }
+}
+.myaccount-content table tr td:before {
+  content: attr(data-label);
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-right: 2rem;
+  flex-grow: 1;
+  text-align: left;
+  flex: 0 0 70px;
+}
+@media only screen and (min-width: 768px) {
+  .myaccount-content table tr td:before {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   .myaccount-content table tbody tr td:last-child {
-    padding-bottom: 20px; } }
+    padding-bottom: 20px;
+  }
+}
 
-.myaccount-content table tbody tr td:first-child a {
-  font-weight: var(--font-body-medium-weight, 500); }
+.myaccount-base .order-details tbody td:last-child {
+  text-align: right;
+}
+
+.myaccount-content table:not(.order-details) tbody tr td:first-child span {
+  background-color: transparent;
+  color: #8d4800;
+  border: 1px solid rgba(141, 72, 0, 0.6);
+  padding: 2px 10px;
+  display: inline-block;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+}
 
 .myaccount-content table tfoot tr {
   margin-bottom: 0;
-  padding-bottom: 0; }
-  .myaccount-content table tfoot tr:first-child {
-    border-top: 1px solid var(--color-border); }
-  @media only screen and (max-width: 767px) {
-    .myaccount-content table tfoot tr td {
-      padding-bottom: 10px; } }
-  .myaccount-content table tfoot tr td:first-child {
-    display: none; }
-    @media only screen and (min-width: 768px) {
-      .myaccount-content table tfoot tr td:first-child {
-        display: table-cell; } }
-  .myaccount-content table tfoot tr:last-child td {
-    font-size: 1.0625rem; }
-    .myaccount-content table tfoot tr:last-child td:before {
-      font-size: 0.8125rem; }
+  padding-bottom: 0;
+}
 
+.myaccount-content table tfoot tr:first-child {
+  border-top: 1px solid rgba(25, 24, 23, 0.2) !important;
+}
+
+.myaccount-content table tfoot td {
+  border-top: none !important;
+}
+@media only screen and (max-width: 767px) {
+  .myaccount-content table tfoot tr td {
+    padding-bottom: 10px;
+  }
+}
+.myaccount-content table tfoot tr td:first-child {
+  display: none;
+}
 @media only screen and (min-width: 768px) {
-  .myaccount-sidebar {
-    padding-left: 50px; } }
+  .myaccount-content table tfoot tr td:first-child {
+    display: table-cell;
+  }
+}
+.myaccount-content table tfoot tr:last-child td {
+  font-size: 1.0625rem;
+}
+.myaccount-content table tfoot tr:last-child td:before {
+  font-size: 0.8125rem;
+}
 
 .myaccount-sidebar--address {
-  margin-bottom: 40px; }
-  .myaccount-sidebar--address address {
-    margin-bottom: 30px; }
+  margin-bottom: 40px;
+}
 
 .customer-addresses .my-address {
-  border: 1px solid var(--color-border);
+  background-color: #fff;
   position: relative;
   padding: 20px;
   padding-left: 60px;
   margin-bottom: 20px;
   height: 100%;
-  max-height: calc(100% - 30px); }
-  @media only screen and (min-width: 768px) {
-    .customer-addresses .my-address {
-      padding: 35px;
-      padding-left: 100px;
-      margin-bottom: 30px; } }
-  @media only screen and (min-width: 1068px) {
-    .customer-addresses .my-address {
-      padding-left: 140px; } }
-  .customer-addresses .my-address .address-default {
-    background: var(--color-body);
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: -1px;
-    left: -1px; }
-    .customer-addresses .my-address .address-default svg {
-      fill: var(--bg-body, #fff); }
+  max-height: calc(100% - 30px);
+}
+@media only screen and (min-width: 768px) {
+  .customer-addresses .my-address {
+    padding: 35px;
+    padding-left: 100px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 1068px) {
+  .customer-addresses .my-address {
+    padding-left: 140px;
+  }
+}
+.customer-addresses .my-address .address-default {
+  background: var(--color-body);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+}
+.customer-addresses .my-address .address-default svg {
+  fill: var(--bg-body);
+}
+.customer-addresses .my-address .address-index {
+  position: absolute;
+  top: 21px;
+  line-height: 1;
+  left: 0;
+  font-size: 40px;
+  font-weight: var(--font-body-medium-weight, 500);
+  width: 60px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
   .customer-addresses .my-address .address-index {
-    position: absolute;
-    top: 21px;
-    line-height: 1;
-    left: 0;
-    font-size: 40px;
-    font-weight: var(--font-body-medium-weight, 500);
-    width: 60px;
-    text-align: center; }
-    @media only screen and (min-width: 768px) {
-      .customer-addresses .my-address .address-index {
-        font-size: 50px;
-        top: 40px;
-        width: 100px; } }
-    @media only screen and (min-width: 1068px) {
-      .customer-addresses .my-address .address-index {
-        font-size: 64px;
-        width: 140px; } }
+    font-size: 50px;
+    top: 40px;
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 1068px) {
+  .customer-addresses .my-address .address-index {
+    font-size: 64px;
+    width: 140px;
+  }
+}
 
 .customer-addresses .add-address {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--color-border);
+  background-color: #fff;
   padding: 30px;
-  margin-bottom: 20px;
   height: 100%;
-  background: rgba(16, 58, 58, 0.02);
   max-height: calc(100% - 30px);
-  cursor: pointer; }
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.customer-addresses .add-address svg {
+  margin-bottom: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .customer-addresses .add-address {
+    padding: 50px;
+  }
   .customer-addresses .add-address svg {
-    margin-bottom: 30px; }
-  @media only screen and (min-width: 768px) {
-    .customer-addresses .add-address {
-      padding: 50px;
-      margin-bottom: 30px; }
-      .customer-addresses .add-address svg {
-        width: 60px; } }
+    width: 60px;
+  }
+}
 
 #Side-Panel-Add-Address input,
 #Side-Panel-Add-Address textarea,
@@ -180,18 +481,136 @@
 .side-panel.edit-address input,
 .side-panel.edit-address textarea,
 .side-panel.edit-address select {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 #Side-Panel-Add-Address .select-arrow,
 .side-panel.edit-address .select-arrow {
-  margin-top: -8.5px; }
+  margin-top: -8.5px;
+}
 
 #Side-Panel-Add-Address input[type="checkbox"],
 #Side-Panel-Add-Address input[type="radio"],
 .side-panel.edit-address input[type="checkbox"],
 .side-panel.edit-address input[type="radio"] {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 #Side-Panel-Add-Address .button,
 .side-panel.edit-address .button {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
+
+.myaccount-sidebar--address {
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  margin-top: 12px;
+}
+
+.myaccount-sidebar--address label font {
+  color: #191817;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.myaccount-sidebar--address address font {
+  color: #191817;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 767px) {
+  .account-main {
+    padding: 0;
+  }
+  .account-layout {
+    display: block;
+    width: 100%;
+    margin: 0;
+    transform: none;
+  }
+  .account-container {
+    padding: 45px 0 0 !important;
+    border-radius: 0;
+  }
+  .myaccount--title,
+  .myaccount--email,
+  .account-layout-banner,
+  .myaccount--links {
+    padding: 0 45px;
+  }
+  .myaccount-base {
+    width: 100%;
+    flex: 0 0 100%;
+    padding: 20px 15px;
+  }
+
+  .myaccount-content,
+  .myaccount-sidebar,
+  .customer-addresses {
+    margin: 0;
+  }
+  .myaccount-base table {
+    background-color: transparent;
+  }
+
+  .myaccount-base table thead {
+    display: none;
+  }
+
+  .myaccount-base table tr {
+    border: none !important;
+    background-color: #fff;
+    border-radius: 8px;
+    padding-bottom: 0;
+  }
+
+  .myaccount-base table tr td:before {
+    flex: 0 0 50%;
+  }
+
+  .myaccount-content table tbody,
+  .myaccount-content table tfoot,
+  .myaccount-sidebar table tbody {
+    width: 100%;
+    display: block;
+  }
+
+  .myaccount-content table td,
+  .myaccount-sidebar table td {
+    width: 100%;
+    border-bottom: 1px solid rgba(25, 24, 23, 0.2) !important;
+  }
+
+  .myaccount-content table td:last-child,
+  .myaccount-sidebar table td:last-child {
+    border-bottom: none !important;
+  }
+
+  .myaccount-base .order-details tfoot {
+    margin-top: 20px;
+    border-radius: 8px;
+    display: block;
+    overflow: hidden;
+  }
+  .myaccount-base .order-details tfoot tr {
+    border-radius: 0;
+    border-bottom: 1px solid rgba(25, 24, 23, 0.2) !important;
+  }
+
+  .myaccount-base .order-details tfoot tr:last-child {
+    border-bottom: none !important;
+  }
+
+  .myaccount-content table tfoot tr:first-child {
+    border-top: none !important;
+  }
+}
+
+#history thead tr,
+#history tbody tr {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}

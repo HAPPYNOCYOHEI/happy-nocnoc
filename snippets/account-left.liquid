@@ -1,0 +1,52 @@
+<div class="account-container">
+  <div class="myaccount--header">
+    {% comment %}
+      <div class="myaccount--badge">
+        {%- if customer.metafields.rw_ranky.rank == blank or customer.metafields.rw_ranky.rank == 'V-Meet' -%}
+          {% render 'svg-icons' with 'v-meet' %}
+        {%- elsif customer.metafields.rw_ranky.rank == 'V-Discover' -%}
+          {% render 'svg-icons' with 'v-discover' %}
+        {%- elsif customer.metafields.rw_ranky.rank == 'V-Connect' -%}
+          {% render 'svg-icons' with 'v-connect' %}
+        {%- elsif customer.metafields.rw_ranky.rank == 'V-Delight' -%}
+          {% render 'svg-icons' with 'v-delight' %}
+        {%- else -%}
+          {% render 'svg-icons' with 'v-meet' %}
+        {%- endif -%}
+      </div>
+    {% endcomment %}
+    <h2 class="myaccount--rank">{{ customer.metafields.rw_ranky.rank }}</h2>
+    <h1 class="myaccount--title">
+      {{- customer.last_name }}
+      {{ customer.first_name -}}
+    </h1>
+    <p class="myaccount--email">{{ customer.email }}</p>
+    <div class="barcode"></div>
+    {% render 'main-banner' %}
+    <div class="myaccount--links">
+      <a href="{{ routes.account_addresses_url }}" class="myaccount--link">
+        <span class="text-button"> {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</span>
+      </a>
+      {% comment %}
+        <a href="/pages/wishlist" class="myaccount--link">
+          <span class="text-button">お気に入り</span>
+        </a>
+      {% endcomment %}
+      <a
+        href="{{ routes.account_logout_url }}"
+        title="{{ 'customer.account.log_out' | t | escape }}"
+        class="myaccount--link-logout"
+      >
+        <span class="text-button">{{ 'customer.account.log_out' | t }}</span>
+      </a>
+    </div>
+    {% comment %}
+      <div class="line">
+        <!-- CRM PLUS on LINEエラーバナー -->
+        {% render 'socialplus-error-banner' %}
+        <!-- CRM PLUS on LINE連携バナー -->
+        {% render 'socialplus-association', providers: 'line' %}
+      </div>
+    {% endcomment %}
+  </div>
+</div>

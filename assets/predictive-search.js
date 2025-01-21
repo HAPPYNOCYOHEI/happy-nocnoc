@@ -27,6 +27,8 @@ class PredictiveSearch {
         event.preventDefault();
         document.getElementsByTagName("body")[0].classList.toggle('open-cc');
         this.container.classList.toggle('active');
+        this.input.value = '';
+        this.input.focus();
         if (this.container.classList.contains('active')) {
           setTimeout(function () {
             _this.input.focus({
@@ -48,6 +50,8 @@ class PredictiveSearch {
   onChange() {
     const searchTerm = this.getQuery();
 
+    this.controlSearch(searchTerm);
+
     if (!searchTerm.length) {
       this.predictiveSearchResults.classList.remove('active');
       return;
@@ -65,6 +69,8 @@ class PredictiveSearch {
   onFocus() {
     const searchTerm = this.getQuery();
 
+    this.controlSearch(searchTerm);
+
     if (!searchTerm.length) {
       return;
     }
@@ -72,12 +78,23 @@ class PredictiveSearch {
     this.getSearchResults(searchTerm);
   }
 
+  controlSearch(searchTerm) {
+    if(searchTerm.length > 0) {
+      document.querySelectorAll('div.popular-search-terms').forEach(item => {
+        item.style.display = 'none';
+      });
+    }else{
+      document.querySelectorAll('div.popular-search-terms').forEach(item => {
+        item.style.display = 'block';
+      });
+    }
+  }
+
   getSearchResults(searchTerm) {
     const queryKey = searchTerm.replace(" ", "-").toLowerCase();
 
     this.predictiveSearchResults.classList.add('loading');
-
-    fetch(`${theme.routes.predictive_search_url}?q=${encodeURIComponent(searchTerm)}&${encodeURIComponent('resources[type]')}=product,article,query&${encodeURIComponent('resources[limit]')}=10&section_id=predictive-search`)
+    fetch(`${theme.routes.search_url}?q=${encodeURIComponent(searchTerm)}&limit=10&view=ajax`)
       .then((response) => {
         this.predictiveSearchResults.classList.remove('loading');
         if (!response.ok) {
@@ -88,9 +105,19 @@ class PredictiveSearch {
         return response.text();
       })
       .then((text) => {
-        const resultsMarkup = new DOMParser().parseFromString(text, 'text/html').querySelector('#shopify-section-predictive-search').innerHTML;
-
-        this.renderSearchResults(resultsMarkup);
+        const ulEl = document.createElement('ul');
+        ulEl.classList.add('searchBarBase');
+        let resultsMarkup = new DOMParser().parseFromString(text, 'text/html')?.querySelector('#product-grid')?.innerHTML || '';
+        if (resultsMarkup) {
+          ulEl.innerHTML = resultsMarkup;
+          this.renderSearchResults(ulEl);
+        } else {
+          resultsMarkup = new DOMParser().parseFromString(text, 'text/html')?.querySelector('#ProductGridContainer')?.innerHTML || '';
+          if(resultsMarkup){
+            ulEl.innerHTML = resultsMarkup;
+            this.renderSearchResults(ulEl);
+          }
+        }
       })
       .catch((error) => {
         throw error;
@@ -98,15 +125,16 @@ class PredictiveSearch {
   }
 
   renderSearchResults(resultsMarkup) {
-    this.predictiveSearchResults.innerHTML = resultsMarkup;
+    this.predictiveSearchResults.innerHTML = '';
+    this.predictiveSearchResults.appendChild(resultsMarkup);
 
     let _this = this,
       submitButton = this.container.querySelector('#search-results-submit');
 
 
-    submitButton.addEventListener('click', () => {
+    submitButton && (submitButton.addEventListener('click', () => {
       _this.form.submit();
-    });
+    }));
   }
 
   close() {
