@@ -79,16 +79,18 @@
             >
             <label for="password_confirmation">{{ 'customer.reset_password.password_confirm' | t }}</label>
           </div>
-          <div class="field">
-            <input
-              type="date"
-              name="customer[note][Birthday]"
-              class="full {% if form.errors contains 'date' %}invalid{% endif %}"
-              value=""
-              placeholder="{{ 'customer.login_page.birthday' | t }}"
-            >
-            <label for="email">{{ 'customer.login_page.birthday' | t }}</label>
-          </div>
+          {% comment %}
+            <div class="field">
+              <input
+                type="date"
+                name="customer[note][Birthday]"
+                class="full {% if form.errors contains 'date' %}invalid{% endif %}"
+                value=""
+                placeholder="{{ 'customer.login_page.birthday' | t }}"
+              >
+              <label for="email">{{ 'customer.login_page.birthday' | t }}</label>
+            </div>
+          {% endcomment %}
           <button type="submit" class="button full">
             <span>{{ 'customer.login_page.submit_register' | t }}</span>
           </button>
