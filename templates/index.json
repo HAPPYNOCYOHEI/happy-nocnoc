@@ -181,12 +181,23 @@
             "x_position_mobile": 0,
             "y_position_mobile": 0
           }
+        },
+        "product_f4q3TR": {
+          "type": "product",
+          "settings": {
+            "product_handle": "kids-noc-fly-sport-sneaker",
+            "x_position": 20,
+            "y_position": 20,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
         }
       },
       "block_order": [
         "product_349akR",
         "product_P6tde6",
-        "product_FBcjQh"
+        "product_FBcjQh",
+        "product_f4q3TR"
       ],
       "settings": {
         "image": "shopify://shop_images/KN1_1.jpg",
