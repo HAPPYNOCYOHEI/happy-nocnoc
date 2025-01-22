@@ -5547,9 +5547,19 @@ form .restock-alerts-notify-button:focus:before {
   fill: #191817;
 }
 
+.description-pc {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .main-product-gallery {
     position: sticky;
     top: 80px;
+  }
+  .description-pc {
+    display: block;
+  }
+  .description-mobile {
+    display: none;
   }
 }

@@ -50,16 +50,22 @@
           {%- endif -%}
         </div>
       {%- when 'description' -%}
-        {% comment %}
-          {%- liquid
-            assign seo_text_max_height = block.settings.seo_text_max_height
-            assign seo_text_read_more = block.settings.seo_text_read_more
-            assign seo_text_read_less = block.settings.seo_text_read_less
+        {%- liquid
+          assign seo_text_max_height = block.settings.seo_text_max_height
+          assign seo_text_read_more = block.settings.seo_text_read_more
+          assign seo_text_read_less = block.settings.seo_text_read_less
+        -%}
+        <div {{ block.shopify_attributes }}>
+          {%- render 'text-max-height',
+            no_bg: true,
+            content: product.description,
+            custom_liquid: seo_text_custom_liquid,
+            read_more: seo_text_read_more,
+            read_less: seo_text_read_less,
+            max_height: seo_text_max_height,
+            extra_class: 'product-short-description description-mobile'
           -%}
-          <div {{ block.shopify_attributes }}>
-          {%- render 'text-max-height', no_bg: true, content: product.description, custom_liquid: seo_text_custom_liquid, read_more: seo_text_read_more, read_less: seo_text_read_less, max_height: seo_text_max_height, extra_class: 'product-short-description' -%}
-          </div>
-        {% endcomment %}
+        </div>
       {%- when 'inventory_level' -%}
         {% render 'product-inventory-notice', product: product, section: section, block: block %}
       {%- when 'variant_picker' -%}
