@@ -1831,7 +1831,7 @@ summary {
 }
 @media only screen and (min-width: 768px) {
   .row {
-    padding: 0 35px;
+    padding: 0 40px;
   }
 
   #judgeme_product_reviews {
@@ -1843,7 +1843,7 @@ summary {
 }
 @media only screen and (min-width: 768px) {
   .row .columns {
-    padding: 0 15px;
+    padding: 0;
   }
 }
 .row.no-padding {
@@ -5545,4 +5545,11 @@ form .restock-alerts-notify-button:focus:before {
 
 .not-favorite svg {
   fill: #191817;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-product-gallery {
+    position: sticky;
+    top: 80px;
+  }
 }

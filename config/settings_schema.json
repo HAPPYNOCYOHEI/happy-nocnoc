@@ -1021,6 +1021,127 @@
     ]
   },
   {
+    "name": "Size Guide",
+    "settings": [
+      {
+        "type": "page",
+        "id": "page-normal",
+        "label": "用于尺码表",
+        "info": "默认尺码表，当下面条件都不满足时使用"
+      },
+      {
+        "type": "page",
+        "id": "page-other1",
+        "label": "尺码表1"
+      },
+      {
+        "type": "text",
+        "id": "page-other1-content",
+        "label": "填入商品handle名称，多个以英文逗号分隔",
+        "placeholder": "collection names"
+      },
+      {
+        "type": "page",
+        "id": "page-other2",
+        "label": "尺码表2"
+      },
+      {
+        "type": "text",
+        "id": "page-other2-content",
+        "label": "填入商品handle名称，多个以英文逗号分隔",
+        "placeholder": "products names"
+      },
+      {
+        "type": "page",
+        "id": "page-other3",
+        "label": "尺码表3"
+      },
+      {
+        "type": "text",
+        "id": "page-other3-content",
+        "label": "填入商品handle名称，多个以英文逗号分隔",
+        "placeholder": "products names"
+      },
+      {
+        "type": "page",
+        "id": "page-other4",
+        "label": "尺码表4"
+      },
+      {
+        "type": "text",
+        "id": "page-other4-content",
+        "label": "填入商品handle名称，多个以英文逗号分隔",
+        "placeholder": "products names"
+      },
+      {
+        "type": "page",
+        "id": "page-other5",
+        "label": "尺码表5"
+      },
+      {
+        "type": "text",
+        "id": "page-other5-content",
+        "label": "填入商品handle名称，多个以英文逗号分隔",
+        "placeholder": "products names"
+      },
+      {
+        "type": "page",
+        "id": "page-other6",
+        "label": "尺码表6"
+      },
+      {
+        "type": "text",
+        "id": "page-other6-content",
+        "label": "填入商品handle名称，多个以英文逗号分隔",
+        "placeholder": "products names"
+      },
+      {
+        "type": "page",
+        "id": "page-other7",
+        "label": "尺码表7"
+      },
+      {
+        "type": "text",
+        "id": "page-other7-content",
+        "label": "填入商品handle名称，多个以英文逗号分隔",
+        "placeholder": "products names"
+      },
+      {
+        "type": "page",
+        "id": "page-other8",
+        "label": "尺码表8"
+      },
+      {
+        "type": "text",
+        "id": "page-other8-content",
+        "label": "填入商品handle名称，多个以英文逗号分隔",
+        "placeholder": "products names"
+      },
+      {
+        "type": "page",
+        "id": "page-other9",
+        "label": "尺码表9"
+      },
+      {
+        "type": "text",
+        "id": "page-other9-content",
+        "label": "填入商品handle名称，多个以英文逗号分隔",
+        "placeholder": "products names"
+      },
+      {
+        "type": "page",
+        "id": "page-other10",
+        "label": "尺码表10"
+      },
+      {
+        "type": "text",
+        "id": "page-other10-content",
+        "label": "填入商品handle名称，多个以英文逗号分隔",
+        "placeholder": "products names"
+      }
+    ]
+  },
+  {
     "name": "Advanced",
     "settings": [
       {
