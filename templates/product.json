@@ -1,1 +1,234 @@
-{"sections":{"breadcrumbs":{"type":"breadcrumbs","custom_css":[],"settings":{}},"main-product":{"type":"main-product","blocks":{"title":{"type":"title","settings":{"uppercase":false,"show_products_rating":false,"show_custom_badges":true}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","color_picker":true,"color_picker_size":"regular","color_picker_use_variants":true,"variant_is_disabled":true,"sizing_guide_variant":"サイズ","sizing_guide_text":"Sizing guide","sizing_guide_icon":"ruler","sizing_guide_page":""}},"inventory_level_Jy4Ynh":{"type":"inventory_level","settings":{"show_inventory_notice":"low","show_inventory_count":"low","inventory_notice_pulse":true,"inventory_notice_bar":true,"inventory_notice_threshold":10,"inventory_notice_base":50}},"buy_buttons":{"type":"buy_buttons","settings":{"show_quantity_selector":true,"outline_button":false,"show_dynamic_checkout":false,"show_gift_card_recipient":false}},"0b3e272b-c86a-4dba-946c-c6912251371c":{"type":"description","settings":{"seo_text_max_height":1000,"seo_text_read_more":"もっと見る","seo_text_read_less":"Read less"}},"95b7e00a-0453-4eb0-9cf0-1dae84d8b822":{"type":"side_panel","settings":{"side_panel_1_label":"Materials","side_panel_1_icon":"leather","side_panel_1_content":"","side_panel_1_page":"","side_panel_2_label":"Shipping & Returns","side_panel_2_icon":"box","side_panel_2_content":"","side_panel_2_page":"","side_panel_3_label":"Care Guide","side_panel_3_icon":"washing","side_panel_3_content":"","side_panel_3_page":""}},"4fd23485-293f-46a0-8a4c-34d0e25ea41b":{"type":"share","settings":{}}},"block_order":["title","variant_picker","inventory_level_Jy4Ynh","buy_buttons","0b3e272b-c86a-4dba-946c-c6912251371c","95b7e00a-0453-4eb0-9cf0-1dae84d8b822","4fd23485-293f-46a0-8a4c-34d0e25ea41b"],"settings":{"full_width":true,"enable_sticky_info":true,"enable_sticky_add_to_cart":true,"show_taxes_included":true,"media_layout":"thumbnails","display_slider_pagination":true,"media_aspect_ratio":"adapt","display_captions":true,"hide_variants":false,"lightbox":true,"enable_video_looping":false}},"16623877721f33fb14":{"type":"spacer","settings":{"spacer_mobile":35,"spacer_desktop":90,"border_separator":false,"border_separator_full":false}},"1663667029efc274af":{"type":"collapsible-content","blocks":{"1663667029f86d6497-0":{"type":"collapsible_tab","settings":{"heading":"What payment methods can I use?","open":false,"content":"<p>We offer 35 different payment methods including major providers like Mastercard, Visa, PayPal, American Express and Diners as well as many different local payment methods including Klarna, iDEAL, AliPay, Sofort, giropay, and many more.<\/p>","page":"","custom_liquid":""}},"1663667029f86d6497-1":{"type":"collapsible_tab","settings":{"heading":"Can I purchase items with another currency?","open":false,"content":"<p>Yes, you may select a currency based on your personal preference. When you select your country in the country selector on the upper right of the website or are taken directly to your country’s version of the website, you will see prices listed in the regional currency.<\/p>","page":"","custom_liquid":""}},"1663667029f86d6497-2":{"type":"collapsible_tab","settings":{"heading":"Can I make changes to my order after it’s been placed?","open":false,"content":"<p>We do everything we can to fulfill orders quickly and unfortunately cannot make updates after an order has been placed. These changes include removing or adding products and\/or changing the delivery address. If a mistake has been made with your order information, it’s quickest to create a new order with the correct information and then let our Customer Service.<\/p>","page":"","custom_liquid":""}},"1663667029f86d6497-3":{"type":"collapsible_tab","settings":{"heading":"Do you offer e-gift cards for international customers?","open":false,"content":"<p>E-gift cards are only available to customers shipping within the U.S.<\/p>","page":"","custom_liquid":""}},"68288bd2-3db2-455d-a841-5aa19d752abb":{"type":"collapsible_tab","settings":{"heading":"How Do I Set Up A Subscription Order?","open":false,"content":"<p>We will deliver products to you as soon as reasonably possible. Orders are usually dispatched between 1-3 days from the date of the order being placed. Please contact us our customer service team if your delivery has not been received within the dates described.<\/p>","page":"","custom_liquid":""}},"de9966d6-0cd0-4b0f-9810-aa062aff88ce":{"type":"collapsible_tab","settings":{"heading":"How To Return My Items?","open":false,"content":"<p>We do not currently offer free returns to overseas customers. You will therefore need to cover all costs of returning any items to us yourself. We advise that you mark your package ‘returned goods’ to avoid further duties. Remember: We strongly recommend that you return any items via a registered trackable service and obtain and retain proof of posting as we do not accept responsibility for items that fail to arrive with us.<\/p>","page":"","custom_liquid":""}}},"block_order":["1663667029f86d6497-0","1663667029f86d6497-1","1663667029f86d6497-2","1663667029f86d6497-3","68288bd2-3db2-455d-a841-5aa19d752abb","de9966d6-0cd0-4b0f-9810-aa062aff88ce"],"settings":{"heading":"F.A.Q.","description":"<p>They appreciate cut and details, things that aren't so obvious. <\/p>","uppercase_heading":true,"disable_top_spacing":false,"disable_bottom_spacing":false}},"1662552569cce2536d":{"type":"spacer","settings":{"spacer_mobile":0,"spacer_desktop":5,"border_separator":true,"border_separator_full":true}},"product-recommendations":{"type":"product-recommendations","settings":{"heading":"YOU MAY ALSO LIKE","heading_left":true,"description":"<p>Combine your style with these products<\/p>","full_width":true,"mobile_swipe":true,"disable_top_spacing":false,"disable_bottom_spacing":false}}},"order":["breadcrumbs","main-product","16623877721f33fb14","1663667029efc274af","1662552569cce2536d","product-recommendations"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [],
+      "settings": {}
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "uppercase": false,
+            "show_products_rating": false,
+            "show_custom_badges": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_size": "regular",
+            "color_picker_use_variants": true,
+            "variant_is_disabled": true,
+            "sizing_guide_variant": "サイズ",
+            "sizing_guide_text": "Sizing guide",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "inventory_level_Jy4Ynh": {
+          "type": "inventory_level",
+          "settings": {
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": true,
+            "inventory_notice_threshold": 10,
+            "inventory_notice_base": 50
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "outline_button": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {
+            "seo_text_max_height": 1000,
+            "seo_text_read_more": "もっと見る",
+            "seo_text_read_less": "Read less"
+          }
+        },
+        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "Materials",
+            "side_panel_1_icon": "leather",
+            "side_panel_1_content": "",
+            "side_panel_1_page": "",
+            "side_panel_2_label": "Shipping & Returns",
+            "side_panel_2_icon": "box",
+            "side_panel_2_content": "",
+            "side_panel_2_page": "",
+            "side_panel_3_label": "Care Guide",
+            "side_panel_3_icon": "washing",
+            "side_panel_3_content": "",
+            "side_panel_3_page": ""
+          }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "variant_picker",
+        "inventory_level_Jy4Ynh",
+        "buy_buttons",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_sticky_info": true,
+        "enable_sticky_add_to_cart": true,
+        "show_taxes_included": true,
+        "media_layout": "thumbnails",
+        "display_slider_pagination": true,
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": true
+      }
+    },
+    "16623877721f33fb14": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 90,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "1663667029efc274af": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1663667029f86d6497-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What payment methods can I use?",
+            "open": false,
+            "content": "<p>We offer 35 different payment methods including major providers like Mastercard, Visa, PayPal, American Express and Diners as well as many different local payment methods including Klarna, iDEAL, AliPay, Sofort, giropay, and many more.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "1663667029f86d6497-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I purchase items with another currency?",
+            "open": false,
+            "content": "<p>Yes, you may select a currency based on your personal preference. When you select your country in the country selector on the upper right of the website or are taken directly to your country’s version of the website, you will see prices listed in the regional currency.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "1663667029f86d6497-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I make changes to my order after it’s been placed?",
+            "open": false,
+            "content": "<p>We do everything we can to fulfill orders quickly and unfortunately cannot make updates after an order has been placed. These changes include removing or adding products and/or changing the delivery address. If a mistake has been made with your order information, it’s quickest to create a new order with the correct information and then let our Customer Service.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "1663667029f86d6497-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you offer e-gift cards for international customers?",
+            "open": false,
+            "content": "<p>E-gift cards are only available to customers shipping within the U.S.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "68288bd2-3db2-455d-a841-5aa19d752abb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How Do I Set Up A Subscription Order?",
+            "open": false,
+            "content": "<p>We will deliver products to you as soon as reasonably possible. Orders are usually dispatched between 1-3 days from the date of the order being placed. Please contact us our customer service team if your delivery has not been received within the dates described.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "de9966d6-0cd0-4b0f-9810-aa062aff88ce": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How To Return My Items?",
+            "open": false,
+            "content": "<p>We do not currently offer free returns to overseas customers. You will therefore need to cover all costs of returning any items to us yourself. We advise that you mark your package ‘returned goods’ to avoid further duties. Remember: We strongly recommend that you return any items via a registered trackable service and obtain and retain proof of posting as we do not accept responsibility for items that fail to arrive with us.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663667029f86d6497-0",
+        "1663667029f86d6497-1",
+        "1663667029f86d6497-2",
+        "1663667029f86d6497-3",
+        "68288bd2-3db2-455d-a841-5aa19d752abb",
+        "de9966d6-0cd0-4b0f-9810-aa062aff88ce"
+      ],
+      "settings": {
+        "heading": "F.A.Q.",
+        "description": "<p>They appreciate cut and details, things that aren't so obvious. </p>",
+        "uppercase_heading": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1662552569cce2536d": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 5,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "YOU MAY ALSO LIKE",
+        "heading_left": true,
+        "description": "<p>Combine your style with these products</p>",
+        "full_width": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "16623877721f33fb14",
+    "1663667029efc274af",
+    "1662552569cce2536d",
+    "product-recommendations"
+  ]
+}
