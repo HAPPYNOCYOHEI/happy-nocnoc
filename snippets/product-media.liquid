@@ -81,7 +81,7 @@
       </div>
     {% when 'video' %}
       <div class="product-single__media product-single__media-native-video" data-media-id="{{ media.id }}" style="--aspect-ratio: {{ media.aspect_ratio }}" id="Media-Thumbnails-{{ section.id }}-{{ media.id }}">
-        {{ media | video_tag: controls: true, loading: "lazy", loop: section.settings.enable_video_looping, image_size: '610x' }}
+        {{ media | video_tag: controls: true, autoplay: true, loading: "lazy", muted: true, loop: section.settings.enable_video_looping, image_size: '610x' }}
       </div>
     {% when 'model' %}
       <product-model class="product-single__media product-single__media-model" style="padding-top: 100%" data-media-id="{{ media.id }}" id="Media-Thumbnails-{{ section.id }}-{{ media.id }}">
