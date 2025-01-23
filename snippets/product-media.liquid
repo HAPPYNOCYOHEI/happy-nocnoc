@@ -1,5 +1,4 @@
-{%- liquid
-  assign image_set = false
+<CONTENT_TO_EDIT>{%- liquid
   assign image_set_group = ''
   if media.alt contains '#'
     assign image_set_full = media.alt | split: '#' | last
