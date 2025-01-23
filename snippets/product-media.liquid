@@ -65,7 +65,6 @@
           {% endif %}
           data-index="{{ image_index }}"
         >{% render 'svg-icons' with 'zoom' %}</a>
-        "autoplay: 1, loop: 1"
         {%- endif -%}
         {%- render 'responsive-image', image: media.preview_image, sizes: sizes, priority: priority -%}
         {%- if alt != blank and display_captions -%}
