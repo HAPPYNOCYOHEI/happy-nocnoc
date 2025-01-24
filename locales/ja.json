@@ -452,7 +452,7 @@
         "order_name_label": "注文番号：{{ name }}",
         "confirmation_number_label": " ",
         "apply_discount_button_label": "→",
-        "gift_card_label": "クーポンを入力して\"→\"を押す"
+        "gift_card_and_discount_label": "クーポンコードを入力して\"→\"を押す"
       },
       "delivery_options": {
         "shipping_address": "お届け先住所"
