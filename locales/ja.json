@@ -112,7 +112,7 @@
       "unavailable": "ご利用いただけません",
       "pre_order": "予約注文",
       "price": {
-        "from_price_html": "<span class=\"from\">{{ price }} から</span>",
+        "from_price_html": "<span class=\"from\">から</span> {{ price }}",
         "regular_price": "通常価格",
         "sale_price": "セール価格",
         "unit_price": "単価"
