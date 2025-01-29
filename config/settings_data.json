@@ -46,10 +46,12 @@
     "color_badge_soldout": "#888888",
     "color_badge_sale": "#191817",
     "color_badge_preorder": "#444444",
+    "custom_product_badge_group_1_tag_names": "",
     "color_swatches_variant_option": "",
     "color_swatches": "",
     "sibling_style": "swatch",
     "cart_drawer_notes": false,
+    "currency_code_enabled": false,
     "lazy_loading": false,
     "favicon": "shopify://shop_images/HappyNocNoc2023logo_1-04.png",
     "sections": {
