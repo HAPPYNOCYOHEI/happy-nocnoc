@@ -21,7 +21,7 @@
           "type": "title",
           "settings": {
             "uppercase": false,
-            "show_products_rating": false,
+            "show_products_rating": true,
             "show_custom_badges": true
           }
         },
