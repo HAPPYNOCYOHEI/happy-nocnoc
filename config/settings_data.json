@@ -46,6 +46,7 @@
     "color_badge_soldout": "#888888",
     "color_badge_sale": "#191817",
     "color_badge_preorder": "#444444",
+    "color_swatches": "深紫渐变：#191817",
     "cart_drawer_notes": false,
     "lazy_loading": false,
     "favicon": "shopify://shop_images/HappyNocNoc2023logo_1-04.png",
