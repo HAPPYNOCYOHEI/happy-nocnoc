@@ -350,85 +350,6 @@
         "border_separator_full": true
       }
     },
-    "1662459178b0886a69": {
-      "type": "rich-text",
-      "blocks": {
-        "4551cbda-76ff-4a07-a279-a29df7956af6": {
-          "type": "subheading",
-          "settings": {
-            "text": "IN THE PRESS"
-          }
-        }
-      },
-      "block_order": [
-        "4551cbda-76ff-4a07-a279-a29df7956af6"
-      ],
-      "settings": {
-        "section_width": "grid",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "16624594877292080f": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 0,
-        "spacer_desktop": 20,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "16615358507b6ff1a8": {
-      "type": "testimonials",
-      "blocks": {
-        "60961cb1-416e-4c98-a9ec-2a41dfae8911": {
-          "type": "quote",
-          "settings": {
-            "stars": "",
-            "text": "Add your customer or client quote here to showcase them.",
-            "author": "Testimonial author"
-          }
-        },
-        "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9": {
-          "type": "quote",
-          "settings": {
-            "stars": "",
-            "text": "Add your customer or client quote here to showcase them.",
-            "author": "Testimonial author"
-          }
-        },
-        "f0e5414e-308c-4a64-91b5-1f08b8650731": {
-          "type": "quote",
-          "settings": {
-            "stars": "",
-            "text": "Add your customer or client quote here to showcase them.",
-            "author": "Testimonial author"
-          }
-        }
-      },
-      "block_order": [
-        "60961cb1-416e-4c98-a9ec-2a41dfae8911",
-        "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9",
-        "f0e5414e-308c-4a64-91b5-1f08b8650731"
-      ],
-      "settings": {
-        "full_width": true,
-        "text_size": "large",
-        "pagination": "dots",
-        "autoplay": true,
-        "autoplay_length": 5,
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
     "1662636493225665a2": {
       "type": "spacer",
       "settings": {
@@ -460,9 +381,6 @@
     "1661539188062a849e",
     "16626364694d37e9d5",
     "1662459246bd099bb7",
-    "1662459178b0886a69",
-    "16624594877292080f",
-    "16615358507b6ff1a8",
     "1662636493225665a2",
     "1662368401fce27368"
   ]
