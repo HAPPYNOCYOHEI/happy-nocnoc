@@ -127,6 +127,7 @@
     },
     "featured_collection_d4KjV7": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "heading": "新着アイテム",
         "heading_left": true,
@@ -233,6 +234,7 @@
         "0b2612d0-8401-4857-a46a-9487c6340ed5",
         "85234e70-c157-4919-931d-bf097e8aab79"
       ],
+      "disabled": true,
       "settings": {
         "height": "height-auto",
         "full_width": true,
@@ -284,6 +286,7 @@
         "71a1e8d7-01d1-40d2-9ef1-6f2631328763",
         "6f36cf8f-9b45-49f6-9ceb-e098c331d610"
       ],
+      "disabled": true,
       "settings": {
         "desktop_height": "desktop-height-550",
         "mobile_height": "mobile-height-500",
