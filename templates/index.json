@@ -105,85 +105,83 @@
         "disable_bottom_spacing": true
       }
     },
-    "gallery_TXbxGD": {
-      "type": "gallery",
+    "multicolumn_ghhF6c": {
+      "type": "multicolumn",
       "blocks": {
-        "image_rVCDrA": {
-          "type": "image",
+        "column_etWRyq": {
+          "type": "column",
           "settings": {
             "image": "shopify://shop_images/1ba299787195e0400344fe9c66dd1217.jpg",
-            "subheading": "",
-            "title": "",
+            "image_full_width": false,
+            "image_link": "",
+            "retina": true,
+            "title": "親子",
             "text": "",
             "link_label": "",
-            "link": "",
-            "use_text_button": true,
-            "block_link": "",
-            "product_list": []
+            "link": ""
           }
         },
-        "image_GwjJpP": {
-          "type": "image",
+        "column_Dx9XFJ": {
+          "type": "column",
           "settings": {
             "image": "shopify://shop_images/d345a8dcc6ac3a97543500da50173dfc.jpg",
-            "subheading": "",
-            "title": "",
+            "image_full_width": false,
+            "image_link": "",
+            "retina": true,
+            "title": "友達",
             "text": "",
             "link_label": "",
-            "link": "",
-            "use_text_button": true,
-            "block_link": "",
-            "product_list": []
+            "link": ""
           }
         },
-        "image_RRb8XX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/a0e0fb9a863d1672e01f75aae7fc0c12.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": true,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_6NAGNf": {
-          "type": "image",
+        "column_wLaKUD": {
+          "type": "column",
           "settings": {
             "image": "shopify://shop_images/f0035ad02ebb91c9cccb7e6af147650b.jpg",
-            "subheading": "",
-            "title": "",
+            "image_full_width": false,
+            "image_link": "",
+            "retina": true,
+            "title": "兄弟姉妹",
             "text": "",
             "link_label": "",
-            "link": "",
-            "use_text_button": true,
-            "block_link": "",
-            "product_list": []
+            "link": ""
+          }
+        },
+        "column_DCJKVz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/a0e0fb9a863d1672e01f75aae7fc0c12.jpg",
+            "image_full_width": false,
+            "image_link": "",
+            "retina": true,
+            "title": "カップル",
+            "text": "",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "image_rVCDrA",
-        "image_GwjJpP",
-        "image_RRb8XX",
-        "image_6NAGNf"
+        "column_etWRyq",
+        "column_Dx9XFJ",
+        "column_wLaKUD",
+        "column_DCJKVz"
       ],
+      "custom_css": [],
       "settings": {
-        "columns_desktop": 4,
-        "section_width": "grid",
-        "mobile_swipe": false,
+        "heading": "リンクコーデ",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
         "image_ratio": "adapt",
-        "content_position": "bottom-left",
-        "text_alignment": "left",
-        "column_spacing": "small",
-        "heading_size": "h2",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
+        "columns_desktop": 4,
+        "text_alignment": "center",
+        "heading_size": "h6",
+        "mobile_swipe": false,
+        "show_progress_bar": true,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "166366563622039b3e": {
@@ -450,7 +448,7 @@
   },
   "order": [
     "16479477632637c9a7",
-    "gallery_TXbxGD",
+    "multicolumn_ghhF6c",
     "166366563622039b3e",
     "featured_collection_d4KjV7",
     "1662389920b1295ea2",
