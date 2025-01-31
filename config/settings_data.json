@@ -52,6 +52,9 @@
     "sibling_style": "swatch",
     "cart_drawer_notes": false,
     "currency_code_enabled": false,
+    "page-other1": "size-guide",
+    "page-other2": "size-guide",
+    "page-other2-content": "kids-noc-cloud-fleece-vest,",
     "lazy_loading": false,
     "favicon": "shopify://shop_images/HappyNocNoc2023logo_1-04.png",
     "sections": {
