@@ -105,6 +105,87 @@
         "disable_bottom_spacing": true
       }
     },
+    "gallery_TXbxGD": {
+      "type": "gallery",
+      "blocks": {
+        "image_rVCDrA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1ba299787195e0400344fe9c66dd1217.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_GwjJpP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/d345a8dcc6ac3a97543500da50173dfc.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_RRb8XX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a0e0fb9a863d1672e01f75aae7fc0c12.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_6NAGNf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/f0035ad02ebb91c9cccb7e6af147650b.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "",
+            "product_list": []
+          }
+        }
+      },
+      "block_order": [
+        "image_rVCDrA",
+        "image_GwjJpP",
+        "image_RRb8XX",
+        "image_6NAGNf"
+      ],
+      "settings": {
+        "columns_desktop": 4,
+        "section_width": "grid",
+        "mobile_swipe": false,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "166366563622039b3e": {
       "type": "featured-collection",
       "settings": {
@@ -369,6 +450,7 @@
   },
   "order": [
     "16479477632637c9a7",
+    "gallery_TXbxGD",
     "166366563622039b3e",
     "featured_collection_d4KjV7",
     "1662389920b1295ea2",
