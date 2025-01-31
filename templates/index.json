@@ -204,20 +204,19 @@
     },
     "featured_collection_d4KjV7": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "heading": "新着アイテム",
         "heading_left": true,
         "description": "",
         "full_width": true,
-        "collection": "",
+        "collection": "newin",
         "display_type": "grid",
         "product_limit": 4,
         "columns_desktop": 4,
         "show_view_all": true,
         "mobile_swipe": true,
         "show_progress_bar": true,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
@@ -306,7 +305,7 @@
         "text_width": "medium",
         "text_position": "center",
         "text_alignment": "center",
-        "color_bg": "transparent",
+        "color_bg": "rgba(0,0,0,0)",
         "color_text": "#191817",
         "color_links": "#191817",
         "disable_top_spacing": false,
