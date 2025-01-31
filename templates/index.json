@@ -287,13 +287,55 @@
         "disable_bottom_spacing": false
       }
     },
-    "1662368401fce27368": {
-      "type": "spacer",
+    "rich_text_8nytmQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_t4BtC6": {
+          "type": "heading",
+          "settings": {
+            "text": "コーディネート",
+            "size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t4BtC6"
+      ],
       "settings": {
-        "spacer_mobile": 0,
-        "spacer_desktop": 0,
-        "border_separator": true,
-        "border_separator_full": true
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_text": "#191817",
+        "color_links": "#191817",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "173831911460691f89": {
+      "type": "apps",
+      "blocks": {
+        "nitro_lookbook_lookbook_block_jPMqqK": {
+          "type": "shopify://apps/nitro-lookbook/blocks/lookbook-block/cc1f7d0a-9bac-40f1-a181-859d84a3417f",
+          "settings": {
+            "lookbook_id": "f96a7d43-71cc-40c4-8b97-0145159abd76",
+            "heading": "",
+            "sub_heading": "",
+            "heading_font_size": "0.8",
+            "heading_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "nitro_lookbook_lookbook_block_jPMqqK"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     }
   },
@@ -304,6 +346,7 @@
     "featured_collection_d4KjV7",
     "1662389920b1295ea2",
     "shop_the_look_3VAJVb",
-    "1662368401fce27368"
+    "rich_text_8nytmQ",
+    "173831911460691f89"
   ]
 }
