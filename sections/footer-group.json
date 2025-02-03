@@ -46,7 +46,7 @@
         "401e3886-6cb7-4742-8fda-45a0d97a26a3": {
           "type": "menu",
           "settings": {
-            "column_size": "medium",
+            "column_size": "small",
             "title": "HAPPY NOCNOCについて",
             "menu": "happy-nocnoc"
           }
