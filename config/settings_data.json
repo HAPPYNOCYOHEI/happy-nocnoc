@@ -120,7 +120,7 @@
           "mobile_secondary_menu": "",
           "mobile_promo_heading": "Alexandre Vauthier A/W 22 Haute Couture",
           "mobile_promo_link_label": "Shop",
-          "mobile_promo_link": "shopify://collections/all"
+          "mobile_promo_link": "https://happynocnoc.jp/"
         }
       },
       "footer": {
@@ -292,7 +292,7 @@
             "mobile_secondary_menu": "",
             "mobile_promo_heading": "Alexandre Vauthier A/W 22 Haute Couture",
             "mobile_promo_link_label": "Shop",
-            "mobile_promo_link": "shopify://collections/all",
+            "mobile_promo_link": "https://happynocnoc.jp/",
             "show_language_switcher": true,
             "show_currency_switcher": true
           }
@@ -480,7 +480,7 @@
             "mobile_secondary_menu": "company",
             "mobile_promo_heading": "Alexandre Vauthier A/W 22 Haute Couture",
             "mobile_promo_link_label": "Shop",
-            "mobile_promo_link": "shopify://collections/all"
+            "mobile_promo_link": "https://happynocnoc.jp/"
           }
         },
         "footer": {
@@ -618,7 +618,7 @@
                 "promo_1_image": "shopify://shop_images/promotion2.jpg",
                 "promo_1_heading": "Luxury Bras & Undies",
                 "promo_1_link_label": "Shop now",
-                "promo_1_link": "shopify://collections/all",
+                "promo_1_link": "https://happynocnoc.jp/",
                 "promo_2_heading": "Promotion heading",
                 "promo_2_link_label": "Shop",
                 "promo_2_link": ""
@@ -638,9 +638,9 @@
             "transparent_header": false,
             "mobile_secondary_menu": "company",
             "mobile_promo_image": "shopify://shop_images/promotion2.jpg",
-            "mobile_promo_heading": "LUXURY BRAS & UNDIES",
+            "mobile_promo_heading": "HAPPY NOCNOC",
             "mobile_promo_link_label": "Shop",
-            "mobile_promo_link": "shopify://collections/all",
+            "mobile_promo_link": "https://happynocnoc.jp/",
             "show_language_switcher": true,
             "show_currency_switcher": true
           }
@@ -654,7 +654,7 @@
                 "column_size": "large",
                 "title": "",
                 "image": "shopify://shop_images/footer-logo.png",
-                "text": "<p>Beauty is perfect in its imperfections, so you just have to go with the imperfections. Money is the most corrosive aspect of life today because it means that all attention to detail is forgotten. </p>",
+                "text": "<p>リンクコーデ×ライトアウトドア×エイジレスをテーマに、日常を彩るデザイン性と、充実した機能性を兼ね備えたアイテムをお届けする「HAPPY NOCNOC」。家族や兄弟、パートナーや友人とともに、特別な瞬間を楽しむための新しい形を提案します。 </p>",
                 "text_size": "small",
                 "button_text": "",
                 "button_link": "",
@@ -806,7 +806,7 @@
             "mobile_promo_image": "shopify://shop_images/img21.jpg",
             "mobile_promo_heading": "Luxury Wallets",
             "mobile_promo_link_label": "Shop",
-            "mobile_promo_link": "shopify://collections/all",
+            "mobile_promo_link": "https://happynocnoc.jp/",
             "show_language_switcher": true,
             "show_currency_switcher": true
           }
@@ -1005,7 +1005,7 @@
             "mobile_secondary_menu": "",
             "mobile_promo_heading": "Alexandre Vauthier A/W 22 Haute Couture",
             "mobile_promo_link_label": "Shop",
-            "mobile_promo_link": "shopify://collections/all"
+            "mobile_promo_link": "https://happynocnoc.jp/"
           }
         },
         "footer": {
