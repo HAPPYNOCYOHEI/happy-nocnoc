@@ -38,7 +38,7 @@
         "00a364e5-af4e-4073-871b-4d533bd4da06": {
           "type": "menu",
           "settings": {
-            "column_size": "medium",
+            "column_size": "small",
             "title": "ショップ",
             "menu": "main-menu"
           }
@@ -84,11 +84,11 @@
       "custom_css": [],
       "settings": {
         "full_width": true,
-        "copyright_text": "All rights reserved.",
+        "copyright_text": "",
         "show_language_switcher": false,
         "show_currency_switcher": false,
         "show_payment_icons": true,
-        "enable_follow_on_shop": true
+        "enable_follow_on_shop": false
       }
     }
   },
