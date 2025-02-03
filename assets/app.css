@@ -1851,6 +1851,7 @@ summary {
 }
 .row.full-width-row {
   max-width: none;
+  justify-content: center;
 }
 .row.full-width-row-full {
   padding: 0;
