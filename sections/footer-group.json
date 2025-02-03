@@ -17,7 +17,7 @@
         "56d4ccfa-a515-4c26-9e64-c26ec5eea8d2": {
           "type": "signup",
           "settings": {
-            "column_size": "small",
+            "column_size": "medium",
             "title": "",
             "text": "<p>メールアドレスを入力して最新情報をゲット！</p>"
           }
@@ -38,7 +38,7 @@
         "00a364e5-af4e-4073-871b-4d533bd4da06": {
           "type": "menu",
           "settings": {
-            "column_size": "small",
+            "column_size": "medium",
             "title": "ショップ",
             "menu": "main-menu"
           }
@@ -46,7 +46,7 @@
         "401e3886-6cb7-4742-8fda-45a0d97a26a3": {
           "type": "menu",
           "settings": {
-            "column_size": "small",
+            "column_size": "medium",
             "title": "HAPPY NOCNOCについて",
             "menu": "happy-nocnoc"
           }
@@ -63,7 +63,7 @@
         "text_Y6DUWh": {
           "type": "text",
           "settings": {
-            "column_size": "small",
+            "column_size": "medium",
             "title": "お問い合わせ",
             "text": "<p>support@happynocnoc.jpまたはページの右下にあるチャットボタン<br/>※返信には1-2営業日程度お時間を頂戴いたします（休業日を除く）<br/><br/>&lt;営業日&gt;<br/><br/>ご注文は、24時間365日受け付けておりますが、土日を運営上の休業日といたしております。弊社指定の長期休業につきましては、その都度サイト上にてお知らせをいたします。</p>",
             "text_size": "small",
