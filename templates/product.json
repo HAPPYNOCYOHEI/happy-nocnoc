@@ -17,11 +17,22 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
+        "fera_product_reviews_summary_dFUB4y": {
+          "type": "shopify://apps/fera/blocks/product_reviews_summary/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
+          "settings": {
+            "star_color": "#f91e1e",
+            "size": 16,
+            "show_count": true,
+            "show_avg_rating": false,
+            "alignment": "left",
+            "hide_when_no_reviews": true
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
             "uppercase": false,
-            "show_products_rating": true,
+            "show_products_rating": false,
             "show_custom_badges": true
           }
         },
@@ -90,6 +101,7 @@
         }
       },
       "block_order": [
+        "fera_product_reviews_summary_dFUB4y",
         "title",
         "variant_picker",
         "inventory_level_Jy4Ynh",
