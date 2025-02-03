@@ -202,11 +202,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "5824954802169832938": {
-        "type": "shopify://apps/nitro-lookbook/blocks/app-embed/cc1f7d0a-9bac-40f1-a181-859d84a3417f",
-        "disabled": false,
-        "settings": {}
-      },
       "4275615285897611771": {
         "type": "shopify://apps/fera/blocks/embed/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
         "disabled": false,
@@ -225,6 +220,11 @@
       "15623156175785154009": {
         "type": "shopify://apps/qikify-smart-menu-mega-menu/blocks/app-embed/19d2f1cd-1836-4a32-8937-03df3c601dc8",
         "disabled": false,
+        "settings": {}
+      },
+      "5824954802169832938": {
+        "type": "shopify://apps/nitro-lookbook/blocks/app-embed/cc1f7d0a-9bac-40f1-a181-859d84a3417f",
+        "disabled": true,
         "settings": {}
       }
     }
