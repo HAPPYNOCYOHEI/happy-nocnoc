@@ -294,6 +294,14 @@
     "173831911460691f89": {
       "type": "apps",
       "blocks": {
+        "xo_gallery_xo_gallery_QfedRm": {
+          "type": "shopify://apps/xo-gallery/blocks/xo-gallery/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "settings": {
+            "type": "gallery",
+            "id": 1,
+            "mid": ""
+          }
+        },
         "lookfy_gallery_lookfy_gallery_MhnYFc": {
           "type": "shopify://apps/lookfy-gallery/blocks/lookfy-gallery/596af5f6-9933-4730-95c2-f7d8d52a0c3e",
           "settings": {
@@ -313,6 +321,7 @@
         }
       },
       "block_order": [
+        "xo_gallery_xo_gallery_QfedRm",
         "lookfy_gallery_lookfy_gallery_MhnYFc"
       ],
       "settings": {
