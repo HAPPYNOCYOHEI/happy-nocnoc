@@ -221,11 +221,6 @@
         "type": "shopify://apps/qikify-smart-menu-mega-menu/blocks/app-embed/19d2f1cd-1836-4a32-8937-03df3c601dc8",
         "disabled": false,
         "settings": {}
-      },
-      "5824954802169832938": {
-        "type": "shopify://apps/nitro-lookbook/blocks/app-embed/cc1f7d0a-9bac-40f1-a181-859d84a3417f",
-        "disabled": true,
-        "settings": {}
       }
     }
   },

@@ -294,21 +294,25 @@
     "173831911460691f89": {
       "type": "apps",
       "blocks": {
-        "nitro_lookbook_lookbook_block_bi8WyP": {
-          "type": "shopify://apps/nitro-lookbook/blocks/lookbook-block/cc1f7d0a-9bac-40f1-a181-859d84a3417f",
+        "lookfy_gallery_lookfy_gallery_MhnYFc": {
+          "type": "shopify://apps/lookfy-gallery/blocks/lookfy-gallery/596af5f6-9933-4730-95c2-f7d8d52a0c3e",
           "settings": {
-            "lookbook_id": "b9ee2ed8-c30b-4ea5-b761-4f346ff8bd83",
-            "heading": "NOC Gallery",
-            "sub_heading": "",
-            "heading_font_size": "1.2",
-            "heading_alignment": "left",
-            "padding_top": 40,
-            "padding_bottom": 0
+            "dynamic_source": "",
+            "title": "",
+            "subtitle": "",
+            "heading_size": "1",
+            "heading_align": "left",
+            "desc_style": "subtitle",
+            "custom_class": "",
+            "background_color": "",
+            "padding_top": 36,
+            "padding_bottom": 36,
+            "padding_left_right": 0
           }
         }
       },
       "block_order": [
-        "nitro_lookbook_lookbook_block_bi8WyP"
+        "lookfy_gallery_lookfy_gallery_MhnYFc"
       ],
       "settings": {
         "section_width": "full-width-row-full",
