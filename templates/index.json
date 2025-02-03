@@ -291,32 +291,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "rich_text_8nytmQ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_t4BtC6": {
-          "type": "heading",
-          "settings": {
-            "text": "コーディネート",
-            "size": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "heading_t4BtC6"
-      ],
-      "settings": {
-        "section_width": "grid",
-        "text_width": "medium",
-        "text_position": "left",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#191817",
-        "color_links": "#191817",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
     "173831911460691f89": {
       "type": "apps",
       "blocks": {
@@ -328,7 +302,7 @@
             "sub_heading": "",
             "heading_font_size": "1.2",
             "heading_alignment": "left",
-            "padding_top": 0,
+            "padding_top": 40,
             "padding_bottom": 0
           }
         }
@@ -350,7 +324,6 @@
     "featured_collection_d4KjV7",
     "1662389920b1295ea2",
     "shop_the_look_3VAJVb",
-    "rich_text_8nytmQ",
     "173831911460691f89"
   ]
 }
