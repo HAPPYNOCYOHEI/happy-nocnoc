@@ -175,7 +175,7 @@
       "custom_css": [],
       "settings": {
         "heading": "リンクコーデ",
-        "heading_left": false,
+        "heading_left": true,
         "description": "",
         "full_width": true,
         "display_type": "carousel",
@@ -183,7 +183,7 @@
         "columns_desktop": 4,
         "text_alignment": "center",
         "heading_size": "h6",
-        "mobile_swipe": false,
+        "mobile_swipe": true,
         "show_progress_bar": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
