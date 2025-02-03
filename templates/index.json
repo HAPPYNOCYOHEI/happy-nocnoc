@@ -308,7 +308,7 @@
       "settings": {
         "section_width": "grid",
         "text_width": "medium",
-        "text_position": "center",
+        "text_position": "left",
         "text_alignment": "center",
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#191817",
