@@ -181,7 +181,7 @@
         "display_type": "carousel",
         "image_ratio": "adapt",
         "columns_desktop": 4,
-        "text_alignment": "center",
+        "text_alignment": "left",
         "heading_size": "h6",
         "mobile_swipe": true,
         "show_progress_bar": true,
