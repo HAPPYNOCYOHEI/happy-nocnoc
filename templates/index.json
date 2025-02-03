@@ -33,7 +33,7 @@
             "overlay_gradient": "",
             "button_1_text": "",
             "button_1_link": "",
-            "button_1_outline": true,
+            "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
             "button_2_outline": false
@@ -45,7 +45,7 @@
             "image": "shopify://shop_images/3fa10990dbdccf531eedaf91ffc887c0.jpg",
             "mobile_image": "shopify://shop_images/8fbb620de61bb4528dc618201e04fb43.jpg",
             "slide_link": "",
-            "video_background": true,
+            "video_background": false,
             "video": "",
             "subheading": "",
             "heading": "",
@@ -58,9 +58,9 @@
             "overlay_color": "#000000",
             "overlay_opacity": 70,
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "SHOP COLLECTION",
+            "button_1_text": "",
             "button_1_link": "",
-            "button_1_outline": true,
+            "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
             "button_2_outline": false
@@ -85,10 +85,10 @@
             "overlay_color": "#000000",
             "overlay_opacity": 20,
             "overlay_gradient": "",
-            "button_1_text": "Shop Tops",
+            "button_1_text": "",
             "button_1_link": "",
-            "button_1_outline": true,
-            "button_2_text": "Shop Denim",
+            "button_1_outline": false,
+            "button_2_text": "",
             "button_2_link": "",
             "button_2_outline": false
           }
