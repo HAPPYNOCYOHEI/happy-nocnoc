@@ -320,6 +320,18 @@
     "173831911460691f89": {
       "type": "apps",
       "blocks": {
+        "nitro_lookbook_lookbook_block_bi8WyP": {
+          "type": "shopify://apps/nitro-lookbook/blocks/lookbook-block/cc1f7d0a-9bac-40f1-a181-859d84a3417f",
+          "settings": {
+            "lookbook_id": "b9ee2ed8-c30b-4ea5-b761-4f346ff8bd83",
+            "heading": "NOC Gallery",
+            "sub_heading": "",
+            "heading_font_size": "1.2",
+            "heading_alignment": "left",
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
         "nitro_lookbook_lookbook_block_jPMqqK": {
           "type": "shopify://apps/nitro-lookbook/blocks/lookbook-block/cc1f7d0a-9bac-40f1-a181-859d84a3417f",
           "settings": {
@@ -334,6 +346,7 @@
         }
       },
       "block_order": [
+        "nitro_lookbook_lookbook_block_bi8WyP",
         "nitro_lookbook_lookbook_block_jPMqqK"
       ],
       "settings": {
