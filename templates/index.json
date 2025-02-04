@@ -228,8 +228,8 @@
     "1662389920b1295ea2": {
       "type": "spacer",
       "settings": {
-        "spacer_mobile": 25,
-        "spacer_desktop": 80,
+        "spacer_mobile": 20,
+        "spacer_desktop": 40,
         "border_separator": false,
         "border_separator_full": false
       }
@@ -291,6 +291,15 @@
         "disable_bottom_spacing": false
       }
     },
+    "spacer_bx8NjQ": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
     "173831911460691f89": {
       "type": "apps",
       "blocks": {
@@ -330,6 +339,15 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
+    },
+    "spacer_h34YPX": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
     }
   },
   "order": [
@@ -339,6 +357,8 @@
     "featured_collection_d4KjV7",
     "1662389920b1295ea2",
     "shop_the_look_3VAJVb",
-    "173831911460691f89"
+    "spacer_bx8NjQ",
+    "173831911460691f89",
+    "spacer_h34YPX"
   ]
 }
