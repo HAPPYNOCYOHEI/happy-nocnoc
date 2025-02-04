@@ -275,45 +275,12 @@
             "page": "",
             "custom_liquid": ""
           }
-        },
-        "collapsible_tab_3wpxBH": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How Can I Choose The Right Size For Me?",
-            "open": false,
-            "content": "<p>Habitat has created a universal sizing system that aims to provide a unique reference for all countries. You can easily spot the best size for you by referring to our Size Guide that provides a conversion table to all major country size systems. </p><p>The Size Guide is conveniently available on the page of each product.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_frjKf6": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Which Payment Methods Do You Accept?",
-            "open": false,
-            "content": "<p>Habitat accepts the following payment methods for online purchases:<br/><br/>• All major credit cards, as shown at checkout</p><p>• PayPal: if you do not have an account yet, you can create one while shopping with us</p><p>• Apple Pay, Google Pay, Samsung Pay</p><p>Please note that your billing address must match the address on your credit card statement.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_Fdwm7H": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How Can I Track My Order?",
-            "open": false,
-            "content": "<p>Once you place your order online, you will be able to see the details of the purchase, follow its preparation, and see shipping updates in the My Account area.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
         }
       },
       "block_order": [
         "collapsible_tab_anxHcz",
         "collapsible_tab_MaCkLW",
-        "collapsible_tab_JcKwzn",
-        "collapsible_tab_3wpxBH",
-        "collapsible_tab_frjKf6",
-        "collapsible_tab_Fdwm7H"
+        "collapsible_tab_JcKwzn"
       ],
       "settings": {
         "heading": "",
