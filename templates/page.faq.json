@@ -227,42 +227,20 @@
             "page": "",
             "custom_liquid": ""
           }
-        },
-        "collapsible_tab_DQifjf": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Which Payment Methods Do You Accept?",
-            "open": false,
-            "content": "<p>Habitat accepts the following payment methods for online purchases:<br/><br/>• All major credit cards, as shown at checkout</p><p>• PayPal: if you do not have an account yet, you can create one while shopping with us</p><p>• Apple Pay, Google Pay, Samsung Pay</p><p>Please note that your billing address must match the address on your credit card statement.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_CArmdU": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How Can I Track My Order?",
-            "open": false,
-            "content": "<p>Once you place your order online, you will be able to see the details of the purchase, follow its preparation, and see shipping updates in the My Account area.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
         }
       },
       "block_order": [
         "collapsible_tab_QDjJWh",
         "collapsible_tab_Frtrz3",
         "collapsible_tab_WntiKa",
-        "collapsible_tab_xfhjcD",
-        "collapsible_tab_DQifjf",
-        "collapsible_tab_CArmdU"
+        "collapsible_tab_xfhjcD"
       ],
       "settings": {
         "heading": "",
         "description": "<h5><strong>配送に関するご質問</strong></h5>",
         "uppercase_heading": false,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "collapsible_content_DdydQL": {
@@ -344,6 +322,86 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
+    },
+    "collapsible_content_pJhB49": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_anxHcz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "商品の返品・交換ポリシーを教えてください。",
+            "open": false,
+            "content": "<p>【返品・交換が可能な場合】<br/>以下の条件を満たす場合、返品・交換が可能です。</p><ul><li>お客様ご都合による返品・交換（サイズが合わない、イメージと違うなど）：商品到着後14日以内にカスタマーサポートへご連絡ください。返品時の送料はお客様負担となります。</li><li>商品に不具合があった場合（破損・汚損・誤配送など）：大変恐れ入りますが、速やかにカスタマーサポートへご連絡ください。返品・交換の送料は当社負担となります。</li></ul><p>【返品・交換の条件】<br/>未使用品で、タグや付属品がすべて揃っており、元のパッケージに入っている状態に限ります。以下の商品は返品・交換対象外となります。</p><ul><li>使用済み、洗濯済み、または加工・調整された商品</li><li>タグや靴箱などの付属品を破棄された商品</li><li>カスタマーサービスの指示に従っていない商品</li><li>デジタルギフトカード (ギフトカードを使って購入された商品につきましては、条件を満たしている際に限り返品・交換が可能です。)</li></ul><p>詳細なお手続きにつきましては、「<a href=\"https://happynocnoc.jp/pages/returns\" target=\"_blank\" title=\"https://happynocnoc.jp/pages/returns\">返品交換について</a>」をご覧ください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_MaCkLW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How Do I Set Up A Subscription Order?",
+            "open": false,
+            "content": "<p>We will deliver products to you as soon as reasonably possible. Orders are usually dispatched between 1-3 days from the date of the order being placed. Please contact us our customer service team if your delivery has not been received within the dates described.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_JcKwzn": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How To Return My Items?",
+            "open": false,
+            "content": "<p>We do not currently offer free returns to overseas customers. You will therefore need to cover all costs of returning any items to us yourself. We advise that you mark your package ‘returned goods’ to avoid further duties. Remember: We strongly recommend that you return any items via a registered trackable service and obtain and retain proof of posting as we do not accept responsibility for items that fail to arrive with us.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_3wpxBH": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How Can I Choose The Right Size For Me?",
+            "open": false,
+            "content": "<p>Habitat has created a universal sizing system that aims to provide a unique reference for all countries. You can easily spot the best size for you by referring to our Size Guide that provides a conversion table to all major country size systems. </p><p>The Size Guide is conveniently available on the page of each product.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_frjKf6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Which Payment Methods Do You Accept?",
+            "open": false,
+            "content": "<p>Habitat accepts the following payment methods for online purchases:<br/><br/>• All major credit cards, as shown at checkout</p><p>• PayPal: if you do not have an account yet, you can create one while shopping with us</p><p>• Apple Pay, Google Pay, Samsung Pay</p><p>Please note that your billing address must match the address on your credit card statement.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_Fdwm7H": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How Can I Track My Order?",
+            "open": false,
+            "content": "<p>Once you place your order online, you will be able to see the details of the purchase, follow its preparation, and see shipping updates in the My Account area.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_anxHcz",
+        "collapsible_tab_MaCkLW",
+        "collapsible_tab_JcKwzn",
+        "collapsible_tab_3wpxBH",
+        "collapsible_tab_frjKf6",
+        "collapsible_tab_Fdwm7H"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h5><strong>返品・交換に関するご質問</strong></h5>",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -353,6 +411,7 @@
     "collapsible_content_Vmw89K",
     "collapsible_content_zQaDqM",
     "collapsible_content_jMgnPL",
-    "collapsible_content_DdydQL"
+    "collapsible_content_DdydQL",
+    "collapsible_content_pJhB49"
   ]
 }
