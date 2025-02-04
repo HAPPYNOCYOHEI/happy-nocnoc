@@ -109,7 +109,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "注文内容を確認・変更したい場合、どうすれば良いですか？",
-            "open": true,
+            "open": false,
             "content": "<p>注文内容の確認は、注文確認メールまたはマイページでご確認いただけます。注文の変更・キャンセルは、発送前であれば対応可能な場合があります。お早めにサイト上のチャットかメール（<a href=\"mailto:support@happynocnoc.jp\">support@happynocnoc.jp</a>）にて、カスタマーサポートまでご連絡ください。</p><p>なお、発送後の変更はできませんので、返品・交換手続きをご利用ください。</p>",
             "page": "",
             "custom_liquid": ""
@@ -145,7 +145,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "どの支払い方法が利用できますか？",
-            "open": true,
+            "open": false,
             "content": "<p>以下のお支払い方法がご利用いただけます。</p><ol><li>クレジットカード（VISA、Master、AMEX、JCB） </li><li>PayPal  </li><li>デジタルギフトカード</li></ol>",
             "page": "",
             "custom_liquid": ""
@@ -192,7 +192,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "配送方法や送料について教えてください。",
-            "open": true,
+            "open": false,
             "content": "<p>宅配便でのお届けとなります。また、送料は、全国一律1,000円、なお、10,000円以上のお買い上げで送料無料となります。</p>",
             "page": "",
             "custom_liquid": ""
