@@ -69,8 +69,8 @@
         "164794776393e76b8e-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/3_eb64565f-7bf0-45cf-96d3-6a9a90c68d42.jpg",
-            "mobile_image": "shopify://shop_images/3_3162da63-1433-4b4c-bdcc-38e79cbac456.jpg",
+            "image": "shopify://shop_images/pc-banner.jpg",
+            "mobile_image": "shopify://shop_images/M_banner.jpg",
             "slide_link": "",
             "video_background": false,
             "video": "",
