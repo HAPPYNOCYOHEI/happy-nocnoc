@@ -51,7 +51,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "サイズ表はどこで確認できますか？",
-            "open": false,
+            "open": true,
             "content": "<p>各商品のサイズ表は、各商品の詳細ページでご覧いただけます。サイズオプションの右上にある「サイズガイド」をクリックいただくと、該当する商品のサイズガイドが表示されます。</p>",
             "page": "",
             "custom_liquid": ""
@@ -109,7 +109,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "注文内容を確認・変更したい場合、どうすれば良いですか？",
-            "open": false,
+            "open": true,
             "content": "<p>注文内容の確認は、注文確認メールまたはマイページでご確認いただけます。注文の変更・キャンセルは、発送前であれば対応可能な場合があります。お早めにサイト上のチャットかメール（<a href=\"mailto:support@happynocnoc.jp\">support@happynocnoc.jp</a>）にて、カスタマーサポートまでご連絡ください。</p><p>なお、発送後の変更はできませんので、返品・交換手続きをご利用ください。</p>",
             "page": "",
             "custom_liquid": ""
@@ -145,7 +145,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "どの支払い方法が利用できますか？",
-            "open": false,
+            "open": true,
             "content": "<p>以下のお支払い方法がご利用いただけます。</p><ol><li>クレジットカード（VISA、Master、AMEX、JCB） </li><li>PayPal  </li><li>デジタルギフトカード</li></ol>",
             "page": "",
             "custom_liquid": ""
@@ -192,7 +192,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "配送方法や送料について教えてください。",
-            "open": false,
+            "open": true,
             "content": "<p>宅配便でのお届けとなります。また、送料は、全国一律1,000円、なお、10,000円以上のお買い上げで送料無料となります。</p>",
             "page": "",
             "custom_liquid": ""
@@ -243,86 +243,6 @@
         "disable_bottom_spacing": true
       }
     },
-    "collapsible_content_DdydQL": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_tab_krWecc": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How Long Does An Order Take To Arrive?",
-            "open": true,
-            "content": "<p>International orders normally arrive within 2-4 weeks of shipping. Please note that these orders need to pass through the customs office in your country before it will be released for final delivery, which can occasionally cause additional delays. Once an order leaves our warehouse, carrier shipping delays may occur due to factors outside our control. We, unfortunately, can’t control how quickly an order arrives once it has left our warehouse. Contacting the carrier is the best way to get more insight into your package’s location and estimated delivery date.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_XEzQXE": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How Do I Set Up A Subscription Order?",
-            "open": false,
-            "content": "<p>We will deliver products to you as soon as reasonably possible. Orders are usually dispatched between 1-3 days from the date of the order being placed. Please contact us our customer service team if your delivery has not been received within the dates described.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_kkPXQ4": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How To Return My Items?",
-            "open": false,
-            "content": "<p>We do not currently offer free returns to overseas customers. You will therefore need to cover all costs of returning any items to us yourself. We advise that you mark your package ‘returned goods’ to avoid further duties. Remember: We strongly recommend that you return any items via a registered trackable service and obtain and retain proof of posting as we do not accept responsibility for items that fail to arrive with us.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_NXwX8z": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How Can I Choose The Right Size For Me?",
-            "open": false,
-            "content": "<p>Habitat has created a universal sizing system that aims to provide a unique reference for all countries. You can easily spot the best size for you by referring to our Size Guide that provides a conversion table to all major country size systems. </p><p>The Size Guide is conveniently available on the page of each product.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_EYYCBb": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Which Payment Methods Do You Accept?",
-            "open": false,
-            "content": "<p>Habitat accepts the following payment methods for online purchases:<br/><br/>• All major credit cards, as shown at checkout</p><p>• PayPal: if you do not have an account yet, you can create one while shopping with us</p><p>• Apple Pay, Google Pay, Samsung Pay</p><p>Please note that your billing address must match the address on your credit card statement.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_UPxjmH": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How Can I Track My Order?",
-            "open": false,
-            "content": "<p>Once you place your order online, you will be able to see the details of the purchase, follow its preparation, and see shipping updates in the My Account area.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_tab_krWecc",
-        "collapsible_tab_XEzQXE",
-        "collapsible_tab_kkPXQ4",
-        "collapsible_tab_NXwX8z",
-        "collapsible_tab_EYYCBb",
-        "collapsible_tab_UPxjmH"
-      ],
-      "settings": {
-        "heading": "",
-        "description": "<h5><strong>ご購入・ご注文に関するご質問</strong></h5>",
-        "uppercase_heading": false,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
     "collapsible_content_pJhB49": {
       "type": "collapsible-content",
       "blocks": {
@@ -339,9 +259,9 @@
         "collapsible_tab_MaCkLW": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How Do I Set Up A Subscription Order?",
+            "heading": "返品時の送料はどうなりますか？",
             "open": false,
-            "content": "<p>We will deliver products to you as soon as reasonably possible. Orders are usually dispatched between 1-3 days from the date of the order being placed. Please contact us our customer service team if your delivery has not been received within the dates described.</p>",
+            "content": "<p>商品に瑕疵、品違い、その他の不具合があった場合、または商品配送中に破損が生じた場合、返送料は弊社負担となります。商品写真を添付し、カスタマーサポートまでお申し出ください。</p><p>「商品に不具合・不備がある」、「注文と異なる商品が届いた」などの原因以外のご返品は、「お客様ご都合によるご返品」とみなされます。お客様ご都合による返品の場合、ご返送時の送料はお客様負担となります。</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -349,9 +269,9 @@
         "collapsible_tab_JcKwzn": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How To Return My Items?",
+            "heading": "セール商品や限定商品は返品・交換できますか？",
             "open": false,
-            "content": "<p>We do not currently offer free returns to overseas customers. You will therefore need to cover all costs of returning any items to us yourself. We advise that you mark your package ‘returned goods’ to avoid further duties. Remember: We strongly recommend that you return any items via a registered trackable service and obtain and retain proof of posting as we do not accept responsibility for items that fail to arrive with us.</p>",
+            "content": "<p>セール商品や限定商品につきましても返品・交換を承っております。詳しくは 「<a href=\"https://happynocnoc.jp/pages/returns\" target=\"_blank\" title=\"https://happynocnoc.jp/pages/returns\">返品交換について</a>」をご覧ください。</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -400,6 +320,67 @@
         "description": "<h5><strong>返品・交換に関するご質問</strong></h5>",
         "uppercase_heading": false,
         "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collapsible_content_LqHpt7": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_dCcKxz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "会員情報の確認・変更はどこで行えますか？",
+            "open": false,
+            "content": "<p>ご登録情報の確認・変更は、公式オンラインストアの「アカウント」から行えます。変更の際は、ログイン後、住所・電話番号・メールアドレス・パスワードなどを編集し、保存してください。</p><p>※注文確定後の配送先変更は、発送前のみ対応可能です。情報の変更希望の場合は、サイト上のチャットもしくはメール(support@happynocnoc.jp)にて、カスタマーサポートまでご連絡ください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_3U67WV": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "パスワードを忘れた場合の対処方法を教えてください。",
+            "open": false,
+            "content": "<p>パスワードをお忘れの場合は、ログインページの「パスワードをお忘れですか？」をクリックし、登録メールアドレスで再設定してください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_dCcKxz",
+        "collapsible_tab_3U67WV"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h5><strong>会員情報に関するご質問</strong></h5>",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collapsible_content_pD7Vz4": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_i7JMr4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "ギフトラッピングサービスはありますか？",
+            "open": false,
+            "content": "<p>大変恐れ入りますが、現在ギフトラッピングサービスは承っておりません。あらかじめご了承ください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_i7JMr4"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h5><strong>その他のご質問</strong></h5>",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     }
@@ -411,7 +392,8 @@
     "collapsible_content_Vmw89K",
     "collapsible_content_zQaDqM",
     "collapsible_content_jMgnPL",
-    "collapsible_content_DdydQL",
-    "collapsible_content_pJhB49"
+    "collapsible_content_pJhB49",
+    "collapsible_content_LqHpt7",
+    "collapsible_content_pD7Vz4"
   ]
 }
