@@ -35,7 +35,7 @@
         "disable_bottom_spacing": true
       }
     },
-    "166186303682d7c655": {
+    "spacer_NP8FmL": {
       "type": "spacer",
       "settings": {
         "spacer_mobile": 15,
@@ -50,6 +50,64 @@
         "a82c71ab-5eef-4ac6-8278-42c4bf4565d6": {
           "type": "collapsible_tab",
           "settings": {
+            "heading": "サイズ表はどこで確認できますか？",
+            "open": true,
+            "content": "<p>各商品のサイズ表は、各商品の詳細ページでご覧いただけます。サイズオプションの右上にある「サイズガイド」をクリックいただくと、該当する商品のサイズガイドが表示されます。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "サイズが合わない場合の返品・交換は可能ですか？",
+            "open": false,
+            "content": "<p>サイズが合わない場合、商品到着後14日以内であれば返品・交換が可能です。返品時の送料はお客様負担となります。交換は色やサイズ、別商品への変更も可能ですが、一度ご返品の上で、再度ご購入いただく流れとなります。</p><p>※返品・交換には条件がございます。詳細は「<a href=\"https://happynocnoc.jp/pages/returns\">返品交換について</a>」をご確認ください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "商品の在庫状況はどこで確認できますか？",
+            "open": false,
+            "content": "<p>在庫があり、購入可能な商品であれば、ご希望のサイズを簡単にお選びいただけます。サイズを選択すると、「カートに入れる」ボタンが表示されます。ただし、現在お取り扱いのないサイズはグレーアウトされます。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "UVカットや撥水加工の有無はどこで確認できますか？",
+            "open": false,
+            "content": "<p>UVカットや撥水加工の有無については、以下の方法でご確認いただけます。</p><ul><li>商品ページ：各商品の詳細ページに、UVカット機能や撥水加工の有無が記載されています。</li><li>商品タグ・ラベル：商品に付属するタグやラベルに、機能性に関する情報が記載されている場合がございます。</li></ul>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h5><strong>商品に関するご質問</strong></h5>",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collapsible_content_zQaDqM": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_8Xctfr": {
+          "type": "collapsible_tab",
+          "settings": {
             "heading": "How Long Does An Order Take To Arrive?",
             "open": true,
             "content": "<p>International orders normally arrive within 2-4 weeks of shipping. Please note that these orders need to pass through the customs office in your country before it will be released for final delivery, which can occasionally cause additional delays. Once an order leaves our warehouse, carrier shipping delays may occur due to factors outside our control. We, unfortunately, can’t control how quickly an order arrives once it has left our warehouse. Contacting the carrier is the best way to get more insight into your package’s location and estimated delivery date.</p>",
@@ -57,7 +115,7 @@
             "custom_liquid": ""
           }
         },
-        "aa70895f-8889-4293-8c7d-ff7bc2b81c57": {
+        "collapsible_tab_FE7yWR": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "How Do I Set Up A Subscription Order?",
@@ -67,7 +125,7 @@
             "custom_liquid": ""
           }
         },
-        "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
+        "collapsible_tab_rhNGF3": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "How To Return My Items?",
@@ -77,7 +135,7 @@
             "custom_liquid": ""
           }
         },
-        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f": {
+        "collapsible_tab_gzdCVF": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "How Can I Choose The Right Size For Me?",
@@ -87,7 +145,7 @@
             "custom_liquid": ""
           }
         },
-        "5f34dba8-15e0-4aac-91f7-5a103657361d": {
+        "collapsible_tab_bzBdmE": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Which Payment Methods Do You Accept?",
@@ -97,7 +155,7 @@
             "custom_liquid": ""
           }
         },
-        "fa2985e2-4983-462b-80c8-596d4ae47540": {
+        "collapsible_tab_84jNXe": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "How Can I Track My Order?",
@@ -109,17 +167,17 @@
         }
       },
       "block_order": [
-        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
-        "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
-        "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
-        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f",
-        "5f34dba8-15e0-4aac-91f7-5a103657361d",
-        "fa2985e2-4983-462b-80c8-596d4ae47540"
+        "collapsible_tab_8Xctfr",
+        "collapsible_tab_FE7yWR",
+        "collapsible_tab_rhNGF3",
+        "collapsible_tab_gzdCVF",
+        "collapsible_tab_bzBdmE",
+        "collapsible_tab_84jNXe"
       ],
       "settings": {
         "heading": "",
-        "description": "",
-        "uppercase_heading": true,
+        "description": "<h5><strong>商品に関するご質問</strong></h5>",
+        "uppercase_heading": false,
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
@@ -127,7 +185,8 @@
   },
   "order": [
     "16618629918566dc27",
-    "166186303682d7c655",
-    "faq"
+    "spacer_NP8FmL",
+    "faq",
+    "collapsible_content_zQaDqM"
   ]
 }
