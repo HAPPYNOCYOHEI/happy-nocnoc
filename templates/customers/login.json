@@ -40,7 +40,7 @@
         "color_bg": "transparent",
         "color_text": "#191817",
         "color_links": "#191817",
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
