@@ -12,33 +12,35 @@
     "shop_the_look_RqYA8G": {
       "type": "shop-the-look",
       "blocks": {
-        "product_rGNGFV": {
+        "product_A3Ghpd": {
           "type": "product",
           "settings": {
-            "product_handle": "",
-            "x_position": 20,
-            "y_position": 20,
+            "product_handle": "kids-noc-breath-raglan-long-sleeve-t-shirt",
+            "x_position": 53,
+            "y_position": 54,
             "x_position_mobile": 20,
             "y_position_mobile": 20
           }
         },
-        "product_axTdiT": {
+        "product_HXgtYa": {
           "type": "product",
           "settings": {
-            "product_handle": "",
-            "x_position": 20,
-            "y_position": 20,
+            "product_handle": "kids-noc-fly-light-sneaker",
+            "x_position": 38,
+            "y_position": 87,
             "x_position_mobile": 20,
             "y_position_mobile": 20
           }
         }
       },
       "block_order": [
-        "product_rGNGFV",
-        "product_axTdiT"
+        "product_A3Ghpd",
+        "product_HXgtYa"
       ],
       "settings": {
-        "section_width": "grid",
+        "image": "shopify://shop_images/1_241_1.jpg",
+        "image_mobile": "shopify://shop_images/1_241_1.jpg",
+        "section_width": "full-width-row",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -46,66 +48,34 @@
     "shop_the_look_K3mMCD": {
       "type": "shop-the-look",
       "blocks": {
-        "product_RGQPLT": {
-          "type": "product",
-          "settings": {
-            "product_handle": "",
-            "x_position": 20,
-            "y_position": 20,
-            "x_position_mobile": 20,
-            "y_position_mobile": 20
-          }
-        },
         "product_pL9Cbp": {
           "type": "product",
           "settings": {
-            "product_handle": "",
-            "x_position": 20,
-            "y_position": 20,
-            "x_position_mobile": 20,
-            "y_position_mobile": 20
-          }
-        }
-      },
-      "block_order": [
-        "product_RGQPLT",
-        "product_pL9Cbp"
-      ],
-      "settings": {
-        "section_width": "grid",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "shop_the_look_VYWzaM": {
-      "type": "shop-the-look",
-      "blocks": {
-        "product_9bTHge": {
-          "type": "product",
-          "settings": {
-            "product_handle": "",
-            "x_position": 20,
-            "y_position": 20,
+            "product_handle": "kids-noc-fly-light-sneaker",
+            "x_position": 67,
+            "y_position": 88,
             "x_position_mobile": 20,
             "y_position_mobile": 20
           }
         },
-        "product_DCmEhL": {
+        "product_RGQPLT": {
           "type": "product",
           "settings": {
-            "product_handle": "",
-            "x_position": 20,
-            "y_position": 20,
+            "product_handle": "kids-noc-shine-windproof-jacket",
+            "x_position": 38,
+            "y_position": 64,
             "x_position_mobile": 20,
             "y_position_mobile": 20
           }
         }
       },
       "block_order": [
-        "product_9bTHge",
-        "product_DCmEhL"
+        "product_pL9Cbp",
+        "product_RGQPLT"
       ],
       "settings": {
+        "image": "shopify://shop_images/124_541_1.jpg",
+        "image_mobile": "shopify://shop_images/124_541_1.jpg",
         "section_width": "grid",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
@@ -117,9 +87,9 @@
         "product_M4iBHx": {
           "type": "product",
           "settings": {
-            "product_handle": "",
-            "x_position": 20,
-            "y_position": 20,
+            "product_handle": "copy-of-breathable-cotton-family-matching-t-shirt",
+            "x_position": 37,
+            "y_position": 42,
             "x_position_mobile": 20,
             "y_position_mobile": 20
           }
@@ -127,9 +97,9 @@
         "product_aCzGMV": {
           "type": "product",
           "settings": {
-            "product_handle": "",
-            "x_position": 20,
-            "y_position": 20,
+            "product_handle": "kids-noc-fly-light-sneaker",
+            "x_position": 66,
+            "y_position": 85,
             "x_position_mobile": 20,
             "y_position_mobile": 20
           }
@@ -140,6 +110,32 @@
         "product_aCzGMV"
       ],
       "settings": {
+        "image": "shopify://shop_images/1_d22d2895-bb38-4176-8160-f304b007f965.jpg",
+        "section_width": "grid",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "shop_the_look_VYWzaM": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_9bTHge": {
+          "type": "product",
+          "settings": {
+            "product_handle": "popcorn-fleece-jacket-1",
+            "x_position": 29,
+            "y_position": 51,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
+        }
+      },
+      "block_order": [
+        "product_9bTHge"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1_68eb348c-f9f9-45a8-84fc-f043d5d84e54.jpg",
+        "image_mobile": "shopify://shop_images/1_68eb348c-f9f9-45a8-84fc-f043d5d84e54.jpg",
         "section_width": "grid",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
@@ -149,7 +145,7 @@
   "order": [
     "shop_the_look_RqYA8G",
     "shop_the_look_K3mMCD",
-    "shop_the_look_VYWzaM",
-    "shop_the_look_kqrLVT"
+    "shop_the_look_kqrLVT",
+    "shop_the_look_VYWzaM"
   ]
 }
