@@ -9,6 +9,66 @@
  */
 {
   "sections": {
+    "rich_text_r9jH7D": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ydjpAt": {
+          "type": "heading",
+          "settings": {
+            "text": "ログイン",
+            "size": "h3"
+          }
+        },
+        "text_MjqJPY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>最新情報をいち早くお届け<br/>キャンペーン、SALE、新商品の発売など</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ydjpAt",
+        "text_MjqJPY"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1738723504135298cb": {
+      "type": "apps",
+      "blocks": {
+        "crm_plus_on_line_signup_pdNGch": {
+          "type": "shopify://apps/crm-plus-on-line/blocks/signup/dfcb190e-14c5-48cb-b5be-c67ed2b16b21",
+          "settings": {
+            "line": true,
+            "apple": false,
+            "yahoo": false,
+            "google": false,
+            "facebook": false,
+            "twitter": false,
+            "callback_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "crm_plus_on_line_signup_pdNGch"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "main-login": {
       "type": "main-login",
       "custom_css": [
@@ -18,6 +78,8 @@
     }
   },
   "order": [
+    "rich_text_r9jH7D",
+    "1738723504135298cb",
     "main-login"
   ]
 }
