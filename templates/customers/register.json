@@ -12,7 +12,7 @@
     "main-register": {
       "type": "main-register",
       "custom_css": [
-        "h3 {margin: auto}"
+        "h3 {text-align: center;}"
       ],
       "settings": {}
     }
