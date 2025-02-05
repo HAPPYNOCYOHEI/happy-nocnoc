@@ -226,6 +226,14 @@
         "type": "shopify://apps/xo-gallery/blocks/xo-gallery-scripts/e61dfbaa-1a75-4e4e-bffc-324f17325251",
         "disabled": false,
         "settings": {}
+      },
+      "17283525856706501396": {
+        "type": "shopify://apps/crm-plus-on-line/blocks/associate-id-banner/dfcb190e-14c5-48cb-b5be-c67ed2b16b21",
+        "disabled": false,
+        "settings": {
+          "message": "",
+          "bannerPosition": "right-bottom"
+        }
       }
     }
   },
