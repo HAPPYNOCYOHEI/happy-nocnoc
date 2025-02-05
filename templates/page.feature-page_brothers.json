@@ -15,21 +15,21 @@
         "product_rGNGFV": {
           "type": "product",
           "settings": {
-            "product_handle": "",
-            "x_position": 20,
-            "y_position": 20,
-            "x_position_mobile": 20,
-            "y_position_mobile": 20
+            "product_handle": "kids-noc-breath-raglan-long-sleeve-t-shirt",
+            "x_position": 31,
+            "y_position": 70,
+            "x_position_mobile": 64,
+            "y_position_mobile": 64
           }
         },
         "product_axTdiT": {
           "type": "product",
           "settings": {
-            "product_handle": "",
+            "product_handle": "kids-noc-breath-raglan-long-sleeve-t-shirt",
             "x_position": 20,
             "y_position": 20,
-            "x_position_mobile": 20,
-            "y_position_mobile": 20
+            "x_position_mobile": 25,
+            "y_position_mobile": 70
           }
         }
       },
@@ -38,6 +38,7 @@
         "product_axTdiT"
       ],
       "settings": {
+        "image_mobile": "shopify://shop_images/1_241_1.jpg",
         "section_width": "grid",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
