@@ -133,86 +133,6 @@
         "border_separator_full": false
       }
     },
-    "1663667029efc274af": {
-      "type": "collapsible-content",
-      "blocks": {
-        "1663667029f86d6497-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "What payment methods can I use?",
-            "open": false,
-            "content": "<p>We offer 35 different payment methods including major providers like Mastercard, Visa, PayPal, American Express and Diners as well as many different local payment methods including Klarna, iDEAL, AliPay, Sofort, giropay, and many more.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "1663667029f86d6497-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Can I purchase items with another currency?",
-            "open": false,
-            "content": "<p>Yes, you may select a currency based on your personal preference. When you select your country in the country selector on the upper right of the website or are taken directly to your country’s version of the website, you will see prices listed in the regional currency.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "1663667029f86d6497-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Can I make changes to my order after it’s been placed?",
-            "open": false,
-            "content": "<p>We do everything we can to fulfill orders quickly and unfortunately cannot make updates after an order has been placed. These changes include removing or adding products and/or changing the delivery address. If a mistake has been made with your order information, it’s quickest to create a new order with the correct information and then let our Customer Service.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "1663667029f86d6497-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Do you offer e-gift cards for international customers?",
-            "open": false,
-            "content": "<p>E-gift cards are only available to customers shipping within the U.S.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "68288bd2-3db2-455d-a841-5aa19d752abb": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How Do I Set Up A Subscription Order?",
-            "open": false,
-            "content": "<p>We will deliver products to you as soon as reasonably possible. Orders are usually dispatched between 1-3 days from the date of the order being placed. Please contact us our customer service team if your delivery has not been received within the dates described.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "de9966d6-0cd0-4b0f-9810-aa062aff88ce": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How To Return My Items?",
-            "open": false,
-            "content": "<p>We do not currently offer free returns to overseas customers. You will therefore need to cover all costs of returning any items to us yourself. We advise that you mark your package ‘returned goods’ to avoid further duties. Remember: We strongly recommend that you return any items via a registered trackable service and obtain and retain proof of posting as we do not accept responsibility for items that fail to arrive with us.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        }
-      },
-      "block_order": [
-        "1663667029f86d6497-0",
-        "1663667029f86d6497-1",
-        "1663667029f86d6497-2",
-        "1663667029f86d6497-3",
-        "68288bd2-3db2-455d-a841-5aa19d752abb",
-        "de9966d6-0cd0-4b0f-9810-aa062aff88ce"
-      ],
-      "settings": {
-        "heading": "F.A.Q.",
-        "description": "<p>They appreciate cut and details, things that aren't so obvious. </p>",
-        "uppercase_heading": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "1662552569cce2536d": {
       "type": "spacer",
       "settings": {
@@ -225,13 +145,20 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "YOU MAY ALSO LIKE",
+        "heading": "おすすめ商品",
         "heading_left": true,
-        "description": "<p>Combine your style with these products</p>",
+        "description": "",
         "full_width": true,
         "mobile_swipe": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
+      }
+    },
+    "custom_liquid_ktghkd": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a class=\"klaviyo-bis-trigger\" href=\"#\">再入荷を登録</a>",
+        "section_width": "full-width-row"
       }
     }
   },
@@ -239,8 +166,8 @@
     "breadcrumbs",
     "main-product",
     "16623877721f33fb14",
-    "1663667029efc274af",
     "1662552569cce2536d",
-    "product-recommendations"
+    "product-recommendations",
+    "custom_liquid_ktghkd"
   ]
 }
