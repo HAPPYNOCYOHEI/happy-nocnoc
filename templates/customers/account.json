@@ -24,9 +24,39 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "1738735811011bed01": {
+      "type": "apps",
+      "blocks": {
+        "crm_plus_on_line_association_rhD39p": {
+          "type": "shopify://apps/crm-plus-on-line/blocks/association/dfcb190e-14c5-48cb-b5be-c67ed2b16b21",
+          "settings": {
+            "line": true,
+            "apple": false,
+            "yahoo": false,
+            "google": false,
+            "facebook": false,
+            "twitter": false
+          }
+        },
+        "crm_plus_on_line_error_banner_aRTktF": {
+          "type": "shopify://apps/crm-plus-on-line/blocks/error-banner/dfcb190e-14c5-48cb-b5be-c67ed2b16b21",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "crm_plus_on_line_association_rhD39p",
+        "crm_plus_on_line_error_banner_aRTktF"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
+    "1738735811011bed01",
     "main-account",
     "recently_viewed_products_YUgwJW"
   ]
