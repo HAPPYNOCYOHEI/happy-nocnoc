@@ -157,7 +157,7 @@
     "custom_liquid_ktghkd": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<a class=\"klaviyo-bis-trigger\" href=\"#\">再入荷を登録</a>",
+        "custom_liquid": "<a class=\"klaviyo-bis-trigger\" href=\"#\">再入荷を登録</a>\ntrigger: {\n    product_page_text: \"Notify Me When Available\",\n    product_page_class: \"button\",\n    product_page_text_align: \"center\",\n    product_page_margin: \"0px\",\n    alternate_anchor: \"AddToCart\",\n    replace_anchor: false\n    },",
         "section_width": "full-width-row"
       }
     }
