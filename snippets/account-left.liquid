@@ -39,6 +39,9 @@
       >
         <span class="text-button">{{ 'customer.account.log_out' | t }}</span>
       </a>
+{% for block in section.blocks %}
+{% render block %}
+{% endfor %}
     </div>
       <div class="line">
         <!-- CRM PLUS on LINEエラーバナー -->
