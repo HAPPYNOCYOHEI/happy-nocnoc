@@ -1,0 +1,366 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "16618629918566dc27": {
+      "type": "rich-text",
+      "blocks": {
+        "1661862991ee6f499c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "よくあるご質問",
+            "size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1661862991ee6f499c-1"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_NP8FmL": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 15,
+        "spacer_desktop": 30,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "サイズ表はどこで確認できますか？",
+            "open": true,
+            "content": "<p>各商品のサイズ表は、各商品の詳細ページでご覧いただけます。サイズオプションの右上にある「サイズガイド」をクリックいただくと、該当する商品のサイズガイドが表示されます。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "サイズが合わない場合の返品・交換は可能ですか？",
+            "open": false,
+            "content": "<p>サイズが合わない場合、商品到着後14日以内であれば返品・交換が可能です。返品時の送料はお客様負担となります。交換は色やサイズ、別商品への変更も可能ですが、一度ご返品の上で、再度ご購入いただく流れとなります。</p><p>※返品・交換には条件がございます。詳細は「<a href=\"https://happynocnoc.jp/pages/returns\">返品交換について</a>」をご確認ください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "商品の在庫状況はどこで確認できますか？",
+            "open": false,
+            "content": "<p>在庫があり、購入可能な商品であれば、ご希望のサイズを簡単にお選びいただけます。サイズを選択すると、「カートに入れる」ボタンが表示されます。ただし、現在お取り扱いのないサイズはグレーアウトされます。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "UVカットや撥水加工の有無はどこで確認できますか？",
+            "open": false,
+            "content": "<p>UVカットや撥水加工の有無については、以下の方法でご確認いただけます。</p><ul><li>商品ページ：各商品の詳細ページに、UVカット機能や撥水加工の有無が記載されています。</li><li>商品タグ・ラベル：商品に付属するタグやラベルに、機能性に関する情報が記載されている場合がございます。</li></ul>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h5><strong>商品に関するご質問</strong></h5>",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collapsible_content_Vmw89K": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_Em8yhR": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "注文内容を確認・変更したい場合、どうすれば良いですか？",
+            "open": false,
+            "content": "<p>注文内容の確認は、注文確認メールまたはマイページでご確認いただけます。注文の変更・キャンセルは、発送前であれば対応可能な場合があります。お早めにサイト上のチャットかメール（<a href=\"mailto:support@happynocnoc.jp\">support@happynocnoc.jp</a>）にて、カスタマーサポートまでご連絡ください。</p><p>なお、発送後の変更はできませんので、返品・交換手続きをご利用ください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_TjHnet": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "一度に購入できる数量に制限はありますか？",
+            "open": false,
+            "content": "<p>現在、一度に購入できる数量に制限は設けておりません。</p><p>ただし、大量注文をご希望の場合は、事前にサイト内のチャットもしくはメール(support@happynocnoc.jp)にて、カスタマーサポートまでお問い合わせください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_Em8yhR",
+        "collapsible_tab_TjHnet"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h5><strong>ご購入・ご注文に関するご質問</strong></h5>",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collapsible_content_zQaDqM": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_8Xctfr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "どの支払い方法が利用できますか？",
+            "open": false,
+            "content": "<p>以下のお支払い方法がご利用いただけます。</p><ol><li>クレジットカード（VISA、Master、AMEX、JCB） </li><li>PayPal  </li><li>デジタルギフトカード</li></ol>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_FE7yWR": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "クーポン・デジタルギフトカードの使い方を教えてください。",
+            "open": false,
+            "content": "<ol><li>ご希望の商品をカートに入れていただき、「チェックアウト」ボタンを押してください。</li><li>次の画面にコードの入力欄が表示されています。</li><li>コードの入力欄にクーポンコードもしくはデジタルギフトカードのコードをご入力いただき、右矢印をクリックしてください。</li></ol>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_rhNGF3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "領収書は発行できますか？",
+            "open": false,
+            "content": "<p>恐れ入りますが、弊社からの領収書の発行はいたしかねますので、ご了承くださいますようお願い申し上げます。クレジットカード会社とPaypal社が発行する「利用明細書」を領収書の代わりにご利用ください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_8Xctfr",
+        "collapsible_tab_FE7yWR",
+        "collapsible_tab_rhNGF3"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h5><strong>お支払いに関するご質問</strong></h5>",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collapsible_content_jMgnPL": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_QDjJWh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "配送方法や送料について教えてください。",
+            "open": false,
+            "content": "<p>宅配便でのお届けとなります。送料は、全国一律1,000円、なお、10,000円以上のお買い上げで送料無料となります。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_Frtrz3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "配送日時の指定は可能ですか？",
+            "open": false,
+            "content": "<p>恐れ入りますが、現在、配送日時の指定は対応しておりません。ご注文確定後、通常5〜7営業日以内に発送いたします。</p><p>商品発送後にお送りする「発送通知メール」に記載の配送業者の追跡番号をもとに、直接配送業者へお問い合わせいただくことで、配達日時の調整が可能な場合がございます。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_WntiKa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "商品が届かない場合、どうすれば良いですか？",
+            "open": false,
+            "content": "<p>以下の手順でご確認ください。</p><ol><li>発送状況のご確認：ご注文後にお送りする「発送通知メール」に記載されている配送業者の追跡番号を確認し、配送状況をご確認ください。</li><li>配送業者へのお問い合わせ：追跡番号をご確認のうえ、配送業者へ直接お問い合わせいただくと、詳細な配送状況を確認できる場合がございます。</li></ol><p>上記以外の「発送通知メールが届いていない」「追跡情報が更新されない」または「『配達完了』になっているのに届いていない」といった場合は、お手数ですが、サイト上のチャットもしくはメール（<a href=\"mailto:support@happynocnoc.jp\">support@happynocnoc.jp</a>）より、カスタマーサポートまでご連絡ください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_xfhjcD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "海外への配送は対応していますか？",
+            "open": false,
+            "content": "<p>恐れ入りますが、現在、配送は日本国内のみとなっております。海外への配送には対応しておりませんので、ご了承ください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_QDjJWh",
+        "collapsible_tab_Frtrz3",
+        "collapsible_tab_WntiKa",
+        "collapsible_tab_xfhjcD"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h5><strong>配送に関するご質問</strong></h5>",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collapsible_content_pJhB49": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_anxHcz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "商品の返品・交換ポリシーを教えてください。",
+            "open": false,
+            "content": "<p>【返品・交換が可能な場合】<br/>以下の条件を満たす場合、返品・交換が可能です。</p><ul><li>お客様ご都合による返品・交換（サイズが合わない、イメージと違うなど）：商品到着後14日以内にカスタマーサポートへご連絡ください。返品時の送料はお客様負担となります。</li><li>商品に不具合があった場合（破損・汚損・誤配送など）：大変恐れ入りますが、速やかにカスタマーサポートへご連絡ください。返品・交換の送料は当社負担となります。</li></ul><p>【返品・交換の条件】<br/>未使用品で、タグや付属品がすべて揃っており、元のパッケージに入っている状態に限ります。以下の商品は返品・交換対象外となります。</p><ul><li>使用済み、洗濯済み、または加工・調整された商品</li><li>タグや靴箱などの付属品を破棄された商品</li><li>カスタマーサービスの指示に従っていない商品</li><li>デジタルギフトカード (ギフトカードを使って購入された商品につきましては、条件を満たしている際に限り返品・交換が可能です。)</li></ul><p>詳細なお手続きにつきましては、「<a href=\"https://happynocnoc.jp/pages/returns\" target=\"_blank\" title=\"https://happynocnoc.jp/pages/returns\">返品交換について</a>」をご覧ください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_MaCkLW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "返品時の送料はどうなりますか？",
+            "open": false,
+            "content": "<p>商品に瑕疵、品違い、その他の不具合があった場合、または商品配送中に破損が生じた場合、返送料は弊社負担となります。商品写真を添付し、カスタマーサポートまでお申し出ください。</p><p>「商品に不具合・不備がある」、「注文と異なる商品が届いた」などの原因以外のご返品は、「お客様ご都合によるご返品」とみなされます。お客様ご都合による返品の場合、ご返送時の送料はお客様負担となります。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_JcKwzn": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "セール商品や限定商品は返品・交換できますか？",
+            "open": false,
+            "content": "<p>セール商品や限定商品につきましても返品・交換を承っております。詳しくは 「<a href=\"https://happynocnoc.jp/pages/returns\" target=\"_blank\" title=\"https://happynocnoc.jp/pages/returns\">返品交換について</a>」をご覧ください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_anxHcz",
+        "collapsible_tab_MaCkLW",
+        "collapsible_tab_JcKwzn"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h5><strong>返品・交換に関するご質問</strong></h5>",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collapsible_content_LqHpt7": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_dCcKxz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "会員情報の確認・変更はどこで行えますか？",
+            "open": false,
+            "content": "<p>ご登録情報の確認・変更は、公式オンラインストアの「アカウント」から行えます。変更の際は、ログイン後、住所・電話番号・メールアドレス・パスワードなどを編集し、保存してください。</p><p>※注文確定後の配送先変更は、発送前のみ対応可能です。情報の変更希望の場合は、サイト上のチャットもしくはメール(support@happynocnoc.jp)にて、カスタマーサポートまでご連絡ください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_3U67WV": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "パスワードを忘れた場合の対処方法を教えてください。",
+            "open": false,
+            "content": "<p>パスワードをお忘れの場合は、ログインページの「パスワードをお忘れですか？」をクリックし、登録メールアドレスで再設定してください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_dCcKxz",
+        "collapsible_tab_3U67WV"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h5><strong>会員情報に関するご質問</strong></h5>",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collapsible_content_pD7Vz4": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_i7JMr4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "ギフトラッピングサービスはありますか？",
+            "open": false,
+            "content": "<p>大変恐れ入りますが、現在ギフトラッピングサービスは承っておりません。あらかじめご了承ください。</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_i7JMr4"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h5><strong>その他のご質問</strong></h5>",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "16618629918566dc27",
+    "spacer_NP8FmL",
+    "faq",
+    "collapsible_content_Vmw89K",
+    "collapsible_content_zQaDqM",
+    "collapsible_content_jMgnPL",
+    "collapsible_content_pJhB49",
+    "collapsible_content_LqHpt7",
+    "collapsible_content_pD7Vz4"
+  ]
+}
