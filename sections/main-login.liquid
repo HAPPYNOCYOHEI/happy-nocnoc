@@ -58,8 +58,10 @@
       </div>
       <div class="thb-login-form" id="login">
         {% form 'customer_login', novalidate: 'novalidate' %}
+          {% comment %}
           <h4>{{ 'customer.login_page.login' | t }}</h4>
           <p>{{ 'customer.login_page.login_description' | t }}</p>
+          {% endcomment %}
           {%- if recover_success == true -%}
             <div class="form-notification">
               {% render 'svg-icons' with 'thb-success' %}
