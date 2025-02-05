@@ -1,0 +1,155 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shop_the_look_RqYA8G": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_rGNGFV": {
+          "type": "product",
+          "settings": {
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
+        },
+        "product_axTdiT": {
+          "type": "product",
+          "settings": {
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
+        }
+      },
+      "block_order": [
+        "product_rGNGFV",
+        "product_axTdiT"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "shop_the_look_K3mMCD": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_RGQPLT": {
+          "type": "product",
+          "settings": {
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
+        },
+        "product_pL9Cbp": {
+          "type": "product",
+          "settings": {
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
+        }
+      },
+      "block_order": [
+        "product_RGQPLT",
+        "product_pL9Cbp"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "shop_the_look_VYWzaM": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_9bTHge": {
+          "type": "product",
+          "settings": {
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
+        },
+        "product_DCmEhL": {
+          "type": "product",
+          "settings": {
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
+        }
+      },
+      "block_order": [
+        "product_9bTHge",
+        "product_DCmEhL"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "shop_the_look_kqrLVT": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_M4iBHx": {
+          "type": "product",
+          "settings": {
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
+        },
+        "product_aCzGMV": {
+          "type": "product",
+          "settings": {
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
+        }
+      },
+      "block_order": [
+        "product_M4iBHx",
+        "product_aCzGMV"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "shop_the_look_RqYA8G",
+    "shop_the_look_K3mMCD",
+    "shop_the_look_VYWzaM",
+    "shop_the_look_kqrLVT"
+  ]
+}
