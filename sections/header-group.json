@@ -64,10 +64,18 @@
         "mobile_promo_link_label": "",
         "mobile_promo_link": ""
       }
+    },
+    "custom_liquid_EwXWMD": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\">\nvar _learnq = _learnq || [];\n  var classname = document.getElementsByClassName(\"add-to-cart\");\nvar addToCart = function() {\n_learnq.push(['track', 'Added to Cart', item]);\n}; for (var i = 0; i < classname.length; i++) {\nclassname[i].addEventListener('click', addToCart, false);\n}\n</script>",
+        "section_width": "full-width-row-full"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "custom_liquid_EwXWMD"
   ]
 }
