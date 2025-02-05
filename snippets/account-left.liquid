@@ -40,13 +40,11 @@
         <span class="text-button">{{ 'customer.account.log_out' | t }}</span>
       </a>
     </div>
-    {% comment %}
       <div class="line">
         <!-- CRM PLUS on LINEエラーバナー -->
         {% render 'socialplus-error-banner' %}
         <!-- CRM PLUS on LINE連携バナー -->
         {% render 'socialplus-association', providers: 'line' %}
       </div>
-    {% endcomment %}
   </div>
 </div>
