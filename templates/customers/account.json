@@ -1,1 +1,45 @@
-{"sections":{"main-account":{"type":"main-account","settings":{}}},"order":["main-account"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-account": {
+      "type": "main-account",
+      "settings": {}
+    },
+    "1738721696ada60b50": {
+      "type": "apps",
+      "blocks": {
+        "crm_plus_on_line_association_3xQTDG": {
+          "type": "shopify://apps/crm-plus-on-line/blocks/association/dfcb190e-14c5-48cb-b5be-c67ed2b16b21",
+          "settings": {
+            "line": true,
+            "apple": false,
+            "yahoo": false,
+            "google": false,
+            "facebook": false,
+            "twitter": false
+          }
+        }
+      },
+      "block_order": [
+        "crm_plus_on_line_association_3xQTDG"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main-account",
+    "1738721696ada60b50"
+  ]
+}

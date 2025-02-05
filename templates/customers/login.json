@@ -1,1 +1,23 @@
-{"sections":{"main-login":{"type":"main-login","custom_css":[".thb-form-container {padding-top: 0; padding-bottom: 0; margin-top: 10px; margin-bottom: 100px;}"],"settings":{"enable_shop_login_button":true}}},"order":["main-login"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-login": {
+      "type": "main-login",
+      "custom_css": [
+        ".thb-form-container {padding-top: 0; padding-bottom: 0; margin-top: 10px; margin-bottom: 100px;}"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main-login"
+  ]
+}
