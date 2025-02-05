@@ -310,7 +310,7 @@
       "login_description": "メールアドレスでログインはこちら",
       "create_account": "新規登録はこちら",
       "create_account_title": "アカウント登録",
-      "create_account_description": "すでにアカウントをお持ちの場合は、該当のアカウントでログインを行ってください。",
+      "create_account_description": "",
       "email": "メールアドレス",
       "forgot_password": "パスワードをお忘れですか？",
       "dont_have_an_account": "",
