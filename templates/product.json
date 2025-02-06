@@ -70,6 +70,14 @@
             "show_gift_card_recipient": false
           }
         },
+        "image_VXHWhk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_168530684_1_e34f2397-9fbc-4bba-94b8-fc1de924f0cf.jpg",
+            "position": "text-left",
+            "image_link": ""
+          }
+        },
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
           "settings": {
@@ -107,6 +115,7 @@
         "variant_picker",
         "inventory_level_Jy4Ynh",
         "buy_buttons",
+        "image_VXHWhk",
         "0b3e272b-c86a-4dba-946c-c6912251371c",
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
