@@ -16,8 +16,9 @@
       "blocks": {
         "56d4ccfa-a515-4c26-9e64-c26ec5eea8d2": {
           "type": "signup",
+          "disabled": true,
           "settings": {
-            "column_size": "medium",
+            "column_size": "large",
             "title": "",
             "text": "<p>メールアドレスを入力して最新情報をゲット！</p>"
           }
