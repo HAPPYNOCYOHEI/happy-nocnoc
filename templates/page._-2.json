@@ -111,6 +111,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/1_d22d2895-bb38-4176-8160-f304b007f965.jpg",
+        "image_mobile": "shopify://shop_images/1_d22d2895-bb38-4176-8160-f304b007f965.jpg",
         "section_width": "grid",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
@@ -128,10 +129,21 @@
             "x_position_mobile": 20,
             "y_position_mobile": 20
           }
+        },
+        "product_Dzj3tq": {
+          "type": "product",
+          "settings": {
+            "product_handle": "kids-noc-all-weather-windproof-jacket",
+            "x_position": 47,
+            "y_position": 33,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
         }
       },
       "block_order": [
-        "product_9bTHge"
+        "product_9bTHge",
+        "product_Dzj3tq"
       ],
       "settings": {
         "image": "shopify://shop_images/1_68eb348c-f9f9-45a8-84fc-f043d5d84e54.jpg",
