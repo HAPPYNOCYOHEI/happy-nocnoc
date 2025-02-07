@@ -22,7 +22,7 @@
         "text_9XVPii": {
           "type": "text",
           "settings": {
-            "text": "<p>NOCコーデで、家族のお出かけを楽しもう！</p>",
+            "text": "<p>NOCコーデで、二人の絆を深めよう！</p>",
             "custom_liquid": "",
             "size": "text-size-small"
           }
@@ -37,7 +37,7 @@
         "text_width": "medium",
         "text_position": "center",
         "text_alignment": "center",
-        "color_bg": "transparent",
+        "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
         "disable_top_spacing": false,
@@ -50,7 +50,7 @@
         "lookfy_gallery_lookfy_gallery_hFiiiG": {
           "type": "shopify://apps/lookfy-gallery/blocks/lookfy-gallery/596af5f6-9933-4730-95c2-f7d8d52a0c3e",
           "settings": {
-            "gallery_id": 19665,
+            "gallery_id": 19673,
             "dynamic_source": "",
             "title": "",
             "subtitle": "",
