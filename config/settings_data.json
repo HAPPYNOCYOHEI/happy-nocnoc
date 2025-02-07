@@ -236,6 +236,13 @@
           "message": "",
           "bannerPosition": "right-bottom"
         }
+      },
+      "12853090937405836128": {
+        "type": "shopify://apps/ptengine/blocks/pt_setting/0be3e440-028b-471c-b77d-85ef98ba4059",
+        "disabled": false,
+        "settings": {
+          "custom_js": "<!-- Ptengine Tag -->\n<script src=\"https://devjs.ptengine.com/12udwppq.js\">\n</script>\n<!-- End Ptengine Tag -->"
+        }
       }
     }
   },
