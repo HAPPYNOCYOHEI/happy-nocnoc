@@ -285,7 +285,6 @@
         "product_f4q3TR"
       ],
       "settings": {
-        "image": "shopify://shop_images/KN1_1.jpg",
         "section_width": "full-width-row-full",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
@@ -305,6 +304,7 @@
       "blocks": {
         "xo_gallery_xo_gallery_QfedRm": {
           "type": "shopify://apps/xo-gallery/blocks/xo-gallery/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "disabled": true,
           "settings": {
             "type": "gallery",
             "id": 1,
@@ -313,7 +313,6 @@
         },
         "lookfy_gallery_lookfy_gallery_MhnYFc": {
           "type": "shopify://apps/lookfy-gallery/blocks/lookfy-gallery/596af5f6-9933-4730-95c2-f7d8d52a0c3e",
-          "disabled": true,
           "settings": {
             "gallery_id": 19412,
             "dynamic_source": "",
