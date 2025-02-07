@@ -15,14 +15,14 @@
         "heading_Pa39eX": {
           "type": "heading",
           "settings": {
-            "text": "特集ページ",
+            "text": "MAMA&KIDS",
             "size": "h2"
           }
         },
         "text_9XVPii": {
           "type": "text",
           "settings": {
-            "text": "<p>NOCコーデで、二人の絆を深めよう！</p>",
+            "text": "<p>　NOCコーデで親子の思い出を</p><p>より鮮明に</p><p>より特別に</p>",
             "custom_liquid": "",
             "size": "text-size-small"
           }
@@ -50,7 +50,7 @@
         "lookfy_gallery_lookfy_gallery_hFiiiG": {
           "type": "shopify://apps/lookfy-gallery/blocks/lookfy-gallery/596af5f6-9933-4730-95c2-f7d8d52a0c3e",
           "settings": {
-            "gallery_id": 19673,
+            "gallery_id": 19674,
             "dynamic_source": "",
             "title": "",
             "subtitle": "",
@@ -71,7 +71,7 @@
       "settings": {
         "section_width": "full-width-row",
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     }
   },
