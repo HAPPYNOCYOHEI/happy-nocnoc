@@ -12,24 +12,16 @@
     "rich_text_AmVcnm": {
       "type": "rich-text",
       "blocks": {
-        "subheading_McGFFn": {
-          "type": "subheading",
+        "heading_wgbjWf": {
+          "type": "heading",
           "settings": {
-            "text": "Subheading for this section"
-          }
-        },
-        "text_LpR3Uk": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-            "custom_liquid": "",
-            "size": "text-size-regular"
+            "text": "Talk about your brand",
+            "size": "h3"
           }
         }
       },
       "block_order": [
-        "subheading_McGFFn",
-        "text_LpR3Uk"
+        "heading_wgbjWf"
       ],
       "custom_css": [
         "/* spacing */table {table-layout: fixed; width: 100%; border-collapse: collapse; border: 3px solid purple;}",
@@ -54,7 +46,7 @@
     "custom_liquid_JYcmpm": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<table border=\"1\" cellpadding=\"10\" cellspacing=\"0\">\n  <thead>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n  </thead>\n  <tbody>\n    {% for product in products %}\n      <tr>\n        <td>{{ product.name }}</td>\n        <td>{{ product.price }}</td>\n        <td>{{ product.stock }}</td>\n      </tr>\n    {% endfor %}\n  </tbody>\n</table>",
+        "custom_liquid": "<table border=\"1\" cellpadding=\"10\" cellspacing=\"0\">\n  <thead>\n    <tr>\n      <th width=\"200\">Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n  </thead>\n  <tbody>\n    {% for product in products %}\n      <tr>\n        <td>{{ product.name }}</td>\n        <td>{{ product.price }}</td>\n        <td>{{ product.stock }}</td>\n      </tr>\n    {% endfor %}\n  </tbody>\n</table>",
         "section_width": "full-width-row"
       }
     }
