@@ -154,6 +154,7 @@
         },
         "column_DCJKVz": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/a0e0fb9a863d1672e01f75aae7fc0c12.jpg",
             "image_full_width": false,
@@ -180,7 +181,7 @@
         "full_width": true,
         "display_type": "carousel",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "text_alignment": "left",
         "heading_size": "h6",
         "mobile_swipe": true,
