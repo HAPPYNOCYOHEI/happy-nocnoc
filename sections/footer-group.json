@@ -88,7 +88,7 @@
         "copyright_text": "",
         "show_language_switcher": false,
         "show_currency_switcher": false,
-        "show_payment_icons": true,
+        "show_payment_icons": false,
         "enable_follow_on_shop": false
       }
     }
