@@ -285,7 +285,9 @@
         "product_FBcjQh",
         "product_f4q3TR"
       ],
+      "disabled": true,
       "settings": {
+        "image": "shopify://shop_images/1_9b5ec6a5-d9ea-4653-bdf0-000ede4ff63d.jpg",
         "section_width": "full-width-row-full",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
