@@ -54,7 +54,7 @@
         "logo_height_range_mobile": 30,
         "style": "style1",
         "header_shadow": "header--shadow-small",
-        "menu": "main-menu",
+        "menu": "",
         "transparent_header": true,
         "logo_light": "shopify://shop_images/2.png",
         "show_language_switcher": false,
