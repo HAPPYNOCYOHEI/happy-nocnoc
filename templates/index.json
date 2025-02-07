@@ -228,6 +228,7 @@
     },
     "1662389920b1295ea2": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "spacer_mobile": 20,
         "spacer_desktop": 40,
