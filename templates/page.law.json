@@ -15,7 +15,7 @@
         "heading_wgbjWf": {
           "type": "heading",
           "settings": {
-            "text": "Talk about your brand",
+            "text": " 特定商取引法に基づく表示",
             "size": "h3"
           }
         }
@@ -37,16 +37,16 @@
         "text_position": "center",
         "text_alignment": "center",
         "color_bg": "transparent",
-        "color_text": "#151515",
-        "color_links": "#151515",
+        "color_text": "#191817",
+        "color_links": "#191817",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "custom_liquid_JYcmpm": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<table border=\"1\" cellpadding=\"10\" cellspacing=\"0\">\n  <thead>\n    <tr>\n      <th width=\"200\">Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n  </thead>\n  <tbody>\n    {% for product in products %}\n      <tr>\n        <td>{{ product.name }}</td>\n        <td>{{ product.price }}</td>\n        <td>{{ product.stock }}</td>\n      </tr>\n    {% endfor %}\n  </tbody>\n</table>",
+        "custom_liquid": "<table border=\"1\" cellpadding=\"10\" cellspacing=\"0\">\n  <thead>\n    <tr>\n      <th width=\"200\">事業者\n名称</th>\n      <th>Price</th>\n    </tr>\n      <th>運営\n責任者</th>\n      <th>Price</th>\n    <tr>\n      <th>業務範囲</th>\n      <th>Price</th>\n    </tr>\n      <th>電話番号</th>\n      <th>Price</th>\n    <tr>\n      <th>連絡先</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n    <tr>\n      <th>Product Name</th>\n      <th>Price</th>\n    </tr>\n      <th>Price</th>\n      <th>Price</th>\n  </thead>\n  <tbody>\n    {% for product in products %}\n      <tr>\n        <td>{{ product.name }}</td>\n        <td>{{ product.price }}</td>\n        <td>{{ product.stock }}</td>\n      </tr>\n    {% endfor %}\n  </tbody>\n</table>",
         "section_width": "full-width-row"
       }
     }
