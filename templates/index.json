@@ -15,8 +15,8 @@
         "164794776393e76b8e-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/KV1_96cc9995-9917-472e-88d4-f5f3574b3108.png",
-            "mobile_image": "shopify://shop_images/KV1mb_682ddc3e-7a21-45f1-9829-fc5def827404.png",
+            "image": "shopify://shop_images/KV1_03297380-43b7-4820-9c15-64d37d6e6887.png",
+            "mobile_image": "shopify://shop_images/KV1mb_273a7f42-22cd-46bb-b759-abb9297ff80c.png",
             "slide_link": "",
             "video_background": false,
             "video": "",
@@ -58,9 +58,9 @@
             "overlay_color": "#191817",
             "overlay_opacity": 0,
             "overlay_gradient": "",
-            "button_1_text": "ああああ",
-            "button_1_link": "shopify://collections/noc-shine-series",
-            "button_1_outline": true,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
             "button_2_outline": false
