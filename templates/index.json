@@ -185,7 +185,7 @@
         "text_alignment": "left",
         "heading_size": "h6",
         "mobile_swipe": true,
-        "show_progress_bar": true,
+        "show_progress_bar": false,
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
@@ -203,9 +203,9 @@
         "columns_desktop": 4,
         "show_view_all": true,
         "mobile_swipe": true,
-        "show_progress_bar": true,
+        "show_progress_bar": false,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "featured_collection_d4KjV7": {
@@ -222,17 +222,8 @@
         "show_view_all": true,
         "mobile_swipe": true,
         "show_progress_bar": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "spacer_BAicWY": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 50,
-        "spacer_desktop": 100,
-        "border_separator": true,
-        "border_separator_full": false
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "1662389920b1295ea2": {
@@ -327,7 +318,7 @@
             "desc_style": "subtitle",
             "custom_class": "",
             "background_color": "",
-            "padding_top": 36,
+            "padding_top": 0,
             "padding_bottom": 20,
             "padding_left_right": 52
           }
@@ -424,7 +415,6 @@
     "multicolumn_ghhF6c",
     "166366563622039b3e",
     "featured_collection_d4KjV7",
-    "spacer_BAicWY",
     "1662389920b1295ea2",
     "shop_the_look_3VAJVb",
     "173831911460691f89",
