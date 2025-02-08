@@ -399,15 +399,6 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
-    },
-    "spacer_h34YPX": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 20,
-        "spacer_desktop": 100,
-        "border_separator": false,
-        "border_separator_full": false
-      }
     }
   },
   "order": [
@@ -418,7 +409,6 @@
     "1662389920b1295ea2",
     "shop_the_look_3VAJVb",
     "173831911460691f89",
-    "gallery_YpktCz",
-    "spacer_h34YPX"
+    "gallery_YpktCz"
   ]
 }
