@@ -58,9 +58,9 @@
             "overlay_color": "#191817",
             "overlay_opacity": 0,
             "overlay_gradient": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
+            "button_1_text": "ああああ",
+            "button_1_link": "shopify://collections/noc-shine-series",
+            "button_1_outline": true,
             "button_2_text": "",
             "button_2_link": "",
             "button_2_outline": false
@@ -311,7 +311,7 @@
           "settings": {
             "gallery_id": 19412,
             "dynamic_source": "",
-            "title": "NOC ギャラリー",
+            "title": "<strong>NOC ギャラリー</strong>",
             "subtitle": "",
             "heading_size": "0.8",
             "heading_align": "left",
