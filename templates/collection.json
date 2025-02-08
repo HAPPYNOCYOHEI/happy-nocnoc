@@ -26,6 +26,7 @@
       "blocks": {
         "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "",
             "promotion_position": 7,
@@ -51,8 +52,8 @@
         "products_per_page": 12,
         "columns_desktop": 4,
         "pagination_type": "paginated",
-        "enable_filtering": true,
-        "enable_sorting": true,
+        "enable_filtering": false,
+        "enable_sorting": false,
         "show_counts": true,
         "filter_color_swatches": true,
         "facets_desktop": "drawer"
