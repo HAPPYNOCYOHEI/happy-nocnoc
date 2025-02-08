@@ -393,7 +393,7 @@
         "content_position": "bottom-left",
         "text_alignment": "center",
         "column_spacing": "large",
-        "heading_size": "h2",
+        "heading_size": "h3",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "disable_top_spacing": true,
