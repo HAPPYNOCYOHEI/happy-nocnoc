@@ -45,8 +45,8 @@
             "color_picker_use_variants": true,
             "variant_is_disabled": true,
             "sizing_guide_variant": "サイズ",
-            "sizing_guide_text": "サイズガイド",
-            "sizing_guide_icon": "ruler",
+            "sizing_guide_text": "",
+            "sizing_guide_icon": "none",
             "sizing_guide_page": ""
           }
         },
