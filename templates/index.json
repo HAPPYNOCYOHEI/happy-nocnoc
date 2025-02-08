@@ -126,6 +126,19 @@
             "link": ""
           }
         },
+        "column_wLaKUD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/506c5f5f-632b-46c1-81e4-9f606d64d54f.jpg",
+            "image_full_width": false,
+            "image_link": "",
+            "retina": true,
+            "title": "兄弟",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_Dx9XFJ": {
           "type": "column",
           "settings": {
@@ -134,19 +147,6 @@
             "image_link": "",
             "retina": true,
             "title": "友だち",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_wLaKUD": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/506c5f5f-632b-46c1-81e4-9f606d64d54f.jpg",
-            "image_full_width": false,
-            "image_link": "",
-            "retina": true,
-            "title": "兄弟姉妹",
             "text": "",
             "link_label": "",
             "link": ""
@@ -169,8 +169,8 @@
       },
       "block_order": [
         "column_etWRyq",
-        "column_Dx9XFJ",
         "column_wLaKUD",
+        "column_Dx9XFJ",
         "column_DCJKVz"
       ],
       "custom_css": [],
