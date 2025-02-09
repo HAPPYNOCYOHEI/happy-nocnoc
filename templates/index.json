@@ -99,7 +99,9 @@
         "164794776393e76b8e-0",
         "164794776393e76b8e-1"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "/* 例：3枚目のスライド内のボタンのみを下にずらす */.slideshow__slide:nth-of-type(3) a.button{transform: translate(0, calc(100% + 20px)) !important;}"
+      ],
       "settings": {
         "desktop_height": "desktop-height-image",
         "mobile_height": "mobile-height-500",
