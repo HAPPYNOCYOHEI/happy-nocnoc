@@ -100,7 +100,7 @@
         "164794776393e76b8e-1"
       ],
       "custom_css": [
-        "a{margin-top:90px;}"
+        "a {margin-top: 100px;}"
       ],
       "settings": {
         "desktop_height": "desktop-height-image",
