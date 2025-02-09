@@ -58,7 +58,7 @@
             "overlay_color": "#191817",
             "overlay_opacity": 0,
             "overlay_gradient": "",
-            "button_1_text": "もっと見る",
+            "button_1_text": "NOC-SHINEシリーズ",
             "button_1_link": "shopify://collections/noc-shine-series",
             "button_1_outline": false,
             "button_2_text": "",
@@ -98,6 +98,9 @@
         "164794776393e76b8e-2",
         "164794776393e76b8e-0",
         "164794776393e76b8e-1"
+      ],
+      "custom_css": [
+        "a.button{margin-top:30px;}"
       ],
       "settings": {
         "desktop_height": "desktop-height-image",
