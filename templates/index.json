@@ -100,8 +100,8 @@
         "164794776393e76b8e-1"
       ],
       "custom_css": [
-        "/* PCの場合：画面幅が1024px以上の場合 */@media screen and (min-width: 1024px) {a{margin-top: 120px !important; }}",
-        "/* モバイルの場合：画面幅が1023px以下の場合 */@media screen and (max-width: 1023px) {a{margin-top: 70px !important; }}"
+        "/* PCの場合：画面幅が1024px以上の場合 */@media screen and (min-width: 1024px) {a {margin-top: 120px; }}",
+        " /* モバイルの場合：画面幅が1023px以下の場合 */@media screen and (max-width: 1023px) {a {margin-top: 70px; }}"
       ],
       "settings": {
         "desktop_height": "desktop-height-image",
