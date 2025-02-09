@@ -100,8 +100,8 @@
         "164794776393e76b8e-1"
       ],
       "custom_css": [
-        "/* PC用のデフォルトスタイル */a {margin-top: 120px;}",
-        " /* 画面幅が768px以下の場合（モバイル用） */@media screen and (max-width: 768px) {a {margin-top: 40px; }}"
+        "/* 画面幅が768px以下の場合（モバイル用） */@media screen and (max-width: 768px) {a {margin-top: 40px; }}",
+        "/* PC用のデフォルトスタイル */a {margin-top: 120px;}"
       ],
       "settings": {
         "desktop_height": "desktop-height-image",
