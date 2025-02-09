@@ -21,20 +21,12 @@
             "text": "定番商品はこちら",
             "link": "shopify://collections/noc-noc-fly"
           }
-        },
-        "5b1ab378-833d-4a94-a02e-8325ec1551d0": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "定番商品はこちら",
-            "link": "shopify://collections/noc-noc-fly"
-          }
         }
       },
       "block_order": [
-        "text_FzKwc6",
-        "5b1ab378-833d-4a94-a02e-8325ec1551d0"
+        "text_FzKwc6"
       ],
+      "disabled": true,
       "settings": {
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
