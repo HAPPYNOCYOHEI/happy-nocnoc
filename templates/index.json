@@ -12,33 +12,6 @@
     "16479477632637c9a7": {
       "type": "slideshow",
       "blocks": {
-        "164794776393e76b8e-2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/KV1_b38ce641-5783-4fe5-b314-fd56982c757e.png",
-            "mobile_image": "shopify://shop_images/KV1mb_273a7f42-22cd-46bb-b759-abb9297ff80c.png",
-            "slide_link": "",
-            "video_background": false,
-            "video": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "large",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "overlay_gradient": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
         "164794776393e76b8e-0": {
           "type": "slide",
           "settings": {
@@ -60,6 +33,33 @@
             "overlay_gradient": "",
             "button_1_text": "NOC-SHINEシリーズ",
             "button_1_link": "shopify://collections/noc-shine-series",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "164794776393e76b8e-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/KV1_b38ce641-5783-4fe5-b314-fd56982c757e.png",
+            "mobile_image": "shopify://shop_images/KV1mb_273a7f42-22cd-46bb-b759-abb9297ff80c.png",
+            "slide_link": "",
+            "video_background": false,
+            "video": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "large",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "",
             "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
@@ -95,11 +95,13 @@
         }
       },
       "block_order": [
-        "164794776393e76b8e-2",
         "164794776393e76b8e-0",
+        "164794776393e76b8e-2",
         "164794776393e76b8e-1"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "a{margin-top:90px;}"
+      ],
       "settings": {
         "desktop_height": "desktop-height-image",
         "mobile_height": "mobile-height-500",
