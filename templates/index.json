@@ -12,33 +12,6 @@
     "16479477632637c9a7": {
       "type": "slideshow",
       "blocks": {
-        "164794776393e76b8e-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/KV2.png",
-            "mobile_image": "shopify://shop_images/KV2mb_a062c2a1-3a8a-4449-a91a-1d3fb0f6d4ba.png",
-            "slide_link": "shopify://collections/noc-shine-series",
-            "video_background": false,
-            "video": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-large",
-            "content": "",
-            "description_size": "small",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#191817",
-            "overlay_opacity": 0,
-            "overlay_gradient": "",
-            "button_1_text": "NOC-SHINEシリーズ",
-            "button_1_link": "shopify://collections/noc-shine-series",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
         "164794776393e76b8e-2": {
           "type": "slide",
           "settings": {
@@ -60,6 +33,33 @@
             "overlay_gradient": "",
             "button_1_text": "",
             "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "164794776393e76b8e-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/KV2.png",
+            "mobile_image": "shopify://shop_images/KV2mb_a062c2a1-3a8a-4449-a91a-1d3fb0f6d4ba.png",
+            "slide_link": "shopify://collections/noc-shine-series",
+            "video_background": false,
+            "video": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-large",
+            "content": "",
+            "description_size": "small",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#191817",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "NOC-SHINEシリーズ",
+            "button_1_link": "shopify://collections/noc-shine-series",
             "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
@@ -95,8 +95,8 @@
         }
       },
       "block_order": [
-        "164794776393e76b8e-0",
         "164794776393e76b8e-2",
+        "164794776393e76b8e-0",
         "164794776393e76b8e-1"
       ],
       "custom_css": [
