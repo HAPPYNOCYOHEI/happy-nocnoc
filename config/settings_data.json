@@ -229,14 +229,6 @@
         "disabled": false,
         "settings": {}
       },
-      "17283525856706501396": {
-        "type": "shopify://apps/crm-plus-on-line/blocks/associate-id-banner/dfcb190e-14c5-48cb-b5be-c67ed2b16b21",
-        "disabled": false,
-        "settings": {
-          "message": "",
-          "bannerPosition": "right-bottom"
-        }
-      },
       "12853090937405836128": {
         "type": "shopify://apps/ptengine/blocks/pt_setting/0be3e440-028b-471c-b77d-85ef98ba4059",
         "disabled": true,
@@ -248,6 +240,14 @@
         "type": "shopify://apps/lookfy-gallery/blocks/app-embed/596af5f6-9933-4730-95c2-f7d8d52a0c3e",
         "disabled": false,
         "settings": {}
+      },
+      "17283525856706501396": {
+        "type": "shopify://apps/crm-plus-on-line/blocks/associate-id-banner/dfcb190e-14c5-48cb-b5be-c67ed2b16b21",
+        "disabled": true,
+        "settings": {
+          "message": "",
+          "bannerPosition": "right-bottom"
+        }
       }
     }
   },
