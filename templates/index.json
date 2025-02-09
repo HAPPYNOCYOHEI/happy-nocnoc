@@ -101,7 +101,7 @@
       ],
       "custom_css": [
         "/* 画面幅が768px以下の場合（モバイル用） */@media screen and (max-width: 768px) {a {margin-top: 40px; }}",
-        "/* PC用のデフォルトスタイル */a {margin-top: 120px;}"
+        " /* PC用のデフォルトスタイル */a {margin-top: 120px;}"
       ],
       "settings": {
         "desktop_height": "desktop-height-image",
@@ -122,7 +122,7 @@
           "settings": {
             "image": "shopify://shop_images/27559bd2-d49a-4005-af91-c211f3face2f.jpg",
             "image_full_width": false,
-            "image_link": "",
+            "image_link": "shopify://pages/feature_page_parents_and_children",
             "retina": true,
             "title": "親子",
             "text": "",
@@ -135,7 +135,7 @@
           "settings": {
             "image": "shopify://shop_images/506c5f5f-632b-46c1-81e4-9f606d64d54f.jpg",
             "image_full_width": false,
-            "image_link": "",
+            "image_link": "shopify://pages/linkcode-brother",
             "retina": true,
             "title": "兄弟",
             "text": "",
@@ -148,7 +148,7 @@
           "settings": {
             "image": "shopify://shop_images/ec121b70-b4dc-43a7-8569-b85b245fd73c.jpg",
             "image_full_width": false,
-            "image_link": "",
+            "image_link": "shopify://pages/linkcode_friend",
             "retina": true,
             "title": "友だち",
             "text": "",
