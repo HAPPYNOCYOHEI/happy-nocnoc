@@ -100,7 +100,7 @@
         "164794776393e76b8e-1"
       ],
       "custom_css": [
-        "/* Slick Slider の場合：data-slick-index 属性で 3枚目（index=\"2\"）を指定 */.slick-slide[data-slick-index=\"2\"] a.button{/* もともとインラインで transform: translate(0px, 100%) が設定されているので、 translateY(100%) にさらに translateY(20px) を連結して合算（＝下に20px追加）します */ transform: translateY(100%) translateY(20px) !important;}"
+        "/* Swiper を利用している場合（3枚目のスライドを nth-child で指定） */.swiper-slide:nth-child(3) a.button {transform: translateY(100%) translateY(20px) !important;}"
       ],
       "settings": {
         "desktop_height": "desktop-height-image",
