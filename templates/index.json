@@ -100,7 +100,7 @@
         "164794776393e76b8e-1"
       ],
       "custom_css": [
-        "/* 例：3枚目のスライド内のボタンのみを下にずらす */.slideshow__slide:nth-of-type(2) a.button {transform: translate(0, calc(100% + 50px)) ;}"
+        "/* 3枚目のスライド内のボタンの位置をさらに下に20pxずらす例 */.swiper-slide:nth-child(3) a.button{transform: translate(0, calc(100% + 20px)) !important;}"
       ],
       "settings": {
         "desktop_height": "desktop-height-image",
