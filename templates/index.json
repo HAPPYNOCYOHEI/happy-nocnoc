@@ -99,9 +99,7 @@
         "164794776393e76b8e-0",
         "164794776393e76b8e-1"
       ],
-      "custom_css": [
-        "/* bodyから始めることでセレクタの詳細度を上げています */body a.button[href=\"/collections/noc-shine-series\"] {/* 元々の transform: translate(0px, 100%); に加えて20px下へ移動 */ transform: translateY(calc(100% + 20px)) !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_height": "desktop-height-image",
         "mobile_height": "mobile-height-500",
