@@ -99,7 +99,9 @@
         "164794776393e76b8e-0",
         "164794776393e76b8e-1"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".button {margin-top: 30px; /* 必要に応じてピクセル数を調整してください */}"
+      ],
       "settings": {
         "desktop_height": "desktop-height-image",
         "mobile_height": "mobile-height-500",
