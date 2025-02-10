@@ -117,7 +117,7 @@
         "sale_price": "セール価格",
         "unit_price": "単価"
       },
-      "include_taxes": "税込み",
+      "include_taxes": "税込",
       "reviews": {
         "one": "{{ count }}件のレビュー",
         "other": "{{ count }}件のレビュー"
@@ -126,7 +126,7 @@
         "one": "{{ count }}色で利用可能",
         "other": "{{ count }}色で利用可能"
       },
-      "shipping_policy_html": "<a href=\"{{ link }}\">チェックアウト時に</a> 送料が計算されます。.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">チェックアウト時に</a> 送料が計算されます。",
       "quantity": {
         "label": "数量",
         "input_label": "{{ product }}の数量",
