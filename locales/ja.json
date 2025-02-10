@@ -109,7 +109,7 @@
       "choose_options": "オプションを選択",
       "sold_out": "在庫なし",
       "save_html": "{{ saved_amount }}OFF",
-      "unavailable": "ご利用いただけません",
+      "unavailable": "在庫なし",
       "pre_order": "予約注文",
       "price": {
         "from_price_html": "<span class=\"from\">   <span style=\"font-size: 1.2em; font-weight: bold;\">{{ price }}</span>   <span style=\"font-size: 0.8em;\">から</span> </span>",
