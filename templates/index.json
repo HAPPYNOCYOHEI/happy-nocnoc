@@ -121,7 +121,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/27559bd2-d49a-4005-af91-c211f3face2f.jpg",
-            "image_full_width": false,
+            "image_full_width": true,
             "image_link": "shopify://pages/feature_page_parents_and_children",
             "retina": true,
             "title": "親子",
