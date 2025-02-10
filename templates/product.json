@@ -19,10 +19,11 @@
       "blocks": {
         "fera_product_reviews_summary_dFUB4y": {
           "type": "shopify://apps/fera/blocks/product_reviews_summary/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
+          "disabled": true,
           "settings": {
             "star_color": "#f91e1e",
             "size": 16,
-            "show_count": false,
+            "show_count": true,
             "show_avg_rating": false,
             "alignment": "left",
             "hide_when_no_reviews": false
