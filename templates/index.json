@@ -134,7 +134,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/506c5f5f-632b-46c1-81e4-9f606d64d54f.jpg",
-            "image_full_width": false,
+            "image_full_width": true,
             "image_link": "shopify://pages/linkcode-brother",
             "retina": true,
             "title": "兄弟",
@@ -147,7 +147,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/ec121b70-b4dc-43a7-8569-b85b245fd73c.jpg",
-            "image_full_width": false,
+            "image_full_width": true,
             "image_link": "shopify://pages/linkcode_friend",
             "retina": true,
             "title": "友だち",
