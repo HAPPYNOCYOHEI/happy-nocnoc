@@ -471,6 +471,11 @@
       },
       "general": {
         "complete_purchase_button_label": "注文を確定する"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "not_available": "このギフトカードはご利用いただけません"
+        }
       }
     }
   },
