@@ -87,8 +87,8 @@
       "message": "コメント",
       "post": "コメントを投稿する",
       "success": "コメントを投稿しました。ありがとうございます！",
-      "success_moderated": "コメントを投稿しました。ブログはモデレーションされているため、しばらくしてから公開します。",
-      "share_this_article": "この記事を共有する",
+      "success_moderated": "コメントを投稿しました。しばらくしてから公開されます。",
+      "share_this_article": "記事を共有する",
       "previous_article": "前の記事",
       "next_article": "次の記事"
     }
