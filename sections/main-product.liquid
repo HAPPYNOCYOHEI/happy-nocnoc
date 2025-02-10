@@ -272,7 +272,21 @@
 <script type="application/ld+json">
   {{ product | structured_data }}
 </script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const productId = {{ product.id | json }};
+    const variantsToHide = ['52119860642161', '52119860674929', '52119860707697']; // 替换为需要隐藏的 Variant 名称
+    const variantOptions = document.querySelectorAll('.product-form__input option');
 
+    if (productId === 14940635169137) { // 替换为 5 个 Variant 商品的 ID
+      variantOptions.forEach(option => {
+        if (variantsToHide.includes(option.textContent.trim())) {
+          option.style.display = 'none';
+        }
+      });
+    }
+  });
+</script>
 {% schema %}
 {
   "name": "Product information",
