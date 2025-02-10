@@ -101,7 +101,7 @@
       ],
       "custom_css": [
         "/* 画面幅が768px以下の場合（モバイル用） */@media screen and (max-width: 768px) {a {margin-top: 40px; }}",
-        " /* PC用のデフォルトスタイル */a {margin-top: 140px;}"
+        " /* PC用のデフォルトスタイル */a {margin-top: 160px;}"
       ],
       "settings": {
         "desktop_height": "desktop-height-image",
