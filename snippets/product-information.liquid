@@ -145,6 +145,16 @@
                           {%- assign page_other8_array = settings['page-other8-content'] | split: ',' -%}
                           {%- assign page_other9_array = settings['page-other9-content'] | split: ',' -%}
                           {%- assign page_other10_array = settings['page-other10-content'] | split: ',' -%}
+                          {%- assign page_other11_array = settings['page-other11-content'] | split: ',' -%}
+                          {%- assign page_other12_array = settings['page-other12-content'] | split: ',' -%}
+                          {%- assign page_other13_array = settings['page-other13-content'] | split: ',' -%}
+                          {%- assign page_other14_array = settings['page-other14-content'] | split: ',' -%}
+                          {%- assign page_other15_array = settings['page-other15-content'] | split: ',' -%}
+                          {%- assign page_other16_array = settings['page-other16-content'] | split: ',' -%}
+                          {%- assign page_other17_array = settings['page-other17-content'] | split: ',' -%}
+                          {%- assign page_other18_array = settings['page-other18-content'] | split: ',' -%}
+                          {%- assign page_other19_array = settings['page-other19-content'] | split: ',' -%}
+                          {%- assign page_other20_array = settings['page-other20-content'] | split: ',' -%}
 
                           {%- if page_other1_array contains product.handle -%}
                             {{ pages[settings['page-other1']].content }}
@@ -166,6 +176,26 @@
                             {{ pages[settings['page-other9']].content }}
                           {%- elsif page_other10_array contains product.handle -%}
                             {{ pages[settings['page-other10']].content }}
+                          {%- elsif page_other11_array contains product.handle -%}
+                            {{ pages[settings['page-other11']].content }}
+                          {%- elsif page_other12_array contains product.handle -%}
+                            {{ pages[settings['page-other12']].content }}
+                          {%- elsif page_other13_array contains product.handle -%}
+                            {{ pages[settings['page-other13']].content }}
+                          {%- elsif page_other14_array contains product.handle -%}
+                            {{ pages[settings['page-other14']].content }}
+                          {%- elsif page_other15_array contains product.handle -%}
+                            {{ pages[settings['page-other15']].content }}
+                          {%- elsif page_other16_array contains product.handle -%}
+                            {{ pages[settings['page-other16']].content }}
+                          {%- elsif page_other17_array contains product.handle -%}
+                            {{ pages[settings['page-other17']].content }}
+                          {%- elsif page_other18_array contains product.handle -%}
+                            {{ pages[settings['page-other18']].content }}
+                          {%- elsif page_other19_array contains product.handle -%}
+                            {{ pages[settings['page-other19']].content }}
+                          {%- elsif page_other20_array contains product.handle -%}
+                            {{ pages[settings['page-other20']].content }}
                           {%- else -%}
                             {{ pages[settings['page-normal']].content }}
                           {%- endif -%}
