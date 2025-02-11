@@ -408,7 +408,8 @@
     "single_image_Ae8K38": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/6731739264699_.pic.jpg",
+        "image": "shopify://shop_images/6871739267749_.pic.jpg",
+        "image_mobile": "shopify://shop_images/6871739267749_.pic.jpg",
         "full_width": false,
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
