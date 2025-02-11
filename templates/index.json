@@ -389,6 +389,7 @@
         "image_khpgbh",
         "image_xnAMNX"
       ],
+      "disabled": true,
       "settings": {
         "columns_desktop": 3,
         "section_width": "grid",
