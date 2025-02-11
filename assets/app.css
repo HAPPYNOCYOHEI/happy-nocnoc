@@ -5557,6 +5557,7 @@ form .restock-alerts-notify-button:focus:before {
   .main-product-gallery {
     position: sticky;
     top: 80px;
+    z-index: 2;
   }
   .description-pc {
     display: block;

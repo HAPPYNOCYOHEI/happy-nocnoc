@@ -22,6 +22,7 @@ if (!customElements.get('max-height')) {
     checkVisible() {
       if (this.content.offsetHeight > this.max) {
         this.showToggle();
+        this.classList.add('max-height--enabled');
       } else {
         this.hideToggle();
       }
