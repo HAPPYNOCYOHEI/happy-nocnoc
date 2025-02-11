@@ -403,6 +403,15 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
+    },
+    "single_image_Ae8K38": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/6731739264699_.pic.jpg",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -413,6 +422,7 @@
     "1662389920b1295ea2",
     "shop_the_look_3VAJVb",
     "173831911460691f89",
-    "gallery_YpktCz"
+    "gallery_YpktCz",
+    "single_image_Ae8K38"
   ]
 }
