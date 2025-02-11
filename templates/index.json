@@ -410,7 +410,7 @@
       "settings": {
         "image": "shopify://shop_images/6731739264699_.pic.jpg",
         "full_width": false,
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     }
