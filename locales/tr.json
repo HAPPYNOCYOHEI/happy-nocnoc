@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "continue_shopping": "Alışverişe Devam Et",
@@ -22,7 +22,7 @@
       "add_order_note": "Sipariş notu ekle",
       "save": "Kaydet",
       "free_shipping": {
-        "spend_more_for_free_shipping_html": "Ücretsiz kargo için <span>{{ amount }}<\/span> daha fazla harcayın.",
+        "spend_more_for_free_shipping_html": "Ücretsiz kargo için <span>{{ amount }}</span> daha fazla harcayın.",
         "free_shipping_applied_at_checkout": "Ücretsiz kargo ödeme sayfasında uygulanacaktır"
       }
     },
@@ -63,7 +63,7 @@
   "accessibility": {
     "skip_to_text": "İçeriğe atla",
     "close": "Kapat",
-    "unit_price_separator": "\/",
+    "unit_price_separator": "/",
     "link_messages": {
       "new_window": "Yeni bir pencerede açılır."
     }
@@ -76,8 +76,8 @@
       "read_more": "Daha fazlası",
       "tags": "Etiketler:",
       "comments_html": {
-        "one": "<span>{{ count }} yorum<\/span> {{ title }}",
-        "other": "<span>{{ count }} yorum<\/span> {{ title }}"
+        "one": "<span>{{ count }} yorum</span> {{ title }}",
+        "other": "<span>{{ count }} yorum</span> {{ title }}"
       },
       "moderated": "Yorumların yayınlanabilmesi için onaylanması gerektiğini lütfen unutmayın.",
       "comment_form_title": "Yorum yapın",
@@ -127,7 +127,7 @@
         "one": "{{ count }} renkte mevcut",
         "other": "{{ count }} renkte mevcut"
       },
-      "shipping_policy_html": "<a href=\"{{ link }}\">Kargo<\/a>, ödeme sayfasında hesaplanır.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Kargo</a>, ödeme sayfasında hesaplanır.",
       "quantity": {
         "label": "Adet",
         "input_label": "{{ product }} için adet",
@@ -146,8 +146,8 @@
         "view_store_info": "Mağaza bilgilerini görüntüleyin",
         "check_other_stores": "Diğer mağazalardaki stok durumunu kontrol edin",
         "pick_up_available": "Teslim alım kullanılabilir",
-        "pick_up_available_at_html": "Teslim alım <span class=\"color-foreground\">{{ location_name }}<\/span> konumunda kullanılabilir",
-        "pick_up_unavailable_at_html": "Teslim alım <span class=\"color-foreground\">{{ location_name }}<\/span> konumunda şu anda kullanılamıyor",
+        "pick_up_available_at_html": "Teslim alım <span class=\"color-foreground\">{{ location_name }}</span> konumunda kullanılabilir",
+        "pick_up_unavailable_at_html": "Teslim alım <span class=\"color-foreground\">{{ location_name }}</span> konumunda şu anda kullanılamıyor",
         "unavailable": "Teslim alım stok durumu yüklenemedi",
         "refresh": "Yenile"
       },
@@ -175,8 +175,8 @@
       },
       "max_price": "En yüksek fiyat: {{ price }}",
       "product_count": {
-        "one": "{{ count }}\/{{ product_count }} ürün",
-        "other": "{{ count }}\/{{ product_count }} ürün"
+        "one": "{{ count }}/{{ product_count }} ürün",
+        "other": "{{ count }}/{{ product_count }} ürün"
       },
       "product_count_simple": {
         "one": "{{ count }} ürün",
@@ -226,9 +226,9 @@
       "ready": "Yeni favori ürünlerini bulmaya hazır mısın?",
       "cart_error": "Sepetiniz güncellenirken bir hata oluştu. Lütfen tekrar deneyin.",
       "cart_quantity_error_html": "Sepetinize bu üründen yalnızca {{ quantity }} adet ekleyebilirsiniz.",
-      "taxes_and_shipping_policy_at_checkout_html": "Vergiler ve <a href=\"{{ link }}\">kargo<\/a>, ödeme sayfasında hesaplanır",
+      "taxes_and_shipping_policy_at_checkout_html": "Vergiler ve <a href=\"{{ link }}\">kargo</a>, ödeme sayfasında hesaplanır",
       "taxes_included_but_shipping_at_checkout": "Vergi dahildir ve kargo, ödeme sayfasında hesaplanır",
-      "taxes_included_and_shipping_policy_html": "Vergi dahildir. <a href=\"{{ link }}\">Kargo<\/a>, ödeme sayfasında hesaplanır.",
+      "taxes_included_and_shipping_policy_html": "Vergi dahildir. <a href=\"{{ link }}\">Kargo</a>, ödeme sayfasında hesaplanır.",
       "taxes_and_shipping_at_checkout": "Vergiler ve kargo, ödeme sayfasında hesaplanır",
       "headings": {
         "product": "Ürün",
@@ -238,7 +238,7 @@
         "image": "Ürün görseli"
       },
       "terms": "Kullanım şartları ve koşullarını kabul ediyorum",
-      "terms_html": "Ben, <a href='{{ url }}' target='_blank'>satış şartları ve koşulları<\/a>'nı kabul ediyorum.",
+      "terms_html": "Ben, <a href='{{ url }}' target='_blank'>satış şartları ve koşulları</a>'nı kabul ediyorum.",
       "terms_confirm": "Ödeme işlemi için satış şartları ve koşullarını kabul etmelisiniz.",
       "shipping_estimator": {
         "estimate_shipping": "Kargo ücretini tahmin et",
@@ -254,7 +254,7 @@
     },
     "collection_template": {
       "empty": "Ürün bulunamadı",
-      "use_fewer_filters_html": "Daha az filtre kullan veya <a class=\"{{ class }}\" href=\"{{ link }}\">tümünü kaldır<\/a>",
+      "use_fewer_filters_html": "Daha az filtre kullan veya <a class=\"{{ class }}\" href=\"{{ link }}\">tümünü kaldır</a>",
       "load_more": "Daha fazla"
     },
     "password": {
@@ -302,10 +302,10 @@
     }
   },
   "localization": {
-    "country_label": "Ülke\/bölge",
+    "country_label": "Ülke/bölge",
     "language_label": "Dil",
     "update_language": "Dili güncelle",
-    "update_country": "Ülke\/bölge bilgisini güncelle"
+    "update_country": "Ülke/bölge bilgisini güncelle"
   },
   "customer": {
     "login_page": {
@@ -400,7 +400,7 @@
       "address1": "Adres 1",
       "address2": "Adres 2",
       "city": "Şehir",
-      "country": "Ülke\/bölge",
+      "country": "Ülke/bölge",
       "province": "İl",
       "zip": "Posta kodu",
       "phone": "Telefon",

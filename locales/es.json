@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "continue_shopping": "Seguir comprando",
@@ -22,7 +22,7 @@
       "add_order_note": "Añadir nota de pedido",
       "save": "Ahorrar",
       "free_shipping": {
-        "spend_more_for_free_shipping_html": "Gasta <span>{{ amount }}<\/span> más para el envío GRATIS.",
+        "spend_more_for_free_shipping_html": "Gasta <span>{{ amount }}</span> más para el envío GRATIS.",
         "free_shipping_applied_at_checkout": "El envío GRATIS se aplicará al finalizar la compra"
       }
     },
@@ -76,8 +76,8 @@
       "read_more": "Lee mas",
       "tags": "Etiquetas:",
       "comments_html": {
-        "one": "<span>{{ count }} comentario sobre<\/span> {{ title }}",
-        "other": "<span>{{ count }} comentarios sobre<\/span> {{ title }}"
+        "one": "<span>{{ count }} comentario sobre</span> {{ title }}",
+        "other": "<span>{{ count }} comentarios sobre</span> {{ title }}"
       },
       "moderated": "Ten en cuenta que los comentarios deben aprobarse antes de que se publiquen.",
       "comment_form_title": "Deja un comentario",
@@ -126,7 +126,7 @@
         "one": "Disponible en {{ count }} color",
         "other": "Disponible en {{ count }} colores"
       },
-      "shipping_policy_html": "Los <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pago.",
+      "shipping_policy_html": "Los <a href=\"{{ link }}\">gastos de envío</a> se calculan en la pantalla de pago.",
       "quantity": {
         "label": "Quantity",
         "input_label": "Quantity for {{ product }}",
@@ -145,8 +145,8 @@
         "view_store_info": "Ver información de la tienda",
         "check_other_stores": "Verificar disponibilidad en otras tiendas",
         "pick_up_available": "Retiro disponible",
-        "pick_up_available_at_html": "Retiro disponible en <span class=\"color-foreground\">{{ location_name }}<\/span>",
-        "pick_up_unavailable_at_html": "Retiro no disponible actualmente en <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_available_at_html": "Retiro disponible en <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Retiro no disponible actualmente en <span class=\"color-foreground\">{{ location_name }}</span>",
         "unavailable": "No se pudo cargar la disponibilidad de retiro",
         "refresh": "Actualizar"
       },
@@ -227,9 +227,9 @@
       "ready": "¿Listo para encontrar tus nuevos productos favoritos?",
       "cart_error": "Hubo un error al actualizar tu carrito de compra. Inténtalo de nuevo.",
       "cart_quantity_error_html": "Solo puedes agregar {{ quantity }} de este artículo a tu carrito.",
-      "taxes_and_shipping_policy_at_checkout_html": "Los impuestos y <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pago",
+      "taxes_and_shipping_policy_at_checkout_html": "Los impuestos y <a href=\"{{ link }}\">gastos de envío</a> se calculan en la pantalla de pago",
       "taxes_included_but_shipping_at_checkout": "Impuesto incluido y los gastos de envío se calculan en la pantalla de pago",
-      "taxes_included_and_shipping_policy_html": "Impuesto incluido. Los <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pago.",
+      "taxes_included_and_shipping_policy_html": "Impuesto incluido. Los <a href=\"{{ link }}\">gastos de envío</a> se calculan en la pantalla de pago.",
       "taxes_and_shipping_at_checkout": "Los impuestos y gastos de envío se calculan en la pantalla de pago",
       "headings": {
         "product": "Producto",
@@ -238,7 +238,7 @@
         "quantity": "Cantidad"
       },
       "terms": "Estoy de acuerdo con los términos y condiciones",
-      "terms_html": "Estoy de acuerdo con los <a href='{{ url }}' target='_blank'>términos y condiciones<\/a>",
+      "terms_html": "Estoy de acuerdo con los <a href='{{ url }}' target='_blank'>términos y condiciones</a>",
       "terms_confirm": "Debes estar de acuerdo con los términos y condiciones de venta para pagar",
       "shipping_estimator": {
         "estimate_shipping": "Estimación de envío",
@@ -254,7 +254,7 @@
     },
     "collection_template": {
       "empty": "No se encontró ningún producto",
-      "use_fewer_filters_html": "Usa menos filtros o <a class=\"{{ class }}\" href=\"{{ link }}\">elimínalos todos<\/a>",
+      "use_fewer_filters_html": "Usa menos filtros o <a class=\"{{ class }}\" href=\"{{ link }}\">elimínalos todos</a>",
       "load_more": "Carga más"
     },
     "signup": {
@@ -302,10 +302,10 @@
     }
   },
   "localization": {
-    "country_label": "País\/región",
+    "country_label": "País/región",
     "language_label": "Idioma",
     "update_language": "Actualizar idioma",
-    "update_country": "Actualizar país\/región"
+    "update_country": "Actualizar país/región"
   },
   "customer": {
     "login_page": {
@@ -400,7 +400,7 @@
       "address1": "Dirección 1",
       "address2": "Dirección 2",
       "city": "Ciudad",
-      "country": "País\/región",
+      "country": "País/región",
       "province": "Provincia",
       "zip": "Código postal",
       "phone": "Teléfono",
@@ -410,7 +410,7 @@
       "cancel": "Cancelar",
       "edit": "Editar",
       "delete": "Eliminar",
-      "delete_confirm": "¿Está seguro\/a de que deseas eliminar esta dirección?"
+      "delete_confirm": "¿Está seguro/a de que deseas eliminar esta dirección?"
     }
   },
   "gift_cards": {

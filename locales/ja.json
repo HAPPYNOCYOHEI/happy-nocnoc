@@ -517,45 +517,45 @@
   "pagefly": {
     "products": {
       "product": {
-        "regular_price": "通常価格",
-        "sold_out": "在庫なし",
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
         "unavailable": "Unavailable",
-        "on_sale": "セール",
-        "quantity": "数量",
-        "add_to_cart": "カートに追加",
-        "back_to_collection": "{{ title }}に戻る",
-        "view_details": "詳細を見る"
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
       }
     },
     "article": {
-      "tags": "タグ:",
+      "tags": "Tags:",
       "all_topics": "All topics",
       "by_author": "by {{ author }}",
-      "posted_in": "に投稿",
-      "read_more": "さらに読む",
-      "back_to_blog": "{{ title }}に戻る"
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
     },
     "comments": {
-      "title": "コメントを残す",
-      "name": "お名前",
-      "email": "メールアドレス",
-      "message": "メッセージ",
-      "post": "コメントを投稿する",
-      "moderated": "コメントはしばらくしてから公開されます。",
-      "success_moderated": "コメントは正常に投稿されました。当ブログはモデレートされているため、しばらくして公開されます。",
-      "success": "コメントが投稿されました！ありがとうございます！",
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
       "comments_with_count": {
-        "one": "{{ count }} コメント",
-        "other": "{{ count }} コメント"
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
       }
     },
     "password_page": {
-      "login_form_message": "パスワードを入力してオンラインショップにアクセスする：",
-      "login_form_password_label": "パスワード",
-      "login_form_password_placeholder": "あなたのパスワード",
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
       "login_form_submit": "Enter",
-      "signup_form_email_label": "メールアドレス",
-      "signup_form_success": "オープン直前にメールをお送りします！",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
   }

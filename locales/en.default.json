@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "continue_shopping": "continue shopping",
@@ -76,8 +76,8 @@
       "read_more": "read more",
       "tags": "tag:",
       "comments_html": {
-        "one": "<span>{{ count }} comments about  <\/span>  {{ title }}",
-        "other": "<span> {{ count }} comments about <\/span> {{ title }}"
+        "one": "<span>{{ count }} comments about  </span>  {{ title }}",
+        "other": "<span> {{ count }} comments about </span> {{ title }}"
       },
       "moderated": "Comments must be approved before they are published.",
       "comment_form_title": "leave a comment",
@@ -112,7 +112,7 @@
       "unavailable": "Not available",
       "pre_order": "Pre-order",
       "price": {
-        "from_price_html": "<span class=\"from\">From <\/span> {{ price }}",
+        "from_price_html": "<span class=\"from\">From </span> {{ price }}",
         "regular_price": "Regular price",
         "sale_price": "sale price",
         "unit_price": "unit price"
@@ -126,7 +126,7 @@
         "one": "{{ count }}available in color",
         "other": "{{ count }}available in color"
       },
-      "shipping_policy_html": "<a href=\"{{ link }}\"><\/a> Shipping charges will be calculated at checkout. .",
+      "shipping_policy_html": "<a href=\"{{ link }}\"></a> Shipping charges will be calculated at checkout. .",
       "quantity": {
         "label": "quantity",
         "input_label": "{{ product }}quantity of",
@@ -145,8 +145,8 @@
         "view_store_info": "View store information",
         "check_other_stores": "Check stock status at other stores",
         "pick_up_available": "Available to receive",
-        "pick_up_available_at_html": "{{ location_name }}<span>Available for pick-up at<\/span>",
-        "pick_up_unavailable_at_html": "{{ location_name }}<span>Currently not available<\/span>",
+        "pick_up_available_at_html": "{{ location_name }}<span>Available for pick-up at</span>",
+        "pick_up_unavailable_at_html": "{{ location_name }}<span>Currently not available</span>",
         "unavailable": "Could not load availability status",
         "refresh": "update"
       },
@@ -224,7 +224,7 @@
       "ready": "Would you like to find your new favorite product?",
       "cart_error": "An error occurred while updating your cart. Please try again.",
       "cart_quantity_error_html": "This item can only be added to the cart by {{ quantity }}.",
-      "taxes_and_shipping_policy_at_checkout_html": "<a href=\"{{ link }}\">Taxes and shipping <\/a> will be calculated at checkout.",
+      "taxes_and_shipping_policy_at_checkout_html": "<a href=\"{{ link }}\">Taxes and shipping </a> will be calculated at checkout.",
       "taxes_included_but_shipping_at_checkout": "税込みで、チェックアウト時に配送が計算されます。",
       "taxes_included_and_shipping_policy_html": "Tax included, <a href=\"{{ link }}\">Shipping will be calculated at checkout.",
       "taxes_and_shipping_at_checkout": "Tax and shipping will be calculated at checkout.",
@@ -235,7 +235,7 @@
         "quantity": "quantity"
       },
       "terms": "I agree to the terms.",
-      "terms_html": "I agree to the terms<a href='{{ url }}' target='_blank'>. <\/a>",
+      "terms_html": "I agree to the terms<a href='{{ url }}' target='_blank'>. </a>",
       "terms_confirm": "You must agree to the terms of sale to check out.",
       "shipping_estimator": {
         "estimate_shipping": "Shipping quote",
@@ -251,7 +251,7 @@
     },
     "collection_template": {
       "empty": "Product not found",
-      "use_fewer_filters_html": "フィルタを減らすか、<a class=\"clear-filters text-button\" href=\"{{ link }}\">全てクリア<\/a>",
+      "use_fewer_filters_html": "フィルタを減らすか、<a class=\"clear-filters text-button\" href=\"{{ link }}\">全てクリア</a>",
       "load_more": "もっと見る"
     },
     "password": {
@@ -299,10 +299,10 @@
     }
   },
   "localization": {
-    "country_label": "Country\/Region",
+    "country_label": "Country/Region",
     "language_label": "language",
     "update_language": "Update language",
-    "update_country": "Update country\/region"
+    "update_country": "Update country/region"
   },
   "customer": {
     "login_page": {
@@ -400,7 +400,7 @@
       "address1": "address 1",
       "address2": "address 2",
       "city": "City",
-      "country": "Country\/Region",
+      "country": "Country/Region",
       "province": "prefectures",
       "zip": "post code",
       "phone": "phone",
@@ -472,8 +472,8 @@
       "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
       "success": "Your comment was posted successfully! Thank you!",
       "comments_with_count": {
-        "one": "{{ count }}comment",
-        "other": "{{ count }}comments"
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
       }
     },
     "password_page": {
@@ -610,7 +610,7 @@
             "unsupported_expectation": "The discount item offered has an expected value that the policy cannot interpret.",
             "additional_requested_discount_code_discarded": "Other requested coupon codes have been discarded.",
             "allocations_mismatch": "Expected discount allocation does not match actual discount allocation.",
-            "discount_code_not_honoured": "<strong style=\"text-transform:uppercase\">%{discount_rejection_message}<\/strong>",
+            "discount_code_not_honoured": "<strong style=\"text-transform:uppercase\">%{discount_rejection_message}</strong>",
             "discount_title_too_long": "Please keep your discount title to 255 characters or less."
           },
           "tax": {
@@ -841,8 +841,8 @@
         "address2_label": "Building name, room number, etc.",
         "optional_address2_label": "Building name, room number, etc. (optional)",
         "city_label": "municipalities",
-        "country_label": "Country\/Region",
-        "country_code": "Country\/Region Code",
+        "country_label": "Country/Region",
+        "country_code": "Country/Region Code",
         "province_label": "prefectures",
         "province_placeholder": "prefectures",
         "county_label": "county",
@@ -857,8 +857,8 @@
         "governorate_placeholder": "administrative area",
         "emirate_label": "emirates",
         "emirate_placeholder": "emirates",
-        "state_and_territory_label": "State\/Region",
-        "state_and_territory_placeholder": "State\/Region",
+        "state_and_territory_label": "State/Region",
+        "state_and_territory_placeholder": "State/Region",
         "phone_label": "telephone number",
         "optional_phone_label": "Phone number (optional)",
         "phone_placeholder": "telephone number",
@@ -881,8 +881,8 @@
         "change_location_link_label": "change location",
         "ship_to_company": "{{companyName}}delivery to",
         "shipping_used_as_billing_notice": "Also used as the billing address for this order.",
-        "company_attention_label": "Company\/Destination",
-        "optional_company_attention_label": "Company\/Destination (optional)",
+        "company_attention_label": "Company/Destination",
+        "optional_company_attention_label": "Company/Destination (optional)",
         "available_addresses_label": "Available addresses",
         "optional_zip_code_label": "Postal code (optional)",
         "optional_postal_code_label": "Postal code (optional)",
@@ -1028,11 +1028,11 @@
         "gift_card_has_been_applied": "Gift card applied",
         "gift_card_has_been_removed": "gift card deleted",
         "discount_already_applied": "A discount has been applied to this order. You cannot add another discount.",
-        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong>Coupon code is not valid for items in your cart",
-        "discount_requires_customer_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong>Please enter shipping information to apply coupon code",
-        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong>Coupon code is currently unavailable",
-        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong>Coupon code cannot be used at your shipping address",
-        "customer_already_used_once_per_customer_discount_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong>Coupon code has already been used",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>Coupon code is not valid for items in your cart",
+        "discount_requires_customer_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>Please enter shipping information to apply coupon code",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>Coupon code is currently unavailable",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>Coupon code cannot be used at your shipping address",
+        "customer_already_used_once_per_customer_discount_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>Coupon code has already been used",
         "subtotal_label": "subtotal",
         "shipping_label": "delivery",
         "tip_label": "Support amount",
@@ -1060,7 +1060,7 @@
         "scroll_order_summary": "Scroll to see more products",
         "expand_order_summary_short": "display",
         "collapse_order_summary_short": "hidden",
-        "expand_order_summary": "Display order details\/enter coupon",
+        "expand_order_summary": "Display order details/enter coupon",
         "collapse_order_summary": "Hide order summary",
         "total_updated_label": "Total amount updated:",
         "order_total_updated_label": "Updated total",
@@ -1102,10 +1102,10 @@
           "due_on_receipt": "Receipt payment total",
           "total_paid": "payment total"
         },
-        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> could not be used in conjunction with an existing discount.",
-        "maximum_discount_code_limit_reached": "The maximum number of coupon codes has been reached. Please remove the existing code and use <strong style=\"text-transform:uppercase\">%{code}<\/strong>.",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> could not be used in conjunction with an existing discount.",
+        "maximum_discount_code_limit_reached": "The maximum number of coupon codes has been reached. Please remove the existing code and use <strong style=\"text-transform:uppercase\">%{code}</strong>.",
         "order_total_label": "order total",
-        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> is currently not functional. Please contact us and we will support you.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> is currently not functional. Please contact us and we will support you.",
         "due_on_fulfillment": "During fulfillment",
         "gift_card_masked": "%{last_characters} ••••",
         "subscriptions": "subscription",
@@ -1148,7 +1148,7 @@
         },
         "price_per_item": {
           "accessibility_label": "%{price} per item",
-          "label": "%{price}\/unit"
+          "label": "%{price}/unit"
         },
         "updated_shipping_method": "Shipping method updated: %{shipping_method}",
         "discount_not_found": "No discounts were found that match the code you entered",
@@ -1164,7 +1164,7 @@
           "title": "{{amount_due}}The balance due date is {{due_at}}",
           "due_on_fulfillment_title": "{{amount_due}}The balance is due at the time of fulfillment."
         },
-        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> coupon code requires eligible customer",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> coupon code requires eligible customer",
         "subtotal_label_with_quantity": {
           "one": "Subtotal (%{count} items)",
           "other": "Subtotal (%{count} items)"
@@ -1318,7 +1318,7 @@
         "address_default": "set as default",
         "split_shipping_merchandise_quantity_label_standard": "%{quantity} items",
         "split_shipping_merchandise_quantity_label_additional": "%{quantity} more",
-        "split_shipping_merchandise_shipment_number": "Baggage:%{number}\/%{total}",
+        "split_shipping_merchandise_shipment_number": "Baggage:%{number}/%{total}",
         "pre_order_ships_now": "Ship now",
         "pre_order_ships_later": "ship later",
         "pre_order_ships_date": "Shipping %{date}",
@@ -1360,16 +1360,16 @@
         "card_security_notice": "All transactions are secure and encrypted.",
         "name_on_card_label": "card holder",
         "name_on_card_placeholder": "card holder",
-        "card_expiry_label": "Expiration date (month\/year)",
-        "card_expiry_placeholder": "Expiration date (month\/year)",
+        "card_expiry_label": "Expiration date (month/year)",
+        "card_expiry_placeholder": "Expiration date (month/year)",
         "card_verification_value_label": "security code",
         "card_verification_value_placeholder": "security code",
-        "card_expiry_date_explanation": "Input format for card expiry date: Month (two digits)\/Year (last two digits)",
+        "card_expiry_date_explanation": "Input format for card expiry date: Month (two digits)/Year (last two digits)",
         "card_verification_value_explanation": "This is the 3-digit security code on the back of your card. American Express cards have a 4-digit code on the front.",
         "card_verification_value_explanation_amex": "This is the 4-digit code on the front of your card.",
         "card_verification_value_explanation_other": "This is the 3-digit security code on the back of your card.",
-        "card_start_label": "Publication date (month\/year)",
-        "card_start_placeholder": "Publication date (month\/year)",
+        "card_start_label": "Publication date (month/year)",
+        "card_start_placeholder": "Publication date (month/year)",
         "card_issue_number_label": "Issue number",
         "card_issue_number_placeholder": "Issue number",
         "card_change_label": "change",
@@ -1379,7 +1379,7 @@
         "pay_with_payment_method": "Pay with %{payment_method}",
         "same_billing_address_label": "Same as shipping address",
         "different_billing_address_label": "Use a different billing address",
-        "free_order_notice_html": "Your order is <strong>free<\/strong>. No payment required.",
+        "free_order_notice_html": "Your order is <strong>free</strong>. No payment required.",
         "express_checkout_free_order": "Free orders don't cost anything",
         "order_covered_by_gift_cards_notice": {
           "one": "Orders are paid for with gift cards.",
@@ -1393,8 +1393,8 @@
         "no_js_credit_card_fields_redirect_hint": "You will be redirected to add your payment information.",
         "card_fields_container_prefix": "Form container:",
         "card_fields_unavailable_html": {
-          "one": "Credit and debit card payments are currently not available. <br><a href=\"%{current_url}\">Please refresh this page or <\/a>try again.",
-          "other": "Credit and debit card payments are currently not available. <br><a href=\"%{current_url}\">Please refresh this page or <\/a>try a different payment method."
+          "one": "Credit and debit card payments are currently not available. <br><a href=\"%{current_url}\">Please refresh this page or </a>try again.",
+          "other": "Credit and debit card payments are currently not available. <br><a href=\"%{current_url}\">Please refresh this page or </a>try a different payment method."
         },
         "card_fields_processing_error": "There was a problem processing your payment. Please refresh this page or check your internet connection.",
         "technical_error": "Due to technical issues, we are currently unable to process your payment. Please try again in a few minutes.",
@@ -1420,7 +1420,7 @@
         "billing_address_not_supported_for_payment_method_error": "The specified payment method is not available for this billing address and currency. Please try a different payment method.",
         "change_currency_section_description": "Select currency options",
         "no_real_orders_dev_store": "This store cannot accept physical orders or physical payments.",
-        "subscription_agreement_label_html": "I understand that you agree to the subscription. Will the subscription end?\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">It will be updated at the listed price and frequency until canceled <\/a>.",
+        "subscription_agreement_label_html": "I understand that you agree to the subscription. Will the subscription end?\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">It will be updated at the listed price and frequency until canceled </a>.",
         "waiting_on_payment_methods": "Retrieving available payment methods...",
         "apple_pay_payment_error": "Your payment could not be completed. Please try again or use a different payment method.",
         "subscription_card_update_agreement_label": "Changing your payment method will update your subscription and recurring payments.",
@@ -1447,8 +1447,8 @@
         "credit_card_vaulting_sign_in_banner_title": "Save credit card information",
         "credit_card_vaulting_sign_in_banner_info": "Log in or create an account to save your credit card information for future purchases.",
         "credit_card_vaulting_sign_in_banner_button_label": "Login",
-        "expiry_long": "(Expiration date: %{month}\/%{year})",
-        "expiry_short": "(Expiration date: %{month}\/%{year})",
+        "expiry_long": "(Expiration date: %{month}/%{year})",
+        "expiry_short": "(Expiration date: %{month}/%{year})",
         "ftd_vault_credit_card_label": "Save this credit card information to my account for faster checkout",
         "delete_customer_mandate_modal_title": "Do you want to delete this payment card?",
         "delete_customer_mandate_modal_body": "If you delete this card, you will need to add it again before you can use it to make payments.",
@@ -1458,8 +1458,8 @@
           "error_authorizing": "An error occurred while approving the payment"
         },
         "klarna_label": "Klarna",
-        "mor_disclaimer_html": "By clicking below to complete your order, you agree to be the Merchant of Record for this transaction, subject to Global-e's <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Terms of Use<\/a> and <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privacy Policy<\/a>. You agree to purchase items from Global-e as. Global-e is an international fulfillment service provider for %{shop_name}.",
-        "purchase_options_card_update_agreement_label_html": "By updating your payment method, you authorize payment for subscriptions and deferred purchases according to this store's <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">cancellation policy<\/a>.",
+        "mor_disclaimer_html": "By clicking below to complete your order, you agree to be the Merchant of Record for this transaction, subject to Global-e's <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Terms of Use</a> and <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privacy Policy</a>. You agree to purchase items from Global-e as. Global-e is an international fulfillment service provider for %{shop_name}.",
+        "purchase_options_card_update_agreement_label_html": "By updating your payment method, you authorize payment for subscriptions and deferred purchases according to this store's <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">cancellation policy</a>.",
         "multibanco_label": "Multibanco",
         "receiver_payment_experience_hint": "After placing your order, we will notify you of payment details. Please make your payment within %{due_days} days at Multibanco or online.",
         "pending_payment": {
@@ -1479,7 +1479,7 @@
           "order_contains_subscriptions": "subscription",
           "order_contains_fixed_selling_plans": "Total price may exclude taxes, shipping, late fees, and some discounts. You will then proceed to checkout for the amount you will pay today."
         },
-        "purchase_options_agreement_label_html": "I understand that one or more items in my cart are postpaid purchases or subscriptions. By continuing I get\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">Cancellation policy<\/a>\nI agree that my selected payment method will be charged at the prices, frequency, and dates listed on this page until my order is fulfilled or canceled by me, if permitted. I agree to approve.",
+        "purchase_options_agreement_label_html": "I understand that one or more items in my cart are postpaid purchases or subscriptions. By continuing I get\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">Cancellation policy</a>\nI agree that my selected payment method will be charged at the prices, frequency, and dates listed on this page until my order is fulfilled or canceled by me, if permitted. I agree to approve.",
         "payment_method_saved": "Payment method saved",
         "card_vaulted_company_location": "Card for this location has been saved",
         "order_covered_by_store_credit_notice": "Orders are eligible for store credit.",
@@ -1651,7 +1651,7 @@
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Current balance %{amount}",
-        "credit_card_expires_on_notice": "Expiration date: %{month}\/%{year}",
+        "credit_card_expires_on_notice": "Expiration date: %{month}/%{year}",
         "express_payment_gateway_label": "express",
         "manual_payment_gateway_label": "manual",
         "billing_address_title": "Billing Address",
@@ -1667,8 +1667,8 @@
         "address_last_name_blank": "Please enter your last name",
         "address_address1_blank": "Please enter your street address",
         "address_address2_blank": "Please enter the building name, room number, etc.",
-        "address_city_blank": "Please enter your city\/ward\/town\/village",
-        "address_country_blank": "Select country\/region",
+        "address_city_blank": "Please enter your city/ward/town/village",
+        "address_country_blank": "Select country/region",
         "address_country_not_supported": "We do not ship to this country or region. Please enter a new shipping address and try again.",
         "address_province_blank": "Please select a prefecture",
         "address_company_blank": "Please enter your company name",
@@ -1736,11 +1736,11 @@
         "payment_gateway_unsupported_for_deferred_purchase_options": "This payment method is not available with the Pay later purchase option.",
         "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Gift cards are not supported with the Pay later purchase option.",
         "delivery_zone_not_found": "The specified area was not found in the specified country.",
-        "payment_gateway_unsupported_for_development_store_html": "To place a test order, you must use a test payment gateway service. For more information, see <a href=\"%{docs_link}\">Testing orders in the development store<\/a>.",
-        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "You have reached the limit for development store orders with this payment processing service. To place another order, you must use a test payment gateway service. For more information, see <a href=\"%{docs_link}\">Testing orders in the development store<\/a>.",
+        "payment_gateway_unsupported_for_development_store_html": "To place a test order, you must use a test payment gateway service. For more information, see <a href=\"%{docs_link}\">Testing orders in the development store</a>.",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "You have reached the limit for development store orders with this payment processing service. To place another order, you must use a test payment gateway service. For more information, see <a href=\"%{docs_link}\">Testing orders in the development store</a>.",
         "email_blank": "Enter email address",
         "phone_blank": "Please enter your phone number",
-        "address_country_invalid": "Please select your country\/region from the list",
+        "address_country_invalid": "Please select your country/region from the list",
         "address_zip_invalid": "Please enter a valid postal code",
         "gift_card_invalid": "Gift card \"••••%{last_four_characters}\" is currently invalid",
         "vaulting_agreement_blank": "You will need to save your card as the balance of this order will be paid at a later date.",
@@ -2370,17 +2370,17 @@
           "other": "Products not available"
         },
         "products_not_available": {
-          "one": "This product is not available in your country\/region and will be removed from your cart.",
-          "other": "These products are not available in your country\/region and will be removed from your cart."
+          "one": "This product is not available in your country/region and will be removed from your cart.",
+          "other": "These products are not available in your country/region and will be removed from your cart."
         },
         "all_products_in_cart_unavailable": {
-          "one": "This product is not available in your country\/region.",
-          "other": "These products are not available in your country\/region."
+          "one": "This product is not available in your country/region.",
+          "other": "These products are not available in your country/region."
         },
         "unavailable_label": "not available"
       },
       "change_cart_localization": {
-        "verify_shipping_address": "Country\/region updated. Please enter your shipping address and continue checking out."
+        "verify_shipping_address": "Country/region updated. Please enter your shipping address and continue checking out."
       },
       "throttle": {
         "line_to_check_out": "Check out soon",
@@ -2610,7 +2610,7 @@
             "billing_address": "Please enter a valid billing address",
             "shipping_option": "Please enter a valid shipping address",
             "email": "Please enter a valid email address",
-            "zone": "Please enter a valid province\/state",
+            "zone": "Please enter a valid province/state",
             "postal_code": "Please enter a valid postal code",
             "reduction_code": "Please enter a valid coupon code or gift card",
             "billing_must_match_shipping": "Must match shipping address",
@@ -2622,9 +2622,9 @@
             "last_name": "Please enter your last name",
             "address1": "Please enter your address",
             "address2": "Please enter the building name, room number, etc.",
-            "city": "Please enter your city\/ward\/town\/village",
+            "city": "Please enter your city/ward/town/village",
             "province": "Please select a prefecture",
-            "country": "Select country\/region",
+            "country": "Select country/region",
             "zip": "Please enter your postal code",
             "phone": "Please enter your phone number"
           },
@@ -2737,7 +2737,7 @@
       "prefecture": "prefectures",
       "province": "state",
       "state": "state",
-      "state_and_territory": "State\/Region",
+      "state_and_territory": "State/Region",
       "county": "county",
       "emirate": "emirates",
       "governorate": "administrative area",
@@ -2794,7 +2794,7 @@
       "expired": "Expired",
       "invalid_start_date_or_issue_number_for_debit": "Start date or issue number required.",
       "invalid_expiry_year": "is not a valid expiration date",
-      "reset_password_html": "This email address is already associated with your account. If this account is yours, you can <a href=\"\/account\/login#recover\">reset your password<\/a>.",
+      "reset_password_html": "This email address is already associated with your account. If this account is yours, you can <a href=\"/account/login#recover\">reset your password</a>.",
       "verify_email": "Email sent to %{customer_email}. Click the link in the email to verify your email address.",
       "blocked_address": "Not compatible with this location",
       "product_not_available": "The product is not published for this customer.",
@@ -2887,7 +2887,7 @@
           "declined": "payment declined",
           "inventory": "Product not available",
           "fraud": "fraudulent order",
-          "customer": "Customer changed\/cancelled order",
+          "customer": "Customer changed/cancelled order",
           "other": "others",
           "staff": "staff mistake"
         },
@@ -2903,7 +2903,7 @@
         "too_many_line_items_error": "You cannot add more than %{max} items to your cart.",
         "link_expired": "link broken",
         "link_no_longer_exists": "The link no longer exists.",
-        "stock_problems_html": "One or more items are sold out. <a href='%{link}'>Update cart<\/a>.",
+        "stock_problems_html": "One or more items are sold out. <a href='%{link}'>Update cart</a>.",
         "changed": "Cart changed",
         "items_changed": "I changed one or more products.",
         "product_sold_out": "'%{name}' is already sold out.",
@@ -2990,29 +2990,29 @@
       },
       "open_tracking": {
         "opt_in": {
-          "opted_in_html": "<b>I have opted in to email open tracking. <\/b>",
+          "opted_in_html": "<b>I have opted in to email open tracking. </b>",
           "visibility": "Email open rates are reported anonymously. Shopify only checks whether you open an email as part of calculating email open rates.",
-          "opt_out_html": "If you do not want this information shared, you can <a style='text-decoration:underline;' href='%{link}'>opt out<\/a>of email open tracking.",
+          "opt_out_html": "If you do not want this information shared, you can <a style='text-decoration:underline;' href='%{link}'>opt out</a>of email open tracking.",
           "preview_bar": "We're previewing what you'll see when you opt in to email open tracking."
         },
         "opt_out": {
-          "opted_out_html": "<b>I have opted out of email open tracking. <\/b>",
+          "opted_out_html": "<b>I have opted out of email open tracking. </b>",
           "visibility": "Shopify will no longer be able to see if you opened the email.",
-          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Opt-in<\/a> to open tracking.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Opt-in</a> to open tracking.",
           "preview_bar": "We're previewing what you'll see when you opt out of email open tracking."
         },
         "no_longer_track": {
-          "status_html": "<b>Shopify can no longer track whether your emails have been opened. <\/b>",
+          "status_html": "<b>Shopify can no longer track whether your emails have been opened. </b>",
           "privacy_policy": "After this email is sent, Shopify will update its privacy policy and will no longer be able to track opens."
         },
         "track": {
-          "status_html": "<b>Email open tracking has been reported. <\/b>",
+          "status_html": "<b>Email open tracking has been reported. </b>",
           "visibility": "Shopify only checks whether you open an email as part of calculating email open rates."
         },
         "updated_policy": {
-          "status_html": "<b>Email open tracking has been reported. <\/b>",
+          "status_html": "<b>Email open tracking has been reported. </b>",
           "visibility": "Shopify has updated its policies and now allows you to track email opens. Email open rates are reported anonymously. Shopify only checks whether you open an email as part of calculating email open rates.",
-          "opt_out_html": "If you do not want us to share this information, you can <a style='text-decoration:underline;' href='%{link}'>unsubscribe<\/a>."
+          "opt_out_html": "If you do not want us to share this information, you can <a style='text-decoration:underline;' href='%{link}'>unsubscribe</a>."
         }
       }
     },
@@ -3455,7 +3455,7 @@
       "taxes": "tax",
       "title": "Order ({{name}})",
       "total": "total",
-      "unit_price": "{{price}}\/unit",
+      "unit_price": "{{price}}/unit",
       "location": "location",
       "not_applicable": "Not applicable",
       "fully_refunded_label": "Refunded",
@@ -3629,7 +3629,7 @@
       "attention": "address",
       "attention_help_text": "Individual or department name",
       "loading_form_accessibility_message": "Loading address form",
-      "attention_company": "Company\/Destination"
+      "attention_company": "Company/Destination"
     },
     "B2B": {
       "account_information": {
@@ -3963,12 +3963,12 @@
         "card_number_placeholder": "card number",
         "name_on_card_label": "card holder",
         "name_on_card_placeholder": "card holder",
-        "card_expiry_label": "Expiration date (month\/year)",
-        "card_expiry_placeholder": "Expiration date (month\/year)",
+        "card_expiry_label": "Expiration date (month/year)",
+        "card_expiry_placeholder": "Expiration date (month/year)",
         "card_verification_value_label": "security code",
         "card_verification_value_placeholder": "security code",
-        "card_start_label": "Publication date (month\/year)",
-        "card_start_placeholder": "Publication date (month\/year)",
+        "card_start_label": "Publication date (month/year)",
+        "card_start_placeholder": "Publication date (month/year)",
         "tooltip": {
           "tooltip_accessibility_label": "detail",
           "card_verification_value_explanation_amex": "This is the 4-digit code on the front of your card.",
@@ -4000,7 +4000,7 @@
       "expired": "This card has expired",
       "card_update_consent": "This payment method will be saved for future purchases.",
       "digital_wallet_title": "digital wallet",
-      "credit_or_debit_card_title": "credit card\/debit card",
+      "credit_or_debit_card_title": "credit card/debit card",
       "google_pay": {
         "errors": {
           "generic": "There was a problem with Google Pay. Please try again or use a different payment method.",
@@ -4208,7 +4208,7 @@
       "please_select": "Please select an option"
     },
     "StockCounter": {
-      "let_buy_now": "<mark>HURRY!<\/mark> LET BUY NOW"
+      "let_buy_now": "<mark>HURRY!</mark> LET BUY NOW"
     }
   }
 }
