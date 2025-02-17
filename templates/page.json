@@ -12,7 +12,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "show_page_title": false,
+        "show_page_title": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
