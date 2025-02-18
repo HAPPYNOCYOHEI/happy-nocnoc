@@ -275,6 +275,11 @@
         "type": "shopify://apps/transtore-language-translate/blocks/switcher_embed_block/afeffe82-e563-4f78-90f4-f1e3d96286c3",
         "disabled": false,
         "settings": {}
+      },
+      "16156609502398088594": {
+        "type": "shopify://apps/omega-facebook-pixel/blocks/app-embed-block/ecdcc423-3dbd-480c-85e8-fdb9789cf058",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
