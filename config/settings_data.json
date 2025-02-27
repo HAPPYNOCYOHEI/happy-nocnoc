@@ -90,6 +90,11 @@
     "page-other18-content": "adult-noc-shine-balloon-skirts-mini,kids-noc-shine-balloon-skirts-mini",
     "lazy_loading": false,
     "favicon": "shopify://shop_images/happy_nocnoc_icon_bb84d018-83ee-4207-bbd2-8c403315148f.png",
+    "product_recommendations_custom_id_1": "kids-noc-shine-windproof-pullover,adult-noc-shine-windproof-pullover",
+    "recommended_product_1_1": "kids-noc-shine-windproof-jacket",
+    "recommended_product_1_2": "kids-noc-shine-windproof-pullover",
+    "recommended_product_1_3": "kids-noc-shine-uv-protection-bucket-hat",
+    "recommended_product_1_4": "kids-noc-shine-bagpack",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -272,11 +277,6 @@
           "message": "",
           "bannerPosition": "right-bottom"
         }
-      },
-      "6603664506335945664": {
-        "type": "shopify://apps/transtore-language-translate/blocks/switcher_embed_block/afeffe82-e563-4f78-90f4-f1e3d96286c3",
-        "disabled": false,
-        "settings": {}
       },
       "16156609502398088594": {
         "type": "shopify://apps/omega-facebook-pixel/blocks/app-embed-block/ecdcc423-3dbd-480c-85e8-fdb9789cf058",
