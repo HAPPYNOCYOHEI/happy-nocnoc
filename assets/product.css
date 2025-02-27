@@ -2063,3 +2063,7 @@
   background: #191817 !important;
   color: #fff !important;
 }
+
+.product-recommendations-custom:nth-last-child(1) {
+  display: none !important;
+}

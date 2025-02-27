@@ -50,6 +50,7 @@
           {%- endif -%}
         </div>
       {%- when 'description' -%}
+        {% render 'product-recommendations-custom', title: product.handle %}
         {%- liquid
           assign seo_text_max_height = block.settings.seo_text_max_height
           assign seo_text_read_more = block.settings.seo_text_read_more
@@ -552,6 +553,7 @@
         </div>
     {%- endcase -%}
   {% endfor %}
+
   {% render 'product-recommendations-custom', title: product.handle %}
 </div>
 {%- if section.settings.enable_sticky_add_to_cart -%}
