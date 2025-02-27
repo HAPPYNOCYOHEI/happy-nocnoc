@@ -131,7 +131,7 @@
   }
 }
 @media (hover: hover) {
-  .product-card .product-featured-image.thb-hover .product-featured-image-link:hover .product-primary-image {
+  .product-card .product-featured-image.thb-hover .product-featured-image-link:hover .lazyloaded + .product-primary-image {
     opacity: 0;
   }
 }
