@@ -1,0 +1,141 @@
+{% liquid
+  assign computed_title = title
+  assign products_series_1 = settings.product_recommendations_custom_id_1 | split: ','
+  assign products_series_2 = settings.product_recommendations_custom_id_2 | split: ','
+  assign products_series_3 = settings.product_recommendations_custom_id_3 | split: ','
+  assign products_series_4 = settings.product_recommendations_custom_id_4 | split: ','
+  assign recommended_products_1 = settings.recommended_product_1_1 | append: ',' | append: settings.recommended_product_1_2 | append: ',' | append: settings.recommended_product_1_3 | append: ',' | append: settings.recommended_product_1_4 | split: ','
+  assign recommended_products_2 = settings.recommended_product_2_1 | append: ',' | append: settings.recommended_product_2_2 | append: ',' | append: settings.recommended_product_2_3 | append: ',' | append: settings.recommended_product_2_4 | split: ','
+  assign recommended_products_3 = settings.recommended_product_3_1 | append: ',' | append: settings.recommended_product_3_2 | append: ',' | append: settings.recommended_product_3_3 | append: ',' | append: settings.recommended_product_3_4 | split: ','
+  assign recommended_products_4 = settings.recommended_product_4_1 | append: ',' | append: settings.recommended_product_4_2 | append: ',' | append: settings.recommended_product_4_3 | append: ',' | append: settings.recommended_product_4_4 | split: ','
+%}
+
+{% for series in products_series_1 %}
+  {% if computed_title == series %}
+    {% assign recommended_products = recommended_products_1 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% for series in products_series_2 %}
+  {% if computed_title == series %}
+    {% assign recommended_products = recommended_products_2 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% for series in products_series_3 %}
+  {% if computed_title == series %}
+    {% assign recommended_products = recommended_products_3 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% for series in products_series_4 %}
+  {% if computed_title == series %}
+    {% assign recommended_products = recommended_products_4 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if settings.enable_product_recommendations_custom and recommended_products.size > 0 %}
+  <div class="product-recommendations-custom">
+    <h3 class="recommended-custom-product-title-content">この商品を買った人はこんな商品も買っています</h3>
+    <div class="recommendations-production">
+      <div class="recommendations-grid">
+        {% for product_handle in recommended_products %}
+          {% assign product = all_products[product_handle] %}
+          {%- assign product_id = product.selected_or_first_available_variant.id -%}
+          {%- assign product_form_id = 'product-form-' | append: product_id -%}
+          {% if product != empty %}
+            <div class="recommended-custom-product">
+              <quick-view
+                class="recommended-custom-product-quickview"
+                href="#Product-Drawer"
+                data-product-handle="{{ product.handle }}"
+                tabindex="-1"
+              >
+                <div class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</div>
+                <span>
+                  {%- unless show_size_options -%}
+                    <img
+                      src="{{ product.featured_image | image_url: width: 300, height: 300}}"
+                      alt="{{ product.title }}"
+                      width="{{ 300 }}"
+                      height="{{ 300 }}"
+                    >
+                  {%- else -%}
+                    {% render 'svg-icons' with 'thb-quick-view' %}
+                  {%- endunless -%}
+                </span>
+              </quick-view>
+
+              <div class="product-prices">
+                <span class="current-price">{{ product.price | money }}</span>
+                {% if product.compare_at_price > product.price %}
+                  <span class="compare-price">{{ product.compare_at_price | money }}</span>
+                {% endif %}
+              </div>
+              <p class="recommended-custom-product-title">{{ product.title | truncate: 20 }}</p>
+              <product-form
+                data-section="{{ product_id}}"
+                data-hide-errors="{{ gift_card_recipient_feature_active }}"
+                template="{{ product_template }}"
+              >
+                <div class="product-form__error-message-wrapper form-notification error" role="alert" hidden>
+                  {% render 'svg-icons' with 'thb-error' %}
+                  <span class="product-form__error-message"></span>
+                </div>
+                {%- form 'product',
+                  product,
+                  id: product_form_id,
+                  class: 'form',
+                  novalidate: 'novalidate',
+                  data-type: 'add-to-cart-form'
+                -%}
+                  <div class="variants">
+                    <select
+                      class="product-variants"
+                      form="{{ product_form_id }}"
+                      name="id"
+                    >
+                      {%- for variant in product.variants -%}
+                        <option
+                          value="{{ variant.id }}"
+                          {% if variant.available == false %}
+                            disabled
+                          {% endif %}
+                        >
+                          {% assign split_title = variant.title | split: '/' %}
+
+                          {% if split_title.size > 1 %}
+                            {{ split_title[1] | remove: 'JP-' }}
+                          {% else %}
+                            {{ variant.title }}
+                          {% endif %}
+                        </option>
+                      {%- endfor -%}
+                    </select>
+                    <i class="product-recommendations-triangle">{%- render 'svg-icons' with 'triangle' -%}</i>
+                  </div>
+                  <button
+                    type="submit"
+                    id="AddToCart"
+                    class="recommendations-custom-button single-add-to-cart-button-recommendations button outline {% unless product.selected_or_first_available_variant.available %}sold-out{% endunless %}"
+                    {% if product.selected_or_first_available_variant.available == false %}
+                      disabled
+                    {% endif %}
+                  >
+                    <span class="single-add-to-cart-button--text"> カートに入れる </span>
+                    <span class="loading-overlay">
+                      {% render 'svg-icons' with 'thb-loading' %}
+                    </span>
+                  </button>
+                {%- endform -%}
+              </product-form>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}

@@ -552,6 +552,7 @@
         </div>
     {%- endcase -%}
   {% endfor %}
+  {% render 'product-recommendations-custom', title: product.handle %}
 </div>
 {%- if section.settings.enable_sticky_add_to_cart -%}
   {% render 'product-add-to-cart-sticky',

@@ -1305,5 +1305,116 @@
         "info": "Will be scaled down to 32 x 32px"
       }
     ]
+  },
+  {
+    "name": "Product Recommendations",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_product_recommendations_custom",
+        "label": "是否开启商品推荐",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "product_recommendations_custom_id_1",
+        "label": "请输入商品handle，多个用英文逗号分隔"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_1_1",
+        "label": "推荐商品 1"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_1_2",
+        "label": "推荐商品 2"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_1_3",
+        "label": "推荐商品 3"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_1_4",
+        "label": "推荐商品 4"
+      },
+      {
+        "type": "text",
+        "id": "product_recommendations_custom_id_2",
+        "label": "请输入商品handle，多个用英文逗号分隔"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_2_1",
+        "label": "推荐商品 1"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_2_2",
+        "label": "推荐商品 2"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_2_3",
+        "label": "推荐商品 3"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_2_4",
+        "label": "推荐商品 4"
+      },
+      {
+        "type": "text",
+        "id": "product_recommendations_custom_id_3",
+        "label": "请输入商品handle，多个用英文逗号分隔"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_3_1",
+        "label": "推荐商品 1"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_3_2",
+        "label": "推荐商品 2"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_3_3",
+        "label": "推荐商品 3"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_3_4",
+        "label": "推荐商品 4"
+      },
+      {
+        "type": "text",
+        "id": "product_recommendations_custom_id_4",
+        "label": "请输入商品handle，多个用英文逗号分隔"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_4_1",
+        "label": "推荐商品 1"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_4_2",
+        "label": "推荐商品 2"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_4_3",
+        "label": "推荐商品 3"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_4_4",
+        "label": "推荐商品 4"
+      }
+    ]
   }
 ]

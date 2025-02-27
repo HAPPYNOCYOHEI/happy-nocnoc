@@ -1993,3 +1993,73 @@
     max-width: 100%;
   }
 }
+.product-recommendations-custom {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 20px;
+  -webkit-font-smoothing: auto;
+}
+.recommended-custom-product-title-content {
+  color: #191817;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  margin-bottom: 4px;
+}
+.recommendations-production {
+  display: flex;
+  justify-content: center;
+}
+.recommendations-grid {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+}
+
+.recommended-custom-product {
+  padding: 10px;
+  text-align: center;
+  width: 148px !important;
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.recommended-custom-product-quickview {
+  cursor: pointer;
+}
+.product-prices {
+  font-size: 14px;
+  color: #c8493f;
+  margin: 8px 0;
+  text-align: left;
+}
+
+.recommended-custom-product-title {
+  margin: 0;
+  color: #191817;
+  font-family: "Noto Sans JP";
+  font-size: 12px;
+  line-height: 125%; /* 15px */
+  text-transform: uppercase;
+  white-space: nowrap; /* 不换行 */
+  overflow: hidden; /* 隐藏超出部分 */
+  text-overflow: ellipsis; /* 显示省略号 */
+  max-width: 150px; /* 设置最大宽度 */
+  text-align: left;
+}
+.product-recommendations-triangle {
+  position: absolute;
+  top: 28%;
+  right: 10%;
+}
+
+.recommendations-custom-button {
+  font-size: 14px;
+  padding: 10px;
+  height: 36px;
+  font-weight: 400;
+  background: #191817 !important;
+  color: #fff !important;
+}
