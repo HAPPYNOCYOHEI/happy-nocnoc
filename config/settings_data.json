@@ -287,6 +287,13 @@
         "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
         "settings": {}
+      },
+      "12853090937405836128": {
+        "type": "shopify://apps/ptengine/blocks/pt_setting/0be3e440-028b-471c-b77d-85ef98ba4059",
+        "disabled": false,
+        "settings": {
+          "custom_js": "<!-- Ptengine Tag -->\n<script src=\"https://js.ptengine.jp/62jl1kcs.js\"></script>\n<!-- End Ptengine Tag -->"
+        }
       }
     }
   },
