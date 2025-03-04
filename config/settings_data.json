@@ -294,6 +294,11 @@
         "settings": {
           "custom_js": "<!-- Ptengine Tag -->\n<script src=\"https://js.ptengine.jp/62jl1kcs.js\"></script>\n<!-- End Ptengine Tag -->"
         }
+      },
+      "11349500561483629931": {
+        "type": "shopify://apps/notify-me/blocks/app-embed/b399b727-6c85-44fc-9e21-63114bd72054",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
