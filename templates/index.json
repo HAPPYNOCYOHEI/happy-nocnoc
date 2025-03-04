@@ -12,66 +12,12 @@
     "16479477632637c9a7": {
       "type": "slideshow",
       "blocks": {
-        "164794776393e76b8e-2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/KV1_b38ce641-5783-4fe5-b314-fd56982c757e.png",
-            "mobile_image": "shopify://shop_images/KV1_535eb5f3-4d58-48e9-8fc9-adf9fe72d989.png",
-            "slide_link": "https://happynocnoc.jp/products/kids-noc-all-weather-windproof-jacket",
-            "video_background": false,
-            "video": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "large",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "overlay_gradient": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "164794776393e76b8e-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/KV2.png",
-            "mobile_image": "shopify://shop_images/KV2mb_a062c2a1-3a8a-4449-a91a-1d3fb0f6d4ba.png",
-            "slide_link": "shopify://collections/noc-shine-series",
-            "video_background": false,
-            "video": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-large",
-            "content": "",
-            "description_size": "small",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#191817",
-            "overlay_opacity": 0,
-            "overlay_gradient": "",
-            "button_1_text": "NOC-SHINEシリーズを見る",
-            "button_1_link": "shopify://collections/noc-shine-series",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
         "164794776393e76b8e-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/KV3.png",
-            "mobile_image": "shopify://shop_images/KV3mb_810cf27c-97f4-4622-ad63-2dcb39f8cb1f.png",
-            "slide_link": "shopify://collections/noc-noc-fly",
+            "image": "shopify://shop_images/Group_2_1.jpg",
+            "mobile_image": "shopify://shop_images/Frame_1111_1.jpg",
+            "slide_link": "shopify://pages/noc-fly-lp1",
             "video_background": false,
             "video": "",
             "subheading": "",
@@ -85,8 +31,35 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "overlay_gradient": "",
-            "button_1_text": "NOC-Fly シリーズを見る",
+            "button_1_text": "",
             "button_1_link": "shopify://collections/noc-noc-fly",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "164794776393e76b8e-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_1_1.jpg",
+            "mobile_image": "shopify://shop_images/Frame_322_1.jpg",
+            "slide_link": "shopify://pages/noc-shine-series-lp1",
+            "video_background": false,
+            "video": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-large",
+            "content": "",
+            "description_size": "small",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#191817",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/noc-shine-series",
             "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
@@ -95,9 +68,8 @@
         }
       },
       "block_order": [
-        "164794776393e76b8e-2",
-        "164794776393e76b8e-0",
-        "164794776393e76b8e-1"
+        "164794776393e76b8e-1",
+        "164794776393e76b8e-0"
       ],
       "custom_css": [
         "/* 画面幅が768px以下の場合（モバイル用） */@media screen and (max-width: 768px) {a {margin-top: 40px; }}",
