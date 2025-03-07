@@ -1,9 +1,8 @@
 .collection-banner {
-  display: none;
   align-items: center;
   text-align: center;
   position: relative;
-  min-height: 270px;
+  min-height: 50px;
 }
 .collection-banner .row {
   min-width: 100%;
@@ -63,6 +62,7 @@
   padding: 40px 0;
   position: relative;
   z-index: 5;
+  display: none;
 }
 @media only screen and (min-width: 768px) {
   .collection-banner--content {
