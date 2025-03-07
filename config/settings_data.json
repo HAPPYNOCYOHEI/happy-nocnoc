@@ -88,6 +88,10 @@
     "page-other17-content": "kids-noc-breath-raglan-long-sleeve-t-shirt,adult-noc-breath-raglan-long-sleeve-t-shirt,kids-noc-breath-raglan-long-sleeve-t-shirt-1,adult-noc-breath-raglan-long-sleeve-t-shirt-1",
     "page-other18": "size-guide-noc-shine-balloon-skirts-mini",
     "page-other18-content": "adult-noc-shine-balloon-skirts-mini,kids-noc-shine-balloon-skirts-mini",
+    "page-other19": "size-guide-noc-breath-hooked-sweatshirt",
+    "page-other19-content": "kids-noc-breath-hooked-sweatshirt,adult-noc-breath-hooked-sweatshirt",
+    "page-other20": "size-guide-noc-smile-canvas-shoes",
+    "page-other20-content": "kids-noc-smile-canvas-shoes,adult-noc-smile-canvas-shoes",
     "lazy_loading": false,
     "favicon": "shopify://shop_images/happy_nocnoc_icon_bb84d018-83ee-4207-bbd2-8c403315148f.png",
     "product_recommendations_custom_id_1": "kids-noc-shine-windproof-pullover,adult-noc-shine-windproof-pullover",
@@ -257,11 +261,6 @@
       },
       "15623156175785154009": {
         "type": "shopify://apps/qikify-smart-menu-mega-menu/blocks/app-embed/19d2f1cd-1836-4a32-8937-03df3c601dc8",
-        "disabled": false,
-        "settings": {}
-      },
-      "14684659138027382045": {
-        "type": "shopify://apps/xo-gallery/blocks/xo-gallery-scripts/e61dfbaa-1a75-4e4e-bffc-324f17325251",
         "disabled": false,
         "settings": {}
       },
