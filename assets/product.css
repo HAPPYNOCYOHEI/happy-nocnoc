@@ -18,6 +18,10 @@
   transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
+.product-add-to-cart-sticky {
+  max-height: calc(100vh - 100px);
+}
+
 .product-form {
   margin-top: 30px;
   display: block;
@@ -1575,6 +1579,8 @@
   display: none;
   overflow: hidden;
   padding-top: 18px;
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
 }
 .product-add-to-cart-sticky--content.active {
   display: block;
