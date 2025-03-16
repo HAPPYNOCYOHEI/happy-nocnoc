@@ -12,6 +12,33 @@
     "16479477632637c9a7": {
       "type": "slideshow",
       "blocks": {
+        "slide_PUWwYi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_3_2.jpg",
+            "mobile_image": "shopify://shop_images/Frame_1112_2.jpg",
+            "slide_link": "shopify://products/kids-noc-all-max-sport-sneakers",
+            "video_background": false,
+            "video": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/noc-noc-fly",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "164794776393e76b8e-1": {
           "type": "slide",
           "settings": {
@@ -68,6 +95,7 @@
         }
       },
       "block_order": [
+        "slide_PUWwYi",
         "164794776393e76b8e-1",
         "164794776393e76b8e-0"
       ],
@@ -273,15 +301,6 @@
     "173831911460691f89": {
       "type": "apps",
       "blocks": {
-        "xo_gallery_xo_gallery_QfedRm": {
-          "type": "shopify://apps/xo-gallery/blocks/xo-gallery/e61dfbaa-1a75-4e4e-bffc-324f17325251",
-          "disabled": true,
-          "settings": {
-            "type": "gallery",
-            "id": 1,
-            "mid": ""
-          }
-        },
         "lookfy_gallery_lookfy_gallery_MhnYFc": {
           "type": "shopify://apps/lookfy-gallery/blocks/lookfy-gallery/596af5f6-9933-4730-95c2-f7d8d52a0c3e",
           "settings": {
@@ -301,7 +320,6 @@
         }
       },
       "block_order": [
-        "xo_gallery_xo_gallery_QfedRm",
         "lookfy_gallery_lookfy_gallery_MhnYFc"
       ],
       "settings": {
