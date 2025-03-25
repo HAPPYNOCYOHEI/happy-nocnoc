@@ -15,8 +15,8 @@
         "slide_PUWwYi": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/banner-pc.jpg",
-            "mobile_image": "shopify://shop_images/banner-M.jpg",
+            "image": "shopify://shop_images/Frame_2007692272.png",
+            "mobile_image": "shopify://shop_images/Group_336569580_1.png",
             "slide_link": "shopify://products/kids-noc-all-max-sport-sneakers",
             "video_background": false,
             "video": "",
@@ -32,7 +32,7 @@
             "overlay_opacity": 0,
             "overlay_gradient": "",
             "button_1_text": "",
-            "button_1_link": "shopify://collections/noc-noc-fly",
+            "button_1_link": "shopify://products/adult-noc-all-max-sport-sneakers",
             "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
