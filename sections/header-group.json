@@ -47,7 +47,7 @@
         "style": "style1",
         "header_shadow": "header--shadow-small",
         "menu": "",
-        "transparent_header": true,
+        "transparent_header": false,
         "logo_light": "shopify://shop_images/2.png",
         "show_language_switcher": false,
         "show_currency_switcher": false,
