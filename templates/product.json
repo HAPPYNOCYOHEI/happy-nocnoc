@@ -17,6 +17,48 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
+        "size_chart_condition_WheF6c": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-cooluv",
+            "content": "kids-noc-cooluv-sun-protection-jacket,adult-noc-cooluv-sun-protection-jacket"
+          }
+        },
+        "size_chart_condition_TBFwfB": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-shine-windproof-short-pants",
+            "content": "kids-noc-shine-windproof-short-pants,adult-noc-shine-windproof-short-pants"
+          }
+        },
+        "size_chart_condition_r3xWgV": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-shine-windproof-parachute-pants",
+            "content": "kids-noc-shine-windproof-parachute-pants,adult-noc-shine-windproof-parachute-pants"
+          }
+        },
+        "size_chart_condition_Cq99BB": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-shine-windproof-pullover",
+            "content": "kids-noc-shine-windproof-pullover,adult-noc-shine-windproof-pullover"
+          }
+        },
+        "size_chart_condition_YNgCmB": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-shine-windproof-long-skirt",
+            "content": "kids-noc-shine-windproof-long-skirt,adult-noc-shine-windproof-long-skirt"
+          }
+        },
+        "size_chart_condition_jf9GPK": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-shine-jacket",
+            "content": "kids-noc-shine-windproof-jacket,adult-noc-shine-windproof-jacket"
+          }
+        },
         "size_chart_condition_YAnExn": {
           "type": "size_chart_condition",
           "settings": {
@@ -153,6 +195,12 @@
         }
       },
       "block_order": [
+        "size_chart_condition_WheF6c",
+        "size_chart_condition_TBFwfB",
+        "size_chart_condition_r3xWgV",
+        "size_chart_condition_Cq99BB",
+        "size_chart_condition_YNgCmB",
+        "size_chart_condition_jf9GPK",
         "size_chart_condition_YAnExn",
         "size_chart_condition_eebtMn",
         "size_chart_condition_aq7pqM",
