@@ -17,6 +17,20 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
+        "size_chart_condition_8bMqdf": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "",
+            "content": ""
+          }
+        },
+        "size_chart_condition_npQMbD": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-hiking-free",
+            "content": "kids-hiking-free-sandals-1,kids-hiking-free-sandals-2,kids-hiking-free-sandals-3,adult-hiking-free-sandals-1,adult-hiking-free-sandals-3,adult-hiking-free-sandals-2"
+          }
+        },
         "fera_product_reviews_summary_dFUB4y": {
           "type": "shopify://apps/fera/blocks/product_reviews_summary/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
           "disabled": true,
@@ -111,6 +125,8 @@
         }
       },
       "block_order": [
+        "size_chart_condition_8bMqdf",
+        "size_chart_condition_npQMbD",
         "fera_product_reviews_summary_dFUB4y",
         "title",
         "variant_picker",
@@ -132,7 +148,8 @@
         "display_captions": true,
         "hide_variants": false,
         "lightbox": true,
-        "enable_video_looping": true
+        "enable_video_looping": true,
+        "page-normal": ""
       }
     },
     "16623877721f33fb14": {
