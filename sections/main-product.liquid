@@ -187,13 +187,17 @@
             extra_class: 'product-short-description description-pc'
           -%}
         </div>
+        {%- assign size_chart_condition = section.blocks | where: 'type', 'size_chart_condition' -%}
+        {%- assign page_normal = section.settings['page-normal'] -%}
         <div class="product-information main-product-gallery">
           {%- render 'product-information',
             product: product,
             section: section,
             update_url: true,
             pickup: true,
-            first_image: first_image
+            first_image: first_image,
+            block_settings: size_chart_condition,
+            page_normal: page_normal
           -%}
         </div>
       </div>
@@ -389,6 +393,12 @@
       "id": "enable_video_looping",
       "default": false,
       "label": "Enable video looping"
+    },
+    {
+      "type": "page",
+      "id": "page-normal",
+      "label": "用于尺码表",
+      "info": "默认尺码表，当下面条件都不满足时使用"
     }
   ],
   "blocks": [
@@ -1891,6 +1901,23 @@
       "name": "Payment icons",
       "limit": 1,
       "settings": []
+    },
+    {
+      "type": "size_chart_condition",
+      "name": "尺码表页面",
+      "settings": [
+        {
+          "type": "page",
+          "id": "page",
+          "label": "选择尺码表页面"
+        },
+        {
+          "type": "text",
+          "id": "content",
+          "label": "填入商品handle名称，多个以英文逗号分隔",
+          "placeholder": "product-handle-1,product-handle-2"
+        }
+      ]
     }
   ]
 }
