@@ -17,11 +17,39 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
+        "size_chart_condition_YAnExn": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-ice-polo",
+            "content": "kid-noc-ice-polo-shirt,adult-noc-ice-polo-shirt"
+          }
+        },
+        "size_chart_condition_eebtMn": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-ice-t-shirt",
+            "content": "adult-noc-ice-gradient-t-shirt,kids-noc-ice-gradient-t-shirt"
+          }
+        },
+        "size_chart_condition_aq7pqM": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-breath",
+            "content": "kids-noc-breath-raglan-long-sleeve-t-shirt,adult-noc-breath-raglan-long-sleeve-t-shirt,kids-noc-breath-raglan-long-sleeve-t-shirt-1,adult-noc-breath-raglan-long-sleeve-t-shirt-1"
+          }
+        },
+        "size_chart_condition_GqVjPm": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-noc-all-weather",
+            "content": "kids-noc-all-weather-windproof-jacket,adult-noc-all-weather-windproof-jacket"
+          }
+        },
         "size_chart_condition_8bMqdf": {
           "type": "size_chart_condition",
           "settings": {
-            "page": "",
-            "content": ""
+            "page": "size-guide-noc-fly",
+            "content": "kids-noc-fly-light-sneaker-1,kids-noc-fly-light-sneaker-2,adult-noc-fly-light-sneaker-1,adult-noc-fly-light-sneaker-2"
           }
         },
         "size_chart_condition_npQMbD": {
@@ -125,6 +153,10 @@
         }
       },
       "block_order": [
+        "size_chart_condition_YAnExn",
+        "size_chart_condition_eebtMn",
+        "size_chart_condition_aq7pqM",
+        "size_chart_condition_GqVjPm",
         "size_chart_condition_8bMqdf",
         "size_chart_condition_npQMbD",
         "fera_product_reviews_summary_dFUB4y",
