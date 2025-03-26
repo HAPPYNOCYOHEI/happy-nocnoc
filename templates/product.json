@@ -17,6 +17,62 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
+        "size_chart_condition_LXXtwD": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-smile-canvas-shoes",
+            "content": "kids-noc-smile-canvas-shoes,adult-noc-smile-canvas-shoes"
+          }
+        },
+        "size_chart_condition_t8cEcN": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-breath-hooked-sweatshirt",
+            "content": "kids-noc-breath-hooked-sweatshirt,adult-noc-breath-hooked-sweatshirt"
+          }
+        },
+        "size_chart_condition_ygWUDj": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-shine-balloon-skirts-mini",
+            "content": "adult-noc-shine-balloon-skirts-mini,kids-noc-shine-balloon-skirts-mini"
+          }
+        },
+        "size_chart_condition_NwmQgf": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-breath",
+            "content": "kids-noc-breath-raglan-long-sleeve-t-shirt,adult-noc-breath-raglan-long-sleeve-t-shirt,kids-noc-breath-raglan-long-sleeve-t-shirt-1,adult-noc-breath-raglan-long-sleeve-t-shirt-1"
+          }
+        },
+        "size_chart_condition_RKhwAd": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-cloud-fleece-jacket",
+            "content": "adult-noc-cloud-fleece-jacket,kids-noc-cloud-fleece-jacket"
+          }
+        },
+        "size_chart_condition_x9XwJQ": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-cloud-fleece-long-pants",
+            "content": "kids-noc-cloud-fleece-long-pants,adult-noc-cloud-fleece-long-pants"
+          }
+        },
+        "size_chart_condition_FBbNpf": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-noc-all-max-sport-sneakers",
+            "content": "kids-noc-all-max-sport-sneakers,adult-noc-all-max-sport-sneakers"
+          }
+        },
+        "size_chart_condition_gM3rYr": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "noc-ice-long-t-shirts",
+            "content": "kid-noc-ice-gradient-long-sleeve-t-shirt,adult-noc-ice-gradient-long-sleeve-t-shirt,kids-noc-ice-sporty-long-sleeve-t-shirt,adult-noc-ice-sporty-long-sleeve-t-shirt"
+          }
+        },
         "size_chart_condition_WheF6c": {
           "type": "size_chart_condition",
           "settings": {
@@ -195,6 +251,14 @@
         }
       },
       "block_order": [
+        "size_chart_condition_LXXtwD",
+        "size_chart_condition_t8cEcN",
+        "size_chart_condition_ygWUDj",
+        "size_chart_condition_NwmQgf",
+        "size_chart_condition_RKhwAd",
+        "size_chart_condition_x9XwJQ",
+        "size_chart_condition_FBbNpf",
+        "size_chart_condition_gM3rYr",
         "size_chart_condition_WheF6c",
         "size_chart_condition_TBFwfB",
         "size_chart_condition_r3xWgV",
