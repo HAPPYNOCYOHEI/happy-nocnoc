@@ -224,6 +224,25 @@
 				</div>
 			</div>
 		{%- endif -%}
+		<div class="thb-mobile-menu-footer">
+			{%- if shop.customer_accounts_enabled -%}
+				{%- if customer -%}
+				  {%- assign profile_link = routes.account_url -%}
+				  {%- capture profile_text -%}
+				    {{ 'sections.header.my_account' | t }}
+				  {%- endcapture -%}
+				{%- else -%}
+				  {%- assign profile_link = routes.account_login_url -%}
+				  {%- capture profile_text -%}
+				    {{ 'sections.header.login' | t }}
+				  {%- endcapture -%}
+				{%- endif -%}
+		    <a class="thb-mobile-account-link" href="{{ profile_link | escape }}" title="{{ profile_text | escape }}">{%- render 'svg-icons' with 'myaccount' %} {{ profile_text }}</a>
+		  {%- endif -%}
+			<div class="no-js-hidden">
+				{%- render 'localization', id: 'MobileMenuLocalization', show_language_switcher: header_settings.show_language_switcher, show_currency_switcher: header_settings.show_currency_switcher -%}
+			</div>
+		</div>
 	</div>
 </nav>
 <link rel="stylesheet" href="{{ 'mobile-menu.css' | asset_url }}" media="print" onload="this.media='all'">
