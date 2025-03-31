@@ -66,6 +66,22 @@
       white-space: nowrap;
       text-overflow: ellipsis;
       color: var(--color-header-text, --color-body); }
+    .mobile-menu-drawer .thb-mobile-menu-footer .thb-mobile-account-link {
+      display: flex;
+      align-items: center;
+      font-size: 0.875rem;
+      color: var(--color-header-links, --color-accent); }
+      .mobile-menu-drawer .thb-mobile-menu-footer .thb-mobile-account-link svg {
+        margin-right: 12px;
+        height: 14px;
+        width: auto; }
+        .mobile-menu-drawer .thb-mobile-menu-footer .thb-mobile-account-link svg path {
+          fill: var(--color-header-links, --color-accent); }
+        [dir="rtl"] .mobile-menu-drawer .thb-mobile-menu-footer .thb-mobile-account-link svg {
+          margin-right: 0;
+          margin-left: 12px; }
+      .no-js .mobile-menu-drawer .thb-mobile-menu-footer .thb-mobile-account-link {
+        margin-left: auto; }
   .mobile-menu-drawer .mega-menu-promotion {
     display: block;
     width: calc(100% + 30px);
