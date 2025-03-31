@@ -230,16 +230,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "1662389920b1295ea2": {
-      "type": "spacer",
-      "disabled": true,
-      "settings": {
-        "spacer_mobile": 20,
-        "spacer_desktop": 40,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
     "shop_the_look_3VAJVb": {
       "type": "shop-the-look",
       "blocks": {
@@ -344,7 +334,6 @@
     "multicolumn_ghhF6c",
     "166366563622039b3e",
     "featured_collection_d4KjV7",
-    "1662389920b1295ea2",
     "shop_the_look_3VAJVb",
     "173831911460691f89",
     "single_image_Ae8K38"
