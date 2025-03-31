@@ -224,6 +224,7 @@
 				</div>
 			</div>
 		{%- endif -%}
+{% comment %}
 		<div class="thb-mobile-menu-footer">
 			{%- if shop.customer_accounts_enabled -%}
 				{%- if customer -%}
@@ -243,6 +244,7 @@
 				{%- render 'localization', id: 'MobileMenuLocalization', show_language_switcher: header_settings.show_language_switcher, show_currency_switcher: header_settings.show_currency_switcher -%}
 			</div>
 		</div>
+{% endcomment %}
 	</div>
 </nav>
 <link rel="stylesheet" href="{{ 'mobile-menu.css' | asset_url }}" media="print" onload="this.media='all'">
