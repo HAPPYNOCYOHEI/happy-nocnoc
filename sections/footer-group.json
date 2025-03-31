@@ -86,7 +86,7 @@
       "settings": {
         "full_width": true,
         "copyright_text": "",
-        "show_language_switcher": true,
+        "show_language_switcher": false,
         "show_currency_switcher": false,
         "show_payment_icons": true,
         "enable_follow_on_shop": false
