@@ -157,6 +157,13 @@
             "content": "kids-hiking-free-sandals-1,kids-hiking-free-sandals-2,kids-hiking-free-sandals-3,adult-hiking-free-sandals-1,adult-hiking-free-sandals-3,adult-hiking-free-sandals-2"
           }
         },
+        "size_chart_condition_NMPGDY": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "sizeｰnoc-shine-3way",
+            "content": "adult-noc-shine-3ways-pants,kids-noc-shine-3ways-pants"
+          }
+        },
         "fera_product_reviews_summary_dFUB4y": {
           "type": "shopify://apps/fera/blocks/product_reviews_summary/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
           "disabled": true,
@@ -271,6 +278,7 @@
         "size_chart_condition_GqVjPm",
         "size_chart_condition_8bMqdf",
         "size_chart_condition_npQMbD",
+        "size_chart_condition_NMPGDY",
         "fera_product_reviews_summary_dFUB4y",
         "title",
         "variant_picker",
