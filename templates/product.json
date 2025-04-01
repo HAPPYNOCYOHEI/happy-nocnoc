@@ -164,6 +164,13 @@
             "content": "adult-noc-shine-3ways-pants,kids-noc-shine-3ways-pants"
           }
         },
+        "size_chart_condition_DtX8Te": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-dry",
+            "content": "adult-noc-dry-drop-shoulder-tshirts,kids-noc-dry-drop-shoulder-tshirts"
+          }
+        },
         "fera_product_reviews_summary_dFUB4y": {
           "type": "shopify://apps/fera/blocks/product_reviews_summary/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
           "disabled": true,
@@ -279,6 +286,7 @@
         "size_chart_condition_8bMqdf",
         "size_chart_condition_npQMbD",
         "size_chart_condition_NMPGDY",
+        "size_chart_condition_DtX8Te",
         "fera_product_reviews_summary_dFUB4y",
         "title",
         "variant_picker",
