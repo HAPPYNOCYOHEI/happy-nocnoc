@@ -143,7 +143,7 @@
           if product_card_product.selected_or_first_available_variant.available == false
             assign button_content = 'products.product.sold_out' | t
           else
-            if product_card_product.metafields.theme.preorder and product_card_product.available
+            if product_card_product.metafields.custom.preorder and product_card_product.available
               assign button_content = 'products.product.pre_order' | t
             else
               if is_purchasable
