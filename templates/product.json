@@ -171,6 +171,13 @@
             "content": "adult-noc-dry-drop-shoulder-tshirts,kids-noc-dry-drop-shoulder-tshirts"
           }
         },
+        "size_chart_condition_ARDAFM": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表ｰnoc-dry-ラグラン長袖tシャツ-吸湿-速乾",
+            "content": "adult-noc-dry-raglan-tshirts,kids-noc-dry-raglan-tshirts"
+          }
+        },
         "fera_product_reviews_summary_dFUB4y": {
           "type": "shopify://apps/fera/blocks/product_reviews_summary/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
           "disabled": true,
@@ -287,6 +294,7 @@
         "size_chart_condition_npQMbD",
         "size_chart_condition_NMPGDY",
         "size_chart_condition_DtX8Te",
+        "size_chart_condition_ARDAFM",
         "fera_product_reviews_summary_dFUB4y",
         "title",
         "variant_picker",
