@@ -192,6 +192,13 @@
             "content": "adults-noc-city-turndown-collar-shirts,kids-noc-city-turndown-collar-shirts"
           }
         },
+        "size_chart_condition_HwHprT": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "noc-city-スタンドカラーシャツ-冷感-シワ防止",
+            "content": "kids-noc-city-band-collar-shirt,adults-noc-city-band-collar-shirt"
+          }
+        },
         "fera_product_reviews_summary_dFUB4y": {
           "type": "shopify://apps/fera/blocks/product_reviews_summary/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
           "disabled": true,
@@ -311,6 +318,7 @@
         "size_chart_condition_ARDAFM",
         "size_chart_condition_tiwNDM",
         "size_chart_condition_7pPkM7",
+        "size_chart_condition_HwHprT",
         "fera_product_reviews_summary_dFUB4y",
         "title",
         "variant_picker",
