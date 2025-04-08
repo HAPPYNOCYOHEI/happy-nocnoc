@@ -161,21 +161,35 @@
           "type": "size_chart_condition",
           "settings": {
             "page": "sizeｰnoc-shine-3way",
-            "content": "adult-noc-shine-3ways-pants,kids-noc-shine-3ways-pants"
+            "content": "adults-noc-shine-3ways-pants,kids-noc-shine-3ways-pants"
           }
         },
         "size_chart_condition_DtX8Te": {
           "type": "size_chart_condition",
           "settings": {
             "page": "size-guide-noc-dry",
-            "content": "adult-noc-dry-drop-shoulder-tshirts,kids-noc-dry-drop-shoulder-tshirts"
+            "content": "adults-noc-dry-drop-shoulder-tshirts,kids-noc-dry-drop-shoulder-tshirts"
           }
         },
         "size_chart_condition_ARDAFM": {
           "type": "size_chart_condition",
           "settings": {
             "page": "サイズ表ｰnoc-dry-ラグラン長袖tシャツ-吸湿-速乾",
-            "content": "adult-noc-dry-raglan-tshirts,kids-noc-dry-raglan-tshirts"
+            "content": "adults-noc-dry-raglan-tshirts,kids-noc-dry-raglan-tshirts"
+          }
+        },
+        "size_chart_condition_tiwNDM": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-noc-city-ロングフレアスカート-通気-uvカット",
+            "content": "kids-noc-city-long-skirts,adults-noc-city-long-skirts"
+          }
+        },
+        "size_chart_condition_7pPkM7": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-noc-city-turndown-collar-shirts",
+            "content": "adults-noc-city-turndown-collar-shirts,kids-noc-city-turndown-collar-shirts"
           }
         },
         "fera_product_reviews_summary_dFUB4y": {
@@ -295,6 +309,8 @@
         "size_chart_condition_NMPGDY",
         "size_chart_condition_DtX8Te",
         "size_chart_condition_ARDAFM",
+        "size_chart_condition_tiwNDM",
+        "size_chart_condition_7pPkM7",
         "fera_product_reviews_summary_dFUB4y",
         "title",
         "variant_picker",
