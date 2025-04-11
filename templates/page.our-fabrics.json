@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -62,7 +71,7 @@
         "text_B6pMFX": {
           "type": "text",
           "settings": {
-            "text": "<p>Organic cotton, bamboo fabrics, and recycled materials are becoming more popular as the fashion industry embraces eco-conscious choices. Integrated technology, like fabrics that can change color, monitor body metrics, or self-clean, is an exciting frontier in fashion.<\/p>",
+            "text": "<p>Organic cotton, bamboo fabrics, and recycled materials are becoming more popular as the fashion industry embraces eco-conscious choices. Integrated technology, like fabrics that can change color, monitor body metrics, or self-clean, is an exciting frontier in fashion.</p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -271,9 +280,10 @@
           "type": "column",
           "settings": {
             "image_full_width": false,
+            "image_link": "",
             "retina": true,
             "title": "Smart Fabrics",
-            "text": "<p>Integrated technology, like fabrics that can change color, monitor body metrics, or self-clean, is an exciting frontier in fashion.<\/p>",
+            "text": "<p>Integrated technology, like fabrics that can change color, monitor body metrics, or self-clean, is an exciting frontier in fashion.</p>",
             "link_label": "",
             "link": ""
           }
@@ -282,9 +292,10 @@
           "type": "column",
           "settings": {
             "image_full_width": false,
+            "image_link": "",
             "retina": true,
             "title": "Sustainability",
-            "text": "<p>Organic cotton, bamboo fabrics, and recycled materials are becoming more popular as the fashion industry embraces eco-conscious choices.<\/p>",
+            "text": "<p>Organic cotton, bamboo fabrics, and recycled materials are becoming more popular as the fashion industry embraces eco-conscious choices.</p>",
             "link_label": "",
             "link": ""
           }
@@ -293,9 +304,10 @@
           "type": "column",
           "settings": {
             "image_full_width": false,
+            "image_link": "",
             "retina": true,
             "title": "Texture Play",
-            "text": "<p>Designers often combine fabrics to create visual contrast or tactile experiences—like silk with wool for winter collections.<\/p>",
+            "text": "<p>Designers often combine fabrics to create visual contrast or tactile experiences—like silk with wool for winter collections.</p>",
             "link_label": "",
             "link": ""
           }
@@ -304,9 +316,10 @@
           "type": "column",
           "settings": {
             "image_full_width": false,
+            "image_link": "",
             "retina": true,
             "title": "Customization",
-            "text": "<p>3D printing and laser cutting allow for more precise patterns and styles, making it possible to \"fashion\" fabrics into unique shapes or textures.<\/p>",
+            "text": "<p>3D printing and laser cutting allow for more precise patterns and styles, making it possible to \"fashion\" fabrics into unique shapes or textures.</p>",
             "link_label": "",
             "link": ""
           }
@@ -353,6 +366,23 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "1744356317e78d9dee": {
+      "type": "apps",
+      "blocks": {
+        "nocme_com_test_4cBY8p": {
+          "type": "shopify://apps/nocme-com/blocks/test/8857235b-3d1a-4feb-a4d3-408a85c4657d",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "nocme_com_test_4cBY8p"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -365,6 +395,7 @@
     "rich_text_kL9dJX",
     "spacer_JcAge9",
     "multicolumn_QtpyCL",
-    "product_slider_RYdfLh"
+    "product_slider_RYdfLh",
+    "1744356317e78d9dee"
   ]
 }
