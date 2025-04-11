@@ -382,6 +382,23 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
+    },
+    "174435648670510d12": {
+      "type": "apps",
+      "blocks": {
+        "nocme_com_test_VaRCVc": {
+          "type": "shopify://apps/nocme-com/blocks/test/8857235b-3d1a-4feb-a4d3-408a85c4657d",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "nocme_com_test_VaRCVc"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -397,6 +414,7 @@
     "multicolumn_EKPWUr",
     "image_with_text_overlay_HieexJ",
     "rich_text_gcR8Tf",
-    "single_image_FU7iX9"
+    "single_image_FU7iX9",
+    "174435648670510d12"
   ]
 }

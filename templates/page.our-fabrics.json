@@ -369,15 +369,6 @@
     },
     "1744356317e78d9dee": {
       "type": "apps",
-      "blocks": {
-        "nocme_com_test_4cBY8p": {
-          "type": "shopify://apps/nocme-com/blocks/test/8857235b-3d1a-4feb-a4d3-408a85c4657d",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "nocme_com_test_4cBY8p"
-      ],
       "settings": {
         "section_width": "full-width-row",
         "disable_top_spacing": false,
