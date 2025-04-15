@@ -1,0 +1,441 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [],
+      "settings": {}
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "size_chart_condition_LXXtwD": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-smile-canvas-shoes",
+            "content": "kids-noc-smile-canvas-shoes,adult-noc-smile-canvas-shoes"
+          }
+        },
+        "size_chart_condition_t8cEcN": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-breath-hooked-sweatshirt",
+            "content": "kids-noc-breath-hooked-sweatshirt,adult-noc-breath-hooked-sweatshirt"
+          }
+        },
+        "size_chart_condition_ygWUDj": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-shine-balloon-skirts-mini",
+            "content": "adult-noc-shine-balloon-skirts-mini,kids-noc-shine-balloon-skirts-mini"
+          }
+        },
+        "size_chart_condition_NwmQgf": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-breath",
+            "content": "kids-noc-breath-raglan-long-sleeve-t-shirt,adult-noc-breath-raglan-long-sleeve-t-shirt,kids-noc-breath-raglan-long-sleeve-t-shirt-1,adult-noc-breath-raglan-long-sleeve-t-shirt-1"
+          }
+        },
+        "size_chart_condition_RKhwAd": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-cloud-fleece-jacket",
+            "content": "adult-noc-cloud-fleece-jacket,kids-noc-cloud-fleece-jacket"
+          }
+        },
+        "size_chart_condition_x9XwJQ": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-cloud-fleece-long-pants",
+            "content": "kids-noc-cloud-fleece-long-pants,adult-noc-cloud-fleece-long-pants"
+          }
+        },
+        "size_chart_condition_FBbNpf": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-noc-all-max-sport-sneakers",
+            "content": "kids-noc-all-max-sport-sneakers,adult-noc-all-max-sport-sneakers"
+          }
+        },
+        "size_chart_condition_gM3rYr": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "noc-ice-long-t-shirts",
+            "content": "kid-noc-ice-gradient-long-sleeve-t-shirt,adult-noc-ice-gradient-long-sleeve-t-shirt,kids-noc-ice-sporty-long-sleeve-t-shirt,adult-noc-ice-sporty-long-sleeve-t-shirt"
+          }
+        },
+        "size_chart_condition_WheF6c": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-cooluv",
+            "content": "kids-noc-cooluv-sun-protection-jacket,adult-noc-cooluv-sun-protection-jacket"
+          }
+        },
+        "size_chart_condition_TBFwfB": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-shine-windproof-short-pants",
+            "content": "kids-noc-shine-windproof-short-pants,adult-noc-shine-windproof-short-pants"
+          }
+        },
+        "size_chart_condition_r3xWgV": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-shine-windproof-parachute-pants",
+            "content": "kids-noc-shine-windproof-parachute-pants,adult-noc-shine-windproof-parachute-pants"
+          }
+        },
+        "size_chart_condition_Cq99BB": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-shine-windproof-pullover",
+            "content": "kids-noc-shine-windproof-pullover,adult-noc-shine-windproof-pullover"
+          }
+        },
+        "size_chart_condition_YNgCmB": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-shine-windproof-long-skirt",
+            "content": "kids-noc-shine-windproof-long-skirt,adult-noc-shine-windproof-long-skirt"
+          }
+        },
+        "size_chart_condition_jf9GPK": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-shine-jacket",
+            "content": "kids-noc-shine-windproof-jacket,adult-noc-shine-windproof-jacket"
+          }
+        },
+        "size_chart_condition_YAnExn": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-ice-polo",
+            "content": "kid-noc-ice-polo-shirt,adult-noc-ice-polo-shirt"
+          }
+        },
+        "size_chart_condition_eebtMn": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-ice-t-shirt",
+            "content": "adult-noc-ice-gradient-t-shirt,kids-noc-ice-gradient-t-shirt"
+          }
+        },
+        "size_chart_condition_aq7pqM": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-breath",
+            "content": "kids-noc-breath-raglan-long-sleeve-t-shirt,adult-noc-breath-raglan-long-sleeve-t-shirt,kids-noc-breath-raglan-long-sleeve-t-shirt-1,adult-noc-breath-raglan-long-sleeve-t-shirt-1"
+          }
+        },
+        "size_chart_condition_GqVjPm": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-noc-all-weather",
+            "content": "kids-noc-all-weather-windproof-jacket,adult-noc-all-weather-windproof-jacket"
+          }
+        },
+        "size_chart_condition_8bMqdf": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-fly",
+            "content": "kids-noc-fly-light-sneaker-1,kids-noc-fly-light-sneaker-2,adult-noc-fly-light-sneaker-1,adult-noc-fly-light-sneaker-2"
+          }
+        },
+        "size_chart_condition_npQMbD": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-hiking-free",
+            "content": "kids-hiking-free-sandals-1,kids-hiking-free-sandals-2,kids-hiking-free-sandals-3,adult-hiking-free-sandals-1,adult-hiking-free-sandals-3,adult-hiking-free-sandals-2"
+          }
+        },
+        "size_chart_condition_NMPGDY": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "sizeｰnoc-shine-3way",
+            "content": "adults-noc-shine-3ways-pants,kids-noc-shine-3ways-pants"
+          }
+        },
+        "size_chart_condition_DtX8Te": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "size-guide-noc-dry",
+            "content": "adults-noc-dry-drop-shoulder-tshirts,kids-noc-dry-drop-shoulder-tshirts"
+          }
+        },
+        "size_chart_condition_ARDAFM": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表ｰnoc-dry-ラグラン長袖tシャツ-吸湿-速乾",
+            "content": "adults-noc-dry-raglan-tshirts,kids-noc-dry-raglan-tshirts"
+          }
+        },
+        "size_chart_condition_tiwNDM": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-noc-city-ロングフレアスカート-通気-uvカット",
+            "content": "kids-noc-city-long-skirts,adults-noc-city-long-skirts"
+          }
+        },
+        "size_chart_condition_7pPkM7": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-noc-city-turndown-collar-shirts",
+            "content": "adults-noc-city-turndown-collar-shirts,kids-noc-city-turndown-collar-shirts"
+          }
+        },
+        "size_chart_condition_HwHprT": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "noc-city-スタンドカラーシャツ-冷感-シワ防止",
+            "content": "kids-noc-city-band-collar-shirt,adults-noc-city-band-collar-shirt"
+          }
+        },
+        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "レビュー",
+            "side_panel_1_icon": "star",
+            "side_panel_1_content": "",
+            "side_panel_1_page": "noc-fly-review",
+            "side_panel_2_label": "",
+            "side_panel_2_icon": "box",
+            "side_panel_2_content": "",
+            "side_panel_2_page": "",
+            "side_panel_3_label": "",
+            "side_panel_3_icon": "washing",
+            "side_panel_3_content": "",
+            "side_panel_3_page": ""
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "uppercase": false,
+            "show_products_rating": false,
+            "show_custom_badges": true
+          }
+        },
+        "fera_product_reviews_summary_dFUB4y": {
+          "type": "shopify://apps/fera/blocks/product_reviews_summary/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
+          "disabled": true,
+          "settings": {
+            "star_color": "#f91e1e",
+            "size": 16,
+            "show_count": true,
+            "show_avg_rating": false,
+            "alignment": "left",
+            "hide_when_no_reviews": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_size": "xlarge",
+            "color_picker_use_variants": true,
+            "variant_is_disabled": true,
+            "sizing_guide_variant": "サイズ",
+            "sizing_guide_text": "サイズガイド",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "inventory_level_Jy4Ynh": {
+          "type": "inventory_level",
+          "settings": {
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": true,
+            "inventory_notice_threshold": 10,
+            "inventory_notice_base": 50
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "outline_button": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "image_VXHWhk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_168530686_1.jpg",
+            "position": "text-left",
+            "image_link": ""
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {
+            "seo_text_max_height": 1000,
+            "seo_text_read_more": "もっと見る",
+            "seo_text_read_less": "戻す"
+          }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "size_chart_condition_LXXtwD",
+        "size_chart_condition_t8cEcN",
+        "size_chart_condition_ygWUDj",
+        "size_chart_condition_NwmQgf",
+        "size_chart_condition_RKhwAd",
+        "size_chart_condition_x9XwJQ",
+        "size_chart_condition_FBbNpf",
+        "size_chart_condition_gM3rYr",
+        "size_chart_condition_WheF6c",
+        "size_chart_condition_TBFwfB",
+        "size_chart_condition_r3xWgV",
+        "size_chart_condition_Cq99BB",
+        "size_chart_condition_YNgCmB",
+        "size_chart_condition_jf9GPK",
+        "size_chart_condition_YAnExn",
+        "size_chart_condition_eebtMn",
+        "size_chart_condition_aq7pqM",
+        "size_chart_condition_GqVjPm",
+        "size_chart_condition_8bMqdf",
+        "size_chart_condition_npQMbD",
+        "size_chart_condition_NMPGDY",
+        "size_chart_condition_DtX8Te",
+        "size_chart_condition_ARDAFM",
+        "size_chart_condition_tiwNDM",
+        "size_chart_condition_7pPkM7",
+        "size_chart_condition_HwHprT",
+        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
+        "title",
+        "fera_product_reviews_summary_dFUB4y",
+        "variant_picker",
+        "inventory_level_Jy4Ynh",
+        "buy_buttons",
+        "image_VXHWhk",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_sticky_info": true,
+        "enable_sticky_add_to_cart": true,
+        "show_taxes_included": true,
+        "media_layout": "thumbnails",
+        "display_slider_pagination": true,
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": true,
+        "page-normal": ""
+      }
+    },
+    "16623877721f33fb14": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 90,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "rich_text_BYUeYy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_by7nKc": {
+          "type": "heading",
+          "settings": {
+            "text": "Happy NOCNOCについて",
+            "size": "h3"
+          }
+        },
+        "text_gzbYXA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>リンクコーデを楽しむことで、大人も子供も年齢にとらわれず一緒に笑顔になれる。 <br/>そんな想いを込めた、世代を超えて愛されるエイジレスなブランドです。</p>",
+            "custom_liquid": "",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_by7nKc",
+        "text_gzbYXA"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "large",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#191817",
+        "color_links": "#191817",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_BL7mbj": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/1_bee6f40b-99f8-4661-8f62-984ea0cf7077.jpg",
+        "image_mobile": "shopify://shop_images/1_9b5ec6a5-d9ea-4653-bdf0-000ede4ff63d.jpg",
+        "full_width": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1662552569cce2536d": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 5,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "おすすめ商品",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "custom_liquid_ktghkd": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<a class=\"klaviyo-bis-trigger\" href=\"#\">再入荷を登録</a>\ntrigger: {\n    product_page_text: \"Notify Me When Available\",\n    product_page_class: \"button\",\n    product_page_text_align: \"center\",\n    product_page_margin: \"0px\",\n    alternate_anchor: \"AddToCart\",\n    replace_anchor: false\n    },",
+        "section_width": "full-width-row"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "16623877721f33fb14",
+    "rich_text_BYUeYy",
+    "single_image_BL7mbj",
+    "1662552569cce2536d",
+    "product-recommendations",
+    "custom_liquid_ktghkd"
+  ]
+}
