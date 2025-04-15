@@ -203,7 +203,7 @@
           "type": "side_panel",
           "settings": {
             "side_panel_1_label": "レビュー",
-            "side_panel_1_icon": "star",
+            "side_panel_1_icon": "none",
             "side_panel_1_content": "",
             "side_panel_1_page": "noc-fly-review",
             "side_panel_2_label": "",
