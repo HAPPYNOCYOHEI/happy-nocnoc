@@ -206,6 +206,13 @@
             "content": "kids-noc-city-shorts,adults-noc-city-shorts"
           }
         },
+        "size_chart_condition_WNNEqG": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-noc-city-ショートパンツ冷感uvカット-的副本",
+            "content": "adults-noc-city-long-pants,kids-noc-city-long-pants"
+          }
+        },
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
           "type": "side_panel",
           "disabled": true,
@@ -327,6 +334,7 @@
         "size_chart_condition_7pPkM7",
         "size_chart_condition_HwHprT",
         "size_chart_condition_8FFBdK",
+        "size_chart_condition_WNNEqG",
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
         "title",
         "fera_product_reviews_summary_dFUB4y",
