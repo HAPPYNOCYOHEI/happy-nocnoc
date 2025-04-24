@@ -289,17 +289,17 @@
         "disabled": false,
         "settings": {}
       },
-      "12853090937405836128": {
-        "type": "shopify://apps/ptengine/blocks/pt_setting/0be3e440-028b-471c-b77d-85ef98ba4059",
-        "disabled": false,
-        "settings": {
-          "custom_js": "<!-- Ptengine Tag -->\n<script src=\"https://js.ptengine.jp/62jl1kcs.js\"></script>\n<!-- End Ptengine Tag -->"
-        }
-      },
       "11349500561483629931": {
         "type": "shopify://apps/notify-me/blocks/app-embed/b399b727-6c85-44fc-9e21-63114bd72054",
         "disabled": false,
         "settings": {}
+      },
+      "12853090937405836128": {
+        "type": "shopify://apps/ptengine/blocks/pt_setting/0be3e440-028b-471c-b77d-85ef98ba4059",
+        "disabled": false,
+        "settings": {
+          "custom_js": "<!-- Ptengine Tag -->\n<script src=\"https://js.ptengine.jp/62jl1kcs.js\"></script>\n<!-- End Ptengine Tag -->\n<!-- Ptengine Tag -->\n<script src=\"https://js.ptengine.com/18kcfe37.js\" async></script>\n<!-- End Ptengine Tag -->"
+        }
       }
     }
   },
