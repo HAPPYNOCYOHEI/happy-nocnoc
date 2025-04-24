@@ -227,6 +227,13 @@
             "content": "kids-noc-breath-short-sleeve-t-shirt,adults-noc-breath-short-sleeve-t-shirt"
           }
         },
+        "size_chart_condition_DaecmB": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-noc-breath-さらさらコットンtシャツ-的副本",
+            "content": "adults-noc-dry-short-sleeve-t-shirt,kids-noc-dry-short-sleeve-t-shirt"
+          }
+        },
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
           "type": "side_panel",
           "disabled": true,
@@ -351,6 +358,7 @@
         "size_chart_condition_WNNEqG",
         "size_chart_condition_AnVDEi",
         "size_chart_condition_yRF6CW",
+        "size_chart_condition_DaecmB",
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
         "title",
         "fera_product_reviews_summary_dFUB4y",
