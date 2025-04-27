@@ -241,6 +241,13 @@
             "content": "kids-noc-shine-cargo-long-skirt,adults-noc-shine-cargo-long-skirt"
           }
         },
+        "size_chart_condition_pHmmCX": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-noc-ice-キャミワンピース-冷感-伸縮性",
+            "content": "kids-noc-ice-tank-dress"
+          }
+        },
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
           "type": "side_panel",
           "disabled": true,
@@ -367,6 +374,7 @@
         "size_chart_condition_yRF6CW",
         "size_chart_condition_DaecmB",
         "size_chart_condition_Y78F8P",
+        "size_chart_condition_pHmmCX",
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
         "title",
         "fera_product_reviews_summary_dFUB4y",
