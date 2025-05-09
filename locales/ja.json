@@ -461,7 +461,8 @@
         "custom_line_item_description": "注文番号{{ order_name }}の支払い金額"
       },
       "contact": {
-        "address1_label": "番地"
+        "address1_label": "番地",
+        "optional_address2_label": "建物名、部屋番号など"
       },
       "field_errors": {
         "address_address1_blank": "番地を入力してください"
