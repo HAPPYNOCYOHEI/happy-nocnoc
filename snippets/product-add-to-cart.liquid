@@ -1,3 +1,25 @@
+<script type="application/json" id="variant-instock-data">
+  {
+    {% for variant in product.variants %}
+      "{{ variant.id }}": {
+        "instock_time": "{{ variant.metafields.custom.instock_time | default: '' }}",
+        "available": {{ variant.available | json }}
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  }
+</script>
+
+<script type="application/json" id="add-cart-button-translations">
+  {
+    "add_to_cart": {{ 'products.product.add_to_cart' | t | json }},
+    "sold_out": {{ 'products.product.sold_out' | t | json }},
+    "pre_order_now": {{ 'products.product.pre_order_now' | t | json }},
+    "pre_sale": {{ 'products.product.pre_sale' | t | json }},
+    "in_pre_sale": {{ 'products.product.in_pre_sale' | t | json }},
+    "pre_sale_out": {{ 'products.product.pre_sale_out' | t | json }}
+  }
+</script>
+
 <div {{ block.shopify_attributes }}>
   {%- if product != blank -%}
     {%- liquid
@@ -22,6 +44,7 @@
       data-section="{{ section.id }}"
       data-hide-errors="{{ gift_card_recipient_feature_active }}"
       template="{{ product_template }}"
+      style="margin-top: 20px;"
     >
       <div class="product-form__error-message-wrapper form-notification error" role="alert" hidden>
         {% render 'svg-icons' with 'thb-error' %}
@@ -38,6 +61,26 @@
         {%- if gift_card_recipient_feature_active -%}
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
         {%- endif -%}
+
+        {% assign instock_time = product.selected_or_first_available_variant.metafields.custom.instock_time %}
+        {% if instock_time %}
+          {% assign instock_time_st = instock_time | date: '%s' | plus: 0 %}
+          {% assign current_st = 'now' | date: '%s' | plus: 0 %}
+          {% assign st_diff = instock_time_st | minus: current_st %}
+        {% else %}
+          {% assign st_diff = 0 %}
+        {% endif %}
+
+        {% if st_diff > 0 %}
+          <div
+            id="pre-sale-info"
+            data-current-variant="{{ product.selected_or_first_available_variant.id }}"
+            style="margin-bottom:20px; font-weight: 700; font-size: 17px; font-family: 'Noto Sans JP'"
+          >
+            <!-- pre-sale-info -->
+          </div>
+        {% endif %}
+        
         <div class="product-add-to-cart-container">
           <div class="form-notification error" style="display:none;"></div>
           <div class="add_to_cart_holder">
@@ -96,6 +139,18 @@
                       assign button_content = 'products.product.pre_order' | t
                     else
                       assign button_content = 'products.product.add_to_cart' | t
+                      assign instock_time = product.selected_or_first_available_variant.metafields.custom.instock_time
+                      if instock_time
+                        assign instock_time_st = instock_time | date: '%s' | plus: 0
+                        assign current_st = 'now' | date: '%s' | plus: 0
+                        assign st_diff = instock_time_st | minus: current_st
+                      else
+                        assign st_diff = 0
+                      endif
+
+                      if st_diff > 0
+                        assign button_content = 'products.product.pre_order_now' | t
+                      endif
                     endif
                   endif
                 -%}
@@ -155,3 +210,85 @@
   </pickup-availability>
   <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const variantsData = JSON.parse(document.getElementById('variant-instock-data').textContent);
+  const translations = JSON.parse(document.getElementById('add-cart-button-translations').textContent);
+  
+  const originalAddToCart = theme.variantStrings.addToCart;
+  const presaleInfoContainer = document.getElementById('pre-sale-info');
+  Object.defineProperty(theme.variantStrings, 'addToCart', {
+    get: function() {
+      const currentVariantId = presaleInfoContainer.dataset.currentVariant;
+      if (currentVariantId) {
+        const data = variantsData[currentVariantId];
+        if (data && data.instock_time) {
+          const now = new Date();
+          const instockTime = new Date(data.instock_time);
+          if (instockTime > now && data.available) {
+            return translations.pre_order_now;
+          }
+        }
+      }
+      return originalAddToCart;
+    },
+    configurable: true
+  });
+
+  updatePresaleInfo(presaleInfoContainer.dataset.currentVariant);  
+  const variantSelectors = document.querySelectorAll('[name^="id"]');
+  variantSelectors.forEach(selector => {
+    selector.addEventListener('change', function(event) {
+      const newVariantId = event.target.value;
+      presaleInfoContainer.dataset.currentVariant = newVariantId;
+      updatePresaleInfo(newVariantId);
+    });
+  });
+  
+  function updatePresaleInfo(variantId) {
+    let presaleInfo = '';
+    const data = variantsData[variantId];
+    if (!data) {
+      presaleInfoContainer.innerHTML = presaleInfo;
+      return;
+    }
+
+    const instockTimeStr = data.instock_time;
+    const isAvailable = data.available;
+    
+    if (instockTimeStr) {
+      const now = new Date();
+      const instockTime = new Date(instockTimeStr);
+      
+      const fourteenDaysLater = new Date();
+      fourteenDaysLater.setDate(now.getDate() + 14);
+      
+      
+      if (instockTime > fourteenDaysLater) {
+        // reservation
+        const startTime = new Date();
+        startTime.setDate(instockTime.getDate() - 14);
+        
+        presaleInfo = translations.pre_sale.replace('\{\{ start_time \}\}', formatDate(startTime)).replace('\{\{ send_time \}\}', formatDate(instockTime));
+      } else if (instockTime > now) {
+        if (!isAvailable) {
+          // pre-sale out
+          presaleInfo = translations.pre_sale_out;
+        } else {
+          // in pre-sale
+          presaleInfo = translations.in_pre_sale.replace('\{\{ send_time \}\}', formatDate(instockTime));
+        }
+      }
+    }
+
+    presaleInfoContainer.innerHTML = presaleInfo;
+  }
+  
+  function formatDate(date) {
+    const month = date.getMonth() + 1;
+    const day = date.getDate();
+    return `${month}月${day}日`;
+  }
+});
+</script>
