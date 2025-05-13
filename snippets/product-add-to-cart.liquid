@@ -267,7 +267,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
       if (instockTime > fourteenDaysLater) {
         // reservation
-        const startTime = new Date();
+        const startTime = new Date(instockTime);
         startTime.setDate(instockTime.getDate() - 14);
         
         presaleInfo = translations.pre_sale.replace('\{\{ start_time \}\}', formatDate(startTime)).replace('\{\{ send_time \}\}', formatDate(instockTime));
