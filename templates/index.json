@@ -120,7 +120,7 @@
         "column_etWRyq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/27559bd2-d49a-4005-af91-c211f3face2f.jpg",
+            "image": "shopify://shop_images/1ba299787195e0400344fe9c66dd1217_dcbb80cc-febf-4d8a-909c-767909f219c6.jpg",
             "image_full_width": true,
             "image_link": "shopify://pages/feature_page_parents_and_children",
             "retina": true,
@@ -133,11 +133,11 @@
         "column_wLaKUD": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/506c5f5f-632b-46c1-81e4-9f606d64d54f.jpg",
+            "image": "shopify://shop_images/33d1daae207610945bdd895454805966.jpg",
             "image_full_width": true,
             "image_link": "shopify://pages/linkcode-brother",
             "retina": true,
-            "title": "兄弟",
+            "title": "兄弟姉妹",
             "text": "",
             "link_label": "",
             "link": ""
@@ -146,7 +146,7 @@
         "column_Dx9XFJ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ec121b70-b4dc-43a7-8569-b85b245fd73c.jpg",
+            "image": "shopify://shop_images/d345a8dcc6ac3a97543500da50173dfc_75239bc8-a2e7-47e6-a1d6-7442e6acfdf2.jpg",
             "image_full_width": true,
             "image_link": "shopify://pages/linkcode_friend",
             "retina": true,
@@ -299,8 +299,10 @@
             "title": "<strong>NOC ギャラリー</strong>",
             "subtitle": "",
             "heading_size": "0.8",
+            "heading_color": "",
             "heading_align": "left",
             "desc_style": "subtitle",
+            "desc_color": "",
             "custom_class": "",
             "background_color": "",
             "padding_top": 0,
