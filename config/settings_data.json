@@ -301,14 +301,14 @@
           "custom_js": "<!-- Ptengine Tag -->\n<script src=\"https://js.ptengine.jp/62jl1kcs.js\"></script>\n<!-- End Ptengine Tag -->\n<!-- Ptengine Tag -->\n<script src=\"https://js.ptengine.jp/18kcfe37.js\" async></script>\n<!-- End Ptengine Tag -->"
         }
       },
-      "12526071353035850722": {
-        "type": "shopify://apps/amp-back-in-stock/blocks/app-embed/bfa6a8c4-24e2-411a-9396-e35031b33f34",
-        "disabled": false,
-        "settings": {}
-      },
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
+        "settings": {}
+      },
+      "12526071353035850722": {
+        "type": "shopify://apps/amp-back-in-stock/blocks/app-embed/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+        "disabled": true,
         "settings": {}
       }
     }
