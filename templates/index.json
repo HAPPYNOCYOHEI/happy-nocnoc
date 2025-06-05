@@ -12,6 +12,33 @@
     "16479477632637c9a7": {
       "type": "slideshow",
       "blocks": {
+        "164794776393e76b8e-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Frame_336569886_1.jpg",
+            "mobile_image": "shopify://shop_images/Frame_336569887_1.jpg",
+            "slide_link": "https://happynocnoc.jp/pages/hiking-free-lp3",
+            "video_background": false,
+            "video": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-large",
+            "content": "",
+            "description_size": "small",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#191817",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/noc-shine-series",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "slide_PUWwYi": {
           "type": "slide",
           "settings": {
@@ -65,39 +92,12 @@
             "button_2_link": "",
             "button_2_outline": false
           }
-        },
-        "164794776393e76b8e-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Group_1_1.jpg",
-            "mobile_image": "shopify://shop_images/KV2mb.png",
-            "slide_link": "shopify://pages/noc-shine-series-lp1",
-            "video_background": false,
-            "video": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-large",
-            "content": "",
-            "description_size": "small",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#191817",
-            "overlay_opacity": 0,
-            "overlay_gradient": "",
-            "button_1_text": "",
-            "button_1_link": "shopify://collections/noc-shine-series",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
         }
       },
       "block_order": [
+        "164794776393e76b8e-0",
         "slide_PUWwYi",
-        "164794776393e76b8e-1",
-        "164794776393e76b8e-0"
+        "164794776393e76b8e-1"
       ],
       "custom_css": [
         "/* 画面幅が768px以下の場合（モバイル用） */@media screen and (max-width: 768px) {a {margin-top: 40px; }}",
