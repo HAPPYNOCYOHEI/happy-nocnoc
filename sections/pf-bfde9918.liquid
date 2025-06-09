@@ -331,22 +331,21 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 </style>
 
 <script>
-  document.querySelectorAll('.wear-section').forEach(section => {
-    const toggleBtn = section.querySelector('.toggle-btn');
-    const carouselContainer = section.querySelector('.carousel-container');
+  document.addEventListener('click', function (event) {
+    if (event.target.classList.contains('toggle-btn')) {
+      const section = event.target.closest('.wear-section');
+      const carouselContainer = section.querySelector('.carousel-container');
 
-    toggleBtn.addEventListener('click', function () {
-      toggleBtn.disabled = true;
+      event.target.disabled = true;
       if (carouselContainer.style.display === 'none' || carouselContainer.style.display === '') {
         carouselContainer.style.display = 'block';
-        toggleBtn.textContent = 'ー';
-        setTimeout(() => { toggleBtn.disabled = false; }, 300);
+        event.target.textContent = 'ー';
       } else {
         carouselContainer.style.display = 'none';
-        toggleBtn.textContent = '＋';
-        setTimeout(() => { toggleBtn.disabled = false; }, 300);
+        event.target.textContent = '＋';
       }
-    });
+      setTimeout(() => { event.target.disabled = false; }, 300);
+    }
   });
 </script></div></div></div><div data-pf-type="FlexBlock" class="sc-bRilDX eDlaIl pf-23_"><img alt="1.png__PID:9f6dbdac-f539-4447-bb7e-db82247b3423" src="https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=2048" srcSet="https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=375 375w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=550 550w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=768 768w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=1024 1024w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=1280 1280w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=1440 1440w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=1680 1680w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=1800 1800w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=1920 1920w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=2048 2048w" fetchPriority="low" decoding="async" loading="lazy" style="--pf-image-ratio:0.6784409257003654" sizes="75vw" data-pf-type="Image5" class="sc-sasBe kjSXxK pf-24_ pf-image-1" store="[object Object]"/><div data-pf-type="FlexBlock" class="sc-bRilDX eDlaIl pf-25_"><div data-pf-type="Custom.HTML" class="sc-fulBNO eZelYR pf-26_"><div class="wear-section">
   <div class="wear-header" style="margin-bottom: 5px;">
@@ -496,22 +495,21 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 </style>
 
 <script>
-  document.querySelectorAll('.wear-section').forEach(section => {
-    const toggleBtn = section.querySelector('.toggle-btn');
-    const carouselContainer = section.querySelector('.carousel-container');
+  document.addEventListener('click', function (event) {
+    if (event.target.classList.contains('toggle-btn')) {
+      const section = event.target.closest('.wear-section');
+      const carouselContainer = section.querySelector('.carousel-container');
 
-    toggleBtn.addEventListener('click', function () {
-      toggleBtn.disabled = true;
+      event.target.disabled = true;
       if (carouselContainer.style.display === 'none' || carouselContainer.style.display === '') {
         carouselContainer.style.display = 'block';
-        toggleBtn.textContent = 'ー';
-        setTimeout(() => { toggleBtn.disabled = false; }, 300);
+        event.target.textContent = 'ー';
       } else {
         carouselContainer.style.display = 'none';
-        toggleBtn.textContent = '＋';
-        setTimeout(() => { toggleBtn.disabled = false; }, 300);
+        event.target.textContent = '＋';
       }
-    });
+      setTimeout(() => { event.target.disabled = false; }, 300);
+    }
   });
 </script></div></div></div><div data-pf-type="FlexBlock" class="sc-bRilDX eDlaIl pf-27_"><img alt="1.png__PID:bdacf539-f447-4b7e-9b82-247b34237193" src="https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=2048" srcSet="https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=375 375w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=550 550w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=768 768w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=1024 1024w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=1280 1280w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=1440 1440w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=1680 1680w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=1800 1800w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=1920 1920w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=2048 2048w" fetchPriority="low" decoding="async" loading="lazy" style="--pf-image-ratio:0.659952606635071" sizes="75vw" data-pf-type="Image5" class="sc-sasBe kjSXxK pf-28_ pf-image-1" store="[object Object]"/><div data-pf-type="FlexBlock" class="sc-bRilDX eDlaIl pf-29_"><div data-pf-type="Custom.HTML" class="sc-fulBNO eZelYR pf-30_"><div class="wear-section">
   <div class="wear-header" style="margin-bottom: 5px;">
@@ -661,22 +659,21 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 </style>
 
 <script>
-  document.querySelectorAll('.wear-section').forEach(section => {
-    const toggleBtn = section.querySelector('.toggle-btn');
-    const carouselContainer = section.querySelector('.carousel-container');
+  document.addEventListener('click', function (event) {
+    if (event.target.classList.contains('toggle-btn')) {
+      const section = event.target.closest('.wear-section');
+      const carouselContainer = section.querySelector('.carousel-container');
 
-    toggleBtn.addEventListener('click', function () {
-      toggleBtn.disabled = true;
+      event.target.disabled = true;
       if (carouselContainer.style.display === 'none' || carouselContainer.style.display === '') {
         carouselContainer.style.display = 'block';
-        toggleBtn.textContent = 'ー';
-        setTimeout(() => { toggleBtn.disabled = false; }, 300);
+        event.target.textContent = 'ー';
       } else {
         carouselContainer.style.display = 'none';
-        toggleBtn.textContent = '＋';
-        setTimeout(() => { toggleBtn.disabled = false; }, 300);
+        event.target.textContent = '＋';
       }
-    });
+      setTimeout(() => { event.target.disabled = false; }, 300);
+    }
   });
 </script></div></div></div><div data-pf-type="FlexBlock" class="sc-bRilDX eDlaIl pf-31_"><img alt="1.png__PID:f4477b7e-db82-447b-b423-71935cfedd64" src="https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_1bcddecd-534b-4d85-bb44-3b4ca3eaf925.png?v=1749123978&width=2048" srcSet="https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_1bcddecd-534b-4d85-bb44-3b4ca3eaf925.png?v=1749123978&width=375 375w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_1bcddecd-534b-4d85-bb44-3b4ca3eaf925.png?v=1749123978&width=550 550w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_1bcddecd-534b-4d85-bb44-3b4ca3eaf925.png?v=1749123978&width=768 768w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_1bcddecd-534b-4d85-bb44-3b4ca3eaf925.png?v=1749123978&width=1024 1024w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_1bcddecd-534b-4d85-bb44-3b4ca3eaf925.png?v=1749123978&width=1280 1280w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_1bcddecd-534b-4d85-bb44-3b4ca3eaf925.png?v=1749123978&width=1440 1440w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_1bcddecd-534b-4d85-bb44-3b4ca3eaf925.png?v=1749123978&width=1680 1680w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_1bcddecd-534b-4d85-bb44-3b4ca3eaf925.png?v=1749123978&width=1800 1800w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_1bcddecd-534b-4d85-bb44-3b4ca3eaf925.png?v=1749123978&width=1920 1920w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_1bcddecd-534b-4d85-bb44-3b4ca3eaf925.png?v=1749123978&width=2048 2048w" fetchPriority="low" decoding="async" loading="lazy" style="--pf-image-ratio:0.6195773081201335" sizes="75vw" data-pf-type="Image5" class="sc-sasBe kjSXxK pf-32_ pf-image-1" store="[object Object]"/><div data-pf-type="FlexBlock" class="sc-bRilDX eDlaIl pf-33_"><div data-pf-type="Custom.HTML" class="sc-fulBNO eZelYR pf-34_"><div class="wear-section">
   <div class="wear-header" style="margin-bottom: 16px;">
