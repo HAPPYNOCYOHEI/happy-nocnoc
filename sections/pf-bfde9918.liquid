@@ -9,9 +9,10 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   </div>
 
   <div class="carousel-container" id="carouselContainer" style="display: block; overflow-x: auto;">
-    <!-- 左右渐隐遮罩 -->
-    <div class="carousel-fade left"></div>
-    <div class="carousel-fade right"></div>
+    <!-- 动画箭头 START -->
+    <div class="scroll-arrow left-arrow">←</div>
+    <div class="scroll-arrow right-arrow">→</div>
+    <!-- 动画箭头 END -->
 
     <div class="carousel" id="carousel">
       <!-- 固定插图 START -->
@@ -149,24 +150,35 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     background: rgba(0, 0, 0, 0.2);
   }
 
-  .carousel-fade.left,
-  .carousel-fade.right {
+  .scroll-arrow {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 30px;
-    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.3);
+    animation: bounce 1.5s infinite;
+    z-index: 2;
     pointer-events: none;
   }
 
-  .carousel-fade.left {
-    left: 0;
-    background: linear-gradient(to right, white 0%, transparent 100%);
+  .left-arrow {
+    left: 5px;
   }
 
-  .carousel-fade.right {
-    right: 0;
-    background: linear-gradient(to left, white 0%, transparent 100%);
+  .right-arrow {
+    right: 5px;
+  }
+
+  @keyframes bounce {
+
+    0%,
+    100% {
+      transform: translateY(-50%) translateX(0);
+    }
+
+    50% {
+      transform: translateY(-50%) translateX(5px);
+    }
   }
 
   @media (min-width: 768px) {
