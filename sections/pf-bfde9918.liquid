@@ -186,11 +186,16 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 </script></div></div></div><div data-pf-type="FlexBlock" class="sc-bRilDX eDlaIl pf-19_"><img alt="1.png__PID:2dc89f6d-bdac-4539-b447-7b7edb82247b" src="https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_a8101654-f82f-4d6c-8f43-e24e84027d47.png?v=1749123769&width=2048" srcSet="https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_a8101654-f82f-4d6c-8f43-e24e84027d47.png?v=1749123769&width=375 375w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_a8101654-f82f-4d6c-8f43-e24e84027d47.png?v=1749123769&width=550 550w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_a8101654-f82f-4d6c-8f43-e24e84027d47.png?v=1749123769&width=768 768w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_a8101654-f82f-4d6c-8f43-e24e84027d47.png?v=1749123769&width=1024 1024w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_a8101654-f82f-4d6c-8f43-e24e84027d47.png?v=1749123769&width=1280 1280w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_a8101654-f82f-4d6c-8f43-e24e84027d47.png?v=1749123769&width=1440 1440w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_a8101654-f82f-4d6c-8f43-e24e84027d47.png?v=1749123769&width=1680 1680w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_a8101654-f82f-4d6c-8f43-e24e84027d47.png?v=1749123769&width=1800 1800w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_a8101654-f82f-4d6c-8f43-e24e84027d47.png?v=1749123769&width=1920 1920w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_a8101654-f82f-4d6c-8f43-e24e84027d47.png?v=1749123769&width=2048 2048w" fetchPriority="low" decoding="async" loading="lazy" style="--pf-image-ratio:0.6630952380952381" sizes="75vw" data-pf-type="Image5" class="sc-sasBe kjSXxK pf-20_ pf-image-1" store="[object Object]"/><div data-pf-type="FlexBlock" class="sc-bRilDX eDlaIl pf-21_"><div data-pf-type="Custom.HTML" class="sc-fulBNO eZelYR pf-22_"><div class="wear-section">
   <div class="wear-header" style="margin-bottom: 5px;">
     <span>着用商品</span>
-    <button class="toggle-btn" id="toggleBtn">ー</button>
+    <button class="toggle-btn">ー</button>
   </div>
 
-  <div class="carousel-container" id="carouselContainer" style="display: block; overflow-x: auto;">
-    <div class="carousel" id="carousel">
+  <div class="carousel-container" style="display: block; overflow-x: scroll;">
+    <!-- 动画箭头 START -->
+    <div class="scroll-arrow left-arrow">←</div>
+    <div class="scroll-arrow right-arrow">→</div>
+    <!-- 动画箭头 END -->
+
+    <div class="carousel">
       <!-- 固定插图 START -->
       <div class="carousel-item">
         <a href="https://happynocnoc.jp/products/adult-hiking-free-sandals-3?variant=52119976771953">
@@ -217,18 +222,14 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
       </div>
       <!-- 更多固定商品 END -->
     </div>
+    <!-- 滚动指示线 -->
+    <div class="scroll-indicator"></div>
   </div>
 
   <a class="check-all" href="https://happynocnoc.jp/collections/noc-shine-series">全ての商品をチェック</a>
 </div>
 
 <style>
-  body {
-    background: none;
-    padding: 40px;
-    font-family: sans-serif;
-  }
-
   .wear-section {
     background: #fff;
     border: 1px solid #000;
@@ -251,9 +252,10 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   }
 
   .carousel-container {
-    overflow-x: auto;
+    overflow-x: scroll;
+    position: relative;
     -webkit-overflow-scrolling: touch;
-    scrollbar-width: thin;
+    scrollbar-width: auto;
     scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
   }
 
@@ -274,10 +276,6 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     max-height: 293px;
     width: 100%;
     border: 1px solid #ccc;
-  }
-
-  .carousel-controls {
-    display: none;
   }
 
   .check-all {
@@ -314,18 +312,50 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     font-weight: 600;
   }
 
+  .scroll-indicator {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.3);
+    animation: bounce 1.5s infinite;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .left-arrow {
+    left: 5px;
+  }
+
+  .right-arrow {
+    right: 5px;
+  }
+
+  @keyframes bounce {
+
+    0%,
+    100% {
+      transform: translateY(-50%) translateX(0);
+    }
+
+    50% {
+      transform: translateY(-50%) translateX(5px);
+    }
+  }
+
   @media (min-width: 768px) {
     .carousel-item {
       min-width: 200px;
       width: auto;
-    }
-
-    .carousel-container {
-      overflow-x: auto;
-    }
-
-    .carousel-controls {
-      display: none;
     }
 
     .wear-header span {
@@ -348,30 +378,36 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 </style>
 
 <script>
-  const toggleBtn = document.getElementById('toggleBtn');
-  const carouselContainer = document.getElementById('carouselContainer');
-  const carousel = document.getElementById('carousel');
+  document.querySelectorAll('.wear-section').forEach(section => {
+    const toggleBtn = section.querySelector('.toggle-btn');
+    const carouselContainer = section.querySelector('.carousel-container');
 
-  toggleBtn.addEventListener('click', function () {
-    toggleBtn.disabled = true;
-    if (carouselContainer.style.display === 'none' || carouselContainer.style.display === '') {
-      carouselContainer.style.display = 'block';
-      toggleBtn.textContent = 'ー';
-      setTimeout(() => { toggleBtn.disabled = false; }, 300);
-    } else {
-      carouselContainer.style.display = 'none';
-      toggleBtn.textContent = '＋';
-      setTimeout(() => { toggleBtn.disabled = false; }, 300);
-    }
+    toggleBtn.addEventListener('click', function () {
+      toggleBtn.disabled = true;
+      if (carouselContainer.style.display === 'none' || carouselContainer.style.display === '') {
+        carouselContainer.style.display = 'block';
+        toggleBtn.textContent = 'ー';
+        setTimeout(() => { toggleBtn.disabled = false; }, 300);
+      } else {
+        carouselContainer.style.display = 'none';
+        toggleBtn.textContent = '＋';
+        setTimeout(() => { toggleBtn.disabled = false; }, 300);
+      }
+    });
   });
 </script></div></div></div><div data-pf-type="FlexBlock" class="sc-bRilDX eDlaIl pf-23_"><img alt="1.png__PID:9f6dbdac-f539-4447-bb7e-db82247b3423" src="https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=2048" srcSet="https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=375 375w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=550 550w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=768 768w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=1024 1024w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=1280 1280w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=1440 1440w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=1680 1680w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=1800 1800w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=1920 1920w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_11d6c6be-f7d0-4870-bac8-ab0414964eb4.png?v=1749123807&width=2048 2048w" fetchPriority="low" decoding="async" loading="lazy" style="--pf-image-ratio:0.6784409257003654" sizes="75vw" data-pf-type="Image5" class="sc-sasBe kjSXxK pf-24_ pf-image-1" store="[object Object]"/><div data-pf-type="FlexBlock" class="sc-bRilDX eDlaIl pf-25_"><div data-pf-type="Custom.HTML" class="sc-fulBNO eZelYR pf-26_"><div class="wear-section">
   <div class="wear-header" style="margin-bottom: 5px;">
     <span>着用商品</span>
-    <button class="toggle-btn" id="toggleBtn">ー</button>
+    <button class="toggle-btn">ー</button>
   </div>
 
-  <div class="carousel-container" id="carouselContainer" style="display: block; overflow-x: auto;">
-    <div class="carousel" id="carousel">
+  <div class="carousel-container" style="display: block; overflow-x: scroll;">
+    <!-- 动画箭头 START -->
+    <div class="scroll-arrow left-arrow">←</div>
+    <div class="scroll-arrow right-arrow">→</div>
+    <!-- 动画箭头 END -->
+
+    <div class="carousel">
       <!-- 固定插图 START -->
       <div class="carousel-item">
         <a href="https://happynocnoc.jp/products/adult-hiking-free-sandals-3?variant=52119976771953">
@@ -398,18 +434,14 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
       </div>
       <!-- 更多固定商品 END -->
     </div>
+    <!-- 滚动指示线 -->
+    <div class="scroll-indicator"></div>
   </div>
 
   <a class="check-all" href="https://happynocnoc.jp/collections/noc-shine-series">全ての商品をチェック</a>
 </div>
 
 <style>
-  body {
-    background: none;
-    padding: 40px;
-    font-family: sans-serif;
-  }
-
   .wear-section {
     background: #fff;
     border: 1px solid #000;
@@ -432,9 +464,10 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   }
 
   .carousel-container {
-    overflow-x: auto;
+    overflow-x: scroll;
+    position: relative;
     -webkit-overflow-scrolling: touch;
-    scrollbar-width: thin;
+    scrollbar-width: auto;
     scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
   }
 
@@ -455,10 +488,6 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     max-height: 293px;
     width: 100%;
     border: 1px solid #ccc;
-  }
-
-  .carousel-controls {
-    display: none;
   }
 
   .check-all {
@@ -495,18 +524,50 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     font-weight: 600;
   }
 
+  .scroll-indicator {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.3);
+    animation: bounce 1.5s infinite;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .left-arrow {
+    left: 5px;
+  }
+
+  .right-arrow {
+    right: 5px;
+  }
+
+  @keyframes bounce {
+
+    0%,
+    100% {
+      transform: translateY(-50%) translateX(0);
+    }
+
+    50% {
+      transform: translateY(-50%) translateX(5px);
+    }
+  }
+
   @media (min-width: 768px) {
     .carousel-item {
       min-width: 200px;
       width: auto;
-    }
-
-    .carousel-container {
-      overflow-x: auto;
-    }
-
-    .carousel-controls {
-      display: none;
     }
 
     .wear-header span {
@@ -519,24 +580,32 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
       font-weight: 700;
     }
   }
+
+  @media (min-width: 1024px) {
+    .sc-bRlDX.eDlaII.pf-16 {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
 </style>
 
 <script>
-  const toggleBtn = document.getElementById('toggleBtn');
-  const carouselContainer = document.getElementById('carouselContainer');
-  const carousel = document.getElementById('carousel');
+  document.querySelectorAll('.wear-section').forEach(section => {
+    const toggleBtn = section.querySelector('.toggle-btn');
+    const carouselContainer = section.querySelector('.carousel-container');
 
-  toggleBtn.addEventListener('click', function () {
-    toggleBtn.disabled = true;
-    if (carouselContainer.style.display === 'none' || carouselContainer.style.display === '') {
-      carouselContainer.style.display = 'block';
-      toggleBtn.textContent = 'ー';
-      setTimeout(() => { toggleBtn.disabled = false; }, 300);
-    } else {
-      carouselContainer.style.display = 'none';
-      toggleBtn.textContent = '＋';
-      setTimeout(() => { toggleBtn.disabled = false; }, 300);
-    }
+    toggleBtn.addEventListener('click', function () {
+      toggleBtn.disabled = true;
+      if (carouselContainer.style.display === 'none' || carouselContainer.style.display === '') {
+        carouselContainer.style.display = 'block';
+        toggleBtn.textContent = 'ー';
+        setTimeout(() => { toggleBtn.disabled = false; }, 300);
+      } else {
+        carouselContainer.style.display = 'none';
+        toggleBtn.textContent = '＋';
+        setTimeout(() => { toggleBtn.disabled = false; }, 300);
+      }
+    });
   });
 </script></div></div></div><div data-pf-type="FlexBlock" class="sc-bRilDX eDlaIl pf-27_"><img alt="1.png__PID:bdacf539-f447-4b7e-9b82-247b34237193" src="https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=2048" srcSet="https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=375 375w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=550 550w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=768 768w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=1024 1024w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=1280 1280w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=1440 1440w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=1680 1680w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=1800 1800w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=1920 1920w,https://cdn.shopify.com/s/files/1/0891/2509/3745/files/1_5a7fa3a1-8448-4ba1-89da-c32e9f13fe42.png?v=1749123825&width=2048 2048w" fetchPriority="low" decoding="async" loading="lazy" style="--pf-image-ratio:0.659952606635071" sizes="75vw" data-pf-type="Image5" class="sc-sasBe kjSXxK pf-28_ pf-image-1" store="[object Object]"/><div data-pf-type="FlexBlock" class="sc-bRilDX eDlaIl pf-29_"><div data-pf-type="Custom.HTML" class="sc-fulBNO eZelYR pf-30_"><div class="wear-section">
   <div class="wear-header" style="margin-bottom: 5px;">
