@@ -9,11 +9,6 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   </div>
 
   <div class="carousel-container" id="carouselContainer" style="display: block; overflow-x: auto;">
-    <!-- 动画箭头 START -->
-    <div class="scroll-arrow left-arrow">←</div>
-    <div class="scroll-arrow right-arrow">→</div>
-    <!-- 动画箭头 END -->
-
     <div class="carousel" id="carousel">
       <!-- 固定插图 START -->
       <div class="carousel-item">
@@ -41,8 +36,6 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
       </div>
       <!-- 更多固定商品 END -->
     </div>
-    <!-- 滚动指示线 -->
-    <div class="scroll-indicator"></div>
   </div>
 
   <a class="check-all" href="https://happynocnoc.jp/collections/noc-shine-series">全ての商品をチェック</a>
@@ -77,10 +70,9 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   }
 
   .carousel-container {
-    overflow-x: scroll;
-    position: relative;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    scrollbar-width: auto;
+    scrollbar-width: thin;
     scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
   }
 
@@ -141,50 +133,14 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     font-weight: 600;
   }
 
-  .scroll-indicator {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: rgba(0, 0, 0, 0.2);
-  }
-
-  .scroll-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    color: rgba(0, 0, 0, 0.3);
-    animation: bounce 1.5s infinite;
-    z-index: 2;
-    pointer-events: none;
-  }
-
-  .left-arrow {
-    left: 5px;
-  }
-
-  .right-arrow {
-    right: 5px;
-  }
-
-  @keyframes bounce {
-
-    0%,
-    100% {
-      transform: translateY(-50%) translateX(0);
-    }
-
-    50% {
-      transform: translateY(-50%) translateX(5px);
-    }
-  }
-
   @media (min-width: 768px) {
     .carousel-item {
       min-width: 200px;
       width: auto;
+    }
+
+    .carousel-container {
+      overflow-x: auto;
     }
 
     .carousel-controls {
