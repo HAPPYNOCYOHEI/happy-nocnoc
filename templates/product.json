@@ -262,6 +262,13 @@
             "content": "noc-fly-sky-walker-adults-sneakers"
           }
         },
+        "size_chart_condition_Rw3hdz": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-noc-fly-sky-walker-大人向-超軽量スニーカー的副本",
+            "content": "one-piece-sleeveless-swimsuit"
+          }
+        },
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
           "type": "side_panel",
           "disabled": true,
@@ -391,6 +398,7 @@
         "size_chart_condition_Y78F8P",
         "size_chart_condition_ae9ed3",
         "size_chart_condition_bMVPRm",
+        "size_chart_condition_Rw3hdz",
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
         "title",
         "fera_product_reviews_summary_dFUB4y",
