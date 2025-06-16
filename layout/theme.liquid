@@ -116,7 +116,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         mixpanel.people.set({
             Email: '{{ customer.email }}',
             Name: '{{ customer.name }}',
-            Accepts_marketing: {{ customer.accepts_marketing }}
+            accepts_marketing: {{ customer.accepts_marketing }}
         });
       </script>
     {% endif %}
