@@ -114,9 +114,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         mixpanel.init('58f70ff2005e9cb708c63f625a9e6b32');
         mixpanel.identify({{customer.id}});
         mixpanel.people.set({
-            Email: '{{ customer.email }}',
-            Name: '{{ customer.name }}',
-            accepts_marketing: {{ customer.accepts_marketing }}
+            '$email': '{{ customer.email }}',
+            '$name': '{{ customer.name }}',
+            'accepts_marketing': {{ customer.accepts_marketing }}
         });
       </script>
     {% endif %}
