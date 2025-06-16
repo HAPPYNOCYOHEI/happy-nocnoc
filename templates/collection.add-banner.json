@@ -42,10 +42,30 @@
             "overlay_color": "#000000",
             "overlay_opacity": 15
           }
+        },
+        "promotion_9KPpxn": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "",
+            "promotion_position": 3,
+            "promotion_width": "2",
+            "image": "shopify://shop_images/Frame_16_ede0c971-1e24-465c-b5c0-c326caa19c29.png",
+            "title": "Promotion",
+            "text": "Advertise a promotion or a sale",
+            "link_label": "Explore",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9"
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9",
+        "promotion_9KPpxn"
       ],
       "settings": {
         "full_width": true,
