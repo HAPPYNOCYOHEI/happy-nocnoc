@@ -358,8 +358,12 @@
           "settings": {
             "seo_text_max_height": 1000,
             "seo_text_read_more": "もっと見る",
-            "seo_text_read_less": "戻す"
+            "seo_text_read_less": ""
           }
+        },
+        "judge_me_reviews_review_widget_hXpGyh": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
@@ -412,6 +416,7 @@
         "buy_buttons",
         "image_VXHWhk",
         "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "judge_me_reviews_review_widget_hXpGyh",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
       ],
       "settings": {
