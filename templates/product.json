@@ -287,6 +287,10 @@
             "side_panel_3_page": ""
           }
         },
+        "judge_me_reviews_preview_badge_XYHPqg": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -400,6 +404,7 @@
         "size_chart_condition_bMVPRm",
         "size_chart_condition_Rw3hdz",
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
+        "judge_me_reviews_preview_badge_XYHPqg",
         "title",
         "fera_product_reviews_summary_dFUB4y",
         "variant_picker",
