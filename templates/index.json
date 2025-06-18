@@ -288,13 +288,40 @@
         "disable_bottom_spacing": false
       }
     },
+    "rich_text_HwDPNQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_P7bbki": {
+          "type": "heading",
+          "settings": {
+            "text": "NOCギャラリー",
+            "size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_P7bbki"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "transparent",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "173831911460691f89": {
       "type": "apps",
       "blocks": {
         "lookfy_gallery_lookfy_gallery_MhnYFc": {
           "type": "shopify://apps/lookfy-gallery/blocks/lookfy-gallery/596af5f6-9933-4730-95c2-f7d8d52a0c3e",
           "settings": {
-            "gallery_id": 19412,
+            "gallery_id": 25969,
             "dynamic_source": "",
             "title": "<strong>NOC ギャラリー</strong>",
             "subtitle": "",
@@ -320,6 +347,34 @@
         "disable_bottom_spacing": true
       }
     },
+    "rich_text_KWQ6wy": {
+      "type": "rich-text",
+      "blocks": {
+        "button_9Ay6dA": {
+          "type": "button",
+          "settings": {
+            "link_label": "もっとNOCギャラリー",
+            "link": "shopify://pages/gallery",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "button_9Ay6dA"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_text": "#151515",
+        "color_links": "#ffffff",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
     "single_image_Ae8K38": {
       "type": "single-image",
       "settings": {
@@ -337,7 +392,9 @@
     "166366563622039b3e",
     "featured_collection_d4KjV7",
     "shop_the_look_3VAJVb",
+    "rich_text_HwDPNQ",
     "173831911460691f89",
+    "rich_text_KWQ6wy",
     "single_image_Ae8K38"
   ]
 }
