@@ -221,6 +221,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const presaleInfoContainer = document.getElementById('pre-sale-info');
   Object.defineProperty(theme.variantStrings, 'addToCart', {
     get: function() {
+      if (!presaleInfoContainer) {
+        return originalAddToCart;
+      }
+      
       const currentVariantId = presaleInfoContainer.dataset.currentVariant;
       if (currentVariantId) {
         const data = variantsData[currentVariantId];
