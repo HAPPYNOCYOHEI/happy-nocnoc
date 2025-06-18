@@ -217,6 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const translations = JSON.parse(document.getElementById('add-cart-button-translations').textContent);
   
   const originalAddToCart = theme.variantStrings.addToCart;
+  console.log('Debug A1: ' + originalAddToCart);
   const presaleInfoContainer = document.getElementById('pre-sale-info');
   Object.defineProperty(theme.variantStrings, 'addToCart', {
     get: function() {
