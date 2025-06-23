@@ -204,34 +204,27 @@
 document.addEventListener('DOMContentLoaded', function() {
   const variantsData = JSON.parse(document.getElementById('variant-instock-data').textContent);
   const translations = JSON.parse(document.getElementById('add-cart-button-translations').textContent);
-
-  console.log('Debug Variants Data:', variantsData);
   
   const originalAddToCart = theme.variantStrings.addToCart;
   const presaleInfoContainer = document.getElementById('pre-sale-info');
   Object.defineProperty(theme.variantStrings, 'addToCart', {
     get: function() {
       if (!presaleInfoContainer) {
-        console.log('Debug A1');
         return originalAddToCart;
       }
-      
-      console.log('Debug A2');
+
       const currentVariantId = presaleInfoContainer.dataset.currentVariant;
       if (currentVariantId) {
-        console.log('Debug A3');
         const data = variantsData[currentVariantId];
         if (data && data.instock_time) {
-          console.log('Debug A4');
           const now = new Date();
           const instockTime = new Date(data.instock_time);
           if (instockTime > now && data.available) {
-            console.log('Debug A5');
             return translations.pre_order_now;
           }
         }
       }
-      console.log('Debug A6');
+
       return originalAddToCart;
     },
     configurable: true
@@ -249,21 +242,17 @@ document.addEventListener('DOMContentLoaded', function() {
   
   function updatePresaleInfo(variantId) {
     presaleInfoContainer.style.display = 'none';
-    console.log('Debug B1');
     let presaleInfo = '';
     const data = variantsData[variantId];
     if (!data) {
-      console.log('Debug B2');
       presaleInfoContainer.innerHTML = presaleInfo;
       return;
     }
 
-    console.log('Debug B3');
     const instockTimeStr = data.instock_time;
     const isAvailable = data.available;
     
     if (instockTimeStr) {
-      console.log('Debug B4');
       const now = new Date();
       const instockTime = new Date(instockTimeStr);
       
@@ -290,7 +279,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
-    console.log('Debug B5');
     presaleInfoContainer.innerHTML = presaleInfo;
   }
   
