@@ -62,24 +62,13 @@
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
         {%- endif -%}
 
-        {% assign instock_time = product.selected_or_first_available_variant.metafields.custom.instock_time %}
-        {% if instock_time %}
-          {% assign instock_time_st = instock_time | date: '%s' | plus: 0 %}
-          {% assign current_st = 'now' | date: '%s' | plus: 0 %}
-          {% assign st_diff = instock_time_st | minus: current_st %}
-        {% else %}
-          {% assign st_diff = 0 %}
-        {% endif %}
-
-        {% if st_diff > 0 %}
-          <div
-            id="pre-sale-info"
-            data-current-variant="{{ product.selected_or_first_available_variant.id }}"
-            style="margin-bottom:20px; font-weight: 400; font-size: 13px;"
-          >
-            <!-- pre-sale-info -->
-          </div>
-        {% endif %}
+        <div
+          id="pre-sale-info"
+          data-current-variant="{{ product.selected_or_first_available_variant.id }}"
+          style="margin-bottom:20px; font-weight: 400; font-size: 13px; display: none;"
+        >
+          <!-- pre-sale-info -->
+        </div>
         
         <div class="product-add-to-cart-container">
           <div class="form-notification error" style="display:none;"></div>
@@ -259,6 +248,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   function updatePresaleInfo(variantId) {
+    presaleInfoContainer.style.display = 'none';
     console.log('Debug B1');
     let presaleInfo = '';
     const data = variantsData[variantId];
@@ -282,12 +272,14 @@ document.addEventListener('DOMContentLoaded', function() {
       
       
       if (instockTime > fourteenDaysLater) {
+        presaleInfoContainer.style.display = 'block';
         // reservation
         const startTime = new Date(instockTime);
         startTime.setDate(instockTime.getDate() - 14);
         
         presaleInfo = translations.pre_sale.replace('\{\{ start_time \}\}', formatDate(startTime)).replace('\{\{ send_time \}\}', formatDate(instockTime));
       } else if (instockTime > now) {
+        presaleInfoContainer.style.display = 'block';
         if (!isAvailable) {
           // pre-sale out
           presaleInfo = translations.pre_sale_out;
