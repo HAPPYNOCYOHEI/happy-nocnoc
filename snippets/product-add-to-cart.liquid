@@ -253,6 +253,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const isAvailable = data.available;
     
     if (instockTimeStr) {
+      console.log('Debug A1');
       const now = new Date();
       const instockTime = new Date(instockTimeStr);
       
@@ -268,6 +269,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         presaleInfo = translations.pre_sale.replace('\{\{ start_time \}\}', formatDate(startTime)).replace('\{\{ send_time \}\}', formatDate(instockTime));
       } else if (instockTime > now) {
+        console.log('Debug A2');
         presaleInfoContainer.style.display = 'block';
         if (!isAvailable) {
           // pre-sale out
