@@ -215,6 +215,8 @@
 document.addEventListener('DOMContentLoaded', function() {
   const variantsData = JSON.parse(document.getElementById('variant-instock-data').textContent);
   const translations = JSON.parse(document.getElementById('add-cart-button-translations').textContent);
+
+  console.log('Variants Data:', variantsData);
   
   const originalAddToCart = theme.variantStrings.addToCart;
   const presaleInfoContainer = document.getElementById('pre-sale-info');
