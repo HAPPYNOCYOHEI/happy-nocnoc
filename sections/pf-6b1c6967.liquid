@@ -41,6 +41,15 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 
       product.style.display = (matchesDiscount && matchesCategory) ? 'block' : 'none';
     });
+
+    // 🔁 遍历每个商品 section，检查是否还有可见商品
+    const sections = document.querySelectorAll('.product-section');
+    sections.forEach(section => {
+      const visibleItems = section.querySelectorAll('.product-item');
+      const anyVisible = Array.from(visibleItems).some(item => item.style.display !== 'none');
+
+      section.style.display = anyVisible ? 'block' : 'none';
+    });
   }
 });</script>
 {% schema %}
