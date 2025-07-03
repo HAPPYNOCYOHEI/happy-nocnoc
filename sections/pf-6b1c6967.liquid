@@ -32,6 +32,8 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     const selectedDiscounts = Array.from(document.querySelectorAll('input[data-filter="discount"]:checked')).map(cb => cb.value);
     const selectedCategories = Array.from(document.querySelectorAll('input[data-filter="category"]:checked')).map(cb => cb.value);
 
+    const products = document.querySelectorAll('.product-item');
+
     products.forEach(product => {
       const productDiscount = product.dataset.discount;
       const productCategory = product.dataset.category;
@@ -41,8 +43,13 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 
       product.style.display = (matchesDiscount && matchesCategory) ? 'block' : 'none';
     });
-  }
-});</script>
+
+    // ✅ 筛选完成后滚动到商品区
+    const targetSection = document.querySelector('#section-products'); // 这里的 ID 要与你设置的一致
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }</script>
 {% schema %}
 {
   "name": "PageFly Page 6b1c6967",
