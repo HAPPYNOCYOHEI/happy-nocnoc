@@ -17,5 +17,5 @@
   "order": [
     "pf-ai-sales-page"
   ],
-  "layout": "theme.pagefly"
+  "layout": "theme.pagefly.ai-sales-page"
 }

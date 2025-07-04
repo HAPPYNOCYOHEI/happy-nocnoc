@@ -63,11 +63,11 @@
 
 <pagefly-ai-cro>
   <div class='pf-ai-page-header'>
-    <div class='pf-text-primary pf-chat-header-info'>
+    <a class='pf-text-primary pf-chat-header-info' href="{{ routes.root_url }}">
       {% if brand_logo %}
-        {{ brand_logo | image_url: width: 50 | image_tag}}
+        <img src="{{ brand_logo | image_url: width: 500 }}" alt="Brand Logo" />
       {% endif %}
-    </div>
+    </a>
 
     <pagefly-cart-icon>
       <a role="button" href="{{ routes.cart_url }}" onclick="event.preventDefault();window.location.assign('{{ routes.cart_url }}');" aria-haspopup="true" aria-expanded="false">
