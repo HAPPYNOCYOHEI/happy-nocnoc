@@ -21,35 +21,35 @@
           "type": "size_chart_condition",
           "settings": {
             "page": "size-guide-noc-smile-canvas-shoes",
-            "content": "kids-noc-smile-canvas-shoes,adult-noc-smile-canvas-shoes"
+            "content": "kids-noc-smile-canvas-shoes,adults-noc-smile-canvas-shoes"
           }
         },
         "size_chart_condition_t8cEcN": {
           "type": "size_chart_condition",
           "settings": {
             "page": "size-guide-noc-breath-hooked-sweatshirt",
-            "content": "kids-noc-breath-hooked-sweatshirt,adult-noc-breath-hooked-sweatshirt"
+            "content": "kids-noc-breath-hooked-sweatshirt,adults-noc-breath-hooked-sweatshirt"
           }
         },
         "size_chart_condition_ygWUDj": {
           "type": "size_chart_condition",
           "settings": {
             "page": "size-guide-noc-shine-balloon-skirts-mini",
-            "content": "adult-noc-shine-balloon-skirts-mini,kids-noc-shine-balloon-skirts-mini"
+            "content": "adults-noc-shine-balloon-skirts-mini,kids-noc-shine-balloon-skirts-mini"
           }
         },
         "size_chart_condition_NwmQgf": {
           "type": "size_chart_condition",
           "settings": {
             "page": "size-guide-noc-breath",
-            "content": "kids-noc-breath-raglan-long-sleeve-t-shirt,adult-noc-breath-raglan-long-sleeve-t-shirt,kids-noc-breath-raglan-long-sleeve-t-shirt-1,adult-noc-breath-raglan-long-sleeve-t-shirt-1"
+            "content": "kids-noc-breath-raglan-long-sleeve-t-shirt,adults-noc-breath-raglan-long-sleeve-t-shirt,kids-noc-breath-raglan-long-sleeve-t-shirt-1,adults-noc-breath-raglan-long-sleeve-t-shirt-1"
           }
         },
         "size_chart_condition_RKhwAd": {
           "type": "size_chart_condition",
           "settings": {
             "page": "size-guide-noc-cloud-fleece-jacket",
-            "content": "adult-noc-cloud-fleece-jacket,kids-noc-cloud-fleece-jacket"
+            "content": "adults-noc-cloud-fleece-jacket,kids-noc-cloud-fleece-jacket"
           }
         },
         "size_chart_condition_x9XwJQ": {
