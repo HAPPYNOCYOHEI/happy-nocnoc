@@ -2042,6 +2042,11 @@
   text-align: left;
 }
 
+.product-prices .compare-price,
+.product-prices del {
+  color: #191817;
+}
+
 .recommended-custom-product-title {
   margin: 0;
   color: #191817;

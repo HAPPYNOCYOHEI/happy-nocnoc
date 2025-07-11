@@ -1110,6 +1110,26 @@
         "label": "推荐商品 4"
       },
       {
+        "type": "product",
+        "id": "recommended_product_1_5",
+        "label": "推荐商品 5"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_1_6",
+        "label": "推荐商品 6"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_1_7",
+        "label": "推荐商品 7"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_1_8",
+        "label": "推荐商品 8"
+      },
+      {
         "type": "text",
         "id": "product_recommendations_custom_id_2",
         "label": "请输入商品handle，多个用英文逗号分隔"
@@ -1133,6 +1153,26 @@
         "type": "product",
         "id": "recommended_product_2_4",
         "label": "推荐商品 4"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_2_5",
+        "label": "推荐商品 5"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_2_6",
+        "label": "推荐商品 6"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_2_7",
+        "label": "推荐商品 7"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_2_8",
+        "label": "推荐商品 8"
       },
       {
         "type": "text",
@@ -1160,6 +1200,26 @@
         "label": "推荐商品 4"
       },
       {
+        "type": "product",
+        "id": "recommended_product_3_5",
+        "label": "推荐商品 5"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_3_6",
+        "label": "推荐商品 6"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_3_7",
+        "label": "推荐商品 7"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_3_8",
+        "label": "推荐商品 8"
+      },
+      {
         "type": "text",
         "id": "product_recommendations_custom_id_4",
         "label": "请输入商品handle，多个用英文逗号分隔"
@@ -1183,6 +1243,206 @@
         "type": "product",
         "id": "recommended_product_4_4",
         "label": "推荐商品 4"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_4_5",
+        "label": "推荐商品 5"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_4_6",
+        "label": "推荐商品 6"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_4_7",
+        "label": "推荐商品 7"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_4_8",
+        "label": "推荐商品 8"
+      },
+      {
+        "type": "text",
+        "id": "product_recommendations_custom_id_5",
+        "label": "请输入商品handle，多个用英文逗号分隔"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_5_1",
+        "label": "推荐商品 1"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_5_2",
+        "label": "推荐商品 2"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_5_3",
+        "label": "推荐商品 3"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_5_4",
+        "label": "推荐商品 4"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_5_5",
+        "label": "推荐商品 5"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_5_6",
+        "label": "推荐商品 6"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_5_7",
+        "label": "推荐商品 7"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_5_8",
+        "label": "推荐商品 8"
+      },
+      {
+        "type": "text",
+        "id": "product_recommendations_custom_id_6",
+        "label": "请输入商品handle，多个用英文逗号分隔"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_6_1",
+        "label": "推荐商品 1"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_6_2",
+        "label": "推荐商品 2"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_6_3",
+        "label": "推荐商品 3"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_6_4",
+        "label": "推荐商品 4"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_6_5",
+        "label": "推荐商品 5"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_6_6",
+        "label": "推荐商品 6"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_6_7",
+        "label": "推荐商品 7"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_6_8",
+        "label": "推荐商品 8"
+      },
+      {
+        "type": "text",
+        "id": "product_recommendations_custom_id_7",
+        "label": "请输入商品handle，多个用英文逗号分隔"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_7_1",
+        "label": "推荐商品 1"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_7_2",
+        "label": "推荐商品 2"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_7_3",
+        "label": "推荐商品 3"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_7_4",
+        "label": "推荐商品 4"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_7_5",
+        "label": "推荐商品 5"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_7_6",
+        "label": "推荐商品 6"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_7_7",
+        "label": "推荐商品 7"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_7_8",
+        "label": "推荐商品 8"
+      },
+      {
+        "type": "text",
+        "id": "product_recommendations_custom_id_8",
+        "label": "请输入商品handle，多个用英文逗号分隔"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_8_1",
+        "label": "推荐商品 1"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_8_2",
+        "label": "推荐商品 2"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_8_3",
+        "label": "推荐商品 3"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_8_4",
+        "label": "推荐商品 4"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_8_5",
+        "label": "推荐商品 5"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_8_6",
+        "label": "推荐商品 6"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_8_7",
+        "label": "推荐商品 7"
+      },
+      {
+        "type": "product",
+        "id": "recommended_product_8_8",
+        "label": "推荐商品 8"
       }
     ]
   }

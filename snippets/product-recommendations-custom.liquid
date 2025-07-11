@@ -4,10 +4,18 @@
   assign products_series_2 = settings.product_recommendations_custom_id_2 | split: ','
   assign products_series_3 = settings.product_recommendations_custom_id_3 | split: ','
   assign products_series_4 = settings.product_recommendations_custom_id_4 | split: ','
-  assign recommended_products_1 = settings.recommended_product_1_1 | append: ',' | append: settings.recommended_product_1_2 | append: ',' | append: settings.recommended_product_1_3 | append: ',' | append: settings.recommended_product_1_4 | split: ','
-  assign recommended_products_2 = settings.recommended_product_2_1 | append: ',' | append: settings.recommended_product_2_2 | append: ',' | append: settings.recommended_product_2_3 | append: ',' | append: settings.recommended_product_2_4 | split: ','
-  assign recommended_products_3 = settings.recommended_product_3_1 | append: ',' | append: settings.recommended_product_3_2 | append: ',' | append: settings.recommended_product_3_3 | append: ',' | append: settings.recommended_product_3_4 | split: ','
-  assign recommended_products_4 = settings.recommended_product_4_1 | append: ',' | append: settings.recommended_product_4_2 | append: ',' | append: settings.recommended_product_4_3 | append: ',' | append: settings.recommended_product_4_4 | split: ','
+  assign products_series_5 = settings.product_recommendations_custom_id_5 | split: ','
+  assign products_series_6 = settings.product_recommendations_custom_id_6 | split: ','
+  assign products_series_7 = settings.product_recommendations_custom_id_7 | split: ','
+  assign products_series_8 = settings.product_recommendations_custom_id_8 | split: ','
+  assign recommended_products_1 = settings.recommended_product_1_1 | append: ',' | append: settings.recommended_product_1_2 | append: ',' | append: settings.recommended_product_1_3 | append: ',' | append: settings.recommended_product_1_4 | append: ',' | append: settings.recommended_product_1_5 | append: ',' | append: settings.recommended_product_1_6 | append: ',' | append: settings.recommended_product_1_7 | append: ',' | append: settings.recommended_product_1_8 | split: ','
+  assign recommended_products_2 = settings.recommended_product_2_1 | append: ',' | append: settings.recommended_product_2_2 | append: ',' | append: settings.recommended_product_2_3 | append: ',' | append: settings.recommended_product_2_4 | append: ',' | append: settings.recommended_product_2_5 | append: ',' | append: settings.recommended_product_2_6 | append: ',' | append: settings.recommended_product_2_7 | append: ',' | append: settings.recommended_product_2_8 | split: ','
+  assign recommended_products_3 = settings.recommended_product_3_1 | append: ',' | append: settings.recommended_product_3_2 | append: ',' | append: settings.recommended_product_3_3 | append: ',' | append: settings.recommended_product_3_4 | append: ',' | append: settings.recommended_product_3_5 | append: ',' | append: settings.recommended_product_3_6 | append: ',' | append: settings.recommended_product_3_7 | append: ',' | append: settings.recommended_product_3_8 | split: ','
+  assign recommended_products_4 = settings.recommended_product_4_1 | append: ',' | append: settings.recommended_product_4_2 | append: ',' | append: settings.recommended_product_4_3 | append: ',' | append: settings.recommended_product_4_4 | append: ',' | append: settings.recommended_product_4_5 | append: ',' | append: settings.recommended_product_4_6 | append: ',' | append: settings.recommended_product_4_7 | append: ',' | append: settings.recommended_product_4_8 | split: ','
+  assign recommended_products_5 = settings.recommended_product_5_1 | append: ',' | append: settings.recommended_product_5_2 | append: ',' | append: settings.recommended_product_5_3 | append: ',' | append: settings.recommended_product_5_4 | append: ',' | append: settings.recommended_product_5_5 | append: ',' | append: settings.recommended_product_5_6 | append: ',' | append: settings.recommended_product_5_7 | append: ',' | append: settings.recommended_product_5_8 | split: ','
+  assign recommended_products_6 = settings.recommended_product_6_1 | append: ',' | append: settings.recommended_product_6_2 | append: ',' | append: settings.recommended_product_6_3 | append: ',' | append: settings.recommended_product_6_4 | append: ',' | append: settings.recommended_product_6_5 | append: ',' | append: settings.recommended_product_6_6 | append: ',' | append: settings.recommended_product_6_7 | append: ',' | append: settings.recommended_product_6_8 | split: ','
+  assign recommended_products_7 = settings.recommended_product_7_1 | append: ',' | append: settings.recommended_product_7_2 | append: ',' | append: settings.recommended_product_7_3 | append: ',' | append: settings.recommended_product_7_4 | append: ',' | append: settings.recommended_product_7_5 | append: ',' | append: settings.recommended_product_7_6 | append: ',' | append: settings.recommended_product_7_7 | append: ',' | append: settings.recommended_product_7_8 | split: ','
+  assign recommended_products_8 = settings.recommended_product_8_1 | append: ',' | append: settings.recommended_product_8_2 | append: ',' | append: settings.recommended_product_8_3 | append: ',' | append: settings.recommended_product_8_4 | append: ',' | append: settings.recommended_product_8_5 | append: ',' | append: settings.recommended_product_8_6 | append: ',' | append: settings.recommended_product_8_7 | append: ',' | append: settings.recommended_product_8_8 | split: ','
 %}
 
 {% for series in products_series_1 %}
@@ -33,6 +41,30 @@
 {% for series in products_series_4 %}
   {% if computed_title == series %}
     {% assign recommended_products = recommended_products_4 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% for series in products_series_5 %}
+  {% if computed_title == series %}
+    {% assign recommended_products = recommended_products_5 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% for series in products_series_6 %}
+  {% if computed_title == series %}
+    {% assign recommended_products = recommended_products_6 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% for series in products_series_7 %}
+  {% if computed_title == series %}
+    {% assign recommended_products = recommended_products_7 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% for series in products_series_8 %}
+  {% if computed_title == series %}
+    {% assign recommended_products = recommended_products_8 %}
     {% break %}
   {% endif %}
 {% endfor %}
@@ -72,7 +104,9 @@
               <div class="product-prices">
                 <span class="current-price">{{ product.price | money }}</span>
                 {% if product.compare_at_price > product.price %}
-                  <span class="compare-price">{{ product.compare_at_price | money }}</span>
+                  <del>
+                    <span class="compare-price">{{ product.compare_at_price | money }}</span>
+                  </del>
                 {% endif %}
               </div>
               <p class="recommended-custom-product-title">{{ product.title | truncate: 20 }}</p>
