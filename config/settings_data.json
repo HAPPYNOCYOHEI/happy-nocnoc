@@ -45,7 +45,7 @@
     "show_products_vendor": false,
     "sale_badge_type": "save_percentage",
     "color_badge_soldout": "#888888",
-    "color_badge_sale": "#191817",
+    "color_badge_sale": "#ff6565",
     "color_badge_preorder": "#444444",
     "custom_product_badge_group_1_tag_names": "",
     "color_swatches_variant_option": "",
