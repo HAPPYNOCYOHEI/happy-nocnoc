@@ -12,33 +12,6 @@
     "16479477632637c9a7": {
       "type": "slideshow",
       "blocks": {
-        "slide_PUWwYi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Frame_16852944_1.jpg",
-            "mobile_image": "shopify://shop_images/mobile_2.jpg",
-            "slide_link": "shopify://pages/summer-sale-2025",
-            "video_background": false,
-            "video": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "overlay_gradient": "",
-            "button_1_text": "",
-            "button_1_link": "shopify://products/adults-noc-all-max-sport-sneakers",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
         "164794776393e76b8e-0": {
           "type": "slide",
           "settings": {
@@ -95,7 +68,6 @@
         }
       },
       "block_order": [
-        "slide_PUWwYi",
         "164794776393e76b8e-0",
         "164794776393e76b8e-1"
       ],
