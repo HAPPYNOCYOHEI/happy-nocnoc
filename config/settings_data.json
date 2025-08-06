@@ -321,7 +321,7 @@
       },
       "10274264662263595587": {
         "type": "shopify://apps/wishlist-plus/blocks/wishlist-collections-embed/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "swym_collections_icon_type": "heart",
           "swym_collections_icon_thickness": 1.7,
@@ -348,7 +348,7 @@
       },
       "5946647744298494267": {
         "type": "shopify://apps/wishlist-plus/blocks/wishlist-app-embed/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "storefront_layout_enabled": true,
           "storefront_layout_type": "as-drawer",
