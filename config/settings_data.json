@@ -42,6 +42,7 @@
     "social_share_whatsapp": false,
     "social_share_clipboard": false,
     "product_aspect_ratio": "adapt",
+    "products_hover_images_count": 1,
     "show_products_vendor": false,
     "sale_badge_type": "save_percentage",
     "color_badge_soldout": "#888888",
