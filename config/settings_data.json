@@ -329,7 +329,7 @@
           "swym_collections_button_size": 25,
           "swym_collections_icon_color": "#000000",
           "swym_collections_product_link_selector": "a.product-card-title",
-          "swym_collections_product_tile_selector": "figure.product-featured-image.thb-hover",
+          "swym_collections_product_tile_selector": "product-card.product-card.text-left",
           "enable_variant_selector": true,
           "swym_add_to_wishlist_title_color": "#333",
           "swym_variant_selector_font_size_1": 14,
