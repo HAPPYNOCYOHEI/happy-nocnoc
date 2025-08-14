@@ -66,7 +66,7 @@
     "product_recommendations_custom_id_2": "anti-odor-multi-color-socks",
     "recommended_product_2_1": "kids-hiking-free-sandals-3",
     "recommended_product_2_2": "kids-noc-all-max-sport-sneakers",
-    "recommended_product_2_3": "noc-walker-adults-sneakers",
+    "recommended_product_2_3": "adultsnoc-walker-adults-sneakers",
     "recommended_product_2_4": "adults-noc-smile-canvas-shoes",
     "recommended_product_2_5": "",
     "recommended_product_2_6": "",
@@ -324,18 +324,14 @@
         "disabled": false,
         "settings": {
           "storefront_layout_enabled": true,
-          "storefront_layout_type": "as-drawer",
-          "storefront_layout_collection_enabled": false,
           "storefront_layout_primary_bg_color": "#000000",
           "storefront_layout_primary_text_color": "#ffffff",
           "storefront_layout_secondary_bg_color": "#f4f8fe",
           "storefront_layout_secondary_text_color": "#333333",
           "storefront_layout_ui_border_radius": 6,
-          "storefront_layout_notification_enabled_as_default": true,
           "storefront_layout_notification_position": "left",
           "storefront_layout_action_popup_position": "left",
           "storefront_layout_drawer_position": "left",
-          "storefront_layout_drawer_width": 400,
           "storefront_layout_as_section_page": ""
         }
       },
