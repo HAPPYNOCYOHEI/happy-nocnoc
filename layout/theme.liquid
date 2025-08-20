@@ -206,7 +206,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <script type="module" src="{{ 'instant-page.js' | asset_url }}" defer="defer"></script>
       {%- endunless -%}
     {%- endif -%}
- {% include 'swymSnippet'%}
+ {% comment %} {% include 'swymSnippet'%} {% endcomment %}
      {% include 'swym-custom'%}
   </body>
 </html>
