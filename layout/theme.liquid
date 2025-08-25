@@ -208,5 +208,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {%- endif -%}
  {% comment %} {% include 'swymSnippet'%} {% endcomment %}
      {% include 'swym-custom'%}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  function applyThumbnailStyles(shadowRoot) {
+    shadowRoot.querySelectorAll(".product-thumbnail img").forEach(img => {
+      img.style.height = window.innerWidth > 768 ? "100px" : "60px"; // PC端100px，移动端60px
+      img.style.width = "auto";
+      img.style.objectFit = "contain";
+      img.style.display = "block";
+      img.style.margin = "0 auto";
+    });
+  }
+
+  const thumbnailsContainer = document.querySelector("#Product-Thumbnails");
+  if (thumbnailsContainer && thumbnailsContainer.shadowRoot) {
+    const shadowRoot = thumbnailsContainer.shadowRoot;
+
+    // 首次应用
+    applyThumbnailStyles(shadowRoot);
+
+    // 监听缩略图变化（防止滑动/切换时丢失样式）
+    const observer = new MutationObserver(() => {
+      applyThumbnailStyles(shadowRoot);
+    });
+    observer.observe(shadowRoot, { childList: true, subtree: true });
+
+    // 监听窗口大小，切换PC/手机高度
+    window.addEventListener("resize", () => applyThumbnailStyles(shadowRoot));
+  }
+});
+</script>
+
   </body>
 </html>
