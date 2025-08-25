@@ -351,7 +351,10 @@
         },
         "judge_me_reviews_review_widget_hXpGyh": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
@@ -406,6 +409,11 @@
         "judge_me_reviews_review_widget_hXpGyh",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
       ],
+      "custom_css": [
+        "/* 产品详情页媒体统一：保持1:1比例，左右留白展示 */.product-single__media {aspect-ratio: 1 / 1; /* 固定正方形容器 */ display: flex; align-items: center; justify-content: center; background-color: #fff; /* 可以换成 transparent */ overflow: hidden;}",
+        " /* 针对图片 */.product-single__media img {width: 100%; height: 100%; object-fit: contain !important; /* 保持原比例，不裁剪 */ background-color: #fff;}",
+        " /* 针对视频 */.product-single__media video,.product-single__media iframe {width: 100%; height: 100%; object-fit: contain !important; /* 视频完整显示，左右自动留白 */ background-color: #FFF; /* 视频留白一般建议黑底 */}"
+      ],
       "settings": {
         "full_width": true,
         "enable_sticky_info": true,
@@ -413,7 +421,7 @@
         "show_taxes_included": true,
         "media_layout": "thumbnails",
         "display_slider_pagination": true,
-        "media_aspect_ratio": "adapt",
+        "media_aspect_ratio": "square",
         "display_captions": true,
         "hide_variants": false,
         "lightbox": true,
