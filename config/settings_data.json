@@ -1232,5 +1232,12 @@
       },
       "content_for_index": []
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "/* 产品详情页媒体统一：保持1:1比例，左右留白展示 */.product-single__media {aspect-ratio: 1 / 1; /* 固定正方形容器 */ display: flex; align-items: center; justify-content: center; background-color: #fff; /* 可以换成 transparent */ overflow: hidden;}",
+      " /* 针对图片 */.product-single__media img {width: 100%; height: 100%; object-fit: contain !important; /* 保持原比例，不裁剪 */ background-color: #fff;}",
+      " /* 针对视频 */.product-single__media video,.product-single__media iframe {width: 100%; height: 100%; object-fit: contain !important; /* 视频完整显示，左右自动留白 */ background-color: #fff; /* 视频留白一般建议黑底 */}"
+    ]
   }
 }
