@@ -78,6 +78,25 @@
         "disable_bottom_spacing": false
       }
     },
+    "featured_collection_wNcGVL": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "おすすめ商品",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "newin",
+        "display_type": "grid",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "16636704759cbf64c5": {
       "type": "spacer",
       "settings": {
@@ -101,6 +120,7 @@
     "main-collection-banner",
     "product-grid",
     "1756990153ba99592a",
+    "featured_collection_wNcGVL",
     "16636704759cbf64c5",
     "166367228131c52c01"
   ]
