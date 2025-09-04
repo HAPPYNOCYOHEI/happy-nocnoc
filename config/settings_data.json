@@ -371,7 +371,7 @@
         "type": "shopify://apps/fbp-fast-bundle/blocks/fast_bundle/9e87fbe2-9041-4c23-acf5-322413994cef",
         "disabled": false,
         "settings": {
-          "home": false
+          "home": true
         }
       }
     }
