@@ -99,6 +99,9 @@
       "block_order": [
         "firework_shoppable_video_ugc_firework_pro_embed_gjUkKa"
       ],
+      "custom_css": [
+        ".cy-title {padding-left: 0 !important; padding-right: 0 !important;}"
+      ],
       "settings": {
         "section_width": "full-width-row-full",
         "disable_top_spacing": false,
