@@ -324,14 +324,6 @@
             "inventory_notice_base": 50
           }
         },
-        "image_VXHWhk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Frame_168530686_1.jpg",
-            "position": "text-left",
-            "image_link": ""
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -339,6 +331,14 @@
             "outline_button": false,
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
+          }
+        },
+        "image_VXHWhk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_168530686_1.jpg",
+            "position": "text-left",
+            "image_link": ""
           }
         },
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
@@ -403,8 +403,8 @@
         "title",
         "variant_picker",
         "inventory_level_Jy4Ynh",
-        "image_VXHWhk",
         "buy_buttons",
+        "image_VXHWhk",
         "0b3e272b-c86a-4dba-946c-c6912251371c",
         "judge_me_reviews_review_widget_hXpGyh",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
