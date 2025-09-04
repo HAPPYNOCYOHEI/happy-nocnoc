@@ -303,8 +303,8 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "color_picker": true,
-            "color_picker_size": "xlarge",
+            "color_picker": false,
+            "color_picker_size": "large",
             "color_picker_use_variants": true,
             "variant_is_disabled": true,
             "sizing_guide_variant": "サイズ",
