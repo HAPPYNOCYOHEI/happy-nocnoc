@@ -86,6 +86,25 @@
         "disable_bottom_spacing": true
       }
     },
+    "1756976853c294770e": {
+      "type": "apps",
+      "blocks": {
+        "firework_shoppable_video_ugc_firework_pro_embed_gjUkKa": {
+          "type": "shopify://apps/firework-shoppable-video-ugc/blocks/firework-pro-embed/347a2e4c-f5cb-410d-8354-490d1e80558c",
+          "settings": {
+            "embedConfigId": "8gY6wv_efc"
+          }
+        }
+      },
+      "block_order": [
+        "firework_shoppable_video_ugc_firework_pro_embed_gjUkKa"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
     "multicolumn_ghhF6c": {
       "type": "multicolumn",
       "blocks": {
@@ -149,6 +168,7 @@
         "column_Dx9XFJ",
         "column_DCJKVz"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "heading": "リンクコーデ",
@@ -360,6 +380,7 @@
   },
   "order": [
     "16479477632637c9a7",
+    "1756976853c294770e",
     "multicolumn_ghhF6c",
     "featured_collection_d4KjV7",
     "166366563622039b3e",
