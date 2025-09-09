@@ -108,6 +108,14 @@
         "disable_bottom_spacing": true
       }
     },
+    "custom_liquid_qWLEyq": {
+      "type": "custom-liquid",
+      "name": "Custom liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n    :root {\n\n      --fw-font-family: \"Noto Sans Japanese\", sans-serif;\n\n    }\n\n  </style>",
+        "section_width": "full-width-row"
+      }
+    },
     "multicolumn_ghhF6c": {
       "type": "multicolumn",
       "blocks": {
@@ -384,6 +392,7 @@
   "order": [
     "16479477632637c9a7",
     "1756976853c294770e",
+    "custom_liquid_qWLEyq",
     "multicolumn_ghhF6c",
     "featured_collection_d4KjV7",
     "166366563622039b3e",
