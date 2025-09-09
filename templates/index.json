@@ -112,7 +112,7 @@
       "type": "custom-liquid",
       "name": "Custom liquid",
       "settings": {
-        "custom_liquid": "<style>\n\n    :root {\n\n      --fw-font-family: \"Noto Sans Japanese\", sans-serif;\n--fw-title-font-size:34px;\n--fw-title-font-weight: 600; ;\n    }\n  </style>",
+        "custom_liquid": "<style>\n\n    :root {\n      --fw-font-family: \"Noto Sans Japanese\", sans-serif;\n--fw-title-font-size:34px;\n--fw-title-font-weight: 600; ;\n    }\n\n@media (max-width: 1024px){\n      --fw-font-family: \"Noto Sans Japanese\", sans-serif;\n--fw-title-font-size:26px;\n--fw-title-font-weight: 600; ;\n    }\n  </style>",
         "section_width": "full-width-row"
       }
     },
