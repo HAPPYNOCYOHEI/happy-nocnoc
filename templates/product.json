@@ -273,10 +273,10 @@
           "type": "side_panel",
           "disabled": true,
           "settings": {
-            "side_panel_1_label": "レビュー",
+            "side_panel_1_label": "",
             "side_panel_1_icon": "star",
             "side_panel_1_content": "",
-            "side_panel_1_page": "noc-fly-review",
+            "side_panel_1_page": "",
             "side_panel_2_label": "",
             "side_panel_2_icon": "box",
             "side_panel_2_content": "",
@@ -425,16 +425,6 @@
         "page-normal": ""
       }
     },
-    "16623877721f33fb14": {
-      "type": "spacer",
-      "disabled": true,
-      "settings": {
-        "spacer_mobile": 35,
-        "spacer_desktop": 90,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
     "rich_text_BYUeYy": {
       "type": "rich-text",
       "blocks": {
@@ -460,24 +450,14 @@
       ],
       "settings": {
         "section_width": "full-width-row",
-        "text_width": "large",
-        "text_position": "left",
-        "text_alignment": "left",
+        "text_width": "small",
+        "text_position": "center",
+        "text_alignment": "center",
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#191817",
         "color_links": "#191817",
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
-      }
-    },
-    "single_image_BL7mbj": {
-      "type": "single-image",
-      "settings": {
-        "image": "shopify://shop_images/1_bee6f40b-99f8-4661-8f62-984ea0cf7077.jpg",
-        "image_mobile": "shopify://shop_images/1_9b5ec6a5-d9ea-4653-bdf0-000ede4ff63d.jpg",
-        "full_width": false,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
       }
     },
     "1662552569cce2536d": {
@@ -530,9 +510,7 @@
   "order": [
     "breadcrumbs",
     "main-product",
-    "16623877721f33fb14",
     "rich_text_BYUeYy",
-    "single_image_BL7mbj",
     "1662552569cce2536d",
     "product-recommendations",
     "custom_liquid_ktghkd",

@@ -58,6 +58,7 @@
     "lazy_loading": false,
     "back_to_top": false,
     "favicon": "shopify://shop_images/happy_nocnoc_icon_bb84d018-83ee-4207-bbd2-8c403315148f.png",
+    "enable_product_recommendations_custom": false,
     "product_recommendations_custom_id_1": "kids-noc-shine-windproof-pullover,adults-noc-shine-windproof-pullover",
     "recommended_product_1_1": "kids-noc-shine-windproof-jacket",
     "recommended_product_1_2": "kids-noc-shine-windproof-pullover",
