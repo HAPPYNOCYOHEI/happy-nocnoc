@@ -281,6 +281,13 @@
             "content": "adults-mesh-windbreaker-25aw,kids-mesh-windbreaker-25aw"
           }
         },
+        "size_chart_condition_BXcLiX": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-nocdry假两件",
+            "content": "adults-noc-dry-v-shaped-collar-t-shirt,kids-noc-dry-v-shaped-collar-t-shirt"
+          }
+        },
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
           "type": "side_panel",
           "disabled": true,
@@ -408,6 +415,7 @@
         "size_chart_condition_bMVPRm",
         "size_chart_condition_Rw3hdz",
         "size_chart_condition_QDnTjP",
+        "size_chart_condition_BXcLiX",
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
         "title",
         "variant_picker",
