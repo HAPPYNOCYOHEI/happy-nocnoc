@@ -14,6 +14,14 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "text_qAUHhJ": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "★1,000円OFFクーポン★新規友だち限定",
+            "link": "https://lin.ee/5Pe6beV"
+          }
+        },
         "text_FzKwc6": {
           "type": "text",
           "settings": {
@@ -29,20 +37,12 @@
             "text": "14日間返品返金保証",
             "link": "shopify://pages/returns"
           }
-        },
-        "text_qAUHhJ": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "★1,000円OFFクーポン★新規友だち限定",
-            "link": "https://lin.ee/5Pe6beV"
-          }
         }
       },
       "block_order": [
+        "text_qAUHhJ",
         "text_FzKwc6",
-        "text_gGCp3c",
-        "text_qAUHhJ"
+        "text_gGCp3c"
       ],
       "settings": {
         "announcement_bar": true,
