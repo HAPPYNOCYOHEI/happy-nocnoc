@@ -410,7 +410,9 @@
         "judge_me_reviews_review_widget_hXpGyh",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "/* 限定在第一个 product media 容器内的 zoom 按钮 */.product-images .product-single__media:first-of-type .product-single__media-zoom {right: 10px; bottom: 10px; top: auto !important; transform: none !important;}"
+      ],
       "settings": {
         "full_width": true,
         "enable_sticky_info": true,
