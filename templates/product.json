@@ -288,6 +288,13 @@
             "content": "adults-noc-dry-v-shaped-collar-t-shirt,kids-noc-dry-v-shaped-collar-t-shirt"
           }
         },
+        "size_chart_condition_XfK3aE": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "copy-of-サイズ表-nocdry纯色插肩袖",
+            "content": "adults-noc-dry-raglan-sleeve-t-shirt-25aw,kids-noc-dry-raglan-sleeve-t-shirt-25aw"
+          }
+        },
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
           "type": "side_panel",
           "disabled": true,
@@ -416,6 +423,7 @@
         "size_chart_condition_Rw3hdz",
         "size_chart_condition_QDnTjP",
         "size_chart_condition_BXcLiX",
+        "size_chart_condition_XfK3aE",
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
         "title",
         "variant_picker",
