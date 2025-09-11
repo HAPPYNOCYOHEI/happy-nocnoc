@@ -295,7 +295,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "uppercase": false,
+            "uppercase": true,
             "show_products_rating": false,
             "show_custom_badges": true
           }
