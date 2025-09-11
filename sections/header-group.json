@@ -18,23 +18,40 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "定番商品はこちら",
-            "link": "shopify://collections/noc-noc-fly"
+            "text": "10,000円以上で送料無料",
+            "link": "shopify://pages/shipping"
+          }
+        },
+        "text_gGCp3c": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "14日間返品返金保証",
+            "link": "shopify://pages/returns"
+          }
+        },
+        "text_qAUHhJ": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "★1,000円OFFクーポン★新規友だち限定",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "text_FzKwc6"
+        "text_FzKwc6",
+        "text_gGCp3c",
+        "text_qAUHhJ"
       ],
-      "disabled": true,
       "settings": {
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
-        "announcement_bar_layout": "marquee",
+        "announcement_bar_layout": "carousel",
         "direction": "left",
         "speed": "20s",
         "autoplay": true,
-        "autoplay_length": 5
+        "autoplay_length": 4
       }
     },
     "header": {
