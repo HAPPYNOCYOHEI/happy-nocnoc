@@ -127,13 +127,6 @@
             "content": "kid-noc-ice-polo-shirt,adults-noc-ice-polo-shirt"
           }
         },
-        "size_chart_condition_eebtMn": {
-          "type": "size_chart_condition",
-          "settings": {
-            "page": "size-guide-noc-ice-t-shirt",
-            "content": "adults-noc-ice-gradient-t-shirt,kids-noc-ice-gradient-t-shirt"
-          }
-        },
         "size_chart_condition_aq7pqM": {
           "type": "size_chart_condition",
           "settings": {
@@ -230,13 +223,6 @@
           "settings": {
             "page": "サイズ表-noc-ice-キャミワンピース-冷感-伸縮性",
             "content": "kids-noc-ice-tank-dress"
-          }
-        },
-        "size_chart_condition_yRF6CW": {
-          "type": "size_chart_condition",
-          "settings": {
-            "page": "サイズ表-noc-city-スタンドカラーシャツ-冷感-シワ防止-的副本",
-            "content": "kids-noc-breath-short-sleeve-t-shirt,adults-noc-breath-short-sleeve-t-shirt"
           }
         },
         "size_chart_condition_DaecmB": {
@@ -407,7 +393,6 @@
         "size_chart_condition_YNgCmB",
         "size_chart_condition_jf9GPK",
         "size_chart_condition_YAnExn",
-        "size_chart_condition_eebtMn",
         "size_chart_condition_aq7pqM",
         "size_chart_condition_GqVjPm",
         "size_chart_condition_8bMqdf",
@@ -422,7 +407,6 @@
         "size_chart_condition_WNNEqG",
         "size_chart_condition_AnVDEi",
         "size_chart_condition_pHmmCX",
-        "size_chart_condition_yRF6CW",
         "size_chart_condition_DaecmB",
         "size_chart_condition_Y78F8P",
         "size_chart_condition_ae9ed3",
