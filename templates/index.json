@@ -197,24 +197,6 @@
         "disable_bottom_spacing": true
       }
     },
-    "featured_collection_d4KjV7": {
-      "type": "featured-collection",
-      "settings": {
-        "heading": "新着アイテム",
-        "heading_left": true,
-        "description": "",
-        "full_width": true,
-        "collection": "newin",
-        "display_type": "grid",
-        "product_limit": 4,
-        "columns_desktop": 4,
-        "show_view_all": true,
-        "mobile_swipe": true,
-        "show_progress_bar": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "166366563622039b3e": {
       "type": "featured-collection",
       "settings": {
@@ -231,6 +213,24 @@
         "show_progress_bar": false,
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_d4KjV7": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "新着アイテム",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "newin",
+        "display_type": "grid",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "shop_the_look_3VAJVb": {
@@ -394,8 +394,8 @@
     "1756976853c294770e",
     "custom_liquid_qWLEyq",
     "multicolumn_ghhF6c",
-    "featured_collection_d4KjV7",
     "166366563622039b3e",
+    "featured_collection_d4KjV7",
     "shop_the_look_3VAJVb",
     "rich_text_HwDPNQ",
     "173831911460691f89",
