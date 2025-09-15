@@ -22,13 +22,6 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
-        "size_chart_condition_LXXtwD": {
-          "type": "size_chart_condition",
-          "settings": {
-            "page": "size-guide-noc-smile-canvas-shoes",
-            "content": "kids-noc-smile-canvas-shoes,adults-noc-smile-canvas-shoes"
-          }
-        },
         "size_chart_condition_t8cEcN": {
           "type": "size_chart_condition",
           "settings": {
@@ -392,7 +385,6 @@
       },
       "block_order": [
         "judge_me_reviews_preview_badge_BHYtjx",
-        "size_chart_condition_LXXtwD",
         "size_chart_condition_t8cEcN",
         "size_chart_condition_ygWUDj",
         "size_chart_condition_NwmQgf",
