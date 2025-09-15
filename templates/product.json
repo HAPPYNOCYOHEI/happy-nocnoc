@@ -295,6 +295,13 @@
             "content": "adults-3l-windbreaker-jcket-25aw,kids-3l-windbreaker-jcket-25aw"
           }
         },
+        "size_chart_condition_WyfPYR": {
+          "type": "size_chart_condition",
+          "settings": {
+            "page": "サイズ表-梭织拉绒外套",
+            "content": "ids-woven-fleece-turn-down-collar-sweatshirt,adults-woven-fleece-turn-down-collar-sweatshirt"
+          }
+        },
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
           "type": "side_panel",
           "disabled": true,
@@ -424,6 +431,7 @@
         "size_chart_condition_XfK3aE",
         "size_chart_condition_8fbLBX",
         "size_chart_condition_Jfq3Ue",
+        "size_chart_condition_WyfPYR",
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
         "title",
         "variant_picker",
