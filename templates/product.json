@@ -535,6 +535,7 @@
       "block_order": [
         "fbp_fast_bundle_fbt_position_XhcGiK"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "full-width-row",
         "disable_top_spacing": false,
