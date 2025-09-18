@@ -185,7 +185,7 @@ if (!customElements.get('slide-show')) {
       }
       const flkty = new Flickity(slideshow, args);
 
-      selectedIndex = flkty.selectedIndex;
+      this.selectedIndex = flkty.selectedIndex;
 
       slideshow.dataset.initiated = true;
 
