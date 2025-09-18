@@ -204,7 +204,7 @@
         "heading_left": true,
         "description": "",
         "full_width": true,
-        "collection": "bestseller",
+        "collection": "bestseller-kids",
         "display_type": "grid",
         "product_limit": 4,
         "columns_desktop": 4,
