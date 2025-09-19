@@ -86,13 +86,68 @@
         "disable_bottom_spacing": true
       }
     },
+    "featured_collection_YVymwE": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "ランキング - KIDS",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "人気商品-kids",
+        "display_type": "grid",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "apps_xUyFFc": {
+      "type": "apps",
+      "blocks": {
+        "firework_shoppable_video_ugc_firework_pro_embed_JFATjm": {
+          "type": "shopify://apps/firework-shoppable-video-ugc/blocks/firework-pro-embed/347a2e4c-f5cb-410d-8354-490d1e80558c",
+          "settings": {
+            "embedConfigId": "8gY6wv_efc"
+          }
+        }
+      },
+      "block_order": [
+        "firework_shoppable_video_ugc_firework_pro_embed_JFATjm"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166366563622039b3e": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "ランキング - ADULTS",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "人気商品-adults",
+        "display_type": "grid",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
     "1756976853c294770e": {
       "type": "apps",
       "blocks": {
         "firework_shoppable_video_ugc_firework_pro_embed_gjUkKa": {
           "type": "shopify://apps/firework-shoppable-video-ugc/blocks/firework-pro-embed/347a2e4c-f5cb-410d-8354-490d1e80558c",
           "settings": {
-            "embedConfigId": "8gY6wv_efc"
+            "embedConfigId": "joWzy5_efc"
           }
         }
       },
@@ -106,6 +161,24 @@
         "section_width": "full-width-row-full",
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_d4KjV7": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "新着アイテム",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "newin",
+        "display_type": "grid",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "custom_liquid_qWLEyq": {
@@ -197,42 +270,6 @@
         "disable_bottom_spacing": true
       }
     },
-    "166366563622039b3e": {
-      "type": "featured-collection",
-      "settings": {
-        "heading": "ベストセラー",
-        "heading_left": true,
-        "description": "",
-        "full_width": true,
-        "collection": "bestseller-kids",
-        "display_type": "grid",
-        "product_limit": 4,
-        "columns_desktop": 4,
-        "show_view_all": true,
-        "mobile_swipe": true,
-        "show_progress_bar": false,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "featured_collection_d4KjV7": {
-      "type": "featured-collection",
-      "settings": {
-        "heading": "新着アイテム",
-        "heading_left": true,
-        "description": "",
-        "full_width": true,
-        "collection": "newin",
-        "display_type": "grid",
-        "product_limit": 4,
-        "columns_desktop": 4,
-        "show_view_all": true,
-        "mobile_swipe": true,
-        "show_progress_bar": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "shop_the_look_3VAJVb": {
       "type": "shop-the-look",
       "blocks": {
@@ -305,6 +342,7 @@
       "block_order": [
         "heading_P7bbki"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "section_width": "full-width-row",
@@ -344,6 +382,7 @@
       "block_order": [
         "lookfy_gallery_lookfy_gallery_MhnYFc"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "full-width-row-full",
         "disable_top_spacing": true,
@@ -365,6 +404,7 @@
       "block_order": [
         "button_9Ay6dA"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "section_width": "full-width-row",
@@ -391,11 +431,13 @@
   },
   "order": [
     "16479477632637c9a7",
+    "featured_collection_YVymwE",
+    "apps_xUyFFc",
+    "166366563622039b3e",
     "1756976853c294770e",
+    "featured_collection_d4KjV7",
     "custom_liquid_qWLEyq",
     "multicolumn_ghhF6c",
-    "166366563622039b3e",
-    "featured_collection_d4KjV7",
     "shop_the_look_3VAJVb",
     "rich_text_HwDPNQ",
     "173831911460691f89",
