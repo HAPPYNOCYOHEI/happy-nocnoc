@@ -104,6 +104,42 @@
         "disable_bottom_spacing": true
       }
     },
+    "166366563622039b3e": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "ランキング - ADULTS",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "人気商品-adults",
+        "display_type": "grid",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_d4KjV7": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "新着アイテム",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "newin",
+        "display_type": "grid",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
     "apps_xUyFFc": {
       "type": "apps",
       "blocks": {
@@ -119,24 +155,6 @@
       ],
       "settings": {
         "section_width": "full-width-row-full",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "166366563622039b3e": {
-      "type": "featured-collection",
-      "settings": {
-        "heading": "ランキング - ADULTS",
-        "heading_left": true,
-        "description": "",
-        "full_width": true,
-        "collection": "人気商品-adults",
-        "display_type": "grid",
-        "product_limit": 4,
-        "columns_desktop": 4,
-        "show_view_all": true,
-        "mobile_swipe": true,
-        "show_progress_bar": false,
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
@@ -159,24 +177,6 @@
       ],
       "settings": {
         "section_width": "full-width-row-full",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "featured_collection_d4KjV7": {
-      "type": "featured-collection",
-      "settings": {
-        "heading": "新着アイテム",
-        "heading_left": true,
-        "description": "",
-        "full_width": true,
-        "collection": "newin",
-        "display_type": "grid",
-        "product_limit": 4,
-        "columns_desktop": 4,
-        "show_view_all": true,
-        "mobile_swipe": true,
-        "show_progress_bar": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -432,10 +432,10 @@
   "order": [
     "16479477632637c9a7",
     "featured_collection_YVymwE",
-    "apps_xUyFFc",
     "166366563622039b3e",
-    "1756976853c294770e",
     "featured_collection_d4KjV7",
+    "apps_xUyFFc",
+    "1756976853c294770e",
     "custom_liquid_qWLEyq",
     "multicolumn_ghhF6c",
     "shop_the_look_3VAJVb",
