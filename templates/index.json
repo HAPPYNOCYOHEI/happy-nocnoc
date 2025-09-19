@@ -39,6 +39,33 @@
             "button_2_outline": false
           }
         },
+        "slide_ExktaN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/b69f60ac20da0b4abdb6d7097493cbff.jpg",
+            "mobile_image": "shopify://shop_images/ed4d1ef9758b82dbaacbb41a2dd49ea5.jpg",
+            "slide_link": "shopify://collections/25aw",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "164794776393e76b8e-1": {
           "type": "slide",
           "settings": {
@@ -69,6 +96,7 @@
       },
       "block_order": [
         "164794776393e76b8e-0",
+        "slide_ExktaN",
         "164794776393e76b8e-1"
       ],
       "custom_css": [
