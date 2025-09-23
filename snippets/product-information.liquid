@@ -153,37 +153,32 @@
                   assign sizing_link = ''
 
                   assign sizing_guide_variant = block.settings.sizing_guide_variant | default: 'Size' | downcase
+                  assign product_information = metaobjects.product_information.values | where: 'name', product.handle | first
                 -%}
                 {%- if option_slug == sizing_guide_variant -%}
-                  {%- if block.settings.sizing_guide_text != '' -%}
+                  {%- if block.settings.sizing_guide_text != '' and product_information != null -%}
                     {%- capture sizing_link -%}
-                    <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
-                      <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
-                        {% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></button>
-                    </modal-opener>
-                  {%- endcapture -%}
+                      <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
+                        <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
+                          {% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></button>
+                      </modal-opener>
+                    {%- endcapture -%}
                     {%- capture sizing_popup -%}
-                  <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal">
-                    <div role="dialog" aria-label="{{ block.settings.sizing_guide_text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
-                      <div class="product-popup-modal__content-header">
-                        <h5>{{ block.settings.sizing_guide_page.title }}</h5>
-                        <button id="ModalClose-{{ block.id }}" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'svg-icons' with 'close' %}</button>
-                      </div>
-                      <scroll-shadow>
-                        <div class="product-popup-modal__content-info">
-                          {%- assign product_information = metaobjects.product_information.values | where: 'name', product.handle | first -%}
-                          {%- assign product_information_default = metaobjects.product_information.values | where: 'name', 'default' | first -%}
-                          {%- if product_information != null -%}
-                            {{ pages[product_information.page].content }}
-                          {%- else -%}
-                            {{ pages[product_information_default.page].content }}
-                          {%- endif -%}
+                      <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal">
+                        <div role="dialog" aria-label="{{ block.settings.sizing_guide_text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
+                          <div class="product-popup-modal__content-header">
+                            <h5>{{ block.settings.sizing_guide_page.title }}</h5>
+                            <button id="ModalClose-{{ block.id }}" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'svg-icons' with 'close' %}</button>
+                          </div>
+                          <scroll-shadow>
+                            <div class="product-popup-modal__content-info">
+                              {{ pages[product_information.page].content }}
+                            </div>
+                          </scroll-shadow>
                         </div>
-                      </scroll-shadow>
-                    </div>
-                  </modal-dialog>
-                  <script src="{{ 'modal-dialog.js' | asset_url }}" defer="defer"></script>
-                  {%- endcapture -%}
+                      </modal-dialog>
+                      <script src="{{ 'modal-dialog.js' | asset_url }}" defer="defer"></script>
+                    {%- endcapture -%}
                   {%- endif -%}
                 {%- endif -%}
                 {% render 'product-option',
