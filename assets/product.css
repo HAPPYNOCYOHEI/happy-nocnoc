@@ -2081,6 +2081,7 @@
   gap: 4px;
   margin-bottom: 10px;
   pointer-events: none;
+  flex-wrap: wrap;
 }
 .product-badge-container .product-badge {
   padding: 0 8px;
