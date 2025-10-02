@@ -64,14 +64,7 @@
     <span class="badges">
       {%- if compare_at_price > price %}
         {%- if settings.sale_badge_type == 'save_amount' -%}
-          {%- capture saved_amount -%}
-          {%- assign discount_percent = compare_at_price | minus: price | times: 100.0 | divided_by: compare_at_price -%}
-          {%- if discount_percent >= 30 and discount_percent < 40 -%}
-          40%
-         {%- else -%}
-         {{ discount_percent | ceil }}%
-         {%- endif -%}
-        {%- endcapture -%}
+          {%- capture saved_amount -%}{{ compare_at_price | minus: price | money }}{%- endcapture -%}
         {%- elsif settings.sale_badge_type == 'save_percentage' -%}
           {%- capture saved_amount -%}{{ compare_at_price | minus: price | times: 100.0 | divided_by: compare_at_price | round }}%{%- endcapture -%}
         {%- endif -%}
