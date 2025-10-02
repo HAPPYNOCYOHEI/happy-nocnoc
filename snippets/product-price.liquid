@@ -65,6 +65,11 @@
       {%- if compare_at_price > price %}
         {%- if settings.sale_badge_type == 'save_amount' -%}
           {%- capture saved_amount -%}{{ compare_at_price | minus: price | times: 100.0 | divided_by: compare_at_price | ceil }}%{%- endcapture -%}
+          {%- capture saved_amount -%}
+          {%- assign discount_percent = compare_at_price | minus: price | times: 100.0 | divided_by: compare_at_price -%}
+         {%- assign rounded_percent = discount_percent | divided_by: 10 | ceil | times: 10 -%}
+         {{ rounded_percent }}%
+        {%- endcapture -%}
         {%- elsif settings.sale_badge_type == 'save_percentage' -%}
           {%- capture saved_amount -%}{{ compare_at_price | minus: price | times: 100.0 | divided_by: compare_at_price | round }}%{%- endcapture -%}
         {%- endif -%}
