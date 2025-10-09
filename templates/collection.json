@@ -52,7 +52,7 @@
         "products_per_page": 12,
         "columns_desktop": 4,
         "pagination_type": "paginated",
-        "enable_filtering": true,
+        "enable_filtering": false,
         "enable_sorting": false,
         "show_counts": true,
         "filter_color_swatches": true,
