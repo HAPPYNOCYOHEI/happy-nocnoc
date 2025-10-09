@@ -52,11 +52,11 @@
         "products_per_page": 12,
         "columns_desktop": 4,
         "pagination_type": "paginated",
-        "enable_filtering": false,
+        "enable_filtering": true,
         "enable_sorting": false,
         "show_counts": true,
         "filter_color_swatches": true,
-        "facets_desktop": "drawer"
+        "facets_desktop": "sidebar"
       }
     },
     "16636704759cbf64c5": {
