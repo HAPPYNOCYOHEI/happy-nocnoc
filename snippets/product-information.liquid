@@ -29,6 +29,9 @@
       endfor
     endunless
   -%}
+  <script>
+    console.log({{ product_information | json }});
+  </script>
   {%- if product_information -%}
     <div class="product-badge-container">
       {%- if product_information.tag1 != null -%}
