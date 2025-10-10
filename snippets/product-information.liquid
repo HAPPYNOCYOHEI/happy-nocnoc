@@ -2,9 +2,15 @@
   id="ProductInfo-{{ section.id }}"
   class="product-information--inner{% if section.settings.enable_sticky_info %} production-information--sticky{% endif %}"
 >
-  {%- assign product_information = metaobjects.product_information.values | where: 'name', product.handle | first -%}
+  {%- assign product_information = null -%}
+  {% for item in metaobjects.product_information.values limit: 250 %}
+    {% if item.name == product.handle %}
+      {% assign product_information = item %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
   <script>
-    console.log({{ metaobjects.product_information.values | json }});
+    console.log({{ product_information | json }});
   </script>
   {%- if product_information -%}
     <div class="product-badge-container">
