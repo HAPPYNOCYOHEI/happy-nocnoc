@@ -4,7 +4,7 @@
 >
   {%- assign product_information = metaobjects.product_information.values | where: 'name', product.handle | first -%}
   <script>
-    console.log({{ product_information | json }});
+    console.log({{ metaobjects.product_information.values | json }});
   </script>
   {%- if product_information -%}
     <div class="product-badge-container">
