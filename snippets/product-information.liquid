@@ -2,10 +2,33 @@
   id="ProductInfo-{{ section.id }}"
   class="product-information--inner{% if section.settings.enable_sticky_info %} production-information--sticky{% endif %}"
 >
-  {%- assign product_information = metaobjects.product_information.values | where: 'name', product.handle | first -%}
-  <script>
-    console.log({{ metaobjects.product_information[product.handle] | json }});
-  </script>
+  {%- liquid
+    assign product_information = blank
+
+    # 方法1: 直接通过handle访问（推荐）
+    assign product_information = metaobjects.product_information[product.handle]
+
+    # 方法2: 如果上面不工作，通过搜索获取
+    unless product_information
+      assign all_meta_items = metaobjects.product_information.values
+      for meta_item in all_meta_items
+        if meta_item.name == product.handle
+          assign product_information = meta_item
+          break
+        endif
+      endfor
+    endunless
+
+    # 方法3: 如果还是没找到，可能需要用不同的字段名
+    unless product_information
+      for meta_item in metaobjects.product_information.values
+        if meta_item.handle == product.handle or meta_item.id contains product.handle
+          assign product_information = meta_item
+          break
+        endif
+      endfor
+    endunless
+  -%}
   {%- if product_information -%}
     <div class="product-badge-container">
       {%- if product_information.tag1 != null -%}
@@ -156,7 +179,16 @@
                   assign sizing_link = ''
 
                   assign sizing_guide_variant = block.settings.sizing_guide_variant | default: 'Size' | downcase
-                  assign product_information = metaobjects.product_information.values | where: 'name', product.handle | first
+                  assign product_information = metaobjects.product_information[product.handle]
+                  unless product_information
+                    assign all_meta_items = metaobjects.product_information.values
+                    for meta_item in all_meta_items
+                      if meta_item.name == product.handle
+                        assign product_information = meta_item
+                        break
+                      endif
+                    endfor
+                  endunless
                 -%}
                 {%- if option_slug == sizing_guide_variant -%}
                   {%- if block.settings.sizing_guide_text != '' and product_information != null -%}
