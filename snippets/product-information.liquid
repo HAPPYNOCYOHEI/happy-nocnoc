@@ -2,10 +2,24 @@
   id="ProductInfo-{{ section.id }}"
   class="product-information--inner{% if section.settings.enable_sticky_info %} production-information--sticky{% endif %}"
 >
-  {%- assign product_information = metaobjects.product_information.values | where: 'name', product.handle | first -%}
+  {%- assign product_information = null -%}
+  {% paginate metaobject.product_information.values by 250 %}
+    {% for item in metaobject.product_information.values %}
+      {% if item.name == product.handle %}
+        {% assign product_information = item %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if paginate.next %}
+      <!-- 处理下一页 -->
+      {% continue %}
+    {% endif %}
+  {% endpaginate %}
   <script>
-    console.log({{ metaobjects.product_information.values | json }});
+    console.log({{ product_information | json }});
   </script>
+
   {%- if product_information -%}
     <div class="product-badge-container">
       {%- if product_information.tag1 != null -%}
