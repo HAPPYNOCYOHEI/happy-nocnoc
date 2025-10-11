@@ -61,7 +61,7 @@
     </span>
   </small>
   {%- if show_badges -%}
-    <span class="badges">
+    <span class="badges">|
       {%- if compare_at_price > price %}
         {%- if settings.sale_badge_type == 'save_amount' -%}
           {%- capture saved_amount -%}{{ compare_at_price | minus: price | money }}{%- endcapture -%}
