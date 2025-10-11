@@ -68,8 +68,7 @@
         {%- elsif settings.sale_badge_type == 'save_percentage' -%}
           {%- capture saved_amount -%}{{ compare_at_price | minus: price | times: 100.0 | divided_by: compare_at_price | round }}%{%- endcapture -%}
         {%- endif -%}
-        <span class="badge onsale">
-          
+        <span class="badge onsale">          
           {%- if settings.sale_badge_type == 'sale' -%}
             {{ 'products.product.on_sale' | t }}
           {%- else -%}
