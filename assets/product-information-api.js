@@ -171,6 +171,7 @@ async function initProductInformation() {
   if (productInfo) {
     updateProductBadges(productInfo);
     updateSizingGuide(productInfo);
+    showSizingGuideButton();
   }
 }
 
@@ -196,6 +197,13 @@ function updateSizingGuide(productInfo) {
       contentElement.innerHTML = productInfo.pageContent;
     }
   }
+}
+
+function showSizingGuideButton() {
+  const buttons = document.querySelectorAll('.size-guide-button');
+  buttons.forEach(button => {
+    button.classList.remove('hidden');
+  });
 }
 
 document.addEventListener('DOMContentLoaded', initProductInformation);

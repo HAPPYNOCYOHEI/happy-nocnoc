@@ -127,7 +127,7 @@
                   {%- if block.settings.sizing_guide_text != '' -%}
                     {%- capture sizing_link -%}
                       <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
-                        <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
+                        <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button size-guide-button hidden" type="button" aria-haspopup="dialog">
                           {% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></button>
                       </modal-opener>
                     {%- endcapture -%}
