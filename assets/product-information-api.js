@@ -202,7 +202,7 @@ function updateSizingGuide(productInfo) {
 function showSizingGuideButton() {
   const buttons = document.querySelectorAll('.size-guide-button');
   buttons.forEach(button => {
-    button.classList.remove('hidden');
+    button.classList.remove('btn-hidden');
   });
 }
 
