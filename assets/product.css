@@ -2109,3 +2109,7 @@
 .product-badge-container .product-badge-6 {
   background: #ffd458;
 }
+
+.btn-hidden {
+  display: none !important;
+}
