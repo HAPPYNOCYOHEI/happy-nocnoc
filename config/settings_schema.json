@@ -723,6 +723,14 @@
         "default": "sale",
         "label": "Sale badge type"
       },
+      // 在settings_schema.json的某个分组中添加（例如"Product settings"）
+      {
+        "type": "checkbox",
+        "id": "enable_discount_round_to_ten",
+        "label": "启用折扣百分比四舍五入到十位数",
+        "default": false,
+        "info": "仅当折扣类型为百分比时生效（如11%→10%，15%→20%）"
+      },
       {
         "type": "select",
         "id": "badge_position",
