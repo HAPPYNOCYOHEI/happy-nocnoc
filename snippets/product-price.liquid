@@ -69,8 +69,9 @@
           {%- capture saved_amount -%}{{ compare_at_price | minus: price | times: 100.0 | divided_by: compare_at_price | round }}%{%- endcapture -%}
         {%- endif -%}
         <span class="badge onsale">
+          
           {%- if settings.sale_badge_type == 'sale' -%}
-            _{{ 'products.product.on_sale' | t }}_
+            {{ 'products.product.on_sale' | t }}
           {%- else -%}
             {{ 'products.product.save_html' | t: saved_amount: saved_amount }}
           {%- endif -%}
