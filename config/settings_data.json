@@ -46,7 +46,7 @@
     "products_hover_images_count": 1,
     "show_products_vendor": false,
     "sale_badge_type": "save_percentage",
-    "enable_discount_round_to_ten": true,
+    "enable_discount_round_to_ten": false,
     "color_badge_soldout": "#888888",
     "color_badge_sale": "#ff6565",
     "color_badge_preorder": "#444444",
