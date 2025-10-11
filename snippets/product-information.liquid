@@ -2,41 +2,10 @@
   id="ProductInfo-{{ section.id }}"
   class="product-information--inner{% if section.settings.enable_sticky_info %} production-information--sticky{% endif %}"
 >
-  {%- assign product_information = metaobjects.product_information.values | where: 'name', product.handle | first -%}
-  {%- if product_information -%}
-    <div class="product-badge-container">
-      {%- if product_information.tag1 != null -%}
-        <div class="product-badge product-badge-1">
-          {{ product_information.tag1 }}
-        </div>
-      {%- endif -%}
-      {%- if product_information.tag2 != null -%}
-        <div class="product-badge product-badge-2">
-          {{ product_information.tag2 }}
-        </div>
-      {%- endif -%}
-      {%- if product_information.tag3 != null -%}
-        <div class="product-badge product-badge-3">
-          {{ product_information.tag3 }}
-        </div>
-      {%- endif -%}
-      {%- if product_information.tag4 != null -%}
-        <div class="product-badge product-badge-4">
-          {{ product_information.tag4 }}
-        </div>
-      {%- endif -%}
-      {%- if product_information.tag5 != null -%}
-        <div class="product-badge product-badge-5">
-          {{ product_information.tag5 }}
-        </div>
-      {%- endif -%}
-      {%- if product_information.tag6 != null -%}
-        <div class="product-badge product-badge-6">
-          {{ product_information.tag6 }}
-        </div>
-      {%- endif -%}
-    </div>
-  {%- endif -%}
+  <script>
+    window.productHandle = '{{ product.handle }}';
+  </script>
+  <div class="product-badge-container"></div>
   {%- assign product_form_id = 'product-form-' | append: section.id -%}
   {%- assign outline_button = false -%}
   {% for block in section.blocks %}
@@ -153,10 +122,9 @@
                   assign sizing_link = ''
 
                   assign sizing_guide_variant = block.settings.sizing_guide_variant | default: 'Size' | downcase
-                  assign product_information = metaobjects.product_information.values | where: 'name', product.handle | first
                 -%}
                 {%- if option_slug == sizing_guide_variant -%}
-                  {%- if block.settings.sizing_guide_text != '' and product_information != null -%}
+                  {%- if block.settings.sizing_guide_text != '' -%}
                     {%- capture sizing_link -%}
                       <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
                         <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
@@ -172,7 +140,6 @@
                           </div>
                           <scroll-shadow>
                             <div class="product-popup-modal__content-info">
-                              {{ pages[product_information.page].content }}
                             </div>
                           </scroll-shadow>
                         </div>
@@ -542,3 +509,5 @@
 {%- endif -%}
 
 {{ sizing_popup }}
+
+<script src="{{ 'product-information-api.js' | asset_url }}" defer></script>
