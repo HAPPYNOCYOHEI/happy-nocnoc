@@ -62,7 +62,7 @@
   </small>
   {%- if show_badges -%}
     <span class="badges">
-      {%- if compare_at_price > price %}
+      {% comment %} {%- if compare_at_price > price %}
         {%- if settings.sale_badge_type == 'save_amount' -%}
           {%- capture saved_amount -%}{{ compare_at_price | minus: price | money }}{%- endcapture -%}
         {%- elsif settings.sale_badge_type == 'save_percentage' -%}
@@ -75,7 +75,44 @@
             {{ 'products.product.save_html' | t: saved_amount: saved_amount }}
           {%- endif -%}
         </span>
-      {% endif %}
+      {% endif %} {% endcomment %}
+       {%- if compare_at_price > price %}
+  {%- if settings.sale_badge_type == 'save_amount' -%}
+    {%- capture saved_amount -%}{{ compare_at_price | minus: price | money }}{%- endcapture -%}
+  {%- elsif settings.sale_badge_type == 'save_percentage' -%}
+    {%- comment %} 1. 计算原始折扣百分比（取整数，如18.5%→18%） {% endcomment %}
+    {%- assign discount_diff = compare_at_price | minus: price -%}
+    {%- assign raw_percentage = discount_diff | times: 100.0 | divided_by: compare_at_price | round -%}
+
+    {%- comment %} 2. 仅当开关开启时，执行新的归整逻辑 {% endcomment %}
+    {%- if settings.enable_discount_round_to_ten -%}
+      {%- comment %} 提取个位数（如18→8，22→2，9→9） {% endcomment %}
+      {%- assign units_digit = raw_percentage | modulo: 10 -%}
+
+      {%- comment %} 3. 判断个位数是否在目标区间 [0,1,2,8,9] {% endcomment %}
+      {%- if units_digit == 0 or units_digit == 1 or units_digit == 2 or units_digit == 8 or units_digit == 9 -%}
+        {%- comment %} 归到最近的十位数（如18→20，22→20，9→10） {% endcomment %}
+        {%- assign rounded_percentage = raw_percentage | divided_by: 10.0 | round | times: 10 -%}
+      {%- else -%}
+        {%- comment %} 个位数3-7，保持原数值（如17→17，23→23） {% endcomment %}
+        {%- assign rounded_percentage = raw_percentage -%}
+      {%- endif -%}
+    {%- else -%}
+      {%- comment %} 开关关闭时，保持原有逻辑（仅四舍五入到整数） {% endcomment %}
+      {%- assign rounded_percentage = raw_percentage -%}
+    {%- endif -%}
+
+    {%- capture saved_amount -%}{{ rounded_percentage }}%{%- endcapture -%}
+  {%- endif -%}
+
+  <span class="badge onsale">          
+    {%- if settings.sale_badge_type == 'sale' -%}
+      {{ 'products.product.on_sale' | t }}
+    {%- else -%}
+      {{ 'products.product.save_html' | t: saved_amount: saved_amount }}
+    {%- endif -%}
+  </span>
+{%- endif -%}
       {%- if available == false -%}
         <span class="badge out-of-stock">
           {{ 'products.product.sold_out' | t }}
