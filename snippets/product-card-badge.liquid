@@ -80,6 +80,7 @@
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         document.addEventListener('variant:change', function(event) {
+          console.log(123123)
           const variant = event.detail.variant;
           if (!variant || variant.compare_at_price <= variant.price) {
             document.querySelector('.badge.onsale')?.remove();
