@@ -41,28 +41,27 @@
       {%- endif -%}
     </span>
   {%- endif -%} {% endcomment %}
- {%- if product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
+   
+{%- if product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
   {%- if settings.sale_badge_type == 'save_amount' -%}
-    {%- comment %} 金额折扣：保持原有逻辑 {% endcomment %}
     {%- capture saved_amount -%}{{ product_card_product.compare_at_price | minus: product_card_product.price | money }}{%- endcapture -%}
   {%- elsif settings.sale_badge_type == 'save_percentage' -%}
-    {%- comment %} 百分比折扣：按开关状态区分逻辑 {% endcomment %}
-    {%- if settings.enable_discount_round_to_ten -%}
-      {%- comment %} 开关开启：执行新的区间归整逻辑 {% endcomment %}
-      {%- assign discount_diff = product_card_product.compare_at_price | minus: product_card_product.price -%}
-      {%- assign raw_percentage = discount_diff | times: 100.0 | divided_by: product_card_product.compare_at_price | round -%}
-      {%- assign units_digit = raw_percentage | modulo: 10 -%}
+    {%- comment %} 1. 计算原始百分比（和原始代码逻辑完全一致） {% endcomment %}
+    {%- assign discount_diff = product_card_product.compare_at_price | minus: product_card_product.price -%}
+    {%- assign raw_percentage = discount_diff | times: 100.0 | divided_by: product_card_product.compare_at_price | round -%}
 
+    {%- comment %} 2. 开关开启时才执行归整，关闭时直接用原始值 {% endcomment %}
+    {%- if settings.enable_discount_round_to_ten -%}
+      {%- assign units_digit = raw_percentage | modulo: 10 -%}
       {%- if units_digit == 0 or units_digit == 1 or units_digit == 2 or units_digit == 8 or units_digit == 9 -%}
         {%- assign rounded_percentage = raw_percentage | divided_by: 10.0 | round | times: 10 -%}
       {%- else -%}
         {%- assign rounded_percentage = raw_percentage -%}
       {%- endif -%}
-
       {%- capture saved_amount -%}{{ rounded_percentage }}%{%- endcapture -%}
     {%- else -%}
-      {%- comment %} 开关关闭：完全复用原始逻辑，不做任何修改 {% endcomment %}
-      {%- capture saved_amount -%}{{ product_card_product.compare_at_price | minus: product_card_product.price | times: 100.0 | divided_by: product_card_product.compare_at_price | round }}%{%- endcapture -%}
+      {%- comment %} 开关关闭：直接使用原始计算结果（和原始代码完全一致） {% endcomment %}
+      {%- capture saved_amount -%}{{ raw_percentage }}%{%- endcapture -%}
     {%- endif -%}
   {%- endif -%}
 
@@ -74,6 +73,7 @@
     {%- endif -%}
   </span>
 {%- endif -%}
+
   {%- if product_card_product.metafields.custom.preorder and product_card_product.available -%}
     <span class="badge pre-order">
       {{ 'products.product.pre_order' | t }}
