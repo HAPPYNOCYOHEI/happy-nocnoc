@@ -16,10 +16,19 @@
       "blocks": {
         "text_qAUHhJ": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "text": "「1,000円OFFクーポン」新規友だち限定",
             "link": "https://lin.ee/5Pe6beV"
+          }
+        },
+        "text_CzNFah": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "🎃 6,900円以上でソックス、10,990円以上でショルダーバッグを贈呈！",
+            "link": ""
           }
         },
         "text_FzKwc6": {
@@ -37,21 +46,13 @@
             "text": "14日間返品返金保証",
             "link": "shopify://pages/returns"
           }
-        },
-        "text_CzNFah": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "🎃 6,900円以上でソックス、10,990円以上でショルダーバッグを贈呈！",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "text_qAUHhJ",
+        "text_CzNFah",
         "text_FzKwc6",
-        "text_gGCp3c",
-        "text_CzNFah"
+        "text_gGCp3c"
       ],
       "settings": {
         "announcement_bar": true,
