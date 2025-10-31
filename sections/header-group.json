@@ -23,14 +23,6 @@
             "link": "https://lin.ee/5Pe6beV"
           }
         },
-        "text_CzNFah": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "🎃 ハロウィンキャンペーン開催中！",
-            "link": ""
-          }
-        },
         "text_FzKwc6": {
           "type": "text",
           "settings": {
@@ -50,7 +42,6 @@
       },
       "block_order": [
         "text_qAUHhJ",
-        "text_CzNFah",
         "text_FzKwc6",
         "text_gGCp3c"
       ],
