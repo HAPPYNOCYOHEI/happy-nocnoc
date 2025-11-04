@@ -258,7 +258,7 @@
             "swym_hover_atw_border_color": "#191817",
             "swym_hover_atw_border_thickness": 0,
             "swym_hover_atw_button_border_radius": 0,
-            "swym_custom_css": "/* 去掉 Wishlist Plus 按钮容器右侧空白 */\n.add_to_cart_holder {\n  margin-right: 0 !important;\n  padding-right: 0 !important;\n  flex: 1 1 auto !important;\n  justify-content: flex-start !important;\n}\n\n/* 若 Wishlist Plus 按钮和购物车按钮之间仍有间距，可微调 */\n.add_to_cart_holder .swym-button-bar {\n  margin-right: 0 !important;\n  padding-right: 0 !important;\n}\n\n/* 若出现对齐不齐，可进一步让两个按钮占满宽度 */\n.add_to_cart_holder,\n.add_to_cart_holder .swym-button-bar {\n  width: 100% !important;\n  max-width: 100% !important;\n}"
+            "swym_custom_css": ""
           }
         }
       },
