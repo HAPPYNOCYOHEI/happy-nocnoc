@@ -237,7 +237,6 @@
       "blocks": {
         "wishlist_plus_wishlist_pdp_button_778Qim": {
           "type": "shopify://apps/wishlist-plus/blocks/wishlist-pdp-button/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
-          "disabled": true,
           "settings": {
             "swym_atw_button_icon": "heart",
             "swym_atw_icon_thickness": 1.7,
@@ -266,7 +265,6 @@
       "block_order": [
         "wishlist_plus_wishlist_pdp_button_778Qim"
       ],
-      "disabled": true,
       "settings": {
         "section_width": "full-width-row",
         "disable_top_spacing": false,
