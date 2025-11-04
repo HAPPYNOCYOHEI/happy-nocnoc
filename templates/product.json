@@ -231,6 +231,45 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "17622432392a1790ec": {
+      "type": "apps",
+      "blocks": {
+        "wishlist_plus_wishlist_pdp_button_7wEwzt": {
+          "type": "shopify://apps/wishlist-plus/blocks/wishlist-pdp-button/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
+          "settings": {
+            "swym_atw_button_icon": "heart",
+            "swym_atw_icon_thickness": 1.7,
+            "swym_atw_display_btn_text": true,
+            "swym_button_position": "default",
+            "swym_atw_button_vertical_offset": 0,
+            "swym_atw_full_width": true,
+            "swym_atw_button_alignment": "center",
+            "swym_add_to_wishlist_color": "#191817",
+            "swym_added_to_wishlist_color": "#191817",
+            "swym_button_text_color": "#fff",
+            "swym_atw_border_color": "#191817",
+            "swym_atw_border_thickness": 0,
+            "swym_atw_button_border_radius": 0,
+            "swym_enable_hover_customization": false,
+            "swym_hover_add_to_wishlist_color": "#191817",
+            "swym_hover_added_to_wishlist_color": "#191817",
+            "swym_hover_button_text_color": "#fff",
+            "swym_hover_atw_border_color": "#191817",
+            "swym_hover_atw_border_thickness": 0,
+            "swym_hover_atw_button_border_radius": 0,
+            "swym_custom_css": "/* 去掉 Wishlist Plus 按钮容器右侧空白 */\n.add_to_cart_holder {\n  margin-right: 0 !important;\n  padding-right: 0 !important;\n  flex: 1 1 auto !important;\n  justify-content: flex-start !important;\n}\n\n/* 若 Wishlist Plus 按钮和购物车按钮之间仍有间距，可微调 */\n.add_to_cart_holder .swym-button-bar {\n  margin-right: 0 !important;\n  padding-right: 0 !important;\n}\n\n/* 若出现对齐不齐，可进一步让两个按钮占满宽度 */\n.add_to_cart_holder,\n.add_to_cart_holder .swym-button-bar {\n  width: 100% !important;\n  max-width: 100% !important;\n}"
+          }
+        }
+      },
+      "block_order": [
+        "wishlist_plus_wishlist_pdp_button_7wEwzt"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -240,6 +279,7 @@
     "1662552569cce2536d",
     "product-recommendations",
     "custom_liquid_ktghkd",
-    "1757395619f74bb6eb"
+    "1757395619f74bb6eb",
+    "17622432392a1790ec"
   ]
 }
