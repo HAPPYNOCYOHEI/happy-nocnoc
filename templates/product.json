@@ -232,10 +232,10 @@
         "disable_bottom_spacing": false
       }
     },
-    "1762247592a4b5ad63": {
+    "176224770965b34abc": {
       "type": "apps",
       "blocks": {
-        "wishlist_plus_wishlist_pdp_button_GdeNEX": {
+        "wishlist_plus_wishlist_pdp_button_KVw99U": {
           "type": "shopify://apps/wishlist-plus/blocks/wishlist-pdp-button/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
           "settings": {
             "swym_atw_button_icon": "heart",
@@ -263,7 +263,7 @@
         }
       },
       "block_order": [
-        "wishlist_plus_wishlist_pdp_button_GdeNEX"
+        "wishlist_plus_wishlist_pdp_button_KVw99U"
       ],
       "settings": {
         "section_width": "full-width-row",
@@ -280,6 +280,6 @@
     "product-recommendations",
     "custom_liquid_ktghkd",
     "1757395619f74bb6eb",
-    "1762247592a4b5ad63"
+    "176224770965b34abc"
   ]
 }
