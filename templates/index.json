@@ -448,6 +448,7 @@
     },
     "single_image_Ae8K38": {
       "type": "single-image",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/6871739267749_.pic.jpg",
         "image_mobile": "shopify://shop_images/6971739342607_.pic.jpg",
