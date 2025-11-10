@@ -146,7 +146,7 @@
           "settings": {
             "heading": "どの支払い方法が利用できますか？",
             "open": false,
-            "content": "<p>以下のお支払い方法がご利用いただけます。</p><ol><li>クレジットカード（VISA、Master、AMEX、JCB） </li><li>PayPal  </li><li>デジタルギフトカード</li></ol>",
+            "content": "<p>以下のお支払い方法がご利用いただけます。</p><ol><li>クレジットカード（VISA、Master、AMEX、JCB） </li><li>楽天ペイ</li><li>ApplePay</li><li>GooglePay</li><li>PayPal</li><li>コンビニ決済</li></ol>",
             "page": "",
             "custom_liquid": ""
           }
