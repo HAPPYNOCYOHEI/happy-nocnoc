@@ -200,6 +200,7 @@
       "block_order": [
         "firework_shoppable_video_ugc_firework_pro_embed_gjUkKa"
       ],
+      "disabled": true,
       "custom_css": [
         ".cy-title {padding-left: 0 !important; padding-right: 0 !important;}"
       ],
