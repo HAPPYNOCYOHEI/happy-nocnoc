@@ -49,12 +49,12 @@
       ],
       "settings": {
         "full_width": true,
-        "products_per_page": 12,
+        "products_per_page": 16,
         "columns_desktop": 4,
-        "pagination_type": "paginated",
+        "pagination_type": "infinite",
         "enable_filtering": false,
         "enable_sorting": false,
-        "show_counts": true,
+        "show_counts": false,
         "filter_color_swatches": true,
         "facets_desktop": "sidebar"
       }

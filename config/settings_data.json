@@ -41,9 +41,9 @@
     "social_share_pinterest": false,
     "social_share_whatsapp": false,
     "social_share_clipboard": false,
-    "product_aspect_ratio": "adapt",
+    "product_aspect_ratio": "square",
     "products_hover_images": false,
-    "products_hover_images_count": 1,
+    "products_hover_images_count": 2,
     "show_products_vendor": false,
     "sale_badge_type": "save_percentage",
     "enable_discount_round_to_ten": true,
@@ -261,11 +261,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {}
-      },
       "6615124273980966592": {
         "type": "shopify://apps/chatty-ai-chatbot-live-chat/blocks/app-embed/1c0e135d-e8e1-4fe2-86be-1c36def46675",
         "disabled": false,
@@ -302,16 +297,6 @@
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {}
-      },
-      "12526071353035850722": {
-        "type": "shopify://apps/amp-back-in-stock/blocks/app-embed/bfa6a8c4-24e2-411a-9396-e35031b33f34",
-        "disabled": true,
-        "settings": {}
-      },
-      "11349500561483629931": {
-        "type": "shopify://apps/notify-me/blocks/app-embed/b399b727-6c85-44fc-9e21-63114bd72054",
-        "disabled": true,
         "settings": {}
       },
       "12853090937405836128": {
