@@ -11,17 +11,6 @@
   "sections": {
     "pf-55dcb259": {
       "type": "pf-55dcb259",
-      "blocks": {
-        "firework_shoppable_video_ugc_firework_pro_embed_hkijND": {
-          "type": "shopify://apps/firework-shoppable-video-ugc/blocks/firework-pro-embed/347a2e4c-f5cb-410d-8354-490d1e80558c",
-          "settings": {
-            "embedConfigId": "b5qdPv_efg"
-          }
-        }
-      },
-      "block_order": [
-        "firework_shoppable_video_ugc_firework_pro_embed_hkijND"
-      ],
       "settings": {}
     }
   },
