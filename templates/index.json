@@ -114,6 +114,73 @@
         "disable_bottom_spacing": true
       }
     },
+    "gallery_nNLK4i": {
+      "type": "gallery",
+      "blocks": {
+        "image_kHgFFE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_250.jpg",
+            "subheading": "NOC-FLY",
+            "title": "",
+            "text": "子どもが毎日履きたくなる一足",
+            "link_label": "詳しく見る",
+            "link": "https://happynocnoc.jp/pages/noc-fly-lp1113",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_jic9Xd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_251.jpg",
+            "subheading": "NOC-FLY PRO",
+            "title": "",
+            "text": "本気の機能性で子供の足を守る",
+            "link_label": "詳しく見る",
+            "link": "https://happynocnoc.jp/pages/honki-noc-fly-pro",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_rWjUJL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_252.jpg",
+            "subheading": "ALL-MAX",
+            "title": "",
+            "text": "万能スポーツスニーカー、怪我のリスクを最小限に",
+            "link_label": "詳しく見る",
+            "link": "https://happynocnoc.jp/pages/noc-allmax-lp1120",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        }
+      },
+      "block_order": [
+        "image_kHgFFE",
+        "image_jic9Xd",
+        "image_rWjUJL"
+      ],
+      "name": "Gallery",
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "full-width-row-full",
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "medium",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "featured_collection_YVymwE": {
       "type": "featured-collection",
       "settings": {
@@ -461,6 +528,7 @@
   },
   "order": [
     "16479477632637c9a7",
+    "gallery_nNLK4i",
     "featured_collection_YVymwE",
     "166366563622039b3e",
     "featured_collection_d4KjV7",
