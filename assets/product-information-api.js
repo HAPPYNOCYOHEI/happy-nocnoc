@@ -139,7 +139,7 @@ class ProductInformationAPI {
     return result;
   }
 
-  async loadProductInformation(productHandle) {
+  async loadProductInformation(productHandle, { includePageContent = true } = {}) {
     if (this.allMetaobjects.length === 0) {
       await this.getAllMetaobjects();
     }
@@ -148,8 +148,8 @@ class ProductInformationAPI {
     if (!productInfo) return null;
 
     const parsed = this.parseProductInformation(productInfo);
-    
-    if (parsed.pageId) {
+
+    if (includePageContent && parsed.pageId) {
       const pageContent = await this.getPageContent(parsed.pageId);
       if (pageContent) {
         parsed.pageContent = pageContent.body;
@@ -162,21 +162,32 @@ class ProductInformationAPI {
 }
 
 async function initProductInformation() {
+  const containers = document.querySelectorAll('.product-badge-container');
   const productHandle = window.productHandle;
-  if (!productHandle) return;
+  if (containers.length === 0) return;
 
   const api = new ProductInformationAPI();
-  const productInfo = await api.loadProductInformation(productHandle);
-  
-  if (productInfo) {
-    updateProductBadges(productInfo);
-    updateSizingGuide(productInfo);
-    showSizingGuideButton();
-  }
+
+  const tasks = Array.from(containers).map(async (container) => {
+    const handle = container.dataset.productHandle || productHandle;
+    if (!handle) return;
+
+    const includePageContent = !container.dataset.productHandle && !!productHandle;
+    const productInfo = await api.loadProductInformation(handle, { includePageContent });
+    if (!productInfo) return;
+
+    updateProductBadges(container, productInfo);
+
+    if (includePageContent) {
+      updateSizingGuide(productInfo);
+      showSizingGuideButton();
+    }
+  });
+
+  await Promise.all(tasks);
 }
 
-function updateProductBadges(productInfo) {
-  const container = document.querySelector('.product-badge-container');
+function updateProductBadges(container, productInfo) {
   if (!container) return;
 
   let badgeHtml = '';
