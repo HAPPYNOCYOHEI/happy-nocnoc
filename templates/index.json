@@ -14,6 +14,7 @@
       "blocks": {
         "slide_QNUmpw": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/20251219-165921_1.jpg",
             "mobile_image": "shopify://shop_images/20251219-165924_1.jpg",
