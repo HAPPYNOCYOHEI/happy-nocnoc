@@ -16,6 +16,8 @@
     <div class="thb-form-container">
       <div class="thb-register-form">
         {% form 'create_customer', novalidate: 'novalidate' %}
+          <input type="hidden" name="return_to" value="{{ routes.account_url }}">
+          <input type="hidden" name="customer[note]" value="" data-customer-note>
           <h3>{{ 'customer.login_page.create_account_title' | t }}</h3>
           <p>{{ 'customer.login_page.create_account_description' | t }}</p>
           {% if form.errors %}
@@ -31,9 +33,10 @@
                 name="customer[last_name]"
                 class="full"
                 value="{% if form.last_name %}{{ form.last_name }}{% endif %}"
-                placeholder="{{ 'customer.login_page.last_name' | t }}"
+                placeholder="姓"
+                required
               >
-              <label for="last_name">{{ 'customer.login_page.last_name' | t }}</label>
+              <label for="last_name">姓 <span style="color: #d0021b;">*</span></label>
             </div>
             <div class="field">
               <input
@@ -41,9 +44,10 @@
                 name="customer[first_name]"
                 class="full"
                 value="{% if form.first_name %}{{ form.first_name }}{% endif %}"
-                placeholder="{{ 'customer.login_page.first_name' | t }}"
+                placeholder="名"
+                required
               >
-              <label for="first_name">{{ 'customer.login_page.first_name' | t }}</label>
+              <label for="first_name">名 <span style="color: #d0021b;">*</span></label>
             </div>
           </div>
           <div class="field">
@@ -52,19 +56,22 @@
               name="customer[email]"
               class="full {% if form.errors contains 'email' %}invalid{% endif %}"
               value=""
-              placeholder="{{ 'customer.login_page.email' | t }}"
+              placeholder="メールアドレス"
+              required
             >
-            <label for="email">{{ 'customer.login_page.email' | t }}</label>
+            <label for="email">メールアドレス <span style="color: #d0021b;">*</span></label>
           </div>
+
           <div class="field">
             <input
               type="password"
               name="customer[password]"
               class="full"
               value=""
-              placeholder="{{ 'customer.login_page.password' | t }}"
+              placeholder="パスワード"
+              required
             >
-            <label for="password">{{ 'customer.login_page.password' | t }}</label>
+            <label for="password">パスワード <span style="color: #d0021b;">*</span></label>
           </div>
 
           <div class="field">
@@ -76,21 +83,107 @@
               class="full"
               size="16"
               placeholder="{{ 'customer.reset_password.password_confirm' | t }}"
+              required
             >
-            <label for="password_confirmation">{{ 'customer.reset_password.password_confirm' | t }}</label>
+            <label for="password_confirmation">パスワード（確認） <span style="color: #d0021b;">*</span></label>
           </div>
-          {% comment %}
-            <div class="field">
-              <input
-                type="date"
-                name="customer[note][Birthday]"
-                class="full {% if form.errors contains 'date' %}invalid{% endif %}"
-                value=""
-                placeholder="{{ 'customer.login_page.birthday' | t }}"
-              >
-              <label for="email">{{ 'customer.login_page.birthday' | t }}</label>
+
+          <div class="field field--static" data-required-group="gender">
+            <div class="field-group-label">性別 <span style="color: #d0021b;">*</span></div>
+            <div>
+              <label>
+                <input type="radio" name="register[gender]" value="女性" required>
+                女性
+              </label>
             </div>
-          {% endcomment %}
+            <div>
+              <label>
+                <input type="radio" name="register[gender]" value="男性" required>
+                男性
+              </label>
+            </div>
+          </div>
+
+          <div class="field field--static">
+            <div class="field-group-label">生年月日 <span style="color: #d0021b;">*</span></div>
+            <div class="fields register-birthday-fields">
+              <div class="field">
+                <select name="register[birth_year]" class="full" required>
+                  <option value="" selected disabled>YYYY</option>
+                  {%- assign current_year = 'now' | date: '%Y' | plus: 0 -%}
+                  {%- assign start_year = current_year | minus: 100 -%}
+                  {%- for y in (start_year..current_year) -%}
+                    <option value="{{ current_year | minus: forloop.index0 }}">{{ current_year | minus: forloop.index0 }}</option>
+                  {%- endfor -%}
+                </select>
+              </div>
+              <div class="field">
+                <select name="register[birth_month]" class="full" required>
+                  <option value="" selected disabled>MM</option>
+                  {%- for m in (1..12) -%}
+                    <option value="{{ m }}">{{ m }}</option>
+                  {%- endfor -%}
+                </select>
+              </div>
+              <div class="field">
+                <select name="register[birth_day]" class="full" required>
+                  <option value="" selected disabled>DD</option>
+                  {%- for d in (1..31) -%}
+                    <option value="{{ d }}">{{ d }}</option>
+                  {%- endfor -%}
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="field field--static" data-required-group="has_children">
+            <div class="field-group-label">お子さまはいますか？ <span style="color: #d0021b;">*</span></div>
+            <div>
+              <label>
+                <input type="radio" name="register[has_children]" value="はい" data-has-children-yes required>
+                はい
+              </label>
+            </div>
+            <div>
+              <label>
+                <input type="radio" name="register[has_children]" value="いいえ" required>
+                いいえ
+              </label>
+            </div>
+          </div>
+
+          <div class="field field--static" data-children-count style="display: none;">
+            <div class="field-group-label">
+              お子さまは何人ですか？
+              <span data-children-count-required style="display: none; color: #d0021b;">*</span>
+            </div>
+            <select name="register[children_count]" class="full">
+              <option value="" selected disabled>選択してください</option>
+              {%- for c in (1..10) -%}
+                <option value="{{ c }}">{{ c }}</option>
+              {%- endfor -%}
+            </select>
+          </div>
+
+          <div class="field field--static" data-children-details style="display: none;">
+            <div class="field-group-label">より良いショッピング体験のため、以下の質問にお答えいただけます。（任意）</div>
+            {%- for i in (1..10) -%}
+              <div class="fields" data-child-detail data-child-index="{{ i }}" style="display: none;">
+                <div class="field field--static">
+                  <div class="field-group-label">子ども{{ i }}の性別</div>
+                  <select name="register[child_{{ i }}_sex]" class="full">
+                    <option value="" selected disabled>選択してください</option>
+                    <option value="male">男の子</option>
+                    <option value="female">女の子</option>
+                  </select>
+                </div>
+                <div class="field field--static">
+                  <div class="field-group-label">子ども{{ i }}の年齢</div>
+                  <input type="number" name="register[child_{{ i }}_age]" class="full" value="" min="0" max="120" placeholder="">
+                </div>
+              </div>
+            {%- endfor -%}
+          </div>
           <button type="submit" class="button full">
             <span>{{ 'customer.login_page.submit_register' | t }}</span>
           </button>
