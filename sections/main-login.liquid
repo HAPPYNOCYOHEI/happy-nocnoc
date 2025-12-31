@@ -1,4 +1,5 @@
 {{ 'login-register.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'login.js' | asset_url }}" defer="defer"></script>
 {%- liquid
   assign section_image = section.settings.section_image
 -%}
@@ -13,6 +14,9 @@
 <div class="row">
   <div class="small-12 columns">
     <div class="thb-form-container">
+      <div class="form-notification" data-register-success-banner style="display: none;">
+        Account created. We sent a link to <span data-register-success-email></span> to set your password.
+      </div>
       <div class="thb-login-form" id="recover">
         <h4>{{ 'customer.recover_password.title' | t }}</h4>
         <p>{{ 'customer.recover_password.subtext' | t }}</p>

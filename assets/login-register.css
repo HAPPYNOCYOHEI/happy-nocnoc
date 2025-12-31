@@ -96,3 +96,56 @@
   text-align: center; }
   .sign-in-with-shop-provider p {
     margin-bottom: 10px; }
+
+ .section-customer-register .field.field--static {
+  position: static;
+  margin-bottom: 10px;
+ }
+ .section-customer-register .field.field--static .field-group-label {
+  font-size: 0.8125rem;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  margin-bottom: 10px;
+ }
+ .section-customer-register .field.field--static label {
+  position: static;
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+  height: auto;
+  transform: none;
+  padding: 0;
+  pointer-events: auto;
+  background: transparent;
+  color: inherit;
+ }
+ .section-customer-register .field.field--static.invalid {
+  border: 1px solid #d0021b;
+  border-radius: 6px;
+  padding: 12px;
+ }
+ .section-customer-register .field.field--static input[type="radio"] {
+  margin-right: 8px;
+ }
+ .section-customer-register .field.field--static > div + div {
+  margin-top: 8px;
+ }
+ .section-customer-register .field.field--static .fields {
+  margin-top: 6px;
+ }
+ .section-customer-register .field.field--static .fields[data-child-detail] {
+  margin-top: 12px;
+ }
+ .section-customer-register .field.field--static .fields[data-child-detail] .field-group-label {
+  margin-bottom: 6px;
+ }
+ .section-customer-register .field.field--static [data-children-count] select,
+ .section-customer-register .field.field--static select.full {
+  margin-bottom: 0;
+ }
+
+ .section-customer-register .register-birthday-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+ }
