@@ -20,7 +20,7 @@
 							render 'free-shipping', free_shipping_minimum: free_shipping_minimum, total: total
 						endif
 					-%}
-					{% for item in cart.items %}
+					{%- for item in cart.items -%}
 					<div class="product-cart-item" id="CartDrawerItem-{{ item.index | plus: 1 }}">
 						<div class="product-cart-item-image">
 							{% if item.image %}
@@ -135,7 +135,7 @@
 							</span>
 						</div>
 					</div>
-					{% endfor %}
+					{%- endfor -%}
 				</div>
 			{%- else -%}
 				<div class="cart-drawer__empty-cart">
@@ -170,16 +170,17 @@
 					<div class="order-note-toggle__content-overlay"></div>
 				</div>
 				{%- endif -%}
+				{%- if cart.cart_level_discount_applications.size > 0 or settings.cart_drawer_add_discounts -%}
+				<collapsible-row class="accordion">
+					<details {%- if cart.cart_level_discount_applications.size > 0 %} open{%- endif -%}>
+						<summary class="cart-discounts--title">{{ 'discounts.discounts' | t }}<span></span></summary>
+						<div class="collapsible__content accordion__content">
+							{%- render 'cart-discounts', cart: cart, discount_form: settings.cart_drawer_add_discounts -%}
+						</div>
+					</details>
+				</collapsible-row>
+				{%- endif -%}
 				<div class="cart-drawer-footer">
-					{%- if cart.cart_level_discount_applications.size > 0 -%}
-						{%- for discount in cart.cart_level_discount_applications -%}
-							<div class="mini-cart__row mini-cart__discount">
-								<div class="mini-cart__label">{{ discount.title }}</div>
-								<span>(-{{ discount.total_allocated_amount | money }})</span>
-							</div>
-						{%- endfor -%}
-					{%- endif -%}
-
 					<div class="cart-drawer-buttons">
 						<p class="cart-policy-text">
 							{%- if cart.taxes_included and shop.shipping_policy.body != blank -%}

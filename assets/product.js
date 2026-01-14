@@ -168,6 +168,15 @@ if (!customElements.get('variant-selects')) {
         [].forEach.call(productSlider.querySelectorAll('.product-images__slide-item--variant'), function (el) {
           el.classList.remove('is-active');
         });
+        // 修复：变体切换时缩略图/主图 active 状态可能残留，先统一清理 thumbnails 内的状态
+        if (this.thumbnails) {
+          if (this.thumbnails.querySelector('.product-thumbnail.is-initial-selected')) {
+            this.thumbnails.querySelector('.product-thumbnail.is-initial-selected').classList.remove('is-initial-selected');
+          }
+          [].forEach.call(this.thumbnails.querySelectorAll('.product-images__slide-item--variant'), function (el) {
+            el.classList.remove('is-active');
+          });
+        }
 
         activeMedia.classList.add('is-active');
         activeMedia.classList.add('is-initial-selected');
@@ -176,13 +185,6 @@ if (!customElements.get('variant-selects')) {
 
         if (this.thumbnails) {
           let activeThumb = this.thumbnails.querySelector(thumbId);
-
-          if (this.thumbnails.querySelector('.product-thumbnail.is-initial-selected')) {
-            this.thumbnails.querySelector('.product-thumbnail.is-initial-selected').classList.remove('is-initial-selected');
-          }
-          [].forEach.call(this.thumbnails.querySelectorAll('.product-images__slide-item--variant'), function (el) {
-            el.classList.remove('is-active');
-          });
 
           activeThumb.classList.add('is-active');
           activeThumb.classList.add('is-initial-selected');
@@ -412,7 +414,10 @@ if (!customElements.get('variant-selects')) {
             }
           });
           selected_set_images.forEach(thumb => {
-            thumb.classList.toggle('is-active', thumb.dataset.group === group);
+            // 修复：避免 toggle 导致某些场景状态不同步；只对匹配组设置 active
+            if (thumb.dataset.group === group) {
+              thumb.classList.add('is-active');
+            }
           });
 
           // Product thumbnails
@@ -422,7 +427,10 @@ if (!customElements.get('variant-selects')) {
             }
           });
           selected_set_thumbs.forEach(thumb => {
-            thumb.classList.toggle('is-active', thumb.dataset.group === group);
+            // 修复：同上
+            if (thumb.dataset.group === group) {
+              thumb.classList.add('is-active');
+            }
           });
         } else {
           // Product images
@@ -432,7 +440,10 @@ if (!customElements.get('variant-selects')) {
             }
           });
           selected_set_images.forEach(thumb => {
-            thumb.classList.toggle('is-active', thumb.dataset.group === group);
+            // 修复：同上
+            if (thumb.dataset.group === group) {
+              thumb.classList.add('is-active');
+            }
           });
         }
 
@@ -981,7 +992,8 @@ if (!customElements.get('product-add-to-cart-sticky')) {
         }, {
           threshold: [0, 1]
         }),
-        form = document.getElementById('Product-Slider'),
+        // 修复：吸顶判断应绑定到当前 section 的 product form，避免多产品/quick view 场景失效
+        form = document.getElementById(`product-form-${this.dataset.section}`),
         footer = document.getElementById('footer');
       _this.formPassed = false;
       observer.observe(form);

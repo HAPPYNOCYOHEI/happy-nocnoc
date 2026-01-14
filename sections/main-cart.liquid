@@ -1,4 +1,6 @@
 {%- liquid
+	assign cart_notes_enable = section.settings.cart_notes_enable
+	assign cart_add_discounts = section.settings.cart_add_discounts
 	assign payment_icons = section.blocks | where: "type", "payment_icons"
 	assign collapsible_panels = section.blocks | where: "type", "collapsible_tab"
 	assign shipping_estimator = section.blocks | where: "type", "shipping_estimator"
@@ -6,6 +8,9 @@
 -%}
 {{ 'cart.css' | asset_url | stylesheet_tag }}
 {{ 'cart.js' | asset_url | script_tag }}
+{%- if cart_add_discounts -%}
+	{{ 'cart-discounts.css' | asset_url | stylesheet_tag }}
+{%- endif -%}
 <div class="row">
 	<div class="small-12 columns">
 		<div class="thb-cart-form" id="Cart" data-id="{{ section.id }}">
@@ -168,12 +173,22 @@
 								<a href="{{ routes.all_products_collection_url }}" class="back_to_shop text-button">{{ 'general.continue_shopping' | t }}</a>
 							</td>
 							<td class="thb-cart-form--cart-collaterals" colspan="2">
-								{%- if section.settings.cart_notes_enable -%}
+								{%- if cart_notes_enable -%}
 								<collapsible-row class="accordion">
 									<details class="cart-notes">
 										<summary class="cart-notes-title">{{ 'sections.cart.add_notes' | t }}<span></span></summary>
 										<div class="collapsible__content">
 											<textarea name="note" id="CartSpecialInstructions" class="full">{{ cart.note }}</textarea>
+										</div>
+									</details>
+								</collapsible-row>
+								{%- endif -%}
+								{%- if cart.cart_level_discount_applications.size > 0 or cart_add_discounts -%}
+								<collapsible-row class="accordion">
+									<details class="cart-discounts" {%- if cart.cart_level_discount_applications.size > 0 %} open{%- endif -%}>
+										<summary class="cart-discounts--title">{{ 'discounts.discounts' | t }}<span></span></summary>
+										<div class="collapsible__content accordion__content">
+											{%- render 'cart-discounts', cart: cart, discount_form: cart_add_discounts -%}
 										</div>
 									</details>
 								</collapsible-row>
@@ -195,28 +210,6 @@
 									</collapsible-row>
 								{%- endif -%}
 							{%- endfor -%}
-								{%- if cart.cart_level_discount_applications.size > 0 -%}
-									<table cellspacing="0" class="no-borders">
-										<tbody>
-												{%- for discount in cart.cart_level_discount_applications -%}
-													<tr class="cart-discount">
-														<th>{{ discount.title }}</th>
-													 	<td>
-															<span class="price">
-																<span class="amount">
-																{% if settings.currency_code_enabled %}
-																(-{{ discount.total_allocated_amount | money_with_currency }})
-																{% else %}
-																(-{{ discount.total_allocated_amount | money }})
-																{% endif %}
-															 </span>
-															</span>
-														</td>
-												 	</tr>
-												{%- endfor -%}
-										</tbody>
-									</table>
-								{%- endif -%}
 								{% if settings.cart_terms_conditions_enable %}
 			            {%- render 'cart-terms' -%}
 			          {% endif %}
@@ -330,6 +323,12 @@
 			"type": "checkbox",
 			"id": "cart_notes_enable",
 			"label": "Enable order notes",
+			"default": true
+		},
+		{
+			"type": "checkbox",
+			"id": "cart_add_discounts",
+			"label": "Enable add discount form",
 			"default": true
 		}
   ]

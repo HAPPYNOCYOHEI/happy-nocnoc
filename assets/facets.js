@@ -10,11 +10,15 @@ class FacetsToggle {
 
     // Add functionality to buttons
     if (button) {
-      button.addEventListener('click', (e) => {
-        e.preventDefault();
-        document.getElementsByTagName('body')[0].classList.toggle('open-cc');
-        this.container.classList.toggle('active');
-      });
+      // 防止筛选刷新后重复绑定导致一次点击触发多次
+      if (!button.dataset.active) {
+        button.addEventListener('click', (e) => {
+          e.preventDefault();
+          document.getElementsByTagName('body')[0].classList.toggle('open-cc');
+          this.container.classList.toggle('active');
+        });
+        button.dataset.active = true;
+      }
     }
     setTimeout(function () {
       window.dispatchEvent(new Event('resize.resize-select'));
@@ -56,6 +60,12 @@ class FacetFiltersForm extends HTMLElement {
     const container = document.getElementsByClassName('thb-filter-count');
     document.getElementById('ProductGridContainer').querySelector('.collection').classList.add('loading');
 
+    // 取消上一条筛选请求，避免快速点选时页面闪烁/回退
+    FacetFiltersForm.abortActiveRequest();
+    FacetFiltersForm.currentRequestId += 1;
+    const requestId = FacetFiltersForm.currentRequestId;
+    FacetFiltersForm.activeAbortController = new AbortController();
+
     for (var item of container) {
       item.classList.add('loading');
     }
@@ -67,17 +77,30 @@ class FacetFiltersForm extends HTMLElement {
       if (FacetFiltersForm.filterData.some(filterDataUrl)) {
         FacetFiltersForm.renderSectionFromCache(filterDataUrl, event);
       } else {
-        FacetFiltersForm.renderSectionFromFetch(url, event);
+        FacetFiltersForm.renderSectionFromFetch(url, event, requestId);
       }
     });
     if (updateURLHash) FacetFiltersForm.updateURLHash(searchParams);
 
   }
 
-  static renderSectionFromFetch(url, event) {
-    fetch(url)
+  static abortActiveRequest() {
+    if (FacetFiltersForm.activeAbortController) {
+      try {
+        FacetFiltersForm.activeAbortController.abort();
+      } catch (e) { }
+    }
+    FacetFiltersForm.activeAbortController = null;
+  }
+
+  static renderSectionFromFetch(url, event, requestId) {
+    fetch(url, {
+      signal: FacetFiltersForm.activeAbortController?.signal
+    })
       .then(response => response.text())
       .then((responseText) => {
+        // 丢弃过期响应（用户已经点了新的筛选）
+        if (requestId !== FacetFiltersForm.currentRequestId) return;
         const html = responseText;
         FacetFiltersForm.filterData = [...FacetFiltersForm.filterData, {
           html,
@@ -88,6 +111,14 @@ class FacetFiltersForm extends HTMLElement {
         FacetFiltersForm.renderProductCount(html);
 
         new FacetsToggle();
+      })
+      .catch((error) => {
+        // Abort 属于正常场景（快速点击），不做报错；其他错误则解除 loading
+        if (error && error.name === 'AbortError') return;
+        try {
+          document.getElementById('ProductGridContainer')?.querySelector('.collection')?.classList.remove('loading');
+          document.querySelectorAll('.thb-filter-count.loading').forEach((el) => el.classList.remove('loading'));
+        } catch (e) { }
       });
   }
 
@@ -218,6 +249,8 @@ class FacetFiltersForm extends HTMLElement {
 FacetFiltersForm.filterData = [];
 FacetFiltersForm.searchParamsInitial = window.location.search.slice(1);
 FacetFiltersForm.searchParamsPrev = window.location.search.slice(1);
+FacetFiltersForm.currentRequestId = 0;
+FacetFiltersForm.activeAbortController = null;
 customElements.define('facet-filters-form', FacetFiltersForm);
 FacetFiltersForm.setListeners();
 
