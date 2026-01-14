@@ -914,6 +914,12 @@
       },
       {
         "type": "checkbox",
+        "id": "cart_drawer_add_discounts",
+        "label": "Show add discount form",
+        "default": true
+      },
+      {
+        "type": "checkbox",
         "id": "cart_drawer_notes",
         "label": "Enable cart notes",
         "default": true

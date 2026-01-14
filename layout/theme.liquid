@@ -92,6 +92,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				search_url: '{{ routes.search_url }}',
 				cart_change_url: '{{ routes.cart_change_url }}',
 				cart_update_url: '{{ routes.cart_update_url }}',
+				cart_clear_url: '{{ routes.cart_clear_url }}',
 				predictive_search_url: '{{ routes.predictive_search_url }}',
 			},
 			variantStrings: {
@@ -161,7 +162,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script async src="https://cdn-edge.karte.io/5ae5962cdd7cb24573950b75447c2fc0/edge.js"></script>
 <!-- End KARTE Tag -->
 
-    {{ 'vendor.min.js' | asset_url | script_tag }}
+    {%- comment -%}Performance: defer heavy JS to reduce main-thread blocking; execution order is preserved for defer scripts{%- endcomment -%}
+    <script src="{{ 'vendor.min.js' | asset_url }}" defer="defer"></script>
     {% if settings.animations %}
       {{ 'animations.min.js' | asset_url | script_tag }}
       <script>
@@ -174,8 +176,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         gsap.registerPlugin(ScrollTrigger);
       </script>
     {% endif %}
-    {{ 'slideshow.js' | asset_url | script_tag }}
-    {{ 'app.js' | asset_url | script_tag }}
+    <script src="{{ 'slideshow.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
     {%- liquid
       assign add_product_js = false
       if settings.enable_quick_view or settings.enable_quick_add
@@ -197,8 +199,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       {% render 'customer-data' %}
     {%- endif -%}
     {%- if settings.free_shipping -%}
-      {{ 'free-shipping.js' | asset_url | script_tag }}
+      {%- comment -%}defer: free-shipping 依赖部分工具函数可能在 app.js 内，defer 可避免未定义导致进度条不渲染{%- endcomment -%}
+      <script src="{{ 'free-shipping.js' | asset_url }}" defer="defer"></script>
       {{ 'free-shipping.css' | asset_url | stylesheet_tag }}
+    {%- endif -%}
+    {%- if settings.cart_drawer_add_discounts -%}
+      {{ 'cart-discounts.css' | asset_url | stylesheet_tag }}
     {%- endif -%}
     {%- if settings.cart_recommendations -%}
       <script src="{{ 'product-recommendations.js' | asset_url }}" defer="defer"></script>

@@ -94,7 +94,8 @@ class PredictiveSearch {
     const queryKey = searchTerm.replace(" ", "-").toLowerCase();
 
     this.predictiveSearchResults.classList.add('loading');
-    fetch(`${theme.routes.search_url}?q=${encodeURIComponent(searchTerm)}&limit=10&view=ajax`)
+    // Performance/UX: 使用 Shopify 官方 predictive_search_url（更快、更稳定），由 section_id 返回可直接渲染的 HTML
+    fetch(`${theme.routes.predictive_search_url}?q=${encodeURIComponent(searchTerm)}&${encodeURIComponent('resources[type]')}=product,article,query&${encodeURIComponent('resources[limit]')}=10&resources[options][fields]=title,product_type,vendor,variants.title,variants.sku&section_id=predictive-search`)
       .then((response) => {
         this.predictiveSearchResults.classList.remove('loading');
         if (!response.ok) {
@@ -105,19 +106,10 @@ class PredictiveSearch {
         return response.text();
       })
       .then((text) => {
-        const ulEl = document.createElement('ul');
-        ulEl.classList.add('searchBarBase');
-        let resultsMarkup = new DOMParser().parseFromString(text, 'text/html')?.querySelector('#product-grid')?.innerHTML || '';
-        if (resultsMarkup) {
-          ulEl.innerHTML = resultsMarkup;
-          this.renderSearchResults(ulEl);
-        } else {
-          resultsMarkup = new DOMParser().parseFromString(text, 'text/html')?.querySelector('#ProductGridContainer')?.innerHTML || '';
-          if(resultsMarkup){
-            ulEl.innerHTML = resultsMarkup;
-            this.renderSearchResults(ulEl);
-          }
-        }
+        const resultsMarkup = new DOMParser()
+          .parseFromString(text, 'text/html')
+          .querySelector('#shopify-section-predictive-search')?.innerHTML || '';
+        this.renderSearchResults(resultsMarkup);
       })
       .catch((error) => {
         throw error;
@@ -125,8 +117,7 @@ class PredictiveSearch {
   }
 
   renderSearchResults(resultsMarkup) {
-    this.predictiveSearchResults.innerHTML = '';
-    this.predictiveSearchResults.appendChild(resultsMarkup);
+    this.predictiveSearchResults.innerHTML = resultsMarkup;
 
     let _this = this,
       submitButton = this.container.querySelector('#search-results-submit');

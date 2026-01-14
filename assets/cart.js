@@ -143,11 +143,15 @@ class Cart {
     let removes = this.container.querySelectorAll('.remove');
 
     removes.forEach((remove) => {
-      remove.addEventListener('click', (event) => {
-        this.updateQuantity(event.target.dataset.index, '0');
+      // 防止 sections 局部刷新后重复绑定导致一次点击触发多次
+      if (!remove.dataset.active) {
+        remove.addEventListener('click', (event) => {
+          this.updateQuantity(event.target.dataset.index, '0');
 
-        event.preventDefault();
-      });
+          event.preventDefault();
+        });
+        remove.dataset.active = true;
+      }
     });
   }
   renderContents(parsedState, line, refresh) {
