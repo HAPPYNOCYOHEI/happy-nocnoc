@@ -8,6 +8,7 @@ if (!customElements.get('product-slider-thumbnails')) {
       super();
 
       this.addEventListener('change', this.setupProductGallery);
+      this._initTimer = null;
     }
     connectedCallback() {
       this.product_container = this.closest('.thb-product-detail');
@@ -16,7 +17,13 @@ if (!customElements.get('product-slider-thumbnails')) {
 
       this.setOptions();
       // Start Slider
-      this.init();
+      this.initWhenReady();
+    }
+    disconnectedCallback() {
+      if (this._initTimer) {
+        clearTimeout(this._initTimer);
+        this._initTimer = null;
+      }
     }
     setOptions() {
       this.hide_variants = this.dataset.hideVariants == 'true';
@@ -34,6 +41,20 @@ if (!customElements.get('product-slider-thumbnails')) {
         cellSelector: '.product-images__slide.is-active'
       };
     }
+    isFlickityReady() {
+      return typeof window.Flickity !== 'undefined';
+    }
+    initWhenReady(tries = 0) {
+      // 修复：product-thumbnails.js 可能先于 vendor.min.js 执行，导致 Flickity 未定义
+      if (this.isFlickityReady()) {
+        this.init();
+        return;
+      }
+      if (tries > 200) {
+        return;
+      }
+      this._initTimer = setTimeout(() => this.initWhenReady(tries + 1), 25);
+    }
     init() {
       this.flkty = new Flickity(this, this.options);
 
@@ -46,6 +67,11 @@ if (!customElements.get('product-slider-thumbnails')) {
       this.setupProductGallery();
     }
     reInit(imageSetIndex) {
+      if (!this.flkty) {
+        this.setOptions();
+        this.initWhenReady();
+        return;
+      }
 
       this.flkty.destroy();
 
@@ -137,16 +163,26 @@ if (!customElements.get('product-slider-thumbnails')) {
 
       });
 
+      // 修复：缩略图在变体切换后会动态显示/隐藏，逐个绑定 click 容易漏绑，改为事件代理
+      this.setupThumbnailDelegation();
 
-      setTimeout(() => {
-        let active_thumbs = Array.from(this.thumbnails).filter(element => element.clientWidth > 0);
-        active_thumbs.forEach((thumbnail, index) => {
-          thumbnail.addEventListener('click', () => {
-            this.thumbnailClick(thumbnail, index);
-          });
-        });
+    }
+    setupThumbnailDelegation() {
+      if (!this.thumbnail_container) return;
+      if (this.thumbnail_container.dataset.clickBound === 'true') return;
+
+      this.thumbnail_container.dataset.clickBound = 'true';
+      this.thumbnail_container.addEventListener('click', (e) => {
+        const thumbnail = e.target.closest('.product-thumbnail');
+        if (!thumbnail || !this.thumbnail_container.contains(thumbnail)) return;
+
+        // 只用“当前可见”的缩略图计算 index，保证和 Flickity 的 cellSelector（.is-active）一致
+        const visibleThumbs = Array.from(this.thumbnails).filter((el) => el.clientWidth > 0);
+        const index = visibleThumbs.indexOf(thumbnail);
+        if (index < 0) return;
+
+        this.thumbnailClick(thumbnail, index);
       });
-
     }
     thumbnailClick(thumbnail, index) {
       [].forEach.call(this.thumbnails, function (el) {

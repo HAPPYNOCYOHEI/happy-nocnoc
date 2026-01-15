@@ -5,7 +5,11 @@
     assign image_set_full = media.alt | split: '#' | last
     if image_set_full contains '_'
       assign image_set = true
-      assign image_set_group = image_set_full | split: '_' | first
+      assign image_set_group_raw = image_set_full | split: '_' | first
+      assign image_set_value_raw = image_set_full | remove_first: image_set_group_raw | remove_first: '_'
+      assign image_set_group = image_set_group_raw | handleize
+      assign image_set_value = image_set_value_raw | handleize
+      assign image_set_full = image_set_group | append: '_' | append: image_set_value
     endif
   endif
 
@@ -30,14 +34,13 @@
   endunless
 
   assign sizes = '160x160'
-	if media_aspect_ratio == 'adapt'
-		assign sizes = '160x0'
-	elsif media_aspect_ratio == 'portrait'
-		assign sizes = '160x200'
-	elsif media_aspect_ratio == 'landscape'
-		assign sizes = '160x95'
-	endif
-
+  if media_aspect_ratio == 'adapt'
+    assign sizes = '160x0'
+  elsif media_aspect_ratio == 'portrait'
+    assign sizes = '160x200'
+  elsif media_aspect_ratio == 'landscape'
+    assign sizes = '160x95'
+  endif
 -%}
 <div
   id="Thumb-{{ section.id }}-{{ media.id }}"
@@ -48,14 +51,14 @@
   {% endif %}
 >
   {%- if media.media_type == 'model' -%}
-  <div class="product-thumbnail-icon">
-    {% render 'svg-icons' with 'thb-icon-3d-model' %}
-  </div>
+    <div class="product-thumbnail-icon">
+      {% render 'svg-icons' with 'thb-icon-3d-model' %}
+    </div>
   {%- endif -%}
   {%- if media.media_type == 'video' or media.media_type == 'external_video' -%}
-  <div class="product-thumbnail-icon">
-    {% render 'svg-icons' with 'thb-icon-play' %}
-  </div>
+    <div class="product-thumbnail-icon">
+      {% render 'svg-icons' with 'thb-icon-play' %}
+    </div>
   {%- endif -%}
   {%- render 'responsive-image', image: media.preview_image, sizes: sizes -%}
 </div>

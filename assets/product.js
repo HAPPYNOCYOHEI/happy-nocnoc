@@ -158,8 +158,9 @@ if (!customElements.get('variant-selects')) {
       }
     }
     setActiveMediaSlider(mediaId, thumbId, productSlider) {
-      let flkty = Flickity.data(productSlider),
-        activeMedia = productSlider.querySelector(mediaId);
+      const activeMedia = productSlider.querySelector(mediaId);
+      // 修复：product.js 可能先于 vendor.min.js 执行，避免 Flickity 未定义导致整段逻辑中断
+      const flkty = (typeof window.Flickity !== 'undefined') ? window.Flickity.data(productSlider) : null;
 
       if (flkty && this.hideVariants) {
         if (productSlider.querySelector('.product-images__slide.is-initial-selected')) {
@@ -195,6 +196,9 @@ if (!customElements.get('variant-selects')) {
 
       } else if (flkty) {
         productSlider.selectCell(mediaId);
+      } else if (activeMedia) {
+        // Flickity 尚未就绪时，至少先切换 DOM active 状态，避免“切换无响应”
+        this.setActiveMedia(activeMedia);
       }
 
     }
@@ -384,13 +388,39 @@ if (!customElements.get('variant-selects')) {
       return variant_name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '').replace(/^-/, '');
     }
 
+    // 将 data-group（可能包含空格/大小写/下划线等）规范化为 `handle_handle`，用于稳健匹配
+    normalizeImageSetGroup(group) {
+      if (!group) return '';
+      const [rawName, ...rawValueParts] = String(group).split('_');
+      const rawValue = rawValueParts.join('_');
+      return `${this.getImageSetName(rawName)}_${this.getImageSetName(rawValue)}`;
+    }
+
+    // 将 data-set-name / data-handle 等字符串规范化为 handle（小写+连字符）
+    normalizeImageSetHandle(value) {
+      if (!value) return '';
+      return this.getImageSetName(String(value));
+    }
+
+    getImageSetElements(type) {
+      if (!this.productWrapper) return [];
+      const selector = type === 'thumb' ? '.product-thumbnail[data-set-name]' : '.product-images__slide[data-set-name]';
+      return Array.from(this.productWrapper.querySelectorAll(selector));
+    }
+
     setImageSet() {
       if (!this.productSlider) return;
 
       let dataSetEl = this.productSlider.querySelector('[data-set-name]');
       if (dataSetEl) {
+        // 修复：data-set-name 可能是 "Color" / "颜色" 等，跟 option 的 data-handle（通常为小写）不一致
         this.imageSetName = dataSetEl.dataset.setName;
-        this.imageSetIndex = this.querySelector('.product-form__input[data-handle="' + this.imageSetName + '"]').dataset.index;
+        this.imageSetHandle = this.normalizeImageSetHandle(this.imageSetName);
+
+        const imageSetInput = this.querySelector(`.product-form__input[data-handle="${this.imageSetHandle}"]`);
+        if (!imageSetInput) return;
+
+        this.imageSetIndex = imageSetInput.dataset.index;
         this.dataset.imageSetIndex = this.imageSetIndex;
         this.setImageSetMedia();
       }
@@ -400,59 +430,40 @@ if (!customElements.get('variant-selects')) {
       if (!this.imageSetIndex) {
         return;
       }
-      let setValue = this.getImageSetName(this.currentVariant[this.imageSetIndex]);
-      let group = this.imageSetName + '_' + setValue;
-      let selected_set_images = this.productSlider.querySelectorAll(`.product-images__slide[data-set-name="${this.imageSetName}"]`),
-        selected_set_thumbs = this.productWrapper.querySelectorAll(`.product-thumbnail[data-set-name="${this.imageSetName}"]`);
+      if (!this.currentVariant) return;
+
+      const setValue = this.normalizeImageSetHandle(this.currentVariant[this.imageSetIndex]);
+      const setName = this.imageSetHandle || this.normalizeImageSetHandle(this.imageSetName);
+      const groupNormalized = `${setName}_${setValue}`;
+
+      const allSetImages = this.getImageSetElements('slide').filter((el) => this.normalizeImageSetHandle(el.dataset.setName) === setName);
+      const allSetThumbs = this.getImageSetElements('thumb').filter((el) => this.normalizeImageSetHandle(el.dataset.setName) === setName);
 
       if (this.hideVariants) {
         if (this.thumbnails) {
-          // Product images
-          this.productWrapper.querySelectorAll('.product-images__slide').forEach(thumb => {
-            if (thumb.dataset.group && thumb.dataset.group !== group) {
-              thumb.classList.remove('is-active');
-            }
-          });
-          selected_set_images.forEach(thumb => {
-            // 修复：避免 toggle 导致某些场景状态不同步；只对匹配组设置 active
-            if (thumb.dataset.group === group) {
-              thumb.classList.add('is-active');
-            }
+          // Product images（只影响当前 image set 的媒体，避免误伤无分组媒体）
+          allSetImages.forEach((slide) => {
+            const normalized = this.normalizeImageSetGroup(slide.dataset.group);
+            slide.classList.toggle('is-active', normalized === groupNormalized);
           });
 
-          // Product thumbnails
-          this.productWrapper.querySelectorAll('.product-thumbnail').forEach(thumb => {
-            if (thumb.dataset.group && thumb.dataset.group !== group) {
-              thumb.classList.remove('is-active');
-            }
-          });
-          selected_set_thumbs.forEach(thumb => {
-            // 修复：同上
-            if (thumb.dataset.group === group) {
-              thumb.classList.add('is-active');
-            }
+          // Product thumbnails（同上）
+          allSetThumbs.forEach((thumb) => {
+            const normalized = this.normalizeImageSetGroup(thumb.dataset.group);
+            thumb.classList.toggle('is-active', normalized === groupNormalized);
           });
         } else {
-          // Product images
-          this.productWrapper.querySelectorAll('.product-images__slide').forEach(thumb => {
-            if (thumb.dataset.group && thumb.dataset.group !== group) {
-              thumb.classList.remove('is-active');
-            }
-          });
-          selected_set_images.forEach(thumb => {
-            // 修复：同上
-            if (thumb.dataset.group === group) {
-              thumb.classList.add('is-active');
-            }
+          // Product images（无缩略图布局）
+          allSetImages.forEach((slide) => {
+            const normalized = this.normalizeImageSetGroup(slide.dataset.group);
+            slide.classList.toggle('is-active', normalized === groupNormalized);
           });
         }
 
       } else {
 
         if (!this.thumbnails) {
-          let set_images = Array.from(selected_set_images).filter(function (element) {
-            return element.dataset.group === group;
-          });
+          const set_images = allSetImages.filter((element) => this.normalizeImageSetGroup(element.dataset.group) === groupNormalized);
           set_images.forEach(thumb => {
             thumb.parentElement.prepend(thumb);
           });
