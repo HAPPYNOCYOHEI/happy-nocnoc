@@ -139,18 +139,6 @@ if (!customElements.get('variant-selects')) {
         };
       }
 
-      // featured_media 为空时，优先尝试用 variant.id 去命中“绑定到变体的图片”
-      const byVariantIdSlide = this.getFirstSlideForVariantId(this.currentVariant?.id);
-      if (byVariantIdSlide) {
-        const mediaNumericId = this.getMediaNumericIdFromSlideId(byVariantIdSlide.id);
-        if (mediaNumericId) {
-          return {
-            mediaId: `#${byVariantIdSlide.id}`,
-            thumbId: `#Thumb-${this.dataset.section}-${mediaNumericId}`
-          };
-        }
-      }
-
       // featured_media 为空时，按 image set 找到该组选中的第一张图作为首图
       const fallbackSlide = this.getFirstSlideForCurrentImageSetGroup();
       if (!fallbackSlide) return null;
@@ -169,30 +157,6 @@ if (!customElements.get('variant-selects')) {
       if (!slideId) return null;
       const match = String(slideId).match(/-(\d+)$/);
       return match ? match[1] : null;
-    }
-
-    // 根据 variant.id 找到绑定到该变体的第一张 Slide（依赖 Liquid 输出的 data-variant-ids）
-    getFirstSlideForVariantId(variantId) {
-      if (!this.productSlider) return null;
-      if (!variantId) return null;
-
-      const slides = this.productSlider.querySelectorAll('.product-images__slide[data-variant-ids]');
-      for (const slide of slides) {
-        if (this.csvIncludesId(slide.dataset.variantIds, variantId)) {
-          return slide;
-        }
-      }
-      return null;
-    }
-
-    // 判断逗号分隔的 id 列表中是否包含指定 id
-    csvIncludesId(csv, id) {
-      if (!csv) return false;
-      const target = String(id);
-      return String(csv)
-        .split(',')
-        .map((x) => x.trim())
-        .some((x) => x === target);
     }
 
     // 根据 image set（图片 alt 的 data-group）获取当前变体对应组的第一张 Slide
@@ -270,11 +234,9 @@ if (!customElements.get('variant-selects')) {
 
         if (this.thumbnails) {
           let activeThumb = this.thumbnails.querySelector(thumbId);
-          // 兜底：某些布局/隐藏变体场景下可能不存在对应 thumb，避免报错中断后续逻辑
-          if (activeThumb) {
-            activeThumb.classList.add('is-active');
-            activeThumb.classList.add('is-initial-selected');
-          }
+
+          activeThumb.classList.add('is-active');
+          activeThumb.classList.add('is-initial-selected');
         }
 
         productSlider.reInit(this.imageSetIndex);
