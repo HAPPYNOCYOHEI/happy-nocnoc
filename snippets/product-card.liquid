@@ -109,7 +109,7 @@
       {%- endif -%}
     </figure>
     <div class="product-card-info">
-      <div class="product-badge-container" data-product-handle="{{ product_card_product.handle }}"></div>
+      {%- render 'product-badges', product: product_card_product -%}
       {%- if settings.show_products_vendor -%}
         <div class="product-card-vendor">
           <a

@@ -10,6 +10,9 @@ class PredictiveSearch {
     this.input = this.container.querySelector('input[type="search"]');
     this.defaultTab = this.container.querySelector('.side-panel-content--initial');
     this.predictiveSearchResults = this.container.querySelector('.side-panel-content--has-tabs');
+    // 防闪回：记录最新请求，并在新输入时取消上一次请求
+    this.activeAbortController = null;
+    this.activeRequestId = 0;
 
     this.setupEventListeners();
   }
@@ -54,6 +57,7 @@ class PredictiveSearch {
 
     if (!searchTerm.length) {
       this.predictiveSearchResults.classList.remove('active');
+      this.abortActiveRequest();
       return;
     }
     this.predictiveSearchResults.classList.add('active');
@@ -91,12 +95,19 @@ class PredictiveSearch {
   }
 
   getSearchResults(searchTerm) {
-    const queryKey = searchTerm.replace(" ", "-").toLowerCase();
+    // 每次新请求：先取消上一次，避免旧结果覆盖新结果
+    this.abortActiveRequest();
+    const requestId = ++this.activeRequestId;
+    this.activeAbortController = (typeof AbortController !== 'undefined') ? new AbortController() : null;
 
     this.predictiveSearchResults.classList.add('loading');
     // Performance/UX: 使用 Shopify 官方 predictive_search_url（更快、更稳定），由 section_id 返回可直接渲染的 HTML
-    fetch(`${theme.routes.predictive_search_url}?q=${encodeURIComponent(searchTerm)}&${encodeURIComponent('resources[type]')}=product,article,query&${encodeURIComponent('resources[limit]')}=10&resources[options][fields]=title,product_type,vendor,variants.title,variants.sku&section_id=predictive-search`)
+    fetch(`${theme.routes.predictive_search_url}?q=${encodeURIComponent(searchTerm)}&${encodeURIComponent('resources[type]')}=product,article,query&${encodeURIComponent('resources[limit]')}=10&resources[options][fields]=title,product_type,vendor,variants.title,variants.sku&section_id=predictive-search`, {
+      signal: this.activeAbortController?.signal
+    })
       .then((response) => {
+        // 如果已经不是最新请求，直接丢弃
+        if (requestId !== this.activeRequestId) return null;
         this.predictiveSearchResults.classList.remove('loading');
         if (!response.ok) {
           var error = new Error(response.status);
@@ -106,14 +117,25 @@ class PredictiveSearch {
         return response.text();
       })
       .then((text) => {
+        if (!text || requestId !== this.activeRequestId) return;
         const resultsMarkup = new DOMParser()
           .parseFromString(text, 'text/html')
           .querySelector('#shopify-section-predictive-search')?.innerHTML || '';
         this.renderSearchResults(resultsMarkup);
       })
       .catch((error) => {
+        // 被取消的请求不算错误
+        if (error?.name === 'AbortError') return;
         throw error;
       });
+  }
+
+  abortActiveRequest() {
+    if (!this.activeAbortController) return;
+    try {
+      this.activeAbortController.abort();
+    } catch (e) {}
+    this.activeAbortController = null;
   }
 
   renderSearchResults(resultsMarkup) {
@@ -130,6 +152,7 @@ class PredictiveSearch {
 
   close() {
     this.container.classList.remove('active');
+    this.abortActiveRequest();
   }
 }
 window.addEventListener('load', () => {

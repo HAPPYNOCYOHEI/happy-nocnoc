@@ -191,7 +191,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {% if add_product_js %}
       <script src="{{ 'product.js' | asset_url }}" defer="defer"></script>
     {% endif %}
-    <script src="{{ 'product-information-api.js' | asset_url }}" defer></script>
+    {%- comment -%}
+      security: do not load product-information-api.js (storefront token + external GraphQL).
+      badges + size guide are now rendered via Liquid in snippets/product-badges.liquid + snippets/product-information.liquid
+    {%- endcomment -%}
     <script type="module" src="{{ 'scroll-shadow.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- if request.design_mode -%}

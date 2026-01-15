@@ -2,10 +2,23 @@
   id="ProductInfo-{{ section.id }}"
   class="product-information--inner{% if section.settings.enable_sticky_info %} production-information--sticky{% endif %}"
 >
-  <script>
-    window.productHandle = '{{ product.handle }}';
-  </script>
-  <div class="product-badge-container"></div>
+  {%- comment -%}No JS/token API: badges rendered via Liquid{%- endcomment -%}
+  {%- render 'product-badges', product: product -%}
+  {%- liquid
+    # Size guide page selection (no external API)
+    assign size_guide_page = section.settings['page-normal']
+    assign size_chart_blocks = section.blocks | where: 'type', 'size_chart_condition'
+    for scb in size_chart_blocks
+      assign handles = scb.settings.content | default: '' | split: ','
+      for h in handles
+        assign hh = h | strip
+        if hh != blank and hh == product.handle
+          assign size_guide_page = scb.settings.page
+          break
+        endif
+      endfor
+    endfor
+  -%}
   {%- assign product_form_id = 'product-form-' | append: section.id -%}
   {%- assign outline_button = false -%}
   {% for block in section.blocks %}
@@ -127,7 +140,8 @@
                   {%- if block.settings.sizing_guide_text != '' -%}
                     {%- capture sizing_link -%}
                       <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
-                        <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button size-guide-button btn-hidden" type="button" aria-haspopup="dialog">
+                        {%- comment -%}If size_guide_page exists, show button; otherwise keep hidden{%- endcomment -%}
+                        <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button size-guide-button {% unless size_guide_page %}btn-hidden{% endunless %}" type="button" aria-haspopup="dialog">
                           {% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></button>
                       </modal-opener>
                     {%- endcapture -%}
@@ -135,11 +149,14 @@
                       <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal">
                         <div role="dialog" aria-label="{{ block.settings.sizing_guide_text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
                           <div class="product-popup-modal__content-header">
-                            <h5>{{ block.settings.sizing_guide_page.title }}</h5>
+                            <h5>{% if size_guide_page %}{{ size_guide_page.title }}{% endif %}</h5>
                             <button id="ModalClose-{{ block.id }}" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'svg-icons' with 'close' %}</button>
                           </div>
                           <scroll-shadow>
                             <div class="product-popup-modal__content-info">
+                              {%- if size_guide_page -%}
+                                <div class="rte">{{ size_guide_page.content }}</div>
+                              {%- endif -%}
                             </div>
                           </scroll-shadow>
                         </div>
