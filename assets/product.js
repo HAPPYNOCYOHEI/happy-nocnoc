@@ -112,66 +112,17 @@ if (!customElements.get('variant-selects')) {
 
     updateMedia() {
       if (!this.currentVariant) return;
+      if (!this.currentVariant.featured_media) return;
       if (!this.productSlider) return;
-
-      // 优先使用 variant.featured_media（Shopify 变体关联主图）
-      const selectors = this.getVariantTargetMediaSelectors();
-      if (!selectors) return;
+      let mediaId = `#Slide-${this.dataset.section}-${this.currentVariant.featured_media.id}`;
+      let activeMedia = this.productSlider.querySelector(mediaId);
 
       if (this.thumbnails) {
-        this.setActiveMediaSlider(selectors.mediaId, selectors.thumbId, this.productSlider);
-        return;
+        this.setActiveMediaSlider(mediaId, `#Thumb-${this.dataset.section}-${this.currentVariant.featured_media.id}`, this.productSlider);
+      } else {
+        this.setActiveMedia(activeMedia);
       }
 
-      const activeMedia = this.productSlider.querySelector(selectors.mediaId);
-      if (!activeMedia) return;
-      this.setActiveMedia(activeMedia);
-    }
-
-    // 生成当前变体对应的主图/缩略图选择器
-    // - 当 featured_media 为空时，回退到 image set 分组（通过图片 alt 的 #xx_yy 机制）
-    getVariantTargetMediaSelectors() {
-      const featuredMediaId = this.currentVariant?.featured_media?.id;
-      if (featuredMediaId) {
-        return {
-          mediaId: `#Slide-${this.dataset.section}-${featuredMediaId}`,
-          thumbId: `#Thumb-${this.dataset.section}-${featuredMediaId}`
-        };
-      }
-
-      // featured_media 为空时，按 image set 找到该组选中的第一张图作为首图
-      const fallbackSlide = this.getFirstSlideForCurrentImageSetGroup();
-      if (!fallbackSlide) return null;
-
-      const mediaNumericId = this.getMediaNumericIdFromSlideId(fallbackSlide.id);
-      if (!mediaNumericId) return null;
-
-      return {
-        mediaId: `#${fallbackSlide.id}`,
-        thumbId: `#Thumb-${this.dataset.section}-${mediaNumericId}`
-      };
-    }
-
-    // 从 Slide DOM id 提取末尾的数字 media id（例如：Slide-<section>-<mediaId>）
-    getMediaNumericIdFromSlideId(slideId) {
-      if (!slideId) return null;
-      const match = String(slideId).match(/-(\d+)$/);
-      return match ? match[1] : null;
-    }
-
-    // 根据 image set（图片 alt 的 data-group）获取当前变体对应组的第一张 Slide
-    getFirstSlideForCurrentImageSetGroup() {
-      if (!this.productSlider) return null;
-
-      // 只在存在 image set 配置时回退
-      if (!this.imageSetIndex || !this.imageSetName) return null;
-      if (!this.currentVariant || !this.currentVariant[this.imageSetIndex]) return null;
-
-      const setValue = this.getImageSetName(this.currentVariant[this.imageSetIndex]);
-      const group = `${this.imageSetName}_${setValue}`;
-
-      // 找到该组第一张图（用于 thumbnails 布局时切换首图）
-      return this.productSlider.querySelector(`.product-images__slide[data-group="${group}"]`);
     }
     setActiveMedia(activeMedia) {
 
