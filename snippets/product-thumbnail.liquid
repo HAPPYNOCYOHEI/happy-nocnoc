@@ -29,6 +29,12 @@
     assign is_active = true
   endunless
 
+  # 兜底：把绑定到变体的图片的 variant_ids 输出到 DOM，方便 JS 在没有 featured_media 时定位首图
+  assign variant_ids_csv = blank
+  if media.media_type == 'image' and media.variant_ids != blank
+    assign variant_ids_csv = media.variant_ids | join: ','
+  endif
+
   assign sizes = '160x160'
 	if media_aspect_ratio == 'adapt'
 		assign sizes = '160x0'
@@ -42,6 +48,9 @@
 <div
   id="Thumb-{{ section.id }}-{{ media.id }}"
   class="product-thumbnail{% if is_active %} is-active{% endif %}{% if variant_images contains media.src %} product-images__slide-item--variant{% endif %}{% if is_selected %} is-initial-selected{% endif %}"
+  {% if variant_ids_csv != blank %}
+    data-variant-ids="{{ variant_ids_csv }}"
+  {% endif %}
   {% if image_set %}
     data-set-name="{{ image_set_group }}"
     data-group="{{ image_set_full }}"
