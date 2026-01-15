@@ -246,6 +246,11 @@ if (!customElements.get('variant-selects')) {
       let flkty = Flickity.data(productSlider),
         activeMedia = productSlider.querySelector(mediaId);
 
+      // 兜底：mediaId 对应的 Slide 不存在时直接退出，避免 JS 报错导致后续变体逻辑中断
+      if (!activeMedia) {
+        return;
+      }
+
       if (flkty && this.hideVariants) {
         if (productSlider.querySelector('.product-images__slide.is-initial-selected')) {
           productSlider.querySelector('.product-images__slide.is-initial-selected').classList.remove('is-initial-selected');
