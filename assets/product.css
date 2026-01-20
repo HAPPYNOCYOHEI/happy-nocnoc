@@ -2084,31 +2084,39 @@
   pointer-events: none;
   flex-wrap: wrap;
 }
+.product-badge-container--overlay {
+  /* 主图左上角标签定位 */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin-bottom: 0;
+  z-index: 6;
+}
 .product-badge-container .product-badge {
   padding: 0 8px;
   color: #fff;
-  font-size: 16px;
-  line-height: 26px;
-  height: 26px;
+  font-size: 12.8px;
+  line-height: 20.8px;
+  height: 20.8px;
 }
 
 .product-badge-container .product-badge-1 {
-  background: #ffbe00;
+  background: #b1afac;
 }
 .product-badge-container .product-badge-2 {
-  background: #ffd458;
+  background: #b1afac;
 }
 .product-badge-container .product-badge-3 {
-  background: #ffd458;
+  background: #b1afac;
 }
 .product-badge-container .product-badge-4 {
-  background: #ffd458;
+  background: #b1afac;
 }
 .product-badge-container .product-badge-5 {
-  background: #ffd458;
+  background: #b1afac;
 }
 .product-badge-container .product-badge-6 {
-  background: #ffd458;
+  background: #b1afac;
 }
 
 .btn-hidden {
