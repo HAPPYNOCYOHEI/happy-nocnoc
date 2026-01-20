@@ -1,0 +1,17 @@
+{
+	"cache": {
+		"most-recent-occurrence-warn-on-available-upgrade": {
+			"value": true,
+			"timestamp": 1768900297011
+		},
+		"rate-limited-occurrences-send-error-to-bugsnag": {
+			"value": [
+				1768900297064,
+				1768900297769,
+				1768900312104,
+				1768900319431
+			],
+			"timestamp": 1768900319431
+		}
+	}
+}

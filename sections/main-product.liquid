@@ -74,6 +74,10 @@
                 {%- liquid
                   assign image_index = image_index | plus: 1
                   assign first_image = featured_media.preview_image
+                  assign show_featured_badges = false
+                  if featured_media.media_type == 'image'
+                    assign show_featured_badges = true
+                  endif
                 -%}
                 {%- render 'product-media',
                   product: product,
@@ -85,7 +89,8 @@
                   media_aspect_ratio: media_aspect_ratio,
                   hide_variants: hide_variants,
                   priority: 'high',
-                  display_captions: display_captions
+                  display_captions: display_captions,
+                  show_badges: show_featured_badges
                 -%}
               {%- endif -%}
               {%- for media in product.media -%}
@@ -100,6 +105,15 @@
                       assign first_image = media.preview_image
                       assign priority = 'high'
                     endif
+
+                    assign show_badges = false
+                    if image_index == 0
+                      if featured_media == null
+                        assign show_badges = true
+                      elsif featured_media.media_type != 'image'
+                        assign show_badges = true
+                      endif
+                    endif
                   -%}
                   {%- render 'product-media',
                     product: product,
@@ -111,7 +125,8 @@
                     media_aspect_ratio: media_aspect_ratio,
                     hide_variants: hide_variants,
                     priority: priority,
-                    display_captions: display_captions
+                    display_captions: display_captions,
+                    show_badges: show_badges
                   -%}
                 {%- endunless -%}
               {%- endfor -%}

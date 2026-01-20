@@ -75,6 +75,10 @@
             {%- render 'svg-icons' with 'zoom' -%}
           </a>
         {%- endif -%}
+        {%- if show_badges -%}
+          {%- comment -%}主图左上角标签{%- endcomment -%}
+          <div class="product-badge-container product-badge-container--overlay"></div>
+        {%- endif -%}
         {%- render 'responsive-image', image: media.preview_image, sizes: sizes, priority: priority -%}
         {%- if alt != blank and display_captions -%}
           <span class="figcaption">{{ alt }}</span>
