@@ -28,7 +28,7 @@
       ],
       "settings": {
         "section_width": "full-width-row",
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
