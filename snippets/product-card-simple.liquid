@@ -81,7 +81,7 @@
       </figure>
     {%- endif -%}
     <div class="product-card-info">
-      {%- render 'product-badges', product: product_card_product -%}
+      <div class="product-badge-container" data-product-handle="{{ product_card_product.handle }}"></div>
       <a
         href="{{ product_card_product.url | within: collection }}"
         title="{{ product_card_product.title | escape }}"
