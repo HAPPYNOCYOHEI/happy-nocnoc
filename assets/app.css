@@ -277,17 +277,13 @@ body {
   padding: 0;
   background: var(--bg-body);
   font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    avenir next,
-    avenir,
-    segoe ui,
-    helvetica neue,
-    helvetica,
-    Ubuntu,
-    roboto,
-    noto,
-    arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Kaku Gothic Pro",
+    "ヒラギノ角ゴ ProN",
+    "ヒラギノ角ゴ Pro",
+    "Hiragino Sans",
+    "Yu Gothic",
+    "Meiryo",
     sans-serif;
   font-weight: normal;
   line-height: 1.6;
@@ -421,17 +417,13 @@ h5,
 h6,
 .h6 {
   font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    avenir next,
-    avenir,
-    segoe ui,
-    helvetica neue,
-    helvetica,
-    Ubuntu,
-    roboto,
-    noto,
-    arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Kaku Gothic Pro",
+    "ヒラギノ角ゴ ProN",
+    "ヒラギノ角ゴ Pro",
+    "Hiragino Sans",
+    "Yu Gothic",
+    "Meiryo",
     sans-serif;
   font-style: normal;
   font-weight: 700;

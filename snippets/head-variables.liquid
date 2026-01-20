@@ -107,6 +107,21 @@
 		font-weight: {{ body_font.weight }};
 		font-family: {{ body_font.family }}, {{ body_font.fallback_families }};
 	}
+	/* Font override: Hiragino Kaku Gothic */
+	h1,h2,h3,h4,h5,h6,
+	.h1,.h2,.h3,.h4,.h5,.h6,
+	.logolink.text-logo,
+	.heading-font,
+	.h1-xlarge,
+	.h1-large,
+	.customer-addresses .my-address .address-index {
+		font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN", "ヒラギノ角ゴ Pro", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+	}
+	body,
+	.body-font,
+	.thb-product-detail .product-title {
+		font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN", "ヒラギノ角ゴ Pro", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+	}
 	:root {
 		--mobile-swipe-width: calc(90vw - 30px);
 		--font-body-scale: {{ settings.body_font_scale | divided_by: 100.0 }};

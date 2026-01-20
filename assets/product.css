@@ -636,9 +636,9 @@
 }
 
 .thb-product-detail .product-title {
-  font-size: calc(var(--font-heading-scale) * 1.75rem);
-  line-height: calc(var(--font-heading-line-height-scale) * 2.125rem);
-  font-weight: var(--font-body-medium-weight, 500);
+  font-size: calc(var(--font-heading-scale) * 1.25rem);
+  line-height: calc(var(--font-heading-line-height-scale) * 1.725rem);
+  font-weight: 600;
   margin-bottom: 3px;
   color: var(--color-body);
 }
@@ -2113,4 +2113,69 @@
 
 .btn-hidden {
   display: none !important;
+}
+
+.line-price-section {
+  margin-top: 10px;
+}
+
+.line-price-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 6px;
+  border-bottom: 3px solid #22c55e;
+  font-weight: var(--font-body-bold-weight, 600);
+  color: var(--color-body);
+}
+
+.line-price-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: #22c55e;
+  color: #fff;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+}
+
+.line-price-text {
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
+.line-price-amount {
+  font-size: 2rem;
+  line-height: 1;
+  color: #e53935;
+}
+
+.line-price-cta-icon {
+  display: inline-block;
+  font-size: 1.25rem;
+  animation: line-price-bounce 1.2s ease-in-out infinite;
+}
+
+@keyframes line-price-bounce {
+  0%,
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(6px);
+    opacity: 0.7;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .line-price-content {
+    gap: 6px;
+  }
+
+  .line-price-amount {
+    font-size: 1.75rem;
+  }
 }

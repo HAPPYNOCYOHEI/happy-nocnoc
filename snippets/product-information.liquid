@@ -43,6 +43,7 @@
               {%- endif -%}
             {%- endif -%}
           </div>
+          {% render 'line-price-section', product: product, section: section %}
           {%- if block.settings.show_products_rating and product.metafields.reviews.rating.value != blank -%}
             <a class="star-rating-container" href="#shopify-product-reviews">
               <div

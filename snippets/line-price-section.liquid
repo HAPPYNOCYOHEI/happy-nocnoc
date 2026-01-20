@@ -1,0 +1,19 @@
+{%- liquid
+  assign line_discount_amount = 500 | times: 100
+  assign base_price = product.selected_or_first_available_variant.price | default: product.price
+  assign line_price = base_price | minus: line_discount_amount | at_least: 0
+  assign line_money = line_price | money
+  if settings.currency_code_enabled
+    assign line_money = line_price | money_with_currency
+  endif
+-%}
+<div id="line-price-{{ section.id }}" class="line-price-section" aria-live="polite">
+  <a class="line-price-link" href="https://lin.ee/dli0aMV" target="_blank" rel="noopener noreferrer">
+    <div class="line-price-content">
+      <span class="line-price-icon" aria-hidden="true">LINE</span>
+      <span class="line-price-text">LINE連携で</span>
+      <span class="line-price-amount">{{ line_money }}</span>
+      <span class="line-price-cta-icon" aria-hidden="true">»»</span>
+    </div>
+  </a>
+</div>
