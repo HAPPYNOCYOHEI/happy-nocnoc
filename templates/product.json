@@ -29,7 +29,7 @@
       "settings": {
         "section_width": "full-width-row",
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "main-product": {
