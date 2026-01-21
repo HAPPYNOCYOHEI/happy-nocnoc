@@ -1,1 +1,91 @@
-{"type":"header","name":"Header group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"text_qAUHhJ":{"type":"text","disabled":true,"settings":{"icon":"none","text":"「1,000円OFFクーポン」新規友だち限定","link":"https:\/\/lin.ee\/5Pe6beV"}},"text_FzKwc6":{"type":"text","settings":{"icon":"none","text":"10,000円以上で送料無料","link":"shopify:\/\/pages\/shipping"}},"text_gGCp3c":{"type":"text","settings":{"icon":"none","text":"30日間返品返金保証","link":"shopify:\/\/pages\/returns"}}},"block_order":["text_qAUHhJ","text_FzKwc6","text_gGCp3c"],"settings":{"announcement_bar":true,"announcement_bar_homepage_only":false,"announcement_bar_layout":"carousel","direction":"left","speed":"20s","autoplay":true,"autoplay_length":4}},"header":{"type":"header","settings":{"sticky_header":true,"logo":"shopify:\/\/shop_images\/1.png","logo_height_range":30,"logo_height_range_mobile":20,"style":"style2","header_shadow":"header--shadow-small","menu":"","transparent_header":false,"logo_light":"shopify:\/\/shop_images\/2.png","show_language_switcher":false,"show_currency_switcher":false,"mobile_secondary_menu":"","mobile_promo_heading":"","mobile_promo_link_label":"","mobile_promo_link":""}},"custom_liquid_6RxUyb":{"type":"custom-liquid","settings":{"custom_liquid":"<script>\nwindow.addEventListener('load', function() {\nvar _learnq = window._learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}\/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price\/100,\n      $value: data.total_price\/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price\/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', cart]);\n        klAjax = false;\n      }\n  }))\n};\n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}\/cart\/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch));\nvar klAjax = true;\nvar atcButtons = document.querySelectorAll(\"form[action*='\/cart\/add'] button[type='submit']\");\nfor (var i = 0; i < atcButtons.length; i++) {\n    atcButtons[i].addEventListener(\"click\", function() {\n      if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', item]);\n        klAjax = false;\n      }\n    })\n}\n});\n<\/script>","section_width":"full-width-row-full"}}},"order":["announcement-bar","header","custom_liquid_6RxUyb"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "text_qAUHhJ": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "「1,000円OFFクーポン」新規友だち限定",
+            "link": "https://lin.ee/5Pe6beV"
+          }
+        },
+        "text_FzKwc6": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "送料は全国一律700円",
+            "link": "shopify://pages/shipping"
+          }
+        },
+        "text_gGCp3c": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "30日間返品返金保証",
+            "link": "shopify://pages/returns"
+          }
+        }
+      },
+      "block_order": [
+        "text_qAUHhJ",
+        "text_FzKwc6",
+        "text_gGCp3c"
+      ],
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_layout": "carousel",
+        "direction": "left",
+        "speed": "20s",
+        "autoplay": true,
+        "autoplay_length": 4
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "sticky_header": true,
+        "logo": "shopify://shop_images/1.png",
+        "logo_height_range": 30,
+        "logo_height_range_mobile": 20,
+        "style": "style2",
+        "header_shadow": "header--shadow-small",
+        "menu": "",
+        "transparent_header": false,
+        "logo_light": "shopify://shop_images/2.png",
+        "show_language_switcher": false,
+        "show_currency_switcher": false,
+        "mobile_secondary_menu": "",
+        "mobile_promo_heading": "",
+        "mobile_promo_link_label": "",
+        "mobile_promo_link": ""
+      }
+    },
+    "custom_liquid_6RxUyb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\nwindow.addEventListener('load', function() {\nvar _learnq = window._learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price/100,\n      $value: data.total_price/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', cart]);\n        klAjax = false;\n      }\n  }))\n};\n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}/cart/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch));\nvar klAjax = true;\nvar atcButtons = document.querySelectorAll(\"form[action*='/cart/add'] button[type='submit']\");\nfor (var i = 0; i < atcButtons.length; i++) {\n    atcButtons[i].addEventListener(\"click\", function() {\n      if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', item]);\n        klAjax = false;\n      }\n    })\n}\n});\n</script>",
+        "section_width": "full-width-row-full"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "custom_liquid_6RxUyb"
+  ]
+}
