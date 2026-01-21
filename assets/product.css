@@ -30,7 +30,7 @@
 .add_to_cart_holder {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .add_to_cart_holder .quantity {
   margin-right: 10px;
@@ -47,6 +47,52 @@
 .add_to_cart_holder .swym-button-bar {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.line-coupon-button {
+  display: block;
+  margin-bottom: 20px;
+  padding: 3px;
+  background: #2cc94c;
+  border-radius: var(--button-border-radius, 3px);
+  color: #ffffff;
+  text-decoration: none;
+  width: 100%;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line-coupon-button:hover,
+.line-coupon-button:focus {
+  color: #ffffff;
+}
+.line-coupon-button__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.line-coupon-button__icon {
+  display: block;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+}
+.line-coupon-button__text {
+  flex: 0 1 auto;
+  max-width: 70%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.line-coupon-button__arrow {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 10px;
 }
 
 .single-add-to-cart-button[disabled] + .shopify-payment-button {
