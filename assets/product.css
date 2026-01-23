@@ -71,7 +71,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   width: 100%;
 }
 .line-coupon-button__icon {
@@ -92,7 +92,6 @@
 .line-coupon-button__arrow {
   font-size: 1rem;
   font-weight: 700;
-  margin-left: 10px;
 }
 
 .single-add-to-cart-button[disabled] + .shopify-payment-button {
