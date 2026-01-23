@@ -1,1 +1,574 @@
-{"sections":{"16479477632637c9a7":{"type":"slideshow","blocks":{"slide_QNUmpw":{"type":"slide","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/20251219-165921_1.jpg","mobile_image":"shopify:\/\/shop_images\/20251219-165924_1.jpg","slide_link":"https:\/\/happynocnoc.jp\/collections\/kids_sneaker","video_background":false,"video":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","subheading":"","heading":"","heading_size":"h1-xlarge","content":"","description_size":"medium","content_position":"middle-center","text_alignment":"center","content_size":"medium","overlay_color":"#191817","overlay_opacity":0,"overlay_gradient":"linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0) 100%)","button_1_text":"","button_1_link":"","button_1_outline":false,"button_2_text":"","button_2_link":"","button_2_outline":false}},"164794776393e76b8e-0":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/b69f60ac20da0b4abdb6d7097493cbff.jpg","mobile_image":"shopify:\/\/shop_images\/ed4d1ef9758b82dbaacbb41a2dd49ea5.jpg","slide_link":"shopify:\/\/collections\/25aw","video_background":false,"video":"","subheading":"","heading":"","heading_size":"h1-large","content":"","description_size":"small","content_position":"middle-center","text_alignment":"center","content_size":"medium","overlay_color":"#191817","overlay_opacity":0,"overlay_gradient":"","button_1_text":"","button_1_link":"shopify:\/\/collections\/noc-shine-series","button_1_outline":false,"button_2_text":"","button_2_link":"","button_2_outline":false}},"slide_ACKarV":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/img_v3_02pq_dc3b178e-99b2-4ef9-8bd7-f331c4c02a0g_e7026787-ba7b-4543-b42a-c2e4261ec3e9.jpg","mobile_image":"shopify:\/\/shop_images\/img_v3_02pq_2fa9140a-1537-479e-afb6-9bd38840b8fg.jpg","slide_link":"shopify:\/\/products\/kids-noc-all-max-sport-sneakers-25aw","video_background":false,"video":"","subheading":"","heading":"","heading_size":"h1-large","content":"","description_size":"small","content_position":"middle-center","text_alignment":"center","content_size":"medium","overlay_color":"#191817","overlay_opacity":0,"overlay_gradient":"","button_1_text":"","button_1_link":"shopify:\/\/collections\/noc-shine-series","button_1_outline":false,"button_2_text":"","button_2_link":"","button_2_outline":false}},"164794776393e76b8e-1":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/img_v3_02pq_9e5007a3-66dd-4e12-b830-a0861ecb9f1g.png","mobile_image":"shopify:\/\/shop_images\/img_v3_02pq_3f357b4a-c4bc-4096-967a-2cb731f5c69g.png","slide_link":"shopify:\/\/products\/kids-noc-fly-light-sneaker-25aw","video_background":false,"video":"","subheading":"","heading":"","heading_size":"h1-xlarge","content":"","description_size":"medium","content_position":"middle-center","text_alignment":"center","content_size":"medium","overlay_color":"#000000","overlay_opacity":0,"overlay_gradient":"","button_1_text":"","button_1_link":"shopify:\/\/collections\/noc-noc-fly","button_1_outline":false,"button_2_text":"","button_2_link":"","button_2_outline":false}}},"block_order":["slide_QNUmpw","164794776393e76b8e-0","slide_ACKarV","164794776393e76b8e-1"],"custom_css":["\/* 画面幅が768px以下の場合（モバイル用） *\/@media screen and (max-width: 768px) {a {margin-top: 40px; }}"," \/* PC用のデフォルトスタイル *\/a {margin-top: 160px;}"],"settings":{"desktop_height":"desktop-height-image","mobile_height":"mobile-height-image","full_width":true,"autoplay":true,"autoplay_length":10,"transition":"swipe","disable_top_spacing":true,"disable_bottom_spacing":true}},"gallery_nNLK4i":{"type":"gallery","blocks":{"image_kHgFFE":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Frame_250.jpg","subheading":"NOC-FLY","title":"","text":"子どもが毎日履きたくなる一足","link_label":"詳しく見る","link":"https:\/\/happynocnoc.jp\/pages\/noc-fly-lp1212","use_text_button":false,"block_link":"","product_list":[]}},"image_jic9Xd":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Frame_251.jpg","subheading":"NOC-FLY PRO","title":"","text":"本気の機能性で子供の足を守る","link_label":"詳しく見る","link":"https:\/\/happynocnoc.jp\/pages\/honki-noc-fly-pro","use_text_button":false,"block_link":"","product_list":[]}},"image_rWjUJL":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Frame_252.jpg","subheading":"ALL-MAX","title":"","text":"万能スポーツスニーカー、怪我のリスクを最小限に","link_label":"詳しく見る","link":"https:\/\/happynocnoc.jp\/pages\/noc-allmax-lp1223","use_text_button":false,"block_link":"","product_list":[]}}},"block_order":["image_kHgFFE","image_jic9Xd","image_rWjUJL"],"name":"Gallery","settings":{"columns_desktop":3,"section_width":"full-width-row-full","mobile_swipe":true,"image_ratio":"square","content_position":"bottom-left","text_alignment":"left","column_spacing":"medium","heading_size":"h2","overlay_color":"#000000","overlay_opacity":40,"disable_top_spacing":false,"disable_bottom_spacing":false}},"featured_collection_YVymwE":{"type":"featured-collection","settings":{"heading":"ランキング - KIDS","heading_left":true,"description":"","full_width":true,"collection":"人気商品-kids","display_type":"grid","product_limit":4,"columns_desktop":4,"show_view_all":true,"mobile_swipe":true,"show_progress_bar":false,"disable_top_spacing":false,"disable_bottom_spacing":true}},"166366563622039b3e":{"type":"featured-collection","settings":{"heading":"ランキング - ADULTS","heading_left":true,"description":"","full_width":true,"collection":"人気商品-adults","display_type":"grid","product_limit":4,"columns_desktop":4,"show_view_all":true,"mobile_swipe":true,"show_progress_bar":false,"disable_top_spacing":false,"disable_bottom_spacing":true}},"featured_collection_d4KjV7":{"type":"featured-collection","settings":{"heading":"新着アイテム","heading_left":true,"description":"","full_width":true,"collection":"newin","display_type":"grid","product_limit":4,"columns_desktop":4,"show_view_all":true,"mobile_swipe":true,"show_progress_bar":true,"disable_top_spacing":false,"disable_bottom_spacing":true}},"apps_xUyFFc":{"type":"apps","blocks":{"firework_shoppable_video_ugc_firework_pro_embed_JFATjm":{"type":"shopify:\/\/apps\/firework-shoppable-video-ugc\/blocks\/firework-pro-embed\/347a2e4c-f5cb-410d-8354-490d1e80558c","settings":{"embedConfigId":"8gY6wv_efc"}}},"block_order":["firework_shoppable_video_ugc_firework_pro_embed_JFATjm"],"settings":{"section_width":"full-width-row-full","disable_top_spacing":false,"disable_bottom_spacing":true}},"1756976853c294770e":{"type":"apps","blocks":{"firework_shoppable_video_ugc_firework_pro_embed_gjUkKa":{"type":"shopify:\/\/apps\/firework-shoppable-video-ugc\/blocks\/firework-pro-embed\/347a2e4c-f5cb-410d-8354-490d1e80558c","settings":{"embedConfigId":"joWzy5_efc"}}},"block_order":["firework_shoppable_video_ugc_firework_pro_embed_gjUkKa"],"disabled":true,"custom_css":[".cy-title {padding-left: 0 !important; padding-right: 0 !important;}"],"settings":{"section_width":"full-width-row-full","disable_top_spacing":false,"disable_bottom_spacing":false}},"custom_liquid_qWLEyq":{"type":"custom-liquid","name":"Custom liquid","settings":{"custom_liquid":"<style>\n@media (max-width: 1024px){\n:root {\n      --fw-font-family: \"Noto Sans Japanese\", sans-serif;\n--fw-title-font-size:26px;\n--fw-title-font-weight: 600; ;\n    }}\n@media (min-width: 1025px){\n:root {\n      --fw-font-family: \"Noto Sans Japanese\", sans-serif;\n--fw-title-font-size:34px;\n--fw-title-font-weight: 600; ;\n    }}\n  <\/style>","section_width":"full-width-row"}},"multicolumn_ghhF6c":{"type":"multicolumn","blocks":{"column_etWRyq":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/1ba299787195e0400344fe9c66dd1217_dcbb80cc-febf-4d8a-909c-767909f219c6.jpg","image_full_width":true,"image_link":"shopify:\/\/pages\/linkcode-kazoku","retina":true,"title":"親子","text":"","link_label":"","link":""}},"column_wLaKUD":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/33d1daae207610945bdd895454805966.jpg","image_full_width":true,"image_link":"shopify:\/\/pages\/linkcode-brothers","retina":true,"title":"兄弟姉妹","text":"","link_label":"","link":""}},"column_Dx9XFJ":{"type":"column","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/d345a8dcc6ac3a97543500da50173dfc_75239bc8-a2e7-47e6-a1d6-7442e6acfdf2.jpg","image_full_width":true,"image_link":"shopify:\/\/pages\/linkcode_friend","retina":true,"title":"友だち","text":"","link_label":"","link":""}},"column_DCJKVz":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/a0e0fb9a863d1672e01f75aae7fc0c12_b66f9a6c-098b-4e70-bd59-bec9a19e485f.jpg","image_full_width":false,"image_link":"shopify:\/\/pages\/linkcode-couple","retina":true,"title":"カップル","text":"","link_label":"","link":""}}},"block_order":["column_etWRyq","column_wLaKUD","column_Dx9XFJ","column_DCJKVz"],"disabled":true,"custom_css":[],"settings":{"heading":"リンクコーデ","heading_left":true,"description":"","full_width":true,"display_type":"grid","image_ratio":"adapt","columns_desktop":3,"text_alignment":"left","heading_size":"h6","mobile_swipe":true,"show_progress_bar":false,"disable_top_spacing":false,"disable_bottom_spacing":true}},"shop_the_look_3VAJVb":{"type":"shop-the-look","blocks":{"product_349akR":{"type":"product","settings":{"product_handle":"","x_position":20,"y_position":20,"x_position_mobile":20,"y_position_mobile":20}},"product_P6tde6":{"type":"product","settings":{"product_handle":"copy-of-breathable-cotton-family-matching-t-shirt-1","x_position":20,"y_position":20,"x_position_mobile":20,"y_position_mobile":20}},"product_FBcjQh":{"type":"product","settings":{"product_handle":"copy-of-movingfree-family-matching-sneaker-5-5","x_position":81,"y_position":90,"x_position_mobile":0,"y_position_mobile":0}},"product_f4q3TR":{"type":"product","settings":{"product_handle":"kids-noc-fly-light-sneaker-1","x_position":20,"y_position":20,"x_position_mobile":20,"y_position_mobile":20}}},"block_order":["product_349akR","product_P6tde6","product_FBcjQh","product_f4q3TR"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/1_9b5ec6a5-d9ea-4653-bdf0-000ede4ff63d.jpg","section_width":"full-width-row-full","disable_top_spacing":false,"disable_bottom_spacing":false}},"rich_text_HwDPNQ":{"type":"rich-text","blocks":{"heading_P7bbki":{"type":"heading","settings":{"text":"NOCギャラリー","size":"h2"}}},"block_order":["heading_P7bbki"],"disabled":true,"name":"Rich text","settings":{"section_width":"full-width-row","text_width":"medium","text_position":"left","text_alignment":"left","color_bg":"rgba(0,0,0,0)","color_text":"#151515","color_links":"#151515","disable_top_spacing":false,"disable_bottom_spacing":true}},"173831911460691f89":{"type":"apps","blocks":{"lookfy_gallery_lookfy_gallery_MhnYFc":{"type":"shopify:\/\/apps\/lookfy-gallery\/blocks\/lookfy-gallery\/596af5f6-9933-4730-95c2-f7d8d52a0c3e","settings":{"gallery_id":25969,"dynamic_source":"","title":"<strong>NOC ギャラリー<\/strong>","subtitle":"","heading_size":"0.8","heading_color":"","heading_align":"left","desc_style":"subtitle","desc_color":"","custom_class":"","background_color":"","padding_top":0,"padding_bottom":20,"padding_left_right":0}}},"block_order":["lookfy_gallery_lookfy_gallery_MhnYFc"],"disabled":true,"settings":{"section_width":"full-width-row-full","disable_top_spacing":true,"disable_bottom_spacing":true}},"rich_text_KWQ6wy":{"type":"rich-text","blocks":{"button_9Ay6dA":{"type":"button","settings":{"link_label":"もっとNOCギャラリー","link":"shopify:\/\/pages\/gallery","button_outline":false}}},"block_order":["button_9Ay6dA"],"disabled":true,"name":"Rich text","settings":{"section_width":"full-width-row","text_width":"medium","text_position":"center","text_alignment":"center","color_bg":"rgba(0,0,0,0)","color_text":"#151515","color_links":"#ffffff","disable_top_spacing":true,"disable_bottom_spacing":false}},"single_image_Ae8K38":{"type":"single-image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/6871739267749_.pic.jpg","image_mobile":"shopify:\/\/shop_images\/6971739342607_.pic.jpg","full_width":false,"disable_top_spacing":true,"disable_bottom_spacing":false}}},"order":["16479477632637c9a7","gallery_nNLK4i","featured_collection_YVymwE","166366563622039b3e","featured_collection_d4KjV7","apps_xUyFFc","1756976853c294770e","custom_liquid_qWLEyq","multicolumn_ghhF6c","shop_the_look_3VAJVb","rich_text_HwDPNQ","173831911460691f89","rich_text_KWQ6wy","single_image_Ae8K38"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "16479477632637c9a7": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_QNUmpw": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/20251219-165921_1.jpg",
+            "mobile_image": "shopify://shop_images/20251219-165924_1.jpg",
+            "slide_link": "https://happynocnoc.jp/collections/kids_sneaker",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#191817",
+            "overlay_opacity": 0,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0) 100%)",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "164794776393e76b8e-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/b69f60ac20da0b4abdb6d7097493cbff.jpg",
+            "mobile_image": "shopify://shop_images/ed4d1ef9758b82dbaacbb41a2dd49ea5.jpg",
+            "slide_link": "shopify://collections/25aw",
+            "video_background": false,
+            "video": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-large",
+            "content": "",
+            "description_size": "small",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#191817",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/noc-shine-series",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_ACKarV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_v3_02pq_dc3b178e-99b2-4ef9-8bd7-f331c4c02a0g_e7026787-ba7b-4543-b42a-c2e4261ec3e9.jpg",
+            "mobile_image": "shopify://shop_images/img_v3_02pq_2fa9140a-1537-479e-afb6-9bd38840b8fg.jpg",
+            "slide_link": "shopify://products/kids-noc-all-max-sport-sneakers-25aw",
+            "video_background": false,
+            "video": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-large",
+            "content": "",
+            "description_size": "small",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#191817",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/noc-shine-series",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "164794776393e76b8e-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_v3_02pq_9e5007a3-66dd-4e12-b830-a0861ecb9f1g.png",
+            "mobile_image": "shopify://shop_images/img_v3_02pq_3f357b4a-c4bc-4096-967a-2cb731f5c69g.png",
+            "slide_link": "shopify://products/kids-noc-fly-light-sneaker-25aw",
+            "video_background": false,
+            "video": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/noc-noc-fly",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_QNUmpw",
+        "164794776393e76b8e-0",
+        "slide_ACKarV",
+        "164794776393e76b8e-1"
+      ],
+      "custom_css": [
+        "/* 画面幅が768px以下の場合（モバイル用） */@media screen and (max-width: 768px) {a {margin-top: 40px; }}",
+        " /* PC用のデフォルトスタイル */a {margin-top: 160px;}"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 10,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_nNLK4i": {
+      "type": "gallery",
+      "blocks": {
+        "image_rWjUJL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_252.jpg",
+            "subheading": "ALL-MAX",
+            "title": "",
+            "text": "万能スポーツスニーカー、怪我のリスクを最小限に",
+            "link_label": "詳しく見る",
+            "link": "https://happynocnoc.jp/pages/noc-allmax-lp1223",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_kHgFFE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_250.jpg",
+            "subheading": "NOC-FLY",
+            "title": "",
+            "text": "子どもが毎日履きたくなる一足",
+            "link_label": "詳しく見る",
+            "link": "https://happynocnoc.jp/pages/noc-fly-lp1212",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_jic9Xd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_251.jpg",
+            "subheading": "NOC-FLY PRO",
+            "title": "",
+            "text": "本気の機能性で子供の足を守る",
+            "link_label": "詳しく見る",
+            "link": "https://happynocnoc.jp/pages/honki-noc-fly-pro",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        }
+      },
+      "block_order": [
+        "image_rWjUJL",
+        "image_kHgFFE",
+        "image_jic9Xd"
+      ],
+      "name": "Gallery",
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "full-width-row-full",
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "medium",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "featured_collection_YVymwE": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "ランキング - KIDS",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "人気商品-kids",
+        "display_type": "grid",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166366563622039b3e": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "ランキング - ADULTS",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "人気商品-adults",
+        "display_type": "grid",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_d4KjV7": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "新着アイテム",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "newin",
+        "display_type": "grid",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "apps_xUyFFc": {
+      "type": "apps",
+      "blocks": {
+        "firework_shoppable_video_ugc_firework_pro_embed_JFATjm": {
+          "type": "shopify://apps/firework-shoppable-video-ugc/blocks/firework-pro-embed/347a2e4c-f5cb-410d-8354-490d1e80558c",
+          "settings": {
+            "embedConfigId": "8gY6wv_efc"
+          }
+        }
+      },
+      "block_order": [
+        "firework_shoppable_video_ugc_firework_pro_embed_JFATjm"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1756976853c294770e": {
+      "type": "apps",
+      "blocks": {
+        "firework_shoppable_video_ugc_firework_pro_embed_gjUkKa": {
+          "type": "shopify://apps/firework-shoppable-video-ugc/blocks/firework-pro-embed/347a2e4c-f5cb-410d-8354-490d1e80558c",
+          "settings": {
+            "embedConfigId": "joWzy5_efc"
+          }
+        }
+      },
+      "block_order": [
+        "firework_shoppable_video_ugc_firework_pro_embed_gjUkKa"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".cy-title {padding-left: 0 !important; padding-right: 0 !important;}"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "custom_liquid_qWLEyq": {
+      "type": "custom-liquid",
+      "name": "Custom liquid",
+      "settings": {
+        "custom_liquid": "<style>\n@media (max-width: 1024px){\n:root {\n      --fw-font-family: \"Noto Sans Japanese\", sans-serif;\n--fw-title-font-size:26px;\n--fw-title-font-weight: 600; ;\n    }}\n@media (min-width: 1025px){\n:root {\n      --fw-font-family: \"Noto Sans Japanese\", sans-serif;\n--fw-title-font-size:34px;\n--fw-title-font-weight: 600; ;\n    }}\n  </style>",
+        "section_width": "full-width-row"
+      }
+    },
+    "multicolumn_ghhF6c": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_etWRyq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1ba299787195e0400344fe9c66dd1217_dcbb80cc-febf-4d8a-909c-767909f219c6.jpg",
+            "image_full_width": true,
+            "image_link": "shopify://pages/linkcode-kazoku",
+            "retina": true,
+            "title": "親子",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wLaKUD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/33d1daae207610945bdd895454805966.jpg",
+            "image_full_width": true,
+            "image_link": "shopify://pages/linkcode-brothers",
+            "retina": true,
+            "title": "兄弟姉妹",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Dx9XFJ": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/d345a8dcc6ac3a97543500da50173dfc_75239bc8-a2e7-47e6-a1d6-7442e6acfdf2.jpg",
+            "image_full_width": true,
+            "image_link": "shopify://pages/linkcode_friend",
+            "retina": true,
+            "title": "友だち",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DCJKVz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/a0e0fb9a863d1672e01f75aae7fc0c12_b66f9a6c-098b-4e70-bd59-bec9a19e485f.jpg",
+            "image_full_width": false,
+            "image_link": "shopify://pages/linkcode-couple",
+            "retina": true,
+            "title": "カップル",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_etWRyq",
+        "column_wLaKUD",
+        "column_Dx9XFJ",
+        "column_DCJKVz"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "heading": "リンクコーデ",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "text_alignment": "left",
+        "heading_size": "h6",
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "shop_the_look_3VAJVb": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_349akR": {
+          "type": "product",
+          "settings": {
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
+        },
+        "product_P6tde6": {
+          "type": "product",
+          "settings": {
+            "product_handle": "copy-of-breathable-cotton-family-matching-t-shirt-1",
+            "x_position": 20,
+            "y_position": 20,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
+        },
+        "product_FBcjQh": {
+          "type": "product",
+          "settings": {
+            "product_handle": "copy-of-movingfree-family-matching-sneaker-5-5",
+            "x_position": 81,
+            "y_position": 90,
+            "x_position_mobile": 0,
+            "y_position_mobile": 0
+          }
+        },
+        "product_f4q3TR": {
+          "type": "product",
+          "settings": {
+            "product_handle": "kids-noc-fly-light-sneaker-1",
+            "x_position": 20,
+            "y_position": 20,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
+        }
+      },
+      "block_order": [
+        "product_349akR",
+        "product_P6tde6",
+        "product_FBcjQh",
+        "product_f4q3TR"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/1_9b5ec6a5-d9ea-4653-bdf0-000ede4ff63d.jpg",
+        "section_width": "full-width-row-full",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_HwDPNQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_P7bbki": {
+          "type": "heading",
+          "settings": {
+            "text": "NOCギャラリー",
+            "size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_P7bbki"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "173831911460691f89": {
+      "type": "apps",
+      "blocks": {
+        "lookfy_gallery_lookfy_gallery_MhnYFc": {
+          "type": "shopify://apps/lookfy-gallery/blocks/lookfy-gallery/596af5f6-9933-4730-95c2-f7d8d52a0c3e",
+          "settings": {
+            "gallery_id": 25969,
+            "dynamic_source": "",
+            "title": "<strong>NOC ギャラリー</strong>",
+            "subtitle": "",
+            "heading_size": "0.8",
+            "heading_color": "",
+            "heading_align": "left",
+            "desc_style": "subtitle",
+            "desc_color": "",
+            "custom_class": "",
+            "background_color": "",
+            "padding_top": 0,
+            "padding_bottom": 20,
+            "padding_left_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "lookfy_gallery_lookfy_gallery_MhnYFc"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "full-width-row-full",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_KWQ6wy": {
+      "type": "rich-text",
+      "blocks": {
+        "button_9Ay6dA": {
+          "type": "button",
+          "settings": {
+            "link_label": "もっとNOCギャラリー",
+            "link": "shopify://pages/gallery",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "button_9Ay6dA"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#ffffff",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "single_image_Ae8K38": {
+      "type": "single-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/6871739267749_.pic.jpg",
+        "image_mobile": "shopify://shop_images/6971739342607_.pic.jpg",
+        "full_width": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "16479477632637c9a7",
+    "gallery_nNLK4i",
+    "featured_collection_YVymwE",
+    "166366563622039b3e",
+    "featured_collection_d4KjV7",
+    "apps_xUyFFc",
+    "1756976853c294770e",
+    "custom_liquid_qWLEyq",
+    "multicolumn_ghhF6c",
+    "shop_the_look_3VAJVb",
+    "rich_text_HwDPNQ",
+    "173831911460691f89",
+    "rich_text_KWQ6wy",
+    "single_image_Ae8K38"
+  ]
+}
