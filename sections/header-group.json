@@ -25,6 +25,7 @@
         },
         "text_FzKwc6": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "text": "送料は全国一律700円",
