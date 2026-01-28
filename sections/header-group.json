@@ -28,7 +28,7 @@
           "disabled": true,
           "settings": {
             "icon": "none",
-            "text": "送料は全国一律700円",
+            "text": "北海道・沖縄も追加送料なし！全国一律700円",
             "link": "shopify://pages/shipping"
           }
         },
