@@ -91,6 +91,7 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
     </script>
     <script>
+      console.log(123);
       {% if customer %}
       var info = {
         name: '{{ customer.name }}',
