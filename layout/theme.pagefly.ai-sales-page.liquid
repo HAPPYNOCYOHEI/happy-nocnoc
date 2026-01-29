@@ -90,19 +90,6 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
     </script>
-    <script class="pt-customer-script">
-      console.log(123);
-      {% if customer %}
-      var info = {
-        name: '{{ customer.name }}',
-        email: '{{ customer.email }}',
-        id: '{{ customer.id }}',
-        line_uid: '{{ customer.metafields.socialplus.line }}',
-      }
-      console.log(info);
-      window.pt_shopify_customer = info;
-  {% endif %}
-</script>
     {{ settings.custom_html_head }}
     <meta name="google-site-verification" content="nizvGKMSm0vucYz3d-RKLRF37KCzlPKjzteli9qbZBY">
   {% include 'pagefly-app-header' %}</head>
