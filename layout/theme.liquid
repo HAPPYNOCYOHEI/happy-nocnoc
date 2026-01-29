@@ -164,6 +164,17 @@
             'accepts_marketing': {{ customer.accepts_marketing }}
         });
       </script>
+    <script class="pt-customer-script">
+      {% if customer %}
+      var info = {
+        name: '{{ customer.name }}',
+        email: '{{ customer.email }}',
+        id: '{{ customer.id }}',
+        line_uid: '{{ customer.metafields.socialplus.line }}',
+      }
+      window.pt_shopify_customer = info;
+  {% endif %}
+</script>
     {% endif %}
     {% include 'pagefly-app-header' %}
   </head>
