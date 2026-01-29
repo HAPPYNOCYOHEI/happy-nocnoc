@@ -178,6 +178,8 @@
         window.ptengine &&
         window.ptengine.identify(window.pt_shopify_customer?.id, {
           line_uid: window.pt_shopify_customer?.line_uid,
+          email: window.pt_shopify_customer?.email,
+          name: window.pt_shopify_customer?.name
         });
     });
   {% endif %}
