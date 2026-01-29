@@ -173,6 +173,13 @@
         line_uid: '{{ customer.metafields.socialplus.line }}',
       }
       window.pt_shopify_customer = info;
+      document.addEventListener('ptReady', function () {
+      !!window.pt_shopify_customer?.line_uid &&
+        window.ptengine &&
+        window.ptengine.identify(window.pt_shopify_customer?.id, {
+          line_uid: window.pt_shopify_customer?.line_uid,
+        });
+    });
   {% endif %}
 </script>
     {% endif %}
