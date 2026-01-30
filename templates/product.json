@@ -121,6 +121,10 @@
             "show_gift_card_recipient": false
           }
         },
+        "fbp_fast_bundle_fbt_position_hGQHXw": {
+          "type": "shopify://apps/fbp-fast-bundle/blocks/fbt_position/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {}
+        },
         "text_YyPh7G": {
           "type": "text",
           "settings": {
@@ -172,6 +176,7 @@
         "inventory_level_Jy4Ynh",
         "wishlist_plus_wishlist_pdp_button_V9fajw",
         "buy_buttons",
+        "fbp_fast_bundle_fbt_position_hGQHXw",
         "text_YyPh7G",
         "image_VXHWhk",
         "firework_shoppable_video_ugc_firework_pro_embed_product_nwVDib",
