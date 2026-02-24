@@ -41,6 +41,7 @@
         },
         "text_XbNiJ4": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "text": "春節による配送遅延のお知らせ",
