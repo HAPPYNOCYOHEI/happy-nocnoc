@@ -40,33 +40,6 @@
             "button_2_outline": false
           }
         },
-        "164794776393e76b8e-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/banner_keep_structure_2800x1000_a83f4232-bc4e-4937-b663-c6efbd520928.png",
-            "mobile_image": "shopify://shop_images/ed4d1ef9758b82dbaacbb41a2dd49ea5.jpg",
-            "slide_link": "shopify://collections/kids-26ss",
-            "video_background": false,
-            "video": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-large",
-            "content": "",
-            "description_size": "small",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#191817",
-            "overlay_opacity": 0,
-            "overlay_gradient": "",
-            "button_1_text": "",
-            "button_1_link": "shopify://collections/noc-shine-series",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
         "slide_ACKarV": {
           "type": "slide",
           "settings": {
@@ -124,7 +97,6 @@
       },
       "block_order": [
         "slide_QNUmpw",
-        "164794776393e76b8e-0",
         "slide_ACKarV",
         "164794776393e76b8e-1"
       ],
